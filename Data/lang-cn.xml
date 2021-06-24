@@ -113,7 +113,7 @@
         <gstr name="uilistbtn.viewobject.tt">查看物件</gstr>
         <gstr name="uilistbtn.deconstructobject.tt">取消建造</gstr>
         
-        <gstr name="uidec.label.name">拆除类型</gstr>
+        <gstr name="uidec.label.name">拆除模式</gstr>
         <gstr name="uidec.optionstruct.name">建筑</gstr>
         <gstr name="uidec.optionfloor.name">地板</gstr>
         <gstr name="uidec.optionpowerc.name">电线</gstr>
@@ -123,113 +123,113 @@
         <gstr name="uihudbtn.harvest.name">收割作物</gstr>
         <gstr name="uihudbtn.deselectmine.name">取消所有：采掘</gstr>
         <gstr name="uihudbtn.deselectharvest.name">取消所有：收割作物</gstr>
-        <gstr name="uihudbtn.deepmine.name">深度采掘&#13;&#10;&lt;i&gt;需要深钻机器人&lt;/i&gt;</gstr>
-        <gstr name="uihudbtn.deselectdeepmine.name">取消所有：深度采掘</gstr>
+        <gstr name="uihudbtn.deepmine.name">深层采掘&#13;&#10;&lt;i&gt;需要深钻机器人&lt;/i&gt;</gstr>
+        <gstr name="uihudbtn.deselectdeepmine.name">取消所有：深层采掘</gstr>
         <gstr name="uihudbtn.mlog.name">任务日志</gstr>
-        <gstr name="uihudbtn.facman.name">Manage Colonists</gstr>
-        <gstr name="uihudbtn.deconstruct.name">Deconstruct</gstr>
-        <gstr name="uihudbtn.gstore.name">Global Inventory</gstr>      
-        <gstr name="uihudbtn.buildqueue.name">Construction Queue</gstr>
-        <gstr name="uihud.timeofday.text">Day {0}</gstr>
+        <gstr name="uihudbtn.facman.name">管理殖民者</gstr>
+        <gstr name="uihudbtn.deconstruct.name">拆除</gstr>
+        <gstr name="uihudbtn.gstore.name">全局资源</gstr>      
+        <gstr name="uihudbtn.buildqueue.name">建造队列</gstr>
+        <gstr name="uihud.timeofday.text">第{0}天</gstr>
         
-        <gstr name="uiwin.settings.header">Settings</gstr>
-        <gstr name="uiwin.settings.resetbtn">Reset Keybinds</gstr>
+        <gstr name="uiwin.settings.header">设置</gstr>
+        <gstr name="uiwin.settings.resetbtn">重置键位</gstr>
         
-        <gstr name="uiwin.gamemenu.header">Menu</gstr>
+        <gstr name="uiwin.gamemenu.header">菜单</gstr>
         
-        <gstr name="uiwin.biomescanresults.header">{0} Biome Scan Results</gstr>
+        <gstr name="uiwin.biomescanresults.header">{0}生态扫描结果</gstr>
         
         <gstr name="uiwin.jobchooser.header">Choose {0} Job Role</gstr>
-        <gstr name="uiwin.jobchooser.header.primary">Primary</gstr>
-        <gstr name="uiwin.jobchooser.header.secondary">Secondary</gstr>
-        <gstr name="uiwin.jobchooser.header.tertiary">Tertiary</gstr>
+        <gstr name="uiwin.jobchooser.header.primary">首选</gstr>
+        <gstr name="uiwin.jobchooser.header.secondary">次选</gstr>
+        <gstr name="uiwin.jobchooser.header.tertiary">第三</gstr>
         
-        <gstr name="uiwin.patchnotes.header">Patch Notes</gstr>
+        <gstr name="uiwin.patchnotes.header">补丁日志</gstr>
         
-        <gstr name="uihudbtn.gamemenu.name">Game Menu</gstr>
-        <gstr name="uihudbtn.speed_0.name">Pause</gstr>
-        <gstr name="uihudbtn.speed_1.name">Normal Speed</gstr>
-        <gstr name="uihudbtn.speed_2.name">Fast Speed</gstr>
-        <gstr name="uihudbtn.speed_3.name">Hyper Speed</gstr>
-        <gstr name="uihudtxt.overlay_label.name">Overlay:</gstr>
-        <gstr name="uihudbtn.disp_power.name">Power</gstr>
-        <gstr name="uihudbtn.disp_water.name">Water</gstr>
-        <gstr name="uihudbtn.disp_decor.name">Decor</gstr>
-        <gstr name="uihudbtn.disp_zones.name">Zones</gstr>
-        <gstr name="uihudbtn.disp_rooms.name">Room Areas</gstr>
-        <gstr name="gditem.crafted.at">Crafted At: {0}</gstr>
-        <gstr name="gditem.edible.satiation">Satiation: {0}%</gstr>
-        <gstr name="gditem.edible.nutrition">Nutrition: {0}%</gstr>
+        <gstr name="uihudbtn.gamemenu.name">游戏菜单</gstr>
+        <gstr name="uihudbtn.speed_0.name">暂停</gstr>
+        <gstr name="uihudbtn.speed_1.name">常速</gstr>
+        <gstr name="uihudbtn.speed_2.name">快速</gstr>
+        <gstr name="uihudbtn.speed_3.name">高速</gstr>
+        <gstr name="uihudtxt.overlay_label.name">覆层：</gstr>
+        <gstr name="uihudbtn.disp_power.name">电力</gstr>
+        <gstr name="uihudbtn.disp_water.name">供水</gstr>
+        <gstr name="uihudbtn.disp_decor.name">装饰</gstr>
+        <gstr name="uihudbtn.disp_zones.name">区域</gstr>
+        <gstr name="uihudbtn.disp_rooms.name">房间</gstr>
+        <gstr name="gditem.crafted.at">制造于：{0}</gstr>
+        <gstr name="gditem.edible.satiation">饱食度：{0}%</gstr>
+        <gstr name="gditem.edible.nutrition">营养度：{0}%</gstr>
         
         <gstr name="estruct.size.label"> {0}x{1}</gstr>
         <gstr name="estruct.floor.label"> {0}</gstr>
         
-        <gstr name="gdattribute.changerate.label">Change Rate:</gstr>
-        <gstr name="gdattributeeffect.tt">{0}&#13;&#10;{1} {2}&#13;&#10;Expires in {3}</gstr>
+        <gstr name="gdattribute.changerate.label">变化率：</gstr>
+        <gstr name="gdattributeeffect.tt">{0}&#13;&#10;{1} {2}&#13;&#10;将于{3}后过期</gstr>
         <gstr name="gdattributeeffect.target_current"></gstr>
         <gstr name="gdattributeeffect.target_min">Min</gstr>
         <gstr name="gdattributeeffect.target_max">Max</gstr>
         <gstr name="gdattributeeffect.target_rate">Rate</gstr>
         <gstr name="gdquirk.tt">{0}&#13;&#10;{1} {2}&#13;&#10;Quirk</gstr>
         
-        <gstr name="gdailment.norm.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;Ailment</gstr>
-        <gstr name="gdailment.damage.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;Damage Taken: {4}&#13;&#10;Ailment</gstr>
-        <gstr name="gdailment.expire.tt">{0}&#13;&#10;Expires In {1}&#13;&#10;{2} {3} {4}&#13;&#10;Ailment</gstr>
-        <gstr name="gdailment.expiredam.tt">{0}&#13;&#10;Expires In {1}&#13;&#10;{2} {3} {4}&#13;&#10;Damage Taken: {5}&#13;&#10;Ailment</gstr>
+        <gstr name="gdailment.norm.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;疾病</gstr>
+        <gstr name="gdailment.damage.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;承受伤害量：{4}&#13;&#10;疾病</gstr>
+        <gstr name="gdailment.expire.tt">{0}&#13;&#10;将于{1}后过期&#13;&#10;{2} {3} {4}&#13;&#10;疾病</gstr>
+        <gstr name="gdailment.expiredam.tt">{0}&#13;&#10;将于{1}后过期&#13;&#10;{2} {3} {4}&#13;&#10;承受伤害量：{5}&#13;&#10;疾病</gstr>
         
-        <gstr name="uihudtt.colonist.age">Age {0}</gstr>
-        <gstr name="uihudtt.colonist.action">Action: {0}</gstr>
+        <gstr name="uihudtt.colonist.age">年龄：{0}</gstr>
+        <gstr name="uihudtt.colonist.action">行动内容：{0}</gstr>
             
-        <gstr name="uiwin.vehicleequipchooser.header">Select Equipment</gstr>
+        <gstr name="uiwin.vehicleequipchooser.header">选择装备</gstr>
             
-        <gstr name="uiwin.debugoptions.header">Debug Options</gstr>
-        <gstr name="uipmhoverinfo.unknownbiome">Unknown Biome</gstr>
-        <gstr name="uipmhoverinfo.unknownbiomesub">Scanning Required</gstr>
+        <gstr name="uiwin.debugoptions.header">调试选项</gstr>
+        <gstr name="uipmhoverinfo.unknownbiome">未知生态</gstr>
+        <gstr name="uipmhoverinfo.unknownbiomesub">需要扫描</gstr>
         
         <gstr name="uiconfirm.destroysurfstruct">Deconstruct {0}? This will immediately deconstruct this surface structure. Any delivered materials will be returned to the receiving container.</gstr>
         
-        <gstr name="cgender.female.name">Female</gstr>
-        <gstr name="cgender.male.name">Male</gstr>
+        <gstr name="cgender.female.name">女性</gstr>
+        <gstr name="cgender.male.name">男性</gstr>
         <gstr name="cgender.either.name">N/A</gstr>
         
         <!-- Main Menu -->
-        <gstr name="mainmenu.newgame">New Game</gstr>
-        <gstr name="mainmenu.newgame.info">Begin a new adventure</gstr>
-        <gstr name="mainmenu.continuegame">Continue</gstr>
-        <gstr name="mainmenu.continuegame.info">Continue most recent saved game</gstr>
-        <gstr name="mainmenu.loadgame">Load Game</gstr>
-        <gstr name="mainmenu.loadgame.info">Load a saved game</gstr>
-        <gstr name="mainmenu.settings">Settings</gstr>
+        <gstr name="mainmenu.newgame">新游戏</gstr>
+        <gstr name="mainmenu.newgame.info">展开新探险</gstr>
+        <gstr name="mainmenu.continuegame">继续</gstr>
+        <gstr name="mainmenu.continuegame.info">读取最近的游戏</gstr>
+        <gstr name="mainmenu.loadgame">读取游戏</gstr>
+        <gstr name="mainmenu.loadgame.info">读取保存的游戏</gstr>
+        <gstr name="mainmenu.settings">设置</gstr>
         <gstr name="mainmenu.settings.info"></gstr>   
-        <gstr name="mainmenu.mods">Mods</gstr>
-        <gstr name="mainmenu.mods.info">Manage installed game mods</gstr>    
-        <gstr name="mainmenu.quit">Quit</gstr>
-        <gstr name="mainmenu.quit.info">Leaving so soon?</gstr>
-        <gstr name="mainmenu.win.continue">Continue from last saved game?</gstr>
+        <gstr name="mainmenu.mods">模组</gstr>
+        <gstr name="mainmenu.mods.info">管理已安装的模组</gstr>    
+        <gstr name="mainmenu.quit">退出</gstr>
+        <gstr name="mainmenu.quit.info">确定要离开吗？</gstr>
+        <gstr name="mainmenu.win.continue">继续最近的游戏？</gstr>
         
-        <gstr name="mainmenu.contact.header">Contact &amp; Follow</gstr>
-        <gstr name="mainmenu.website.btn.tt">Website</gstr>
-        <gstr name="mainmenu.facebook.btn.tt">Facebook</gstr>
-        <gstr name="mainmenu.twitter.btn.tt">Twitter</gstr>
-        <gstr name="mainmenu.discord.btn.tt">Discord</gstr>
+        <gstr name="mainmenu.contact.header">联系 &amp; 关注</gstr>
+        <gstr name="mainmenu.website.btn.tt">网址</gstr>
+        <gstr name="mainmenu.facebook.btn.tt">脸书频道</gstr>
+        <gstr name="mainmenu.twitter.btn.tt">推特频道</gstr>
+        <gstr name="mainmenu.discord.btn.tt">Discord频道</gstr>
         
         
-        <gstr name="mainmenu.welcome.title">Welcome Pioneer</gstr>
+        <gstr name="mainmenu.welcome.title">欢迎先驱者！</gstr>
         <gstr name="mainmenu.welcome.message">Mercury Fallen is in a state of active development and is not feature complete.&#13;&#10;&#13;&#10;Should you encounter any issues, certainly let me know. Only through feedback can I ensure we squash these pesky bugs and continue to add great new content. 
         </gstr>               
         
         <!-- UI New Game -->
-        <gstr name="newgame.header">Game Configuration</gstr>
-        <gstr name="newgame.worldseed">Map Seed</gstr>
-        <gstr name="newgame.worldseed.tt">Used to determine how the game world is generated</gstr>
-        <gstr name="newgame.mapsize">Map Size</gstr>
-        <gstr name="newgame.label.scenario">Scenario</gstr>
-        <gstr name="newgame.btn.generate">Generate</gstr>
-        <gstr name="newgame.size.small">Small   80x80</gstr>
-        <gstr name="newgame.size.normal">Normal  100x100</gstr>
-        <gstr name="newgame.size.large">Large   150x150</gstr>
-        <gstr name="newgame.startgame.btn">Start Game</gstr>
-        <gstr name="newgame.startpos.icon">Starting Location</gstr>
+        <gstr name="newgame.header">游戏设置</gstr>
+        <gstr name="newgame.worldseed">地图种子</gstr>
+        <gstr name="newgame.worldseed.tt">用来决定游戏世界的生成样式</gstr>
+        <gstr name="newgame.mapsize">地图大小</gstr>
+        <gstr name="newgame.label.scenario">剧本</gstr>
+        <gstr name="newgame.btn.generate">生成</gstr>
+        <gstr name="newgame.size.small">小 80x80</gstr>
+        <gstr name="newgame.size.normal">中 100x100</gstr>
+        <gstr name="newgame.size.large">大 150x150</gstr>
+        <gstr name="newgame.startgame.btn">开始游戏</gstr>
+        <gstr name="newgame.startpos.icon">起始位置</gstr>
         
         
         <gstr name="GDWorldSettings.wsettings_easy.name">Easy</gstr>
@@ -240,52 +240,52 @@
         <gstr name="GDWorldSettings.wsettings_challenge.desc">A more challenging start with fewer starting colonists.</gstr>
         
         <!-- UI Save Game -->   
-        <gstr name="savegame.header">Save Game</gstr>
-        <gstr name="savegame.save.btn">Save Game</gstr>
-        <gstr name="savegame.overwrite.btn">Overwrite Game</gstr>
-        <gstr name="savegame.createnewsave.label">Create New Save</gstr>
-        <gstr name="savegame.overwritesave.label">Overwrite Existing Save</gstr>
-        <gstr name="savegame.createnewsave.listitem.label">Create New Save Game</gstr>
+        <gstr name="savegame.header">存储游戏</gstr>
+        <gstr name="savegame.save.btn">存储游戏</gstr>
+        <gstr name="savegame.overwrite.btn">覆盖存档</gstr>
+        <gstr name="savegame.createnewsave.label">创建新存档</gstr>
+        <gstr name="savegame.overwritesave.label">覆盖已有存档</gstr>
+        <gstr name="savegame.createnewsave.listitem.label">创建一个新的游戏存档</gstr>
         
         <!-- UI Load Game -->     
-        <gstr name="loadgame.header">Load Game</gstr>
-        <gstr name="loadgame.delete.btn">Delete</gstr>
-        <gstr name="loadgame.load.btn">Load</gstr>
-        <gstr name="loadgame.deleteconfirmwin.label">Delete Saved Game: {0}?</gstr>
-        <gstr name="loadgame.error.win.label">Error loading save game. Incompatible save game version or file is damaged.</gstr>
+        <gstr name="loadgame.header">读取游戏</gstr>
+        <gstr name="loadgame.delete.btn">删除</gstr>
+        <gstr name="loadgame.load.btn">读取</gstr>
+        <gstr name="loadgame.deleteconfirmwin.label">确定删除游戏：{0}？</gstr>
+        <gstr name="loadgame.error.win.label">读取游戏时发生错误，存档文件损坏或者存档版本不兼容。</gstr>
         
         <!-- Game Menu -->
-        <gstr name="gamemenu.resume.btn">Resume</gstr>
-        <gstr name="gamemenu.resume.info">Resume Game</gstr>
-        <gstr name="gamemenu.settings.btn">Settings</gstr>
-        <gstr name="gamemenu.settings.info">Settings</gstr>
-        <gstr name="gamemenu.savegame.btn">Save Game</gstr>
-        <gstr name="gamemenu.savegame.info">Open Save Game Interface</gstr>
-        <gstr name="gamemenu.loadgame.btn">Load Game</gstr>
-        <gstr name="gamemenu.loadgame.info">Load a saved game</gstr>
-        <gstr name="gamemenu.feedback.btn">Feedback</gstr>
+        <gstr name="gamemenu.resume.btn">返回</gstr>
+        <gstr name="gamemenu.resume.info">返回游戏</gstr>
+        <gstr name="gamemenu.settings.btn">设置</gstr>
+        <gstr name="gamemenu.settings.info">设置</gstr>
+        <gstr name="gamemenu.savegame.btn">存储游戏</gstr>
+        <gstr name="gamemenu.savegame.info">打开存储游戏界面</gstr>
+        <gstr name="gamemenu.loadgame.btn">读取游戏</gstr>
+        <gstr name="gamemenu.loadgame.info">读取存储的游戏</gstr>
+        <gstr name="gamemenu.feedback.btn">反馈</gstr>
         <gstr name="gamemenu.feedback.info">Opens the contact/report form on the Mercury Fallen website</gstr>
-        <gstr name="gamemenu.quit.btn">Quit To Menu</gstr>
-        <gstr name="gamemenu.quit.info">Quit To Main Menu</gstr>
-        <gstr name="gamemenu.quit.confirm">Quit to main menu? Any unsaved progress will be lost.</gstr>
-        <gstr name="gamemenu.seed.info">Game Seed: {0}</gstr>
+        <gstr name="gamemenu.quit.btn">退出到主菜单</gstr>
+        <gstr name="gamemenu.quit.info">退出到主菜单</gstr>
+        <gstr name="gamemenu.quit.confirm">确定退出到主菜单？所有未存储的内容将会丢失。</gstr>
+        <gstr name="gamemenu.seed.info">游戏种子：{0}</gstr>
         
         <!-- Mod Manager -->
-        <gstr name="modmgr.header.label">Mod Manager</gstr>
-        <gstr name="modmgr.browseworkshop.btn">Browse Steam Workshop</gstr>
-        <gstr name="modmgr.uploadtosteam.btn">Upload To Workshop</gstr>        
-        <gstr name="modmgr.updateonsteam.btn">Update Mod On Workshop</gstr>
-        <gstr name="modmgr.listinfo.label">Drag &amp; Drop to set load order</gstr>
+        <gstr name="modmgr.header.label">模组管理器</gstr>
+        <gstr name="modmgr.browseworkshop.btn">浏览创意工坊</gstr>
+        <gstr name="modmgr.uploadtosteam.btn">上传到创意工坊</gstr>        
+        <gstr name="modmgr.updateonsteam.btn">上传模组到创意工坊</gstr>
+        <gstr name="modmgr.listinfo.label">拖拽 &amp; 释放以设置读取顺序</gstr>
         
-        <gstr name="modmgr.author.label">By: {0}</gstr>
-        <gstr name="modmgr.version.label">Version: {0}</gstr>
-        <gstr name="modmgr.viewmodonworkshop.btn">View On Workshop</gstr>
+        <gstr name="modmgr.author.label">作者：{0}</gstr>
+        <gstr name="modmgr.version.label">版本：{0}</gstr>
+        <gstr name="modmgr.viewmodonworkshop.btn">在创意工坊中查看</gstr>
         
-        <gstr name="modmgr.viewonsteamworkshop.btn">View On Workshop</gstr>
+        <gstr name="modmgr.viewonsteamworkshop.btn">在创意工坊中查看</gstr>
         <gstr name="modmgr.uploadtosteam.win.label">Upload {0} to Steam Workshop?&#13;&#10;By clicking OK you confirm that you are either the creator of this mod content or have proper permissions to upload it under your username.</gstr>
-        <gstr name="modmgr.uploadtosteam.progress.label">Uploading Mod {0}</gstr>
-        <gstr name="modmgr.uploadtosteam.statussuccess.label">Mod Successfully Uploaded</gstr>
-        <gstr name="modmgr.uploadtosteam.statusfailed.label">Unexpected error occured while setting and uploading mod content</gstr>
+        <gstr name="modmgr.uploadtosteam.progress.label">正在上传模组：{0}</gstr>
+        <gstr name="modmgr.uploadtosteam.statussuccess.label">模组已成功上传</gstr>
+        <gstr name="modmgr.uploadtosteam.statusfailed.label">设置和上传模组内容时发生意外错误</gstr>
         
         <!-- UI Input Keys -->
         <gstr name="GDInputKey.ink_camforward.name">Camera Forward</gstr>
@@ -337,41 +337,41 @@
         <gstr name="entpanel.destroycancel.tt">Cancel Deconstruction</gstr>
         
         <!-- UI Research Projects Window-->
-        <gstr name="reswin.noresearchtext">No Active Research</gstr>
+        <gstr name="reswin.noresearchtext">无激活的研究项目</gstr>
         <gstr name="reswin.unlocked.label"></gstr>
-        <gstr name="reswin.unknownres.label">Unknown Research&#13;&#10;Missing Required Discovery</gstr>
-        <gstr name="reswin.required_research.label">Required Research</gstr>
-        <gstr name="reswin.required_discovery.label">Required Discoveries</gstr>
-        <gstr name="reswin.button.available">Available</gstr>
-        <gstr name="reswin.button.completed">Research Completed</gstr>
-        <gstr name="reswin.cost.label">Cost</gstr>
-        <gstr name="reswin.button.research">Unlock</gstr>
-        <gstr name="reswin.button.researchcantafford">Can't Afford</gstr>
-        <gstr name="reswin.reqdiscoveries.label">Discovery Required:\n{0}</gstr>
-        <gstr name="reswin.activeresearch.label">Currently Researching</gstr>
-        <gstr name="reswin.header">Research Projects</gstr>
-        <gstr name="reswin.label.prerequisites">Prerequisites: {0}</gstr>
+        <gstr name="reswin.unknownres.label">未知研究&#13;&#10;缺少发现物</gstr>
+        <gstr name="reswin.required_research.label">需要研究</gstr>
+        <gstr name="reswin.required_discovery.label">需要发现物</gstr>
+        <gstr name="reswin.button.available">可用</gstr>
+        <gstr name="reswin.button.completed">研究完毕</gstr>
+        <gstr name="reswin.cost.label">花费</gstr>
+        <gstr name="reswin.button.research">解锁</gstr>
+        <gstr name="reswin.button.researchcantafford">无法负担</gstr>
+        <gstr name="reswin.reqdiscoveries.label">需要发现物：\n{0}</gstr>
+        <gstr name="reswin.activeresearch.label">正在研究</gstr>
+        <gstr name="reswin.header">研究项目</gstr>
+        <gstr name="reswin.label.prerequisites">前置要求：{0}</gstr>
         
         
         <!-- UI Management Interface -->
-        <gstr name="manwin.secbtn.overview.name">Overview</gstr>
-        <gstr name="uihudbtn.colonists.name">Colonists</gstr>
-        <gstr name="uihudbtn.colonists.schedules.name">Schedules</gstr>
-        <gstr name="uihudbtn.discoveries.name">Discoveries</gstr>
-        <gstr name="manwin.secbtn.datarecovery.name">Research</gstr>
-        <gstr name="uihudbtn.planetmap.name">Planet Map</gstr>
-        <gstr name="uihudbtn.manual.name">Guide</gstr>
-        <gstr name="uihudbtn.mlog.name">Mission Log</gstr>
+        <gstr name="manwin.secbtn.overview.name">概览</gstr>
+        <gstr name="uihudbtn.colonists.name">殖民者</gstr>
+        <gstr name="uihudbtn.colonists.schedules.name">日程</gstr>
+        <gstr name="uihudbtn.discoveries.name">发现物</gstr>
+        <gstr name="manwin.secbtn.datarecovery.name">科研</gstr>
+        <gstr name="uihudbtn.planetmap.name">星球地图</gstr>
+        <gstr name="uihudbtn.manual.name">帮助</gstr>
+        <gstr name="uihudbtn.mlog.name">任务日志</gstr>
         
-        <gstr name="uihudbtn.research.tech.name">Technology</gstr>
-        <gstr name="uihudbtn.research.deco.name">Decorations</gstr>
-        <gstr name="uihudbtn.research.recipes.name">Recipes</gstr>
-        <gstr name="uihudbtn.research.crops.name">Crops</gstr>
+        <gstr name="uihudbtn.research.tech.name">科技</gstr>
+        <gstr name="uihudbtn.research.deco.name">装饰</gstr>
+        <gstr name="uihudbtn.research.recipes.name">配方</gstr>
+        <gstr name="uihudbtn.research.crops.name">作物</gstr>
         
-        <gstr name="cmanwin.health.label">Health: {0}%</gstr>
-        <gstr name="cmanwin.hunger.label">Hunger: {0}%</gstr>
-        <gstr name="cmanwin.energy.label">Fatigue: {0}%</gstr>
-        <gstr name="cmanwin.stress.label">Stress: {0}%</gstr>
+        <gstr name="cmanwin.health.label">健康度：{0}%</gstr>
+        <gstr name="cmanwin.hunger.label">饱食度：{0}%</gstr>
+        <gstr name="cmanwin.energy.label">疲劳度：{0}%</gstr>
+        <gstr name="cmanwin.stress.label">紧张度：{0}%</gstr>
         
         <gstr name="cmanwin.average.header">Status</gstr>
         <gstr name="cmanwin.population.header">Population</gstr>
