@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDInfos>
+    <GDInfo name="lng_cn" class="GDGameLanguage">
+        <components>
+            <comp class="CProperties">
+                <display_name>简体中文</display_name>
+                <language_code>zh-CN</language_code>
+            </comp>
+        </components>
+
+        <!-- UI Generic -->
+        <gstr name="uigen.close">Close关闭</gstr>
+        <gstr name="uigen.ok">Ok确定</gstr>
+        <gstr name="uigen.accept">Accept确定</gstr>
+        <gstr name="uigen.cancel">Cancel取消</gstr>
+        <gstr name="uigen.apply">Apply应用</gstr>
+        <gstr name="uigen.start">Start开始</gstr>
+        <gstr name="uigen.next">Next下一项</gstr>
+        <gstr name="uigen.skip">Skip跳过</gstr>
+        <gstr name="uigen.rename">Rename重命名</gstr>
+        <gstr name="uigen.none">None无</gstr>
+        <gstr name="uigen.name">Name名字</gstr>
+        <gstr name="uigen.empty">Empty空</gstr>
+        <gstr name="uigen.type">Type类型</gstr>
+        <gstr name="uigen.paused">PAUSED暂停</gstr>
+        <gstr name="uigen.help.btn">Open Guide Topic打开指引主题</gstr>
+        <gstr name="uigen.showdiscoveries">Show Discoveries显示发现物</gstr>
+        <gstr name="uigen.unknown">Unknown未知</gstr>
+        <gstr name="uigen.unexplored">Unexplored未探索</gstr>
+        <gstr name="uigen.scanrequired">Scanning required to show resource data.扫描后显示资源数据</gstr>
+        <gstr name="uigen.speedmult">Move Speed移动速度: {0}{1}%</gstr>
+        <gstr name="uigen.idle">Idle</gstr>
+        <gstr name="uigen.low">Low低</gstr>
+        <gstr name="uigen.high">High高</gstr>
+        <gstr name="uigen.true">True真</gstr>
+        <gstr name="uigen.false">False假</gstr>
+        <gstr name="uigen.locked">Locked锁住</gstr>
+        <gstr name="uigen.loading">Loading读取中</gstr>
+        <gstr name="uigen.random">Random随机</gstr>
+
+        <!-- Intro Text-->
+        <gstr name="ui.introtext.s1">By the turn of the 22nd century, space exploration was dominated by corporate interests. Once a task for governments, space travel became a competitive market, where companies pushed boldly and blindly into the black, intent only on a return on investment.</gstr>
+        <gstr name="ui.introtext.s2">For the first time in human history, Infinity Corp was about to attempt the colonization of a planet outside of Earth’s solar system. The construction vessel Mercury was launched to start the automated construction of an underground facility on an alien planet.</gstr>
+        <gstr name="ui.introtext.s3">A small research team was also sent to survey the planet before a colony ship full of settlers left Earth. The research team would awake from stasis automatically, shortly after their arrival -- or, at least, that was the plan.</gstr>
+
+        <gstr name="ui.introwin1.header">Welcome Pioneer!</gstr>
+        <gstr name="ui.introwin1.text">Congratulations on being an Infinity Corp Pioneer!&#13;&#10;&#13;&#10;Mercury Fallen is still in active development and not feature complete. Thank you for joining the development journey.&#13;&#10;&#13;&#10;Game manual available by pressing [Tab] to open the Facility Management Interface and selecting Manual at the top.</gstr>
+
+        <!-- UI Misc -->
+        <gstr name="uidec.label.name">Deconstruct Type拆除模式</gstr>
+        <gstr name="uidec.optionstruct.name">Structure结构</gstr>
+        <gstr name="uidec.optionfloor.name">Floor地板</gstr>
+        <gstr name="uidec.optionpowerc.name">Power Conduit电力管道</gstr>
+        <gstr name="uidec.optionwaterc.name">Water Conduit水资源管道</gstr>
+        <gstr name="uihudbtn.mine.name">Mine开采</gstr>
+        <gstr name="uihudbtn.facman.name">Manage Colonists管理殖民者</gstr>
+        <gstr name="uihudbtn.deconstruct.name">Deconstruct拆除</gstr>
+        <gstr name="uihudbtn.gstore.name">Global Inventory全局资源</gstr>
+        <gstr name="uihud.timeofday.text">Day第{0}天</gstr>
+
+        <gstr name="uiwin.settings.header">Settings设置</gstr>
+        <gstr name="uiwin.gamemenu.header">Menu菜单</gstr>
+
+        <gstr name="uihudbtn.gamemenu.name">Game Menu游戏菜单</gstr>
+        <gstr name="uihudbtn.speed_0.name">Pause暂停</gstr>
+        <gstr name="uihudbtn.speed_1.name">Normal Speed普通速度</gstr>
+        <gstr name="uihudbtn.speed_2.name">Fast Speed快速</gstr>
+        <gstr name="uihudbtn.speed_3.name">Hyper Speed最高速度</gstr>
+        <gstr name="uihudtxt.overlay_label.name">Overlay:</gstr>
+        <gstr name="uihudbtn.disp_power.name">Power能源</gstr>
+        <gstr name="uihudbtn.disp_water.name">Water水资源</gstr>
+        <gstr name="uihudbtn.disp_decor.name">Decor装饰度</gstr>
+        <gstr name="uihudbtn.mine.name">Mine开采</gstr>
+        <gstr name="uihudbtn.deepmine.name">Deep Mine深度开采&#13;&#10;&lt;i&gt;Deep Driller Bot Required需要深度采掘机器人&lt;/i&gt;</gstr>
+        <gstr name="gditem.edible.satiation">Satiation饱食度: {0}%</gstr>
+        <gstr name="gditem.edible.nutrition">Nutrition营养度: {0}%</gstr>
+
+        <gstr name="uihudtt.colonist.age">Age年龄 {0}</gstr>
+        <gstr name="uihudtt.colonist.action">Action行动: {0}</gstr>
+
+        <gstr name="uiwin.vehicleequipchooser.header">Vehicle Equipment载具装备</gstr>
+
+        <gstr name="uiwin.debugoptions.header">Debug Options调试选项</gstr>
+        <gstr name="uipmhoverinfo.unknownbiome">Unknown Biome未知生态</gstr>
+        <gstr name="uipmhoverinfo.unknownbiomesub">Scanning Required需要扫描</gstr>
+
+        <gstr name="cgender.female.name">Female</gstr>
+        <gstr name="cgender.male.name">Male</gstr>
+        <gstr name="cgender.either.name">N/A</gstr>
+
+        <!-- Main Menu -->
+        <gstr name="mainmenu.newgame">New Game新游戏</gstr>
+        <gstr name="mainmenu.newgame.info">Begin a new adventure展开新探险</gstr>
+        <gstr name="mainmenu.continuegame">Continue继续</gstr>
+        <gstr name="mainmenu.continuegame.info">Continue most recent saved game读取最近的游戏</gstr>
+        <gstr name="mainmenu.loadgame">Load Game读取游戏</gstr>
+        <gstr name="mainmenu.loadgame.info">Load a saved game读取游戏</gstr>
+        <gstr name="mainmenu.settings">Settings设置</gstr>
+        <gstr name="mainmenu.settings.info"></gstr>
+        <gstr name="mainmenu.mods">Mods</gstr>
+        <gstr name="mainmenu.mods.info">Manage installed game mods管理已安装的模组</gstr>
+        <gstr name="mainmenu.quit">Quit退出</gstr>
+        <gstr name="mainmenu.quit.info">Leaving so soon?确定要离开吗？</gstr>
+        <gstr name="mainmenu.win.continue">Continue From Last Saved Game?继续最近的游戏？</gstr>
+
+        <gstr name="mainmenu.contact.header">Contact &amp; Follow</gstr>
+        <gstr name="mainmenu.website.btn.tt">Website</gstr>
+        <gstr name="mainmenu.facebook.btn.tt">Facebook</gstr>
+        <gstr name="mainmenu.twitter.btn.tt">Twitter</gstr>
+        <gstr name="mainmenu.discord.btn.tt">Discord</gstr>
+
+
+        <gstr name="mainmenu.welcome.title">Welcome Pioneer</gstr>
+        <gstr name="mainmenu.welcome.message">Mercury Fallen is in a state of active development and is not feature complete. You may encounter random issues and bugs.
+            
+Only through feedback can I ensure we squash these pesky bugs and continue to add great new content. 
+        </gstr>
+
+
+        <!-- UI New Game -->
+        <gstr name="newgame.header">Game Configuration游戏设置</gstr>
+        <gstr name="newgame.worldseed">Map Seed地图种子</gstr>
+        <gstr name="newgame.worldseed.tt">Used to determine how the game world is generated</gstr>
+        <gstr name="newgame.mapsize">Map Size地图大小</gstr>
+        <gstr name="newgame.btn.generate">Generate生成</gstr>
+        <gstr name="newgame.size.small">Small小   80x80</gstr>
+        <gstr name="newgame.size.normal">Normal中  100x100</gstr>
+        <gstr name="newgame.size.large">Large大   150x150</gstr>
+
+        <!-- UI Save Game -->
+        <gstr name="savegame.header">Save Game存储游戏</gstr>
+        <gstr name="savegame.save.btn">Save Game存储游戏</gstr>
+        <gstr name="savegame.overwrite.btn">Overwrite Game覆盖存档</gstr>
+        <gstr name="savegame.createnewsave.label">Create New Save创建新存档</gstr>
+        <gstr name="savegame.overwritesave.label">Overwrite Existing Save覆盖已有存档</gstr>
+        <gstr name="savegame.createnewsave.listitem.label">Create New Save Game创建一个新的游戏存档</gstr>
+
+        <!-- UI Load Game -->
+        <gstr name="loadgame.header">Load Game读取游戏</gstr>
+        <gstr name="loadgame.delete.btn">Delete删除</gstr>
+        <gstr name="loadgame.load.btn">Load读取</gstr>
+        <gstr name="loadgame.deleteconfirmwin.label">Delete Saved Game确定删除游戏: {0}?</gstr>
+
+        <!-- Game Menu -->
+        <gstr name="gamemenu.resume.btn">Resume返回</gstr>
+        <gstr name="gamemenu.resume.info">Resume Game返回游戏</gstr>
+        <gstr name="gamemenu.settings.btn">Settings设置</gstr>
+        <gstr name="gamemenu.settings.info">Settings</gstr>
+        <gstr name="gamemenu.savegame.btn">Save Game存储游戏</gstr>
+        <gstr name="gamemenu.savegame.info">Open Save Game Interface</gstr>
+        <gstr name="gamemenu.loadgame.btn">Load Game读取游戏</gstr>
+        <gstr name="gamemenu.loadgame.info">Load a saved game</gstr>
+        <gstr name="gamemenu.feedback.btn">Feedback反馈</gstr>
+        <gstr name="gamemenu.feedback.info">Opens the contact/report form on the Mercury Fallen website</gstr>
+        <gstr name="gamemenu.quit.btn">Quit退出</gstr>
+        <gstr name="gamemenu.quit.info">Quit to main menu退出到主菜单</gstr>
+
+        <!-- Mod Manager -->
+        <gstr name="modmgr.header.label">Mod Manager模组管理器</gstr>
+        <gstr name="modmgr.browseworkshop.btn">Browse Steam Workshop浏览创意工坊</gstr>
+        <gstr name="modmgr.uploadtosteam.btn">Upload To Workshop上传到创意工坊</gstr>
+        <gstr name="modmgr.listinfo.label">Drag拖拽 &amp; 释放以设置读取顺序Drop to set load order</gstr>
+
+        <gstr name="modmgr.author.label">By作者: {0}</gstr>
+        <gstr name="modmgr.version.label">Version版本: {0}</gstr>
+        <gstr name="modmgr.viewmodonworkshop.btn">View On Workshop在创意工坊中查看</gstr>
+
+        <gstr name="modmgr.viewonsteamworkshop.btn">View On Workshop在创意工坊中查看</gstr>
+        <gstr name="modmgr.uploadtosteam.win.label">Upload {0} to Steam Workshop?&#13;&#10;By clicking OK you confirm that you are either the creator of this mod content or have proper permissions to upload it under your username.</gstr>
+        <gstr name="modmgr.uploadtosteam.progress.label">Uploading Mod {0}</gstr>
+        <gstr name="modmgr.uploadtosteam.statussuccess.label">Mod Successfully Uploaded</gstr>
+        <gstr name="modmgr.uploadtosteam.statusfailed.label">Unexpected error occured while setting and uploading mod content</gstr>
+
+        <!-- UI Input Keys -->
+        <gstr name="GDInputKey.ink_camforward.name">Camera Forward</gstr>
+        <gstr name="GDInputKey.ink_cambackward.name">Camera Backward</gstr>
+        <gstr name="GDInputKey.ink_campanleft.name">Camera Left</gstr>
+        <gstr name="GDInputKey.ink_campanright.name">Camera Right</gstr>
+        <gstr name="GDInputKey.ink_camrotleft.name">Camera Rotate Left</gstr>
+        <gstr name="GDInputKey.ink_camrotright.name">Camera Rotate Right</gstr>
+        <gstr name="GDInputKey.ink_camzoomin.name">Camera Zoom In</gstr>
+        <gstr name="GDInputKey.ink_camzoomout.name">Camera Zoom Out</gstr>
+        <gstr name="GDInputKey.ink_centerfacility.name">Reset Camera</gstr>
+
+        <gstr name="GDInputKey.ink_rotobject.name">Rotate Object</gstr>
+        <gstr name="GDInputKey.ink_managementscreen.name">Management Screen</gstr>
+
+        <gstr name="GDInputKey.ink_nextcolonist.name">Select Next Colonist</gstr>
+        <gstr name="GDInputKey.ink_prevcolonist.name">Select Previous Colonist</gstr>
+
+        <gstr name="GDInputKey.ink_speedpause.name">Speed Paused</gstr>
+        <gstr name="GDInputKey.ink_speednormal.name">Speed Normal</gstr>
+        <gstr name="GDInputKey.ink_speedfast.name">Speed Fast</gstr>
+        <gstr name="GDInputKey.ink_speedfastest.name">Speed Hyper</gstr>
+
+        <gstr name="GDInputKey.ink_viewnormal.name">View Normal</gstr>
+        <gstr name="GDInputKey.ink_viewpower.name">View Power Conduits</gstr>
+        <gstr name="GDInputKey.ink_viewwater.name">View Water Conduits</gstr>
+        <gstr name="GDInputKey.ink_viewdecor.name">View Decor Overlay</gstr>
+        <gstr name="GDInputKey.ink_toggleui.name">Toggle UI</gstr>
+
+        <!-- Entity Panel -->
+        <gstr name="entpanel.enabled.tt">Enabled&#13;&#10;Click to disable</gstr>
+        <gstr name="entpanel.disabled.tt">Disabled&#13;&#10;Click to enable</gstr>
+        <gstr name="entpanel.destroy.tt">Deconstruct&#13;&#10;Mark Object For Deconstruct. Will remove object if not constructed.</gstr>
+        <gstr name="entpanel.destroycancel.tt">Cancel Deconstruction</gstr>
+
+        <!-- UI Research Projects Window-->
+        <gstr name="reswin.noresearchtext">No Active Research无激活的研究项目</gstr>
+        <gstr name="reswin.unlocked.label"></gstr>
+        <gstr name="reswin.required_research.label">Required Research需要研究</gstr>
+        <gstr name="reswin.required_discovery.label">Required Discoveries需要发现物</gstr>
+        <gstr name="reswin.button.available">Available可用</gstr>
+        <gstr name="reswin.button.completed">Research Completed研究完毕</gstr>
+        <gstr name="reswin.button.research">Start Research开始研究</gstr>
+        <gstr name="reswin.reqdiscoveries.label">Discovery Required需要发现物:\n{0}</gstr>
+        <gstr name="reswin.activeresearch.label">Currently Researching当前激活研究</gstr>
+        <gstr name="reswin.header">Research Projects研究项目</gstr>
+        <gstr name="reswin.label.prerequisites">Prerequisites前置条件: {0}</gstr>
+
+
+        <!-- UI Management Interface -->
+        <gstr name="manwin.secbtn.overview.name">Overview</gstr>
+        <gstr name="uihudbtn.colonists.name">Colonists</gstr>
+        <gstr name="uihudbtn.discoveries.name">Discoveries</gstr>
+        <gstr name="manwin.secbtn.datarecovery.name">Research</gstr>
+        <gstr name="uihudbtn.planetmap.name">Planet Map</gstr>
+        <gstr name="uihudbtn.manual.name">Guide</gstr>
+
+        <gstr name="cmanwin.health.label">Health健康度: {0}%</gstr>
+        <gstr name="cmanwin.hunger.label">Hunger饱食度: {0}%</gstr>
+        <gstr name="cmanwin.energy.label">Fatigue疲劳度: {0}%</gstr>
+        <gstr name="cmanwin.stress.label">Stress紧张度: {0}%</gstr>
+
+        <gstr name="cmanwin.jritem_age.label">Age年龄: {0}</gstr>
+        <gstr name="cmanwin.jritem_infobtn.tt">Show Info Panel</gstr>
+        <gstr name="cmanwin.edit_name.tt">Edit Name编辑名字</gstr>
+
+        <gstr name="cmanwin.discoveries.nonefound">No discovery items found. Make discoveries by opening item chests and exploring the world.</gstr>
+        <gstr name="cmanwin.planetmap.surfaceoffline">Surface Visibility Offline&#13;&#10;&lt;size=18&gt;Map Table Required&lt;/size&gt;</gstr>
+
+        <!-- UI HUD Inventory -->
+        <gstr name="uihudinv.categories.tt">Hide Item Categories</gstr>
+        <gstr name="uihudinv.showzeroqty.tt">Hide Items With Zero Quantity</gstr>
+        <gstr name="uihudinv.azsort.tt">Sort Alphabetically</gstr>
+        <gstr name="uihudinv.qtysort.tt">Sort By Item Quantity</gstr>
+
+        <!-- UI Section Headers-->
+        <gstr name="uisecheader.getstartedtutorial">Getting Started</gstr>
+        <gstr name="uisecheader.info">Info</gstr>
+        <gstr name="uisecheader.durability">Durability</gstr>
+        <gstr name="uisecheader.buildable">Construction</gstr>
+        <gstr name="uisecheader.mining">Mining</gstr>
+        <gstr name="uisecheader.inventory">Inventory</gstr>
+        <gstr name="uisecheader.cropplant">Plant Crops</gstr>
+        <gstr name="uisecheader.cropalgae">Algae</gstr>
+        <gstr name="uisecheader.crafting">Crafting</gstr>
+        <gstr name="uisecheader.croster">Colonist Roster</gstr>
+        <gstr name="uisecheader.selectcolonists">Select Colonists</gstr>
+        <gstr name="uisecheader.research">Research Project</gstr>
+        <gstr name="uisecheader.powergen">Power Generation</gstr>
+        <gstr name="uisecheader.watergen">Water Generation</gstr>
+        <gstr name="uisecheader.o2gen">O2 Generation</gstr>
+        <gstr name="uisecheader.powerconsumer">Power Consumption</gstr>
+        <gstr name="uisecheader.waterconsumer">Water Consumption</gstr>
+        <gstr name="uisecheader.cinfo">Details</gstr>
+        <gstr name="uisecheader.cattributes">Attributes</gstr>
+        <gstr name="uisecheader.equipment">Equipment</gstr>
+        <gstr name="uisecheader.cprofession">Profession</gstr>
+        <gstr name="uisecheader.cjobroles">Job Roles</gstr>
+        <gstr name="uisecheader.cneeds">Needs</gstr>
+        <gstr name="uisecheader.cstats">Attributes</gstr>
+        <gstr name="uisecheader.cquirks">Quirks</gstr>
+        <gstr name="uisecheader.outfitcolors">Outfit Colors</gstr>
+        <gstr name="uisecheader.compdebug">Components Debug</gstr>
+        <gstr name="uisecheader.ccloner">Clone Grower</gstr>
+        <gstr name="uisecheader.stasiscapsule">Capsule Control</gstr>
+        <gstr name="uisecheader.inactiverobot">Activate Robot</gstr>
+        <gstr name="uisecheader.setting_video">Video</gstr>
+        <gstr name="uisecheader.setting_audio">Audio</gstr>
+        <gstr name="uisecheader.setting_controls">Controls</gstr>
+        <gstr name="uisecheader.setting_gameplay">Game</gstr>
+        <gstr name="uisecheader.setting_key_bindings">Key Bindings</gstr>
+        <gstr name="uisecheader.lightcolor">Light Color</gstr>
+        <gstr name="uisecheader.planter">Planter Settings</gstr>
+        <gstr name="uisecheader.filteritems">Set Allowed Items</gstr>
+        <gstr name="uisecheader.additemorder">Add Item Order</gstr>
+        <gstr name="uisecheader.robotassembly">Robot Assembly</gstr>
+        <gstr name="uisecheader.debg_build_options">Construction Options</gstr>
+        <gstr name="uisecheader.dbg_colonist">Colonist Options</gstr>
+        <gstr name="uisecheader.dbg_tileinfo">Tile Info</gstr>
+        <gstr name="uisecheader.dgb_spawnitems">Spawn Items</gstr>
+        <gstr name="uisecheader.dgb_triggers">Triggers</gstr>
+        <gstr name="uisecheader.itemcanister">Item Chest</gstr>
+        <gstr name="uisecheader.cropfish">Fish Management</gstr>
+        <gstr name="uisecheader.vehiclelist">Vehicles {0}/{1}</gstr>
+        <gstr name="uisecheader.pmdispmodes">Display Modes</gstr>
+
+
+
+        <!-- Settings -->
+        <gstr name="GDGS_Resolution.gs_resolution.name">Resolution</gstr>
+        <gstr name="GDGS_FullScreen.gs_fullscreen.name">Full Screen</gstr>
+        <gstr name="GDGS_Audio.vol_master.name">Master Volume</gstr>
+        <gstr name="GDGS_Audio.vol_sfx.name">FX Volume</gstr>
+        <gstr name="GDGS_Audio.vol_music.name">Music Volume</gstr>
+        <gstr name="GDGS_Audio.vol_ui.name">UI Volume</gstr>
+        <gstr name="GDGS_InvertCamRot.gs_invertcamrot.name">Invert Camera Rotation</gstr>
+        <gstr name="GDGS_GFXQuality.gfx_quality.name">Quality</gstr>
+        <gstr name="GDGS_GFXQuality.lowquality.name">Low</gstr>
+        <gstr name="GDGS_GFXQuality.medquality.name">Medium</gstr>
+        <gstr name="GDGS_GFXQuality.highquality.name">High</gstr>
+
+        <gstr name="GDGS_MouseSensitivity.gs_msensitivity.name">Camera Rotation Speed</gstr>
+        <gstr name="GDGS_CameraMoveSpeed.gs_cammovespeed.name">Camera Move Speed</gstr>
+        <gstr name="GDGS_ObjectTracking.gs_trackobjects.name">Selection Lock</gstr>
+        <gstr name="GDGS_EdgeScroll.gs_edgescroll.name">Edge Scrolling</gstr>
+        <gstr name="GDGS_ConfineCursor.gs_confinecursor.name">Lock Cursor To Window</gstr>
+        <gstr name="GDGS_VSync.gfx_vsync.name">VSync</gstr>
+        <gstr name="GDGS_Language.gs_language.name">Language</gstr>
+        <gstr name="GDGS_TemperatureUnits.gs_tempunits.name">Temperature Unit</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.f">Fahrenheit</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.c">Celcius</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.k">Kelvin</gstr>
+
+        <gstr name="GDGS_MeasureUnits.gs_measureunits.name">Measuring Unit</gstr>
+        <gstr name="GDGS_MeasureUnits.measureunit.imperial">Imperial</gstr>
+        <gstr name="GDGS_MeasureUnits.measureunit.metric">Metric</gstr>
+
+        <gstr name="GDGS_AutoSaveTime.gs_autosavetime.name">Auto Save Every</gstr>
+        <gstr name="GDGS_AutoSaveTime.option.off">Never</gstr>
+        <gstr name="GDGS_AutoSaveTime.option.label">{0} Minutes</gstr>
+
+        <gstr name="GDGS_UIScale.ui_scale.name">UI Scale</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.0">Small</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.1">Medium</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.2">Large</gstr>
+
+
+        <!-- UI Section Data -->
+        <gstr name="uiresgen.label.text">{0} Generated: {1}{2}</gstr>
+        <gstr name="uiresconsume.label.text">{0} Consumed: {1}{2} / {3}{4}</gstr>
+
+        <gstr name="uiresgenerror.label.text">Not connected, not enough power or structure disabled.</gstr>
+
+        <gstr name="uirestype.water.name">Water</gstr>
+        <gstr name="uirestype.water.unit">Gal.</gstr>
+        <gstr name="uirestype.water.tt">Total water consumption over total water generation</gstr>
+
+        <gstr name="uirestype.power.name">Power</gstr>
+        <gstr name="uirestype.power.unit">W</gstr>
+        <gstr name="uirestype.power.tt">Total power consumption over total power generation</gstr>
+
+        <gstr name="uirestype.o2.name">O2</gstr>
+        <gstr name="uirestype.o2.unit">L</gstr>
+
+        <gstr name="uiseccloner.grow_btn">Grow Clone</gstr>
+        <gstr name="uiseccloner.cloning.label">Clone Progress</gstr>
+        <gstr name="uiseccloner.progress.label">{0:0.0}%</gstr>
+
+        <gstr name="uiseccinfo.outfitcolor.tt">Outfit Color {0}</gstr>
+        <gstr name="uiseccinfo.smarts.label">Smarts {0}</gstr>
+        <gstr name="uiseccinfo.muscles.label">Muscles {0}</gstr>
+        <gstr name="uiseccinfo.athletics.label">Athletics {0}</gstr>
+
+        <gstr name="uiseccinfo.recycle.btn">Recycle Robot</gstr>
+        <gstr name="uiseccinfo.recycle.tt">Set robot to be recycled. Robot will go to an available Robot Recycler.</gstr>
+        <gstr name="uiseccinfo.cancelrecycle.btn">Cancel Recycle</gstr>
+        <gstr name="uiseccinfo.cancelrecycle.tt">Robot is marked for recycling. Click to cancel.</gstr>
+
+        <gstr name="uiseccanister.open.label">Open Canister</gstr>
+
+        <gstr name="iusecbuildinfo.req_research.label">Required Research</gstr>
+        <gstr name="iusecbuildinfo.decor.label">Decor {0:+##;-##}%</gstr>
+        <gstr name="iusecbuildinfo.requires.label">Requires</gstr>
+        <gstr name="iusecbuildinfo.sizeinfo.label">Size: {0}x{1}</gstr>
+        <gstr name="iusecbuildinfo.resconsumption.label">Resource Consumption</gstr>
+        <gstr name="iusecbuildinfo.resgeneration.label">Resource Output</gstr>
+        <gstr name="iusecbuildinfo.materials.label">Materials</gstr>
+
+
+        <gstr name="uiseccinfo.gender.label">Gender: {0}</gstr>
+        <gstr name="uiseccinfo.age.label">Age: {0}</gstr>
+        <gstr name="uiseccinfo.actionidle.label">Idle</gstr>
+        <gstr name="uiseccinfo.actiondead.label">Dead</gstr>
+
+        <gstr name="uisecbuildable.progress.label">Progress</gstr>
+        <gstr name="uisecbuildable.requirements.label">Build Requirements</gstr>
+        <gstr name="uisecbuildable.buildqueuepos.label">Position In Build Queue: {0}</gstr>
+        <gstr name="uisecbuildable.areanotclear.label">Waiting For Area To Be Cleared</gstr>
+        <gstr name="uisecbuildable.floornotdone.label">Floor Not Constructed Yet</gstr>
+        <gstr name="uisecbuildable.priority.button">Set High Priority</gstr>
+        <gstr name="uisecbuildable.priority.button.tt">Set's this object to first place in the build queue. Other objects may still be constructed first if build materials are not available for this object.</gstr>
+
+        <gstr name="uiseccolroster.manage.btn">Manage Roster</gstr>
+        <gstr name="uiseccolroster.clear.btn">Clear Roster</gstr>
+
+        <gstr name="uisecjobrole.priority.tt">Colonists will do jobs with a higher priority first if they can. 1 = High Priority, 10 = Low Priority.</gstr>
+
+        <gstr name="uiseccraftqueue.recipe.label">Recipe</gstr>
+        <gstr name="uiseccraftqueue.additemorder.btn">+ Add Item Order</gstr>
+        <gstr name="uiseccraftqueue.jobrole.label">Job: {0}</gstr>
+        <gstr name="uiseccraftqueue.ingredients.label">Ingredients</gstr>
+        <gstr name="uiseccraftqueue.queueitems.label">Craft Queue</gstr>
+        <gstr name="uiseccraftqueue.queueempty.label">Craft Queue Empty</gstr>
+        <gstr name="uiseccraftqueue.craftx.label">Craft {0}</gstr>
+        <gstr name="uiseccraftqueue.craftifbelowx.label">Craft If Below {0}</gstr>
+
+        <gstr name="uiseccraftqueue.win.type.label">Type</gstr>
+        <gstr name="uiseccraftqueue.win.available.label">Available: {0}</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftx">Craft X Amount</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftx.info">{0} of this item will be crafted. Item order will be removed upon completion.</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftifbelowx">Craft If Below X Amount</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftifbelowx.info">Item will continue to be crafted if there is less than {0} available. Item order will not be automatically removed.</gstr>
+        <gstr name="uiseccraftqueue.win.craftamt.label">Craft Amount</gstr>
+
+        <gstr name="uiseccropfield.growth.label">Growth {0:0.0}%</gstr>
+        <gstr name="uiseccropfield.growing.label">Growing: {0}</gstr>
+        <gstr name="uiseccropfield.output.label">Output:</gstr>
+        <gstr name="uiseccropfield.outputitem.label">{0}x {1}</gstr>
+        <gstr name="uiseccropfield.croptype.label">Crop Type</gstr>
+        <gstr name="uiseccropfield.plantcrop.btn">Plant Crop</gstr>
+        <gstr name="uiseccropfield.clearcrop.btn">Clear Current Crop</gstr>
+        <gstr name="uiseccropfield.waiting.label">Waiting For Colonist To Plant: {0}</gstr>
+        <gstr name="uiseccropfield.timebonus.label">Growth Time: -{0}%</gstr>
+        <gstr name="uiseccropfield.reqnutrient.label">Requires: 1x {0}</gstr>
+        <gstr name="uiseccropfield.outputbonus.label">Output Bonus: +{0}%</gstr>
+
+        <gstr name="uisecfishgrower.waiting.label">Waiting For Colonist To Add Fish</gstr>
+        <gstr name="uisecfishgrower.addfish.btn">Add Fish</gstr>
+
+        <gstr name="uisecdurability.durability.label">Durability</gstr>
+
+        <gstr name="uisecgenres.choose.btn">Choose Research Project</gstr>
+        <gstr name="uisecgenres.change.btn">Change Research Project</gstr>
+        <gstr name="uisecgenres.recovering.btn">Researching {0}</gstr>
+        <gstr name="uisecgenres.progress.btn">Progress</gstr>
+        <gstr name="uisecgenres.progress.label">{0:0.0}%</gstr>
+
+        <gstr name="uisecgsvideo.res.label">Resolution</gstr>
+        <gstr name="uisecgsvideo.fullscreen.label">Full screen</gstr>
+        <gstr name="uisecgsvideo.quality.label">Graphics Quality</gstr>
+        <gstr name="uisecgsvideo.qual_1.label">Low</gstr>
+        <gstr name="uisecgsvideo.qual_2.label">Medium</gstr>
+        <gstr name="uisecgsvideo.qual_3.label">High</gstr>
+
+        <gstr name="uisecinactiverobot.activate.label">Activate Robot</gstr>
+
+        <gstr name="uisecgeninfo.movespeed.label">Movement Speed {0}{1}%</gstr>
+        <gstr name="uisecgeninfo.decor.label">Decor {0:+##;-##}%</gstr>
+
+        <gstr name="uisecinventory.capacity.label">Capacity</gstr>
+        <gstr name="uisecinventory.alloweditems.btn">Allowed Items</gstr>
+
+        <gstr name="uisecmining.density.label">Material Density: {0}</gstr>
+        <gstr name="uisecmining.contents.label">{2} {0}/{1}</gstr>
+        <gstr name="uisecmining.deepmine_enable.btn">Enable Deep Mining</gstr>
+        <gstr name="uisecmining.deepmine_disable.btn">Disable Deep Mining</gstr>
+
+        <gstr name="uisecplantpot.planted.label">Currently Planted: {0}</gstr>
+        <gstr name="uisecplantpot.plantdropdown.label">Plant</gstr>
+
+        <gstr name="uisecresconsumer.required.label">{0} Required {1}{2}/s</gstr>
+        <gstr name="uisecresconsumer.received_positive.label">{0} Received &lt;color=green&gt;{1}{2}/s&lt;/color&gt;</gstr>
+        <gstr name="uisecresconsumer.received_negative.label">{0} Received &lt;color=red&gt;{1}{2}/s&lt;/color&gt;</gstr>
+
+        <gstr name="uisecresgenerator.fuelitem.label">Fuel Item: {0}</gstr>
+        <gstr name="uisecresgenerator.disablerefill.btn">Disable Fuel Refill</gstr>
+        <gstr name="uisecresgenerator.fuellevel.label">Fuel Level</gstr>
+        <gstr name="uisecresgenerator.refillat.label">Refill at {0:##}%</gstr>
+        <gstr name="uisecresgenerator.refillat.tooltip">Colonists will add fuel when current fuel level is at or below this amount</gstr>
+        <gstr name="uisecresgenerator.output.label">{0} Output</gstr>
+        <gstr name="uisecresgenerator.output.tooltip">Connected Devices: {0}</gstr>
+
+        <gstr name="uiseccapsule.statusempty.label">Status: Empty</gstr>
+        <gstr name="uiseccapsule.statusoccupied.label">Status: Occupied</gstr>
+        <gstr name="uiseccapsule.occupantnone.label">Occupant: None</gstr>
+        <gstr name="uiseccapsule.occupantcondition.label">Occupant: Stable Condition</gstr>
+        <gstr name="uiseccapsule.systemready.label">System: Ready</gstr>
+        <gstr name="uiseccapsule.systemopen.label">System: Capsule Open</gstr>
+        <gstr name="uiseccapsule.systemblocked.label">System: Door Access Blocked</gstr>
+
+        <gstr name="uisecrobotass.pointsleft.label">Points Remaining: {0}</gstr>
+        <gstr name="uisecrobotass.finalcost.label">Material Cost</gstr>
+        <gstr name="uisecrobotass.construct.btn">Construct Robot</gstr>
+        <gstr name="uisecrobotass.rtype.label">Constructing {0}</gstr>
+        <gstr name="uisecrobotass.progress.label">Progress</gstr>
+        <gstr name="uisecrobotass.cancelconstruct.btn">Cancel Construction</gstr>
+        <gstr name="uisecrobotass.rdy_mats.label">Waiting For Materials Delivery</gstr>
+
+        <gstr name="uisecvehicleass.type.label">Type</gstr>
+        <gstr name="uisecvehicleass.materials.label">Build Materials</gstr>
+        <gstr name="uisecvehicleass.create.button">Construct Vehicle</gstr>
+        <gstr name="uisecvehicleass.constructinfo.label">Constructing: {0}</gstr>
+        <gstr name="uisecvehicleass.atcapacity.label">Vehicle Bay At Capacity</gstr>
+
+        <gstr name="uipmdispmods.normal.tt">View Normal</gstr>
+        <gstr name="uipmdispmods.foundbiomes.tt">Discovered Biomes</gstr>
+        <gstr name="uipmdispmods.temp.tt">Temperature</gstr>
+        <gstr name="uipmdispmods.moisture.tt">Moisture</gstr>
+        <gstr name="uipmdispmods.elevation.tt">Elevation</gstr>
+        <gstr name="uipmdispmods.resources.tt">Resources</gstr>
+        <gstr name="uipmdispmods.filterdd.label">Filter</gstr>
+        <gstr name="uipmdispmods.resourcedd.label">Resource</gstr>
+
+        <gstr name="uisecvehiclelist.embark.tt">Embark Vehicle</gstr>
+        <gstr name="uisecvehiclelist.deconstruct.tt">Deconstruct Vehicle\nVehicle must docked at facility.</gstr>
+        <gstr name="uisecvehiclelist.deconstructwin.text">Deconstruct Vehicle?&#13;&#10; This will deconstruct the vehicle and recover some of its materials.</gstr>
+
+        <gstr name="uisecvehicle.detailsgrid.label">Vehicle Details</gstr>
+
+        <gstr name="uiseccapsule.open.btn">Open Capsule</gstr>
+
+        <gstr name="uisecequipment.back.btn">&lt;&lt; Back</gstr>
+        <gstr name="uisecequipment.removeequipment.label">Remove equipment: {0}? Equipment item will be destroyed in the removal process.</gstr>
+        <gstr name="uisecequipment.noequipmentinstalled.tt">Available Equipment Slot&#13;&#10;&#13;&#10;Click To Choose Equipment</gstr>
+        <gstr name="uisecequipment.noequipmentinstalledvehiclenotdocked.tt">Available Equipment Slot&#13;&#10;&#13;&#10;Vehicle Must Be Docked To Install Equipment</gstr>
+        <gstr name="uisecequipment.waitingforinstall.tt">{0}&#13;&#10; Waiting For Install</gstr>
+        <gstr name="uisecequipment.chooserselect.label">Choose Equipment</gstr>
+        <gstr name="uisecequipment.choosernoequipment.label">No Equipment Available</gstr>
+        <gstr name="uisecequipment.similarequipment.label">&#13;&#10;Similar Equipment Already Installed</gstr>
+
+        <gstr name="entwin.info.label.name">Info</gstr>
+        <gstr name="entwin.jobs.label.name">Jobs</gstr>
+        <gstr name="entwin.stats.label.name">Stats</gstr>
+        <gstr name="entwin.debug.label.name">Debug</gstr>
+
+
+        <!-- UI Section Notices -->
+        <gstr name="ui.notice.emptycraftqueue">{0} has completed it's craft queue</gstr>
+        <gstr name="ui.notice.craftitemcomplete">{0} has finished crafting {1}</gstr>
+        <gstr name="ui.notice.researchcomplete">Research Complete: {0}</gstr>
+        <gstr name="ui.notice.colonistdead">{0} has died from {1}.</gstr>
+        <gstr name="ui.notice.colonistactionailment">{0} has contracted a new ailment {1} from {2}</gstr>
+        <gstr name="ui.notice.colonistfoodailment">{0} has contracted {1} while eating {2}</gstr>
+        <gstr name="ui.notice.robotconstructed">{0} has finished constructing {1}</gstr>
+        <gstr name="ui.notice.colonistlevelup">{0} is now a level {1} {2}</gstr>
+        <gstr name="ui.notice.vehiclecomplete">{0} has been constructed.</gstr>
+        <gstr name="ui.notice.unknowncauses">unknown causes</gstr>
+
+
+        <!-- Colonist Types -->
+        <gstr name="EColonist.male_colonist.name">Human Colonist</gstr>
+        <gstr name="EColonist.male_colonist.desc">The prominent hominid from the planet earth.</gstr>
+        <gstr name="EColonist.female_colonist.name">Human Colonist</gstr>
+        <gstr name="EColonist.female_colonist.desc">The prominent hominid from the planet earth.</gstr>
+        <gstr name="EColonistRobot.bot_walker.name">Worker Bot</gstr>
+        <gstr name="EColonistRobot.bot_walker.desc">A basic robot capable of mining, building and hauling.</gstr>
+        <gstr name="EColonistRobot.bot_deepdriller.name">Deep Driller</gstr>
+        <gstr name="EColonistRobot.bot_deepdriller.desc">A hefty bot only capable of mining floor ore tiles.</gstr>
+
+        <!-- Colonist Groups -->
+        <gstr name="GDColonistGroup.cgrp_human.name">Human</gstr>
+        <gstr name="GDColonistGroup.cgrp_robot.name">Robot</gstr>
+
+        <!-- Colonist Attributes -->
+        <gstr name="GDAttribute.c_health.name">Health</gstr>
+        <gstr name="GDAttribute.c_health.desc">Overall health of the colonist. When this drops to zero the colonist has perished.</gstr>
+        <gstr name="GDAttribute.c_sleep.name">Fatigue</gstr>
+        <gstr name="GDAttribute.c_sleep.desc">Colonists require sleep</gstr>
+        <gstr name="GDAttribute.c_power.name">Power</gstr>
+        <gstr name="GDAttribute.c_power.desc">Robots require recharging at a charge pad</gstr>
+        <gstr name="GDAttribute.c_hunger.name">Hunger</gstr>
+        <gstr name="GDAttribute.c_hunger.desc">A hungry colonist is an unhappy colonist. Ensure colonists have food and a proper place to eat.</gstr>
+        <gstr name="GDAttribute.c_stress.name">Stress</gstr>
+        <gstr name="GDAttribute.c_stress.desc">A happy colonist is an efficient colonist. Ensure they don't get too stressed out or accidents may happen.</gstr>
+
+        <gstr name="GDAttribute.c_muscles.name">Muscles</gstr>
+        <gstr name="GDAttribute.c_muscles.desc">Increases carry capacity by 5 per point</gstr>
+        <gstr name="GDAttribute.c_smarts.name">Smarts</gstr>
+        <gstr name="GDAttribute.c_smarts.desc">Increases job experience gain by 10% per point</gstr>
+        <gstr name="GDAttribute.c_athletics.name">Athletics</gstr>
+        <gstr name="GDAttribute.c_athletics.desc">Increases movement speed by 5% per point.</gstr>
+
+        <gstr name="GDAttribute.human_movespeed.name">Move Speed</gstr>
+        <gstr name="GDAttribute.human_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
+        <gstr name="GDAttribute.rb_worker_movespeed.name">Move Speed</gstr>
+        <gstr name="GDAttribute.rb_worker_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
+        <gstr name="GDAttribute.rb_driller_movespeed.name">Move Speed</gstr>
+        <gstr name="GDAttribute.rb_driller_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
+        <gstr name="GDAttribute.c_workspeed.name">Work Speed</gstr>
+        <gstr name="GDAttribute.c_workspeed.desc">Base work speed. Work speed additionally modified by job skill level.</gstr>
+
+        <!-- Colonist Ailments -->
+        <gstr name="GDAilment.ail_ankle_sprain.name">Sprained Ankle</gstr>
+        <gstr name="GDAilment.ail_ankle_sprain.desc"></gstr>
+        <gstr name="GDAilment.ail_hand_cramp.name">Hand Cramp</gstr>
+        <gstr name="GDAilment.ail_hand_cramp.desc"></gstr>
+        <gstr name="GDAilment.ail_broken_arm.name">Broken Arm</gstr>
+        <gstr name="GDAilment.ail_broken_arm.desc"></gstr>
+        <gstr name="GDAilment.ail_stomach_parasite.name">Gut Worms</gstr>
+        <gstr name="GDAilment.ail_stomach_parasite.desc"></gstr>
+        <gstr name="GDAilment.ail_stomach_ache.name">Stomach Ache</gstr>
+        <gstr name="GDAilment.ail_stomach_ache.desc"></gstr>
+        <gstr name="GDAilment.ail_eyestrain.name">Eye Strain</gstr>
+        <gstr name="GDAilment.ail_eyestrain.desc"></gstr>
+
+        <!-- Colonist Quirks -->
+        <gstr name="GDQuirk.quirk_frail.name">Frail</gstr>
+        <gstr name="GDQuirk.quirk_frail.desc">I am a frail vessel full of errors</gstr>
+        <gstr name="GDQuirk.quirk_hearty.name">Hearty</gstr>
+        <gstr name="GDQuirk.quirk_hearty.desc">My body is a temple, which was apparently shot in to space</gstr>
+        <gstr name="GDQuirk.quirk_fastmetabolism.name">Fast Metabolism</gstr>
+        <gstr name="GDQuirk.quirk_fastmetabolism.desc">I feel like I'm always hungry</gstr>
+        <gstr name="GDQuirk.quirk_slowmetabolism.name">Slow Metabolism</gstr>
+        <gstr name="GDQuirk.quirk_slowmetabolism.desc">I'm not all that hungry.</gstr>
+        <gstr name="GDQuirk.quirk_paranoid.name">Paranoid</gstr>
+        <gstr name="GDQuirk.quirk_paranoid.desc">I think I'm being watched.</gstr>
+        <gstr name="GDQuirk.quirk_calm.name">Calm</gstr>
+        <gstr name="GDQuirk.quirk_calm.desc">The situation could be worse I suppose</gstr>
+        <gstr name="GDQuirk.quirk_drowsy.name">Drowsy</gstr>
+        <gstr name="GDQuirk.quirk_drowsy.desc">Is it bed time yet?</gstr>
+        <gstr name="GDQuirk.quirk_narcolepsy.name">Narcolepsy</gstr>
+        <gstr name="GDQuirk.quirk_narcolepsy.desc">I really feel like I could seize the da- *snores*</gstr>
+        <gstr name="GDQuirk.quirk_insomnia.name">Insomnia</gstr>
+        <gstr name="GDQuirk.quirk_insomnia.desc">I'll sleep when I'm dead or eventually. Whichever comes first.</gstr>
+        <gstr name="GDQuirk.quirk_hyper.name">Hyper</gstr>
+        <gstr name="GDQuirk.quirk_hyper.desc">I want to run. Can I run? Let's run. I'm gonna run!</gstr>
+        <gstr name="GDQuirk.quirk_slowpoke.name">Slow Poke</gstr>
+        <gstr name="GDQuirk.quirk_slowpoke.desc">I'll get there eventually.</gstr>
+        <gstr name="GDQuirk.quirk_sloth.name">Sloth</gstr>
+        <gstr name="GDQuirk.quirk_sloth.desc">Slow and steady wins th- What was I talking about?</gstr>
+        <gstr name="GDQuirk.quirk_lazy.name">Lazy</gstr>
+        <gstr name="GDQuirk.quirk_lazy.desc">I don't really want to work. Why am I even here?</gstr>
+        <gstr name="GDQuirk.quirk_workethic.name">Work Ethic</gstr>
+        <gstr name="GDQuirk.quirk_workethic.desc">You don't get what you wish for, you get what you work for</gstr>
+        <gstr name="GDQuirk.quirk_smart.name">Smart</gstr>
+        <gstr name="GDQuirk.quirk_smart.desc">After hours of chess playing this colonist is a bit smarter</gstr>
+        <gstr name="GDQuirk.quirk_dumb.name">Dumb</gstr>
+        <gstr name="GDQuirk.quirk_dumb.desc">I was dropped as a child, but there were no long term effects</gstr>
+        <gstr name="GDQuirk.quirk_hulk.name">Hulk</gstr>
+        <gstr name="GDQuirk.quirk_hulk.desc">Rawr... Hulk Angry, Hulk smash!</gstr>
+        <gstr name="GDQuirk.quirk_weakling.name">Weakling</gstr>
+        <gstr name="GDQuirk.quirk_weakling.desc">Who wants to carry around lots of stuff anyway?</gstr>
+
+        <!-- Colonist Action Descriptions -->
+        <gstr name="GPActionConstruct.action_Construct.name">Construction</gstr>
+        <gstr name="GPActionConstruct.action_Construct.desc">Constructing {0}</gstr>
+        <gstr name="GPActionHaulToConstruction.action_HaulToConstructionSite.name">Hauling Items To Construction</gstr>
+        <gstr name="GPActionHaulToConstruction.action_HaulToConstructionSite.desc">Hauling Items To Construction</gstr>
+        <gstr name="GPActionDeconstruct.action_Deconstruct.name">Deconstruct</gstr>
+        <gstr name="GPActionDeconstruct.action_Deconstruct.desc">Deconstructing {0}</gstr>
+        <gstr name="GPActionMine.action_Mine.name">Mining</gstr>
+        <gstr name="GPActionMine.action_Mine.desc">Mining {0}</gstr>
+        <gstr name="GPActionCraftItem.action_CraftBotanist.name">Making Item</gstr>
+        <gstr name="GPActionCraftItem.action_CraftBotanist.desc">Making {0}</gstr>
+        <gstr name="GPActionCraftItem.action_CraftCook.name">Cooking</gstr>
+        <gstr name="GPActionCraftItem.action_CraftCook.desc">Cooking {0}</gstr>
+        <gstr name="GPActionCraftItem.action_CraftEngineer.name">Making Item</gstr>
+        <gstr name="GPActionCraftItem.action_CraftEngineer.desc">Making {0}</gstr>
+        <gstr name="GPActionPlantCrop.action_PlantCrop.name">Planting Crop</gstr>
+        <gstr name="GPActionPlantCrop.action_PlantCrop.desc">Planting Crop</gstr>
+        <gstr name="GPActionPlantCrop.action_GrowFish.name">Adding Fish To Aquarium</gstr>
+        <gstr name="GPActionPlantCrop.action_GrowFish.desc">Adding Fish To Aquarium</gstr>
+        <gstr name="GPActionHarvestCrop.action_HarvestCrop.name">Harvesting</gstr>
+        <gstr name="GPActionHarvestCrop.action_HarvestCrop.desc">Harvesting Crop</gstr>
+        <gstr name="GPActionHarvestCrop.action_HarvestFish.name">Harvesting Fish</gstr>
+        <gstr name="GPActionHarvestCrop.action_HarvestFish.desc">Harvesting Fish</gstr>
+        <gstr name="GPActionResearch.action_Research.name">Researching</gstr>
+        <gstr name="GPActionResearch.action_Research.desc">Researching</gstr>
+        <gstr name="GPActionWanderTo.action_Wanderto.name">Wandering Aimlessly</gstr>
+        <gstr name="GPActionWanderTo.action_Wanderto.desc">Wandering Aimlessly</gstr>
+        <gstr name="GPActionSleepOnFloor.action_SleepOnFloor.name">Sleeping On The Floor</gstr>
+        <gstr name="GPActionSleepOnFloor.action_SleepOnFloor.desc">Sleeping On The Floor</gstr>
+        <gstr name="GPActionSleepInBed.action_SleepBed.name">Sleeping</gstr>
+        <gstr name="GPActionSleepInBed.action_SleepBed.desc">Sleeping</gstr>
+        <gstr name="GPActionEatStanding.action_EatStanding.name">Eating</gstr>
+        <gstr name="GPActionEatStanding.action_EatStanding.desc">Eating</gstr>
+        <gstr name="GPActionFindWork.action_FindWork.name">Finding Work</gstr>
+        <gstr name="GPActionFindWork.action_FindWork.desc">Finding Work</gstr>
+        <gstr name="GPActionGetItems.action_GetItems.name">Collecting Items</gstr>
+        <gstr name="GPActionGetItems.action_GetItems.desc">Collecting Items</gstr>
+        <gstr name="GPActionEquipItem.action_EquipItem.name">Equipping Item</gstr>
+        <gstr name="GPActionEquipItem.action_EquipItem.desc">Equipping Item</gstr>
+        <gstr name="GPActionGetBestFoodItem.action_GetBestFoodItems.name">Getting Something To Eat</gstr>
+        <gstr name="GPActionGetBestFoodItem.action_GetBestFoodItems.desc">Getting Something To Eat</gstr>
+        <gstr name="GPActionPickupItemsOnFloor.action_PickupItemsOnFloor.name">Hauling Items To Storage</gstr>
+        <gstr name="GPActionPickupItemsOnFloor.action_PickupItemsOnFloor.desc">Hauling {0} To Storage</gstr>
+        <gstr name="GPActionRemoveFromStorage.action_RemoveFromStorage.name">Moving Item From Storage</gstr>
+        <gstr name="GPActionRemoveFromStorage.action_RemoveFromStorage.desc">Moving Item From Storage</gstr>
+        <gstr name="GPActionDropOffItems.action_DropOffItems.name">Dropping Off Items</gstr>
+        <gstr name="GPActionDropOffItems.action_DropOffItems.desc">Dropping Off Items</gstr>
+        <gstr name="GPActionEatTable.action_EatAtTable.name">Eating At Table</gstr>
+        <gstr name="GPActionEatTable.action_EatAtTable.desc">Eating At Table</gstr>
+        <gstr name="GPActionPatient.action_Patient.name">Getting Medical Treatment</gstr>
+        <gstr name="GPActionPatient.action_Patient.desc">Getting Medical Treatment</gstr>
+        <gstr name="GPActionTreatPatient.action_TreatPatient.name">Treating Patient</gstr>
+        <gstr name="GPActionTreatPatient.action_TreatPatient.desc">Treating Patient</gstr>
+        <gstr name="GPActionHaulFuelToGenerator.action_HaulFuelToGenerator.name">Refilling Generator Fuel</gstr>
+        <gstr name="GPActionHaulFuelToGenerator.action_HaulFuelToGenerator.desc">Refilling Generator Fuel</gstr>
+        <gstr name="GPActionHandleStress.action_HandleStress.name">Trying To Relax</gstr>
+        <gstr name="GPActionHandleStress.action_HandleStress.desc">Trying To Relax</gstr>
+        <gstr name="GPActionRestfulSit.action_RestfulSit.name">Sitting Down</gstr>
+        <gstr name="GPActionRestfulSit.action_RestfulSit.desc">Sitting Down</gstr>
+        <gstr name="GPActionRechage.action_RobotRecharge.name">Recharging</gstr>
+        <gstr name="GPActionRechage.action_RobotRecharge.desc">Recharging</gstr>
+        <gstr name="GPActionConstructRobot.action_ConstructRobot.name">Constructing Robot</gstr>
+        <gstr name="GPActionConstructRobot.action_ConstructRobot.desc">Constructing Robot</gstr>
+        <gstr name="GPActionConstructVehicle.action_ConstructVehicle.name">Constructing Vehicle</gstr>
+        <gstr name="GPActionConstructVehicle.action_ConstructVehicle.desc">Constructing Vehicle</gstr>
+        <gstr name="GPActionInstallObjectEquipment.action_InstallObjectEquipment.name">Installing Equipment</gstr>
+        <gstr name="GPActionInstallObjectEquipment.action_InstallObjectEquipment.desc">Installing Equipment</gstr>
+        <gstr name="GPActionInstallVehicleEquipment.action_InstallVehicleEquipment.name">Installing Vehicle Equipment</gstr>
+        <gstr name="GPActionInstallVehicleEquipment.action_InstallVehicleEquipment.desc">Installing Vehicle Equipment</gstr>
+        <gstr name="GPActionClearConstructionSite.action_ClearFromConstructSite.name">Clearing Items From Construction Area</gstr>
+        <gstr name="GPActionClearConstructionSite.action_ClearFromConstructSite.desc">Clearing Items From Construction Area</gstr>
+        <gstr name="GPActionGetRecycled.action_GetRecycled.name">Going to be recycled</gstr>
+        <gstr name="GPActionGetRecycled.action_GetRecycled.desc">Going to be recycled</gstr>
+
+
+        <!-- Attribute Effects -->
+        <gstr name="GDAttributeEffect.energy_drain_normal.name">Fatigue</gstr>
+        <gstr name="GDAttributeEffect.hunger_rate_normal.name">Metabolism</gstr>
+        <gstr name="GDAttributeEffect.hungry_starving.name">Starvation</gstr>
+        <gstr name="GDAttributeEffect.hungry_normal.name">Hungry</gstr>
+        <gstr name="GDAttributeEffect.attref_eat_rawfood.name">Ate Raw Food</gstr>
+        <gstr name="GDAttributeEffect.eat_meal.name">Ate Meal</gstr>
+        <gstr name="GDAttributeEffect.slept_floor.name">Slept On Floor</gstr>
+        <gstr name="GDAttributeEffect.slept_bed.name">Slept In Bed</gstr>
+        <gstr name="GDAttributeEffect.over_capacity.name">Over Capacity</gstr>
+        <gstr name="GDAttributeEffect.low_power.name">Low Power</gstr>
+        <gstr name="GDAttributeEffect.moderate_stress.name">Moderate Stress</gstr>
+        <gstr name="GDAttributeEffect.high_stress.name">High Stress</gstr>
+        <gstr name="GDAttributeEffect.hunger_nutrition.name">Nutrition</gstr>
+
+        <!-- Vehicles -->
+        <gstr name="GDVehicle.pmvd_doge_mk1.name">D.O.G.E.</gstr>
+        <gstr name="GDVehicle.pmvd_doge_mk1.desc">The Distance Operated Geo Explorer is designed for remote exploration and biome scanning.</gstr>
+        <gstr name="GDVehicle.pmvd_hoverdrone.name">Wasp</gstr>
+        <gstr name="GDVehicle.pmvd_hoverdrone.desc">An improved surveillance vehicle capable of traversing over water.</gstr>
+        <gstr name="GDVehicle.pmvd_rover.name">Rover</gstr>
+        <gstr name="GDVehicle.pmvd_rover.desc">Passenger vehicle that will allow colonists to investigate points of interest on the surface.</gstr>
+        <gstr name="GDVehicle.pmvd_miner.name">Beetle Miner</gstr>
+        <gstr name="GDVehicle.pmvd_miner.desc">Beetle Miner is capable of mining surface resources.</gstr>
+        <gstr name="GDVehicle.pmvd_hoverminer.name">Whale Miner</gstr>
+        <gstr name="GDVehicle.pmvd_hoverminer.desc">A surface mining vehicle with improved capabilites that can traverse over oceans.</gstr>
+
+        <!-- Vehicle Equipment 
+        <gstr name="GDVehicleEquipment.basic_engine.name">Base Engine</gstr>
+        <gstr name="GDVehicleEquipment.advanced_engine.name">Adavanced Engine</gstr>
+        <gstr name="GDVehicleEquipment.basic_sensor.name">Short Range Sensor</gstr>
+        <gstr name="GDVehicleEquipment.mining_laser.name">Mining Laser</gstr>
+            -->
+        <!-- Vehicle Upgrades 
+        <gstr name="GDVehicleEquipment.signal_booster_1.name">Signal Booster I</gstr>
+            -->
+        <!-- Vehicle Attributes -->
+        <gstr name="GDAttribute.va_health.name">Health</gstr>
+        <gstr name="GDAttribute.va_health.desc"></gstr>
+        <gstr name="GDAttribute.va_movespeed.name">Move Speed</gstr>
+        <gstr name="GDAttribute.va_movespeed.desc"></gstr>
+        <gstr name="GDAttribute.va_minetime.name">Mine Time</gstr>
+        <gstr name="GDAttribute.va_minetime.desc">The time, in seconds, per mining cycle.</gstr>
+        <gstr name="GDAttribute.va_scantime.name">Scan Time</gstr>
+        <gstr name="GDAttribute.va_scantime.desc">Time, in seconds, it takes to perform a scan.</gstr>
+        <gstr name="GDAttribute.va_visionrange.name">Vision Range</gstr>
+        <gstr name="GDAttribute.va_visionrange.desc">The radius of tiles explored when covering new ground.</gstr>
+        <gstr name="GDAttribute.va_cargospace.name">Cargo Space</gstr>
+        <gstr name="GDAttribute.va_cargospace.desc">Total number of items that the vehicle can carry.</gstr>
+        <gstr name="GDAttribute.va_powerstore.name">Power</gstr>
+        <gstr name="GDAttribute.va_powerstore.desc">Power storage amount. Power is used for various actions and recharged during the day using solar power.</gstr>
+        <gstr name="GDAttribute.va_powerrecharge.name">Charge Rate</gstr>
+        <gstr name="GDAttribute.va_powerrecharge.desc">The speed the vehicle will recharge, using solar panels. Vehicles are unable to recharge at night.</gstr>
+
+        <!-- Vehicle Actions -->
+        <gstr name="CVehicleActionScan.name">Scan</gstr>
+        <gstr name="CVehicleActionScan.desc">Scan an unknown resource location or POI for more information.</gstr>
+        <gstr name="CVehicleActionMoveTo.name">Move To</gstr>
+        <gstr name="CVehicleActionMoveTo.desc">Set the target destination for this vehicle.</gstr>
+        <gstr name="CVehicleActionDropOffItems.name">Drop Off Items</gstr>
+        <gstr name="CVehicleActionDropOffItems.desc">Empty vehicle inventory into adjacent facility. Items will appear next to elevator.</gstr>
+        <gstr name="CVehicleActionDock.name">Dock At Facility</gstr>
+        <gstr name="CVehicleActionDock.desc">Return the vehicle to the vehicle bay. Vehicle must be in a map tile adjacent to the primary facility.</gstr>
+        <gstr name="CVehicleActionBiomeScan.name">Biome Scan</gstr>
+        <gstr name="CVehicleActionBiomeScan.desc">Scan biome for discoveries and available resources.</gstr>
+        <gstr name="CVehicleActionMine.name">Mine</gstr>
+        <gstr name="CVehicleActionMine.desc">Mine available resources on this tile.</gstr>
+
+        <!-- UI Structure Categories-->
+        <gstr name="GDUIStructCat.uisc_struct.name">Structure</gstr>
+        <gstr name="GDUIStructCat.uisc_production.name">Production</gstr>
+        <gstr name="GDUIStructCat.uisc_furniture.name">Furniture</gstr>
+        <gstr name="GDUIStructCat.uisc_utility.name">Utilities</gstr>
+        <gstr name="GDUIStructCat.uisc_storage.name">Storage</gstr>
+        <gstr name="GDUIStructCat.uisc_debug.name">Debug</gstr>
+
+        <!-- Job Roles -->
+        <gstr name="GDJobRole.prof_builder.name">Builder</gstr>
+        <gstr name="GDJobRole.prof_builder.desc">Builds placed structures</gstr>
+        <gstr name="GDJobRole.prof_miner.name">Miner</gstr>
+        <gstr name="GDJobRole.prof_miner.desc">Mines out designated areas</gstr>
+        <gstr name="GDJobRole.prof_engineer.name">Engineer</gstr>
+        <gstr name="GDJobRole.prof_engineer.desc">Crafts and refines various goods in the engineering room</gstr>
+        <gstr name="GDJobRole.prof_botonist.name">Botanist</gstr>
+        <gstr name="GDJobRole.prof_botonist.desc">Plants and harvests crops</gstr>
+        <gstr name="GDJobRole.prof_cook.name">Cook</gstr>
+        <gstr name="GDJobRole.prof_cook.desc">Cooks meals at the cook station</gstr>
+        <gstr name="GDJobRole.prof_scientist.name">Scientist</gstr>
+        <gstr name="GDJobRole.prof_scientist.desc">Researches assigned project at the research station</gstr>
+        <gstr name="GDJobRole.prof_doctor.name">Doctor</gstr>
+        <gstr name="GDJobRole.prof_doctor.desc">Treats patients at the Medi-Bed</gstr>
+        <gstr name="GDJobRole.prof_biologist.name">Biologist</gstr>
+        <gstr name="GDJobRole.prof_biologist.desc">Handler of living organisms</gstr>
+        <gstr name="GDJobRole.prof_haul.name">Hauler</gstr>
+        <gstr name="GDJobRole.prof_haul.desc">Hauls Items to and from containers</gstr>
+
+        <!-- Objects -->
+        <gstr name="EItemContainer.gen_item_container.name">Item Container</gstr>
+        <gstr name="EItemContainer.gen_item_container.desc">A small item crate containing items on the ground.</gstr>
+        <gstr name="EStructure.cs_dirt.name">Dirt</gstr>
+        <gstr name="EStructure.cs_dirt.desc">Apparently even on an alien world dirt is everywhere.</gstr>
+        <gstr name="EStructure.cs_stone.name">Stone</gstr>
+        <gstr name="EStructure.cs_stone.desc">It's harder than dirt and I think it's made of different stuff.</gstr>
+        <gstr name="EStructure.cs_ironore.name">Hematite</gstr>
+        <gstr name="EStructure.cs_ironore.desc">A mineral form of iron oxide.</gstr>
+        <gstr name="EStructure.cs_coalore.name">Anthracite</gstr>
+        <gstr name="EStructure.cs_coalore.desc">A very hard and relatively pure version of carbon that burns cleaner than coal.</gstr>
+        <gstr name="EStructure.cs_copperore.name">Azurite</gstr>
+        <gstr name="EStructure.cs_copperore.desc">A soft mineral form of copper.</gstr>
+
+        <gstr name="EStructure.elevator.name">Elevator</gstr>
+        <gstr name="EStructure.elevator.desc">Items dropped off from surface vehicles will appear next to the elevator.</gstr>
+        <gstr name="ECoalGenerator.power_generator.name">Coal Generator</gstr>
+        <gstr name="ECoalGenerator.power_generator.desc">Burns anthracite to generate power. Simple, messy and effective.</gstr>
+        <gstr name="EGTGenerator.geothermal_generator.name">Geothermal Generator</gstr>
+        <gstr name="EGTGenerator.geothermal_generator.desc">By tapping thermal vents, we can generate sustainable power that doesn't require fuel. Must be placed over thermal vent.</gstr>
+        <gstr name="EStructure.o2generator.name">O2 Generator</gstr>
+        <gstr name="EStructure.o2generator.desc">After extensive testing we've learned that humans, apparently, can't live without oxygen. (Currently does nothing)</gstr>
+        <gstr name="EStructure.water_pump.name">Water Pump</gstr>
+        <gstr name="EStructure.water_pump.desc">Hoovers up water and spits it out in to water conduits. This thing really sucks. Must be built on water.</gstr>
+        <gstr name="EResearchStation.research_bench.name">Research Station</gstr>
+        <gstr name="EResearchStation.research_bench.desc">A scientist will use this station to research various projects. Some research topics require discoveries.</gstr>
+
+        <gstr name="EStructure.crop_field.name">Crop Field</gstr>
+        <gstr name="EStructure.crop_field.desc">A small field to grow crops. Must be placed on dirt.</gstr>
+        <gstr name="EStructure.clone_chamber.name">Clone Chamber</gstr>
+        <gstr name="EStructure.clone_chamber.desc">No longer are we required to toil in the unpredictable task of normal procreation. The clone chamber allows us to create the ideal colonists.</gstr>
+
+        <gstr name="EStructure.stasis_capsule.name">Stasis Capsule</gstr>
+        <gstr name="EStructure.stasis_capsule.desc">The only means of safely traveling from one star to another without dying of old age.</gstr>
+        <gstr name="EStructure.stasis_capsule_broken.name">Opened Stasis Capsule</gstr>
+        <gstr name="EStructure.stasis_capsule_broken.desc">This stasis capsule has already been opened. Internal logs show the capsule was opened at the planned revival time. There is no sign of the original occupant.</gstr>
+        <gstr name="EStructure.inactive_robot.name">Inactive Robot</gstr>
+        <gstr name="EStructure.inactive_robot.desc">This robot doesn't appear to be damaged and is just powered off.</gstr>
+
+        <gstr name="EDoor.door_single.name">Door</gstr>
+        <gstr name="EDoor.door_single.desc">With the miracle of modern science the door opens and closes all by itself.</gstr>
+
+        <gstr name="EStructure.storage_crate_mk1.name">Storage Crate</gstr>
+        <gstr name="EStructure.storage_crate_mk1.desc">A general purpose container for storing non-food items.</gstr>
+        <gstr name="EStructure.storage_crate_mk1_v.name">Storage Crate (V)</gstr>
+        <gstr name="EStructure.storage_crate_mk1_v.desc">By rotating the storage container vertically we can store items more efficiently</gstr>
+        <gstr name="EStructure.storage_fridge.name">Refrigerator</gstr>
+        <gstr name="EStructure.storage_fridge.desc">Stores raw food ingredients and meals.</gstr>
+        <gstr name="EStructure.storage_fooddispenser.name">Food Dispenser</gstr>
+        <gstr name="EStructure.storage_fooddispenser.desc">A place to store and retrieve meals.</gstr>
+
+        <gstr name="EBed.single_bed.name">Bed</gstr>
+        <gstr name="EBed.single_bed.desc">A far more comfortable option than the floor while being unconscious.</gstr>
+
+        <gstr name="EStructure.standing_lamp.name">Standing Lamp</gstr>
+        <gstr name="EStructure.standing_lamp.desc">Illuminating</gstr>
+        <gstr name="EWallObject.wall_light_01.name">Wall Light</gstr>
+        <gstr name="EWallObject.wall_light_01.desc">Illuminating</gstr>
+
+        <gstr name="EFurnLamp.night_stand.name">Night Stand</gstr>
+        <gstr name="EFurnLamp.night_stand.desc">Night time underground is probably hard to notice</gstr>
+
+        <gstr name="EStructure.plant_pot.name">Plant Pot</gstr>
+        <gstr name="EStructure.plant_pot.desc">A nice way to spruce up the place</gstr>
+
+        <gstr name="EAeroponicsFarm.aeroponicsfarm.name">Aeroponics Farm</gstr>
+        <gstr name="EAeroponicsFarm.aeroponicsfarm.desc">A controlled environment for plant growth that boosts yield and reduces growth times</gstr>
+        <gstr name="EAlgaeFarm.algaefarm.name">Algae Farm</gstr>
+        <gstr name="EAlgaeFarm.algaefarm.desc">A sophistacated way to grow beneficial sludge.</gstr>
+        <gstr name="EAquarium.fishtank.name">Fish Tank</gstr>
+        <gstr name="EAquarium.fishtank.desc">A decorative object to keep colonists happy. Don't tap the glass.</gstr>
+        <gstr name="EAquarium.aquarium.name">Aquarium</gstr>
+        <gstr name="EAquarium.aquarium.desc">A place for growing and harvesting fish.</gstr>
+        <gstr name="EStructure.food_processor.name">Food Processor</gstr>
+        <gstr name="EStructure.food_processor.desc">It slices, dices and grinds. Oh my.</gstr>
+
+        <gstr name="EStructure.medical_cabinet.name">Medical Cabinet</gstr>
+        <gstr name="EStructure.medical_cabinet.desc">Medical Cabinet</gstr>
+
+        <gstr name="ESeatEntity.bench.name">Bench</gstr>
+        <gstr name="ESeatEntity.bench.desc">A nice place to sit and relax.</gstr>
+        <gstr name="ESeatEntity.chair.name">Chair</gstr>
+        <gstr name="ESeatEntity.chair.desc">A nice place to sit and relax</gstr>
+
+        <gstr name="EStructure.cook_station.name">Cooking Station</gstr>
+        <gstr name="EStructure.cook_station.desc">A place to make meals</gstr>
+        <gstr name="ESmelter.ore_refinery.name">Ore Refinery</gstr>
+        <gstr name="ESmelter.ore_refinery.desc">Refine raw ore in to ingots</gstr>
+        <gstr name="EStructure.bio_refiner.name">Bio-Refiner</gstr>
+        <gstr name="EStructure.bio_refiner.desc">A station to refine biomaterials.</gstr>
+        <gstr name="ERobotAssembler.robot_assembler.name">Robot Assembler</gstr>
+        <gstr name="ERobotAssembler.robot_assembler.desc">Station for constructing robots</gstr>
+        <gstr name="ETechPrinter.tech_printer.name">Tech Printer</gstr>
+        <gstr name="ETechPrinter.tech_printer.desc">An advanced 3D printer used to construct electrical and mechanical technologies.</gstr>
+        <gstr name="EVehicleAssembler.vehicle_assembly_station.name">Vehicle Assembly Station</gstr>
+        <gstr name="EVehicleAssembler.vehicle_assembly_station.desc">Remotely control the vehicle bay machinery for the construction of vehicles.</gstr>
+        <gstr name="EMapTable.map_table.name">Map Table</gstr>
+        <gstr name="EMapTable.map_table.desc">In order to monitor surface operations we'll need a map table.</gstr>
+        <gstr name="ERobotRecycler.robot_recycler.name">Robot Recycler</gstr>
+        <gstr name="ERobotRecycler.robot_recycler.desc">It slices, it dices. Recycle robots to get back construction materials. Set robots for recycle from a robots info panel.</gstr>
+
+        <gstr name="ERobotRechargeStation.charge_pad.name">Charge Pad</gstr>
+        <gstr name="ERobotRechargeStation.charge_pad.desc">Robots will use charge pads to restore power</gstr>
+
+        <gstr name="EMedBed.medical_bed.name">Medi-Bed</gstr>
+        <gstr name="EMedBed.medical_bed.desc">Heals the sick as long as there is a good doctor</gstr>
+
+        <gstr name="EStructure.eating_table.name">Eating Table</gstr>
+        <gstr name="EStructure.eating_table.desc">A place for up to four colonists to enjoy a meal</gstr>
+
+        <gstr name="EWall.wall_metal.name">Wall</gstr>
+        <gstr name="EWall.wall_metal.desc">A consistent reminder not to walk in that direction.</gstr>
+        <gstr name="EStructure.wall_debris.name">Wall Debris</gstr>
+        <gstr name="EStructure.wall_debris.desc">The crumbling remains of the Mercury facility. Can be mined for resources.</gstr>
+
+        <gstr name="EPowerConduit.power_conduit.name">Power Conduit</gstr>
+        <gstr name="EPowerConduit.power_conduit.desc">Speedy electron travel to machines in need.</gstr>
+        <gstr name="EWaterConduit.water_conduit.name">Water Conduit</gstr>
+        <gstr name="EWaterConduit.water_conduit.desc">Perfect way to get water to machines in need.</gstr>
+
+        <gstr name="EStructure.medical_cannister.name">Medical Chest</gstr>
+        <gstr name="EStructure.medical_cannister.desc">Medical Chest</gstr>
+        <gstr name="EStructure.organics_cannister.name">Organics Chest</gstr>
+        <gstr name="EStructure.organics_cannister.desc">A cargo chest containing various organic materials</gstr>
+        <gstr name="EStructure.tech_cannister.name">Tech Chest</gstr>
+        <gstr name="EStructure.tech_cannister.desc">A cargo chest containing various technology items.</gstr>
+        <gstr name="EStructure.minerals_cannister.name">Minerals Chest</gstr>
+        <gstr name="EStructure.minerals_cannister.desc">Minerals Chest</gstr>
+        <gstr name="EStructure.food_cannister.name">Food Chest</gstr>
+        <gstr name="EStructure.food_cannister.desc">Food Chest</gstr>
+        <gstr name="EStructure.start_supply_cannister.name">Supply Chest</gstr>
+        <gstr name="EStructure.start_supply_cannister.desc">There is a note attached to the side that simply says: "Good Luck. -A.K."</gstr>
+
+        <gstr name="ESurfaceFacility.main_facility.desc">The surface side of the research facility in all it's glory. While it shows some age, everything appears to be in working order.</gstr>
+        <!-- Floors -->
+        <gstr name="EFloor.floor_dirt.name">Dirt</gstr>
+        <gstr name="EFloor.floor_dirt.desc">It's a bit crunchy under ones feet.</gstr>
+        <gstr name="EFloor.floor_thermalvent.name">Thermal Vent</gstr>
+        <gstr name="EFloor.floor_thermalvent.desc">This could be a good potential source of power, if we can learn to harness it.</gstr>
+        <gstr name="EFloor.floor_stone.name">Stone</gstr>
+        <gstr name="EFloor.floor_stone.desc">Solid</gstr>
+        <gstr name="EFloor.floor_water.name">Water</gstr>
+        <gstr name="EFloor.floor_water.desc">At least we're pretty sure it's water.</gstr>
+
+        <gstr name="EFloor.floor_ironore.name">Hematite</gstr>
+        <gstr name="EFloor.floor_ironore.desc">A mineral form of iron oxide.</gstr>
+        <gstr name="EFloor.floor_copperore.name">Azurite</gstr>
+        <gstr name="EFloor.floor_copperore.desc">A soft mineral form of copper</gstr>
+        <gstr name="EFloor.floor_coal.name">Anthracite</gstr>
+        <gstr name="EFloor.floor_coal.desc">A very hard and relatively pure version of carbon that burns cleaner than coal.</gstr>
+
+        <gstr name="EFloor.rm_floor_kitchen.name">Kitchen Floor</gstr>
+        <gstr name="EFloor.rm_floor_kitchen.desc">Kitchen is used for making tasty food.</gstr>
+        <gstr name="EFloor.rm_floor_hallway.name">Hallway Floor</gstr>
+        <gstr name="EFloor.rm_floor_hallway.desc">Great for getting from one room to another.</gstr>
+        <gstr name="EFloor.rm_floor_storage.name">Storage Floor</gstr>
+        <gstr name="EFloor.rm_floor_storage.desc">A place for storage containers</gstr>
+        <gstr name="EFloor.rm_floor_utility.name">Utility Floor</gstr>
+        <gstr name="EFloor.rm_floor_utility.desc">Utility Floor</gstr>
+        <gstr name="EFloor.rm_floor_engineering.name">Refinery Floor</gstr>
+        <gstr name="EFloor.rm_floor_engineering.desc">A room for refining raw ingredients in to usable materials.</gstr>
+        <gstr name="EFloor.rm_floor_assembly.name">Assembly Lab Floor</gstr>
+        <gstr name="EFloor.rm_floor_assembly.desc">For assembling robots and advanced components</gstr>
+        <gstr name="EFloor.rm_floor_science.name">Science Lab Floor</gstr>
+        <gstr name="EFloor.rm_floor_science.desc">The science lab is crucial to the research of new technologies.</gstr>
+        <gstr name="EFloor.rm_floor_recreation.name">Recreation Floor</gstr>
+        <gstr name="EFloor.rm_floor_recreation.desc">A place for your colonists to relax, have fun and fill their stomach.</gstr>
+        <gstr name="EFloor.rm_floor_bedroom.name">Bedroom Floor</gstr>
+        <gstr name="EFloor.rm_floor_bedroom.desc">A dedicated space for your colonists to play dead for a while.</gstr>
+        <gstr name="EFloor.rm_floor_medbay.name">MedBay Floor</gstr>
+        <gstr name="EFloor.rm_floor_medbay.desc">Any proper facility needs a place to heal the sick.</gstr>
+        <gstr name="EFloor.rm_floor_biolab.name">Bio-Lab Floor</gstr>
+        <gstr name="EFloor.rm_floor_biolab.desc">A space for growing algae, fish and better plant growth via aeroponics.</gstr>
+        <gstr name="EFloor.rm_floor_cafeteria.name">Cafeteria Floor</gstr>
+        <gstr name="EFloor.rm_floor_cafeteria.desc">A dedicated space for the storage and consumption of food.</gstr>
+        <gstr name="EFloor.rm_floor_operations.name">Operations Floor</gstr>
+        <gstr name="EFloor.rm_floor_operations.desc">A room for managing and monitoring surface activity</gstr>
+
+        <!-- Items -->
+        <gstr name="GDItem.res_mineral.name">Mineral Compound</gstr>
+        <gstr name="GDItem.res_mineral.desc">A mixture of minerals that can be further refined in to usable material.</gstr>
+        <gstr name="GDItem.res_structresin.name">Structure Resin</gstr>
+        <gstr name="GDItem.res_structresin.desc">A malleable material that cures in to a dense and durable structure.</gstr>
+        <gstr name="GDItem.res_ironore.name">Hematite</gstr>
+        <gstr name="GDItem.res_ironore.desc">A mineral form of iron oxide</gstr>
+        <gstr name="GDItem.res_coalore.name">Anthracite</gstr>
+        <gstr name="GDItem.res_coalore.desc">A harder and purer form of carbon than coal.</gstr>
+        <gstr name="GDItem.res_copperore.name">Azurite</gstr>
+        <gstr name="GDItem.res_copperore.desc">A soft mineral form of copper</gstr>
+        <gstr name="GDItem.res_titaniumore.name">Rutile</gstr>
+        <gstr name="GDItem.res_titaniumore.desc">A mineral composed primarily of titanium dioxide.</gstr>
+        <gstr name="GDItem.res_goldore.name">Unrefined Gold</gstr>
+        <gstr name="GDItem.res_goldore.desc">Raw, unprocessed, gold metal.</gstr>
+        <gstr name="GDItem.res_sand.name">Sand</gstr>
+        <gstr name="GDItem.res_sand.desc">Granular material composed of finely divided rock and mineral particles including silica.</gstr>
+
+        <gstr name="GDItem.res_hemp.name">Hemp</gstr>
+        <gstr name="GDItem.res_hemp.desc">A commonly misunderstood crop that can be used to make plastics</gstr>
+        <gstr name="GDItem.res_glowbulb.name">Lumen Bulb</gstr>
+        <gstr name="GDItem.res_glowbulb.desc">A glowing plant bulb containing a cluster of sticky fibrous membranes.</gstr>
+        <gstr name="GDItem.res_cloth.name">Cloth</gstr>
+        <gstr name="GDItem.res_cloth.desc">I fibrous and comfy material used to make comfy things.</gstr>
+        <gstr name="GDItem.res_potato.name">Potato</gstr>
+        <gstr name="GDItem.res_potato.desc">Tastes great in a stew.</gstr>
+        <gstr name="GDItem.res_wheatthorn.name">Wheat Thorn</gstr>
+        <gstr name="GDItem.res_wheatthorn.desc">A strange and pointy grain plant that can be processed to make flour.</gstr>
+        <gstr name="GDItem.res_tanglefruit.name">Tangle Fruit</gstr>
+        <gstr name="GDItem.res_tanglefruit.desc">A sweet fruit that looks a bit like an orange banana.</gstr>
+        <gstr name="GDItem.res_greenalgae.name">Green Algae</gstr>
+        <gstr name="GDItem.res_greenalgae.desc">An edible polyphyletic organism. This could also be used to generate nutrients for better plant growth.</gstr>
+        <gstr name="GDItem.res_arrowheadfungus.name">Arrow Head Fungus</gstr>
+        <gstr name="GDItem.res_arrowheadfungus.desc">A large blue capped edible fungus.</gstr>
+        <gstr name="GDItem.res_spongestalk.name">Sponge Stalk</gstr>
+        <gstr name="GDItem.res_spongestalk.desc">A spongy, and sorta slimy, vegetable crop.</gstr>
+        <gstr name="GDItem.res_bluefish.name">Raw Bluefish</gstr>
+        <gstr name="GDItem.res_bluefish.desc">It's a bit slimy. Probably best to cook it first.</gstr>
+        <gstr name="GDItem.res_flour.name">Flour</gstr>
+        <gstr name="GDItem.res_flour.desc">A powdery mixture made from processing Wheat Thorn. I think we can make some bread with it. </gstr>
+        <gstr name="GDItem.res_fishchunks.name">Fish Chunks</gstr>
+        <gstr name="GDItem.res_fishchunks.desc">Processed fishy bits. Still a good idea to cook it first.</gstr>
+        <gstr name="GDItem.res_biowaste.name">Biowaste</gstr>
+        <gstr name="GDItem.res_biowaste.desc">Something smells funny.</gstr>
+        <gstr name="GDItem.res_plantnutrients.name">Plant Nutrients</gstr>
+        <gstr name="GDItem.res_plantnutrients.desc">Required liquid nutrition for growing plants in the Aeroponics Farm.</gstr>
+        <gstr name="GDItem.res_techfragments.name">Tech Fragments</gstr>
+        <gstr name="GDItem.res_techfragments.desc">Various technology fragments that can be used to further research.</gstr>
+        <gstr name="GDItem.res_geneticsamples.name">Genetic Samples</gstr>
+        <gstr name="GDItem.res_geneticsamples.desc">Various gene</gstr>
+        <gstr name="GDItem.res_glass.name">Glass</gstr>
+        <gstr name="GDItem.res_glass.desc">An amorphous solid derived from silica.</gstr>
+        <gstr name="GDItem.res_silicon.name">Silicon Carbide</gstr>
+        <gstr name="GDItem.res_silicon.desc">A hard and brittle crystalline solid used in electronics.</gstr>
+
+
+        <gstr name="GDItem.res_iron.name">Iron Ingot</gstr>
+        <gstr name="GDItem.res_iron.desc">The fourth most abundant element in the Earth's crust. It's rather abundant here too.</gstr>
+        <gstr name="GDItem.res_copper.name">Copper Ingot</gstr>
+        <gstr name="GDItem.res_copper.desc">A soft metal with high thermal and electrical conductivity. Great for electronics.</gstr>
+        <gstr name="GDItem.res_steel.name">Steel Ingot</gstr>
+        <gstr name="GDItem.res_steel.desc">A strong metal alloy composed of iron and carbon</gstr>
+        <gstr name="GDItem.res_titanium.name">Titanium Ingot</gstr>
+        <gstr name="GDItem.res_titanium.desc">A lustrous metal with a silver color, low density and high strength.</gstr>
+        <gstr name="GDItem.res_gold.name">Gold Ingot</gstr>
+        <gstr name="GDItem.res_gold.desc">A dense, malleable precious metal with impressive conductive properties.</gstr>
+
+        <gstr name="GDItem.meal_simple.name">Cooked Potato</gstr>
+        <gstr name="GDItem.meal_simple.desc">Not all that filling, but better than a raw potato</gstr>
+        <gstr name="GDItem.meal_emergencyration.name">Emergency Ration</gstr>
+        <gstr name="GDItem.meal_emergencyration.desc">I'm pretty sure this is an emergency.</gstr>
+        <gstr name="GDItem.meal_cavesalad.name">Cave Salad</gstr>
+        <gstr name="GDItem.meal_cavesalad.desc">A multi-colored array of vegetable goodness.</gstr>
+        <gstr name="GDItem.meal_friedfish.name">Fried Fish</gstr>
+        <gstr name="GDItem.meal_friedfish.desc">Alien fish cooked to perfection.</gstr>
+        <gstr name="GDItem.meal_sushi.name">Sushi</gstr>
+        <gstr name="GDItem.meal_sushi.desc">Now with 100% more raw fish.</gstr>
+        <gstr name="GDItem.meal_fishnchips.name">Fish &amp; Chips</gstr>
+        <gstr name="GDItem.meal_fishnchips.desc">Far more filling than just a potato.</gstr>
+        <gstr name="GDItem.meal_tangleloaf.name">Tangle Loaf</gstr>
+        <gstr name="GDItem.meal_tangleloaf.desc">Great at holiday parties.</gstr>
+        <gstr name="GDItem.meal_fishsandwich.name">Fish Sandwich</gstr>
+        <gstr name="GDItem.meal_fishsandwich.desc">Maybe it's the environment, but this is the best sandwich I've ever had.</gstr>
+        <gstr name="GDItem.meal_bread.name">Bread</gstr>
+        <gstr name="GDItem.meal_bread.desc">Just like Mom used to make.</gstr>
+
+        <gstr name="GDItem.res_bioplastic.name">Bioplastic</gstr>
+        <gstr name="GDItem.res_bioplastic.desc">A durable, but biodegradable, plastic used for construction</gstr>
+        <gstr name="GDItem.res_electronics.name">Electronics</gstr>
+        <gstr name="GDItem.res_electronics.desc">Various electronic parts used in advanced construction</gstr>
+        <gstr name="GDItem.res_processor.name">Processor</gstr>
+        <gstr name="GDItem.res_processor.desc">Sophisticated electronic logic processing device.</gstr>
+        <gstr name="GDItem.res_mechparts.name">Fasteners</gstr>
+        <gstr name="GDItem.res_mechparts.desc">Various screws, nuts and bolts.</gstr>
+        <gstr name="GDItem.res_hardenedmechparts.name">Hardened Fasteners</gstr>
+        <gstr name="GDItem.res_hardenedmechparts.desc">Durable fasteners using superior materials.</gstr>
+        <gstr name="GDItem.res_rubber.name">Rubber</gstr>
+        <gstr name="GDItem.res_rubber.desc">A tough elastic polymeric substance.</gstr>
+
+        <!-- Item Rarity -->
+        <gstr name="GDItemRarity.ir_common.name">Common</gstr>
+        <gstr name="GDItemRarity.ir_uncommon.name">Uncommon</gstr>
+        <gstr name="GDItemRarity.ir_rare.name">Rare</gstr>
+        <gstr name="GDItemRarity.ir_unique.name">Unique</gstr>
+
+        <!-- Item Types -->
+        <gstr name="GDItemType.it_mineral.name">Mineral</gstr>
+        <gstr name="GDItemType.it_metal.name">Metal</gstr>
+        <gstr name="GDItemType.it_raworganic.name">Raw Organic</gstr>
+        <gstr name="GDItemType.it_refinedorganic.name">Refined Organic</gstr>
+        <gstr name="GDItemType.it_technology.name">Tech</gstr>
+        <gstr name="GDItemType.it_food.name">Meal</gstr>
+        <gstr name="GDItemType.it_rawfood.name">Raw Food</gstr>
+        <gstr name="GDItemType.it_fuel.name">Fuel</gstr>
+        <gstr name="GDItemType.it_vehicle_equipment.name">Vehicle Equipment</gstr>
+        <gstr name="GDItemType.it_object_equipment.name">Machine Equipment</gstr>
+        <gstr name="GDItemType.it_colonist_equipment.name">Colonist Equipment</gstr>
+
+        <!-- Recipes -->
+        <gstr name="GDRecipe.recipe_ironingot.name">Iron Ingot</gstr>
+        <gstr name="GDRecipe.recipe_copperingot.name">Copper Ingot</gstr>
+        <gstr name="GDRecipe.recipe_steelingot.name">Steel Ingot</gstr>
+        <gstr name="GDRecipe.recipe_electronics.name">Electronics</gstr>
+        <gstr name="GDRecipe.recipe_mechparts.name">Fasteners</gstr>
+        <gstr name="GDRecipe.recipe_hardenedmechparts.name">Hardened Fasteners</gstr>
+        <gstr name="GDRecipe.recipe_bread.name">Bread</gstr>
+        <gstr name="GDRecipe.recipe_simple_meal.name">Cooked Potatoes</gstr>
+        <gstr name="GDRecipe.recipe_flour.name">Flour</gstr>
+        <gstr name="GDRecipe.recipe_fishchunks.name">Fish Chunks</gstr>
+        <gstr name="GDRecipe.recipe_fishnchips.name">Fish &amp; Chips</gstr>
+        <gstr name="GDRecipe.recipe_friedfish.name">Fried Fish</gstr>
+        <gstr name="GDRecipe.recipe_fishsandwich.name">Fish Sandwich</gstr>
+        <gstr name="GDRecipe.recipe_cavesalad.name">Cave Salad</gstr>
+        <gstr name="GDRecipe.recipe_sushi.name">Sushi</gstr>
+        <gstr name="GDRecipe.recipe_tangleloaf.name">Tangle Loaf</gstr>
+        <gstr name="GDRecipe.recipe_plantnutrients.name">Plant Nutrients</gstr>
+        <gstr name="GDRecipe.recipe_titaniumingot.name">Titanium Ingot</gstr>
+        <gstr name="GDRecipe.recipe_goldingot.name">Gold Ingot</gstr>
+        <gstr name="GDRecipe.recipe_siliconcarbide.name">Silicon Carbide</gstr>
+        <gstr name="GDRecipe.recipe_glass.name">Glass</gstr>
+
+        <gstr name="GDColonistRecipe.crecipe_walkerbot.name">Worker Bot</gstr>
+        <gstr name="GDColonistRecipe.crecipe_deepdriller.name">Deep Driller Bot</gstr>
+
+        <!-- Crops -->
+        <gstr name="GDCropPlant.crop_hemp.name">Hemp</gstr>
+        <gstr name="GDCropPlant.crop_potato.name">Potatoes</gstr>
+        <gstr name="GDCropPlant.crop_glowbulb.name">Lumen Bulbus</gstr>
+        <gstr name="GDCropPlant.crop_spongestalk.name">Sponge Stalk</gstr>
+        <gstr name="GDCropPlant.crop_arrowheadfungus.name">Arrow Head Fungus</gstr>
+        <gstr name="GDCropPlant.crop_tanglefruit.name">Tangle Fruit</gstr>
+        <gstr name="GDCropPlant.crop_crimsonbloom.name">Crimson Bloom</gstr>
+        <gstr name="GDCropPlant.crop_thornwheat.name">Thorn Wheat</gstr>
+        <gstr name="GDCropFish.fishcrop_bluefish.name">Blue Fish</gstr>
+        <gstr name="GDCropAlgae.crop_greenalgae.name">Green Algae</gstr>
+
+        <!-- Plants -->
+        <gstr name="EPlant.plant_hemp.name">Hemp</gstr>
+        <gstr name="EPlant.plant_potato.name">Potato</gstr>
+        <gstr name="EPlant.plant_growbulb.name">Lumen Bulbus</gstr>
+        <gstr name="EPlant.plant_crimsonbloom.name">Crimson Bloom</gstr>
+        <gstr name="EPlant.plant_spongestalk.name">Sponge Stalk</gstr>
+        <gstr name="EPlant.plant_arrowheadfungus.name">Arrow Head Fungus</gstr>
+        <gstr name="EPlant.plant_tanglefruit.name">Tangle Fruit</gstr>
+        <gstr name="EPlant.plant_thornwheat.name">Thorn Wheat</gstr>
+
+        <!-- Research -->
+        <gstr name="GDResearch.rsch_foodprep.name">Food Prep</gstr>
+        <gstr name="GDResearch.rsch_foodprep.desc">Unlocks the ability to make proper meals and raw food storage.</gstr>
+        <gstr name="GDResearch.rsch_basicproduction.name">Ore Processing</gstr>
+        <gstr name="GDResearch.rsch_basicproduction.desc">We'll need to start processing metals if we hope to rebuild the facility.</gstr>
+        <gstr name="GDResearch.rsch_utility.name">Utilities</gstr>
+        <gstr name="GDResearch.rsch_utility.desc">I'm sure there is a source of water around here somewhere.</gstr>
+        <gstr name="GDResearch.rsch_powergen.name">Geothermal Power</gstr>
+        <gstr name="GDResearch.rsch_powergen.desc">By tapping thermal vents, we can generate sustainable power that doesn't require fuel.</gstr>
+        <gstr name="GDResearch.rsch_biology.name">Xenobiology</gstr>
+        <gstr name="GDResearch.rsch_biology.desc">Something smells fishy.</gstr>
+        <gstr name="GDResearch.rsch_metallurgy.name">Metallurgy</gstr>
+        <gstr name="GDResearch.rsch_metallurgy.desc">Time to make the alloys.</gstr>
+        <gstr name="GDResearch.rsch_cloning.name">Cloning</gstr>
+        <gstr name="GDResearch.rsch_cloning.desc">The questionable ability to make new people.</gstr>
+        <gstr name="GDResearch.rsch_recreation.name">Recreation</gstr>
+        <gstr name="GDResearch.rsch_recreation.desc">Nothing quite like a good sit down.</gstr>
+        <gstr name="GDResearch.rsch_decor.name">Decor</gstr>
+        <gstr name="GDResearch.rsch_decor.desc">Hopefully some decorations will calm people down around here.</gstr>
+        <gstr name="GDResearch.rsch_relaxation.name">Relaxation</gstr>
+        <gstr name="GDResearch.rsch_relaxation.desc">Nothing quite like a good sit down.</gstr>
+        <gstr name="GDResearch.rsch_basicrobotics.name">Basic Robotics</gstr>
+        <gstr name="GDResearch.rsch_basicrobotics.desc">Physical labor is great, especially when it's not me.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier2.name">Robotics II</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier2.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier3.name">Robotics III</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier3.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier4.name">Robotics IV</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier4.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier5.name">Robotics V</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier5.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier6.name">Robotics VI</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier6.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_techprinting.name">Tech Printing</gstr>
+        <gstr name="GDResearch.rsch_techprinting.desc">More advanced component creation.</gstr>
+        <gstr name="GDResearch.rsch_dining.name">Fine Dining</gstr>
+        <gstr name="GDResearch.rsch_dining.desc">Having a dedicated eating area will be good for morale.</gstr>
+        <gstr name="GDResearch.rsch_foodprocessing.name">Food Processing</gstr>
+        <gstr name="GDResearch.rsch_foodprocessing.desc">Unlocks the food processor and additional meal recipes.</gstr>
+        <gstr name="GDResearch.rsch_medical.name">Medical</gstr>
+        <gstr name="GDResearch.rsch_medical.desc">What is with all these hand cramps?</gstr>
+        <gstr name="GDResearch.rsch_aeroponics.name">Aeroponics</gstr>
+        <gstr name="GDResearch.rsch_aeroponics.desc">A superior method of plant cultivation that doesn't require one to get their hands dirty.</gstr>
+        <gstr name="GDResearch.rsch_botany.name">Xenobotany</gstr>
+        <gstr name="GDResearch.rsch_botany.desc">The scientific study of plants &amp; algae.</gstr>
+        <gstr name="GDResearch.rsch_surfaceanalysis.name">Surface Analysis</gstr>
+        <gstr name="GDResearch.rsch_surfaceanalysis.desc">The surface of this world needs to be explored. This research project will allow us to construct our first remote vehicle to survey the surface.</gstr>
+        <gstr name="GDResearch.rsch_surfacemining.name">Surface Mining</gstr>
+        <gstr name="GDResearch.rsch_surfacemining.desc">Now that we have a better idea of what's out there, we need to start harvesting those resources for further expansion.</gstr>
+        <gstr name="GDResearch.rsch_vehiclehovertech.name">Hover Tech</gstr>
+        <gstr name="GDResearch.rsch_vehiclehovertech.desc">Unlocks new hover variants of existing vehicles that allow traversal over water.</gstr>
+        <gstr name="GDResearch.rsch_silicaprocessing.name">Silica Processing</gstr>
+        <gstr name="GDResearch.rsch_silicaprocessing.desc">Processing silica will allow us to craft glass and silicon carbide for advanced technologies.</gstr>
+        <gstr name="GDResearch.rsch_flora_crimsonbloom.name">Crimson Bloom</gstr>
+        <gstr name="GDResearch.rsch_flora_crimsonbloom.desc">A decorative plant with a crimson colored flower.</gstr>
+        <gstr name="GDResearch.rsch_objectequipment_t1.name">Utility Equipment</gstr>
+        <gstr name="GDResearch.rsch_objectequipment_t1.desc">This will unlock various equipment that can be crafted to improve machines and objects.</gstr>
+        <gstr name="GDResearch.rsch_vehicleequipment_t1.name">Vehicle Equipment</gstr>
+        <gstr name="GDResearch.rsch_vehicleequipment_t1.desc">This will unlock various equipment that can be crafted to improve vehicles.</gstr>
+        <gstr name="GDResearch.rsch_colonistequipment_t1.name">Colonist Gear</gstr>
+        <gstr name="GDResearch.rsch_colonistequipment_t1.desc">This will unlock various equipment that can be crafted and equipped by colonists.</gstr>
+
+        <!-- Colonist Equipment Items -->
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.name">Back Brace</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.desc">Muscles {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.name">Sturdy Back Brace</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.desc">Muscles {0}</gstr>
+
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.name">Comfy Shoes</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.desc">Athletics {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.name">Running Shoes</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.desc">Athletics {0}</gstr>
+
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.name">Sturdy Frame</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.desc">Muscles {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.name">Heavy Frame</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.desc">Muscles {0}</gstr>
+
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.name">Sturdy Servos</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.desc">Athletics {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.name">Heavy Servos</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.desc">Athletics {0}</gstr>
+
+
+        <!-- Vehicle Equipment Items -->
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.name">Improved Engine</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.desc">Movement Speed {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.name">Advanced Engine</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.desc">Movement Speed {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.name">Superior Engine</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.desc">Movement Speed {0}%</gstr>
+
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.name">Improved Scanner</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.desc">Scan Time {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.name">Advanced Scanner</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.desc">Scan Time {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.name">Superior Scanner</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.desc">Scan Time {0}%</gstr>
+
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.name">Improved Mining Laser</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.desc">Mining Time {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.name">Advanced Mining Laser</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.desc">Mining Time {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.name">Superior Mining Laser</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.desc">Mining Time {0}%</gstr>
+
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.name">Cargo Expander I</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.desc">Vehicle Cargo Space {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.name">Cargo Expander II</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.desc">Vehicle Cargo Space {0}%</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.name">Cargo Expander III</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.desc">Vehicle Cargo Space {0}%</gstr>
+
+        <!-- Object Equipment Items -->
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.name">Craft Efficiency I</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.desc">Double Output Chance {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.name">Craft Efficiency II</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.desc">Double Output Chance {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.name">Craft Efficiency III</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.desc">Double Output Chance {0}%</gstr>
+
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.name">Improved Power Supply</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.desc">Power Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.name">Advanced Power Supply</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.desc">Power Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.name">Superior Power Supply</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.desc">Power Consumption {0}%</gstr>
+
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.name">Improved Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.desc">Power Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.name">Advanced Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.desc">Power Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.name">Superior Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.desc">Power Output {0}%</gstr>
+
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.name">Improved Inlet Valve</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.desc">Water Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.name">Advanced Inlet Valve</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.desc">Water Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.name">Superior Inlet Valve</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.desc">Water Consumption {0}%</gstr>
+
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.name">Improved Pump Motor</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.desc">Water Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.name">Advanced Pump Motor</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.desc">Water Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.name">Superior Pump Motor</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.desc">Water Output {0}%</gstr>
+
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.name">Storage Expander I</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.desc">Inventory Capacity {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.name">Storage Expander II</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.desc">Inventory Capacity {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.name">Storage Expander III</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.desc">Inventory Capacity {0}%</gstr>
+
+        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.name">Map Display Modes</gstr>
+        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.desc">Display Mode Options For Planet Map. Install in Map Table.</gstr>
+
+
+        <!-- Biomes -->
+        <gstr name="GDPlanetBiome.pbiome_scorched.name">Scorched Lands</gstr>
+        <gstr name="GDPlanetBiome.pbiome_scorched.desc">An extremely hot and dry area devoid of any flora.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tropicaldesert.name">Desert</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tropicaldesert.desc">A sea of sand dunes and extreme temperatures with very low moisture.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_desertscrub.name">Desert Scrubland</gstr>
+        <gstr name="GDPlanetBiome.pbiome_desertscrub.desc">Desert Scrubland</gstr>
+        <gstr name="GDPlanetBiome.pbiome_jungle.name">Crystal Fields</gstr>
+        <gstr name="GDPlanetBiome.pbiome_jungle.desc">Giant crystal structures cover this biome. A truly breathtaking sight. It’s unclear what caused such extensive crystalline growth above the surface.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_rainforest.name">Twisted Jungle</gstr>
+        <gstr name="GDPlanetBiome.pbiome_rainforest.desc">The bio diversity generated here in such a short period of time is astounding. A colorful array of thick vegetation and sweltering heat fill this region. Much of the vegetation is strangled by over sized vines that twist through the area.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_subtropicaldesert.name">Wastelands</gstr>
+        <gstr name="GDPlanetBiome.pbiome_subtropicaldesert.desc">While there is more moisture content here, there is little in the way of flora and fauna.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_chaparral.name">Chaparral</gstr>
+        <gstr name="GDPlanetBiome.pbiome_chaparral.desc">An area consisting of various shrub like plants and sparse grass.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tropicalgrassland.name">Grassland</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tropicalgrassland.desc">There is a sparse amount of large flora, but various grass like plants cover the area.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_forest.name">Shadow Forest</gstr>
+        <gstr name="GDPlanetBiome.pbiome_forest.desc">Dense vegetation blocks out nearly 90% of the radiant light and heat from the sun. Various bioluminescent plants grows within the darkness leaching nutrients from the surrounding tall trees.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_swamp.name">Swamp</gstr>
+        <gstr name="GDPlanetBiome.pbiome_swamp.desc">A heavily forested wetland. A small structure was found, but there are no signs of the occupant.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatedesert.name">Arid Plains</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatedesert.desc">A dry and dusty environment containing only small flora.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatescrub.name">Scrubland</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatescrub.desc">A dry and dusty environment containing only small flora.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperategrass.name">Blue Meadow</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperategrass.desc">Small rolling hills covered in a blue grass like plant. While there is some diversity in flora the blue grass is the predominant species.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperateforest.name">Fungal Forest</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperateforest.desc">Several different types of fungi grow in this region including large fungal stalks growing to over 20 feet in height. The outer skin of the larger specimen has a thick, bark like, exterior which serves to protect the fungi and support it’s massive size. The lack of seasonal transitions allows for extended growth of this fungus which results in its size.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatewetland.name">Wetlands</gstr>
+        <gstr name="GDPlanetBiome.pbiome_temperatewetland.desc">A relatively marshy area with tall grass like plants.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealdesert.name">Boreal Desert</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealdesert.desc">A cold, harsh and rocky area devoid of flora.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealscrub.name">Boreal Scrub</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealscrub.desc">A cold, harsh and rocky area with little flora.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealforest.name">Tendril Forest</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealforest.desc">Despite the cold and harsh climate a forest of tendril trees is prevalent. The outer layer of these plants is is smooth and waxy. This appears to aid in its ability to survive in the colder climate.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealmarsh.name">Frozen Marsh</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealmarsh.desc">The ground here is covered in permafrost and allows for little in the way of flora or fauna.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealrainforest.name">Tendril Rain Forest</gstr>
+        <gstr name="GDPlanetBiome.pbiome_borealrainforest.desc">Despite the cold and harsh climate a forest of tendril trees is prevalent. The outer layer of these plants is is smooth and waxy. This appears to aid in its ability to survive in the colder climate.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundrarocky.name">Polar Wasteland</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundrarocky.desc">Snow and ice as far as the eye can see.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundraarctic.name">Tundra</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundraarctic.desc">Snow and ice as far as the eye can see.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundrawet.name">Glacier</gstr>
+        <gstr name="GDPlanetBiome.pbiome_tundrawet.desc">Snow and ice, intermixed with frigid waters, as far as the eye can see.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_mountain.name">Mountain</gstr>
+        <gstr name="GDPlanetBiome.pbiome_mountain.desc">Mountain</gstr>
+        <gstr name="GDPlanetBiome.pbiome_freshwater.name">Fresh Water</gstr>
+        <gstr name="GDPlanetBiome.pbiome_freshwater.desc">Fresh Water</gstr>
+        <gstr name="GDPlanetBiome.pbiome_ocean.name">Ocean</gstr>
+        <gstr name="GDPlanetBiome.pbiome_ocean.desc">Ocean</gstr>
+        <gstr name="GDPlanetBiome.pbiome_oceanice.name">Ice Sheets</gstr>
+        <gstr name="GDPlanetBiome.pbiome_oceanice.desc">Ice Sheets</gstr>
+        <gstr name="GDPlanetBiome.pbiome_freshwaterice.name">Frozen Lake</gstr>
+        <gstr name="GDPlanetBiome.pbiome_freshwaterice.desc">Frozen Lake</gstr>
+        <gstr name="GDPlanetBiome.pbiome_river.name">River</gstr>
+        <gstr name="GDPlanetBiome.pbiome_river.desc">Similar to earth, river water flows from the mountains down to the sea.</gstr>
+        <gstr name="GDPlanetBiome.pbiome_beach.name">Beach</gstr>
+        <gstr name="GDPlanetBiome.pbiome_beach.desc">One could almost mistake the scene for being earth as one stares out into the ocean from the sandy shore. </gstr>
+
+        <!-- Attribute Points Unlocked -->
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t1.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t2.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t3.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t4.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t5.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+        <gstr name="GDColonistSpendPoints.robot_attrpoints_t6.name">Unlocks {0} Additional Points To Spend During Robot Construction</gstr>
+
+        <!-- Discovery Groups-->
+        <gstr name="GDDiscoveryGroup.dscgrp_datalogs.name">Data Logs</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_flora.name">Flora</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_fauna.name">Fauna</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_t1.name">Blueprints</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_biomes.name">Biomes</gstr>
+
+        <!-- Discoveries: Data Logs -->
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.name">Colonist Log - Day 1</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.desc">My name is Doctor Alex Kenner. Something has gone terribly wrong. I awoke from stasis, but the other members of the research team have not. The system appears to be in some sort of lock down and, unless I missed a briefing, this should not be the case. Mission protocol states that the research team stasis capsules are suppose to open shortly after arrival at the Mercury facility. My stasis capsule appears to be the only one functioning properly. The comm satellite is online and I’ve dispatched the relevant data back to earth.        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.name">Colonist Log - Day 2</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.desc">The facility AI has been shutting me out of more systems. It indicates that there are issues with the stasis systems, but is expecting an engineer to fix it. The engineer is one of the people still in stasis. This system was supposed to be fail safe, but no one thought of this scenario? Who designed this bloody system?
+        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.name">Colonist Log - Day 5</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.desc">Still no word from Earth comm. I’m a botanist, not an engineer. I’m liable to kill them if I try to repair the systems myself. Given I’m the only one awake, I have plenty of food rations to last for now, but I certainly don’t want to stay here alone. The robots are still functional and I’ve started a daily log.
+        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.name">Colonist Log - Day 11</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.desc">I received an automated message back from Earth. I would like to state for the record that this automated message simply says: “Congratulations on a successful landing. We look forward to further reports.” I sprained my ankle after kicking one of the robots.
+        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.name">Colonist Log - Day 14</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.desc">I’ve started naming the robots. One of the robots has a malfunctioning servo, coincidentally after I kicked it. It has a bit of a hop to its step now so I’ve named her Bunny. I realize it’s silly to infer genders to these things, but after two weeks alone I’ve decided I don’t care.
+        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.name">Colonist Log - Day 18</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.desc">I’ve heard it said that having a daily routine is important in a survival scenario, but I’m deeply concerned that I’ve accepted that this is a survival scenario at this point. In the mornings Bunny and I take a jog from the Botany Lab down to MedBay. After that we complete a full inspection of the facility. I found the inspection checklist in storage. </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.name">Colonist Log - Day 22</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.desc">I took a trip to the surface today to take soil samples. I’ve been so focused on other tasks to keep my mind occupied that I forgot about my actual assignment here. The original surveys of the planet indicated a high level of solar radiation on the surface, but a breathable atmosphere and adequate moisture content. The radiation levels are far lower than was originally estimated and appear to be in decline. The surrounding area from the facility shows signs of limited plant growth.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.name">Colonist Log - Day 30</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.desc">I’ve received additional automated responses back from Earth, but nothing that would be considered a valid response to the situation we’re in. It’s only been a month, but I have little hope in getting more than that. We all signed on knowing this was a one way ticket, but I wasn’t expecting to be here alone. At least I have Bunny.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.name">Colonist Log - Day 35</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.desc">What little data I’ve managed to get from the stasis systems indicates that the stasis capsules are due to unlock in several hundred years. Primary facility power will never last that long, but the backup batteries in the pods themselves should last indefinitely.
+
+I’m not entirely sure how to feel about that. I find I’m no longer angry about my situation, but it now appears that I’ll be living the remainder of my life inside my own tomb. Bunny says hello.
+        </gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.name">Colonist Log - Day 42</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.desc">While I still have plenty of rations I’ve decided to start growing some of the crops from storage. The hydroponics system is working quite well and it’s nice to be focusing on something other than daily system checks. I’m starting to wish the hemp we brought was something I could smoke.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.name">Colonist Log - Day 55</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.desc">I’m not sure if my mind is playing tricks on me, but I saw a light in the distance when out collecting samples. It blinked. I thought it must have been a glinting reflection off something in the distance so I went back outside at night. It was still there. I stared at it for almost ten minutes before it suddenly stopped. Bunny thinks I’m just seeing things.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.name">Colonist Log - Day 122</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.desc">Further research on the surface shows the solar radiation is declining far faster than expected. No sign of the blinking light. Moisture levels show a dramatic increase which would indicate that the surrounding area could become forested by the time the team wakes up. Speaking of which, I’m unsure what the team will awake to as far as the facility is concerned, given that it was never meant to last that long without proper maintenance.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.name">Colonist Log - Day 196</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.desc">Many of the earlier log entries have gone missing and I’m not sure why. They show as deleted, but I certainly don’t remember deleting any entries. Could be some sort of data corruption in the files. Bunny insists that she didn’t do it, but I’m not so sure.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.name">Colonist Log - Day 245</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.desc">The blinking light in the distance returned. Bunny saw it too. The excursion suit won’t last for that distance and the radiation levels are still too high. I can’t risk it.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.name">Colonist Log - Day 471</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.desc">I thought I almost lost Bunny today. She fell over and there was a sudden burning smell. Thank god they were made to be modular. The vision sensor fried, but I was able to plug in a replacement from storage. Damn it, Bunny, don’t scare me like that!</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.name">Colonist Log - Day 1,023</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.desc">Years’ worth of records are no longer in the system. Some of them I deleted myself, but I don’t remember deleting the others. Maybe I deleted them all. I’m not sure it’ll make any sense to whoever reads these, IF someone reads these.</gstr>
+
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.name">Colonist Log - Day 2,024</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.desc">I need to know what’s out there. The solar radiation has fallen to a point where I don’t need the excursion suit. I’ve already taken some trips outside without it. I’m not sure what we’ll find out there, but I know what I’ll find down here. 
+Bunny is excited for the trip and, frankly, so am I. It’s been a long time since I’ve felt excited. I’ve deactivated all of the robots except one. I’m not sure we’ll return.
+        </gstr>
+
+        <!-- Discoveries: Flora -->
+        <gstr name="GDDiscoveryItem.dscitm_seed_lumenbulbus.name">Lumen Bulbus</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_lumenbulbus.desc">A glowing plant bulb containing a cluster of sticky fibrous membranes.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_tanglefruit.name">Tangle Fruit</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_tanglefruit.desc">A sweet fruit that looks a bit like an orange banana.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_wheatthorn.name">Wheat Thorn</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_wheatthorn.desc">A strange and pointy grain plant that can be processed to make flour.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_spongestalk.name">Sponge Stalk</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_spongestalk.desc">A spongy, and sorta slimy, vegetable crop.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_flora_greenalgae.name">Green Algae</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_flora_greenalgae.desc">An edible polyphyletic organism. This could also be used to generate nutrients for better plant growth.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_arrowheadfungus.name">Arrow Head Fungus</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_arrowheadfungus.desc">A large blue capped edible fungus.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_crimsonbloom.desc">A flowering plant with a deep crimson bloom.</gstr>
+
+
+        <!-- Discoveries: Fauna -->
+        <gstr name="GDDiscoveryItem.dscitm_fauna_bluefish.name">Blue Fish</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_fauna_bluefish.desc">It's a bit slimy. Probably best to cook it first.</gstr>
+
+
+        <!-- Discoveries: Blueprints -->
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.name">Clone Chamber Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.desc">Blueprints detailing how to create a cloning system. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.name">Robot Assembler Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.desc">Blueprints detailing how to create a robot assembly machine. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.name">Aeroponics Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.desc">Blueprints detailing how to create an aeroponics farm. Further research will be required.</gstr>
+
+
+        <!-- Tutorial Tasks-->
+        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.name">Open Supply Chest</gstr>
+        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.desc">A supply chest has been left by the elevator. Select the chest and press the Open button.</gstr>
+        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.name">Open Stasis Capsule</gstr>
+        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.desc">Your colonists are currently in stasis capsules. Click on a stasis capsule and click open to get them out.</gstr>
+        <gstr name="GDTutTask_Mining.tuttask_mine.name">Mining Dirt</gstr>
+        <gstr name="GDTutTask_Mining.tuttask_mine.desc">Select mining mode in the bottom button bar. Hold LMB + Drag to select an area of dirt to be mined. Drag over already selected tile to deselect.</gstr>
+        <gstr name="GDTutTask_RefineResin.tuttask_refineresin.name">Refine Structure Resin</gstr>
+        <gstr name="GDTutTask_RefineResin.tuttask_refineresin.desc">Find and click on the Bio-Refiner in the facility. Select structure resin and queue some to be crafted. The mineral compound ingredient is mined from dirt.</gstr>
+        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.name">Build A Crop Field</gstr>
+        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.desc">Growing crops is important for food and refining materials. Find and select the crop field from the build menu under production. It must be placed on dirt floor. </gstr>
+        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.name">Build A Research Station</gstr>
+        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">The research station is used to research new technology and must be built on Science Lab Floor. The research station also requires power by building power conduits connecting the station to the generator.</gstr>
+        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">First Research Project</gstr>
+        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">Open the Research Projects screen from the bottom button bar and choose an available project from the list. Make sure a colonist has the scientist job role by either selecting the colonist or pressing 'Tab' to access the management screen.</gstr>
+
+
+    </GDInfo>
+</GDInfos>

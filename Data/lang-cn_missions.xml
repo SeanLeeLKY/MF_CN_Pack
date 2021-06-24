@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDInfos>
+    <GDInfo name="lng_en" class="GDGameLanguage">
+        <components>
+            <comp class="CProperties">
+                <display_name>English</display_name>
+                <language_code>en-US</language_code>  
+            </comp>
+        </components>
+        
+        <gstr name="GDMission.msn_opensupplychest.name">Supplies!</gstr>
+        <gstr name="GDMission.msn_opensupplychest.desc">
+A starting supply chest has been left near the stasis capsules by an unknown benefactor. 
+
+&lt;i&gt;Select the chest and press the Open button.&lt;/i&gt;
+        </gstr>
+        
+        
+        <gstr name="GDMission.msn_opensupplychest.open_crate.name">Open Supply Chest</gstr>
+        
+        <gstr name="GDMission.msn_openstasiscapsule.name">Overslept</gstr>
+        <gstr name="GDMission.msn_openstasiscapsule.desc">
+The stasis capsules have once again activated and the colonists are ready to be awoken from their long slumber. 
+Click on a stasis capsule and click open to get them out.
+
+&lt;i&gt;Colonists can have 3 job roles assigned at a time. These can be changed by clicking the job role button in their info panel.&lt;/i&gt;
+        </gstr>
+        
+        <gstr name="GDMission.msn_openstasiscapsule.open_crate.name">Open Supply Chest</gstr>
+        
+    
+        <gstr name="GDMission.msn_deconstructwalls.name">Further Destruction</gstr>
+        <gstr name="GDMission.msn_deconstructwalls.desc">
+As the colonists step from their stasis capsules it becomes immediately clear that something has gone horribly wrong. The readouts on the stasis capsules indicate that the capsules did not initiate the revival protocol at the expected time. The facility has fallen to ruin as they slept through the years.
+
+We'll need some structure resin to get started. We don't currently have the means to process materials so we'll have to deconstruct the remaining walls for structure resin. The Builder job role is responsible for deconstructing objects.
+
+&lt;i&gt;Click the harvest button on the main button bar and select deconstruction. Hold LMB + Drag to select wall debris to be mined. Click and drag starting from already selected tiles to deselect.
+
+Colonists can have 3 job roles assigned at a time. These can be changed by clicking the job role button in their info panel.&lt;/i&gt;
+        </gstr>
+        
+        <gstr name="GDMission.msn_deconstructwalls.destroy_wall.name">Deconstruct Walls</gstr>
+        
+    </GDInfo>
+</GDInfos>

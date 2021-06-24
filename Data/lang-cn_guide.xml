@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GDInfos>
+    <GDInfo name="lng_cn" class="GDGameLanguage">
+        <components>
+            <comp class="CProperties">
+                <display_name>简体中文</display_name>
+                <language_code>zh-CN</language_code>
+            </comp>
+        </components>
+        
+        <!-- Guide Data -->
+        <gstr name="GDGuideGroup.guidegroup_basics.name">Basics</gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_intro.name">Introduction</gstr>
+        <gstr name="GDGuideTopic.guidetopic_intro.desc">            
+Congratulations on being an Infinity Corp Pioneer! 
+
+As you&#8217;ve just awoken at the Mercury Facility, the first order of operation should be to run a full diagnostic and ensure the facility is running as expected. We here at Infinity Corp have full confidence in the automated facility construction project.
+
+&lt;i&gt;&lt;size=12&gt;In the unlikely event that you should lose this manual we would encourage you refrain from doing anything that is not in the best interest of the company or your fellow employees. Also be aware that if you&#8217;ve lost this manual then it is also likely that the mission has not been successful, rendering this manual and your employment ineffective. 
+&lt;/size&gt;&lt;/i&gt; 
+
+&lt;b&gt;**CRITICAL SYSTEMS ERROR**&lt;/b&gt;
+
+Extensive error logs indicate that the crew was not awoken at the appropriate time, resulting in extreme deterioration of the Mercury Facility as it decayed over the decades. 
+
+We here at Infinity Corp wish to extend our sincerest apology for any inconvenience this may have caused. You may file a formal complaint when, and if, you return to Earth.
+
+
+Updated Mission Objectives:
+
+Awake colonists from stasis. Not all colonists are accounted for. Additional capsules may have survived, but will need to be found.
+
+Survive and rebuild the Mercury Facility. Much of the original blueprint data has been corrupted. We’ll need to build a computer station for research new technologies.
+
+
+&lt;i&gt;&lt;size=12&gt;Note: While injury and death may be unavoidable, it is strongly discouraged. You are all part of the Infinity Corp family and we would hate to lose you.&lt;/size&gt;&lt;/i&gt;
+
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_mining.name">Mining</gstr>
+        <gstr name="GDGuideTopic.guidetopic_mining.desc">
+Mining out the surrounding area is necessary to get various materials and provide space to expand. 
+
+&lt;size=20&gt;&lt;b&gt;Basic Mining&lt;/b&gt;&lt;/size&gt;
+Basic mining is for removing dirt/ore blocks that directly restrict movement. This type of mining can be done by human colonists and worker bots.
+
+&lt;size=20&gt;&lt;b&gt;Deep Mining&lt;/b&gt;&lt;/size&gt;
+Deep mining is for collecting materials from ore floor tiles and can only be done by a deep driller bot constructed using the robot assembler. Deep mining areas will automatically fill with dirt when mining is completed.
+
+Choose the mining mode from the bottom button bar. Drag select the area that you want to mine. Drag selecting tiles starting from an already selected tile will deselect any selected tiles.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_cropmanagement.name">Crop Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_cropmanagement.desc">
+Various crops can be grown for food and industrial use. Some crops will require discoveries and research before they are available to be grown.
+
+&lt;size=20&gt;&lt;b&gt;Seeds&lt;/b&gt;&lt;/size&gt;
+Crops require seeds in order to be planted. Seeds can be acquired from harvesting planted crops, wild plants and from expeditions. When a colonist harvests a crop, a seed will be gathered. There is a chance of receiving additional seeds when harvesting based on the colonists botanist level.
+
+&lt;size=20&gt;&lt;b&gt;Fertilizer&lt;/b&gt;&lt;/size&gt;
+Fertilizer is crafted at the fertilizer crafting station and will speed up plant growth when applied.
+
+The fertilizer button will appear under the crop growth progress meter after a crop has been selected. Once a fertilizer is selected a botanist will deliver the fertilizer. Fertilizer is consumed during each growth cycle and will be reapplied after each harvest if available.
+
+&lt;size=20&gt;&lt;b&gt;Aeroponics Farm&lt;/b&gt;&lt;/size&gt;
+The Aeroponics Farm is required for certain crops to be grown. Crops grown in the aeroponics farm will grow more quickly and are resistant to disease.
+
+&lt;size=20&gt;&lt;b&gt;Withering&lt;/b&gt;&lt;/size&gt;
+Crops will wither if left fully grown for too long before being harvested. Harvesting withered crops will only produce a seed.
+
+&lt;size=20&gt;&lt;b&gt;Disease&lt;/b&gt;&lt;/size&gt;
+Crop disease has a chance to occur randomly. A diseased crop should be cleared quickly to avoid it spreading to adjacent crops.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_crafting.name">Crafting</gstr>
+        <gstr name="GDGuideTopic.guidetopic_crafting.desc">
+Crafting stations, such as the bio-refiner, can be used to craft items/materials. 
+
+To add items to the craft queue select the crafting station and click the Add Item Order button. 
+
+   1. Select the recipe of the item you wish to craft from the recipe list on the left
+   2. Set how many you wish to craft
+   3. Click Apply
+
+The item will be added to the craft queue. Colonists with the respective job role will gather the recipe ingredients, if available, and craft the item(s). You can click the items icon button on the craft queue list to make any changes.
+
+&lt;b&gt;Deliver To Storage&lt;/b&gt;
+If this option is checked the colonist will attempt to deliver the crafted item(s) to storage once they finish crafting. Otherwise they will drop the crafted item(s) on the ground and continue crafting at the machine, if there is more to be crafted.
+
+&lt;b&gt;Craft If Below X&lt;/b&gt;
+If this option is set then colonists will ignore crafting this item if there is already as much or more of the set amount available in storage.
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_objectplacement.name">Building Objects</gstr>
+        <gstr name="GDGuideTopic.guidetopic_objectplacement.desc">                
+Machines and structures will need to be constructed in order to generate materials, grow crops or keep colonists happy and healthy. The button bar at the bottom has several categories of objects that can be placed. When hovering over an object in the build menu the required materials, resources, floor type and placement size is shown to the right of the object list. Some objects require data recovery/research before the object can be built.
+
+Clicking an object from the build list will close the build list window and attach that object to your cursor. Drag the mouse to a suitable location where the object shows green and left click to place. 
+
+You can press the ‘R’ key to rotate the object before it is placed.
+
+The object footprint is visible during object placement. The footprint tiles have different colors to denote walkable (green), unwalkable (red) and avoided tiles (yellow). 
+
+&lt;size=20&gt;&lt;b&gt;Red Tiles&lt;/b&gt;&lt;/size&gt;
+Red tiles will become unwalkable when this object is placed. Colonists will not be able to walk through these tiles at all. These are generally the tiles directly under the machine/object being placed.
+
+&lt;size=20&gt;&lt;b&gt;Green Tiles&lt;/b&gt;&lt;/size&gt;
+Green tiles are enforced walkable tiles for this object. Green tiles can overlap green tile areas from other objects, but can not overlap red or yellow tiles. 
+
+&lt;size=20&gt;&lt;b&gt;Yellow Tiles&lt;/b&gt;&lt;/size&gt;
+Yellow tiles are avoided by colonists. Colonists can still walk through these tiles if there is no other path, but will prefer to walk around.
+
+The object footprint is also visible when the object is selected. Once the object is placed a builder will bring the required items from storage to the build location and construct the object. Colonists will remove any item containers from the construction area before a builder is able to construct the object. 
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_decor.name">Decor</gstr>
+        <gstr name="GDGuideTopic.guidetopic_decor.desc">            
+Decor represents the attractiveness of your facility and has a direct impact on colonist stress. Objects such as industrial machines, wall debris and dirt walls generate negative decor. Colonists stress will either increase or decrease as they walk through areas of positive/negative decor.
+
+You can view the decor overlay by pressing the decor overlay button at the bottom right of the game HUD. Areas in red are negative decor, areas in green are positive decor and areas that are white have no effect on decor.
+
+Decor can be improved by building objects with a positive decor rating such as walls, standing lamps, benches and more.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_rooms.name">Rooms</gstr>
+        <gstr name="GDGuideTopic.guidetopic_rooms.desc">            
+Rooms are defined by creating an enclosed area with walls and a door that contains less than 500 tiles. The type of the room depends on the majority of flooring placed within it. If the majority of the tiles are bedroom tiles then it’s a bedroom.
+
+You can toggle room visibility using the Room Areas display mode button above the mini-map.  
+
+&lt;size=20&gt;&lt;b&gt;Decor&lt;/b&gt;&lt;/size&gt;
+The decor of a room reflects its attractiveness to colonists. This can be affected negatively by machinery and positively by decorations. Colonists can become stressed if in lower decor areas. The amount of decorations needed depends on room size and other objects in the room that may lower decor.
+
+&lt;size=20&gt;&lt;b&gt;Lighting&lt;/b&gt;&lt;/size&gt;
+Lighting is important to help colonists work efficiently. This can be increased by adding light objects in a room. The amount of lighting needed depends on room size.
+
+&lt;size=20&gt;&lt;b&gt;Efficiency&lt;/b&gt;&lt;/size&gt;
+The efficiency of a room is determined by the Decor and Lighting attributes and has an affect on colonists work speed and success chance.  Efficiency also affects other colonists actions such as sleeping and recreation activities.
+
+&lt;size=20&gt;&lt;b&gt;Room Effects&lt;/b&gt;&lt;/size&gt;
+Work Success Chance increased by up to 20% based on room efficiency. -10% is added to the work success chance if not performed in a valid room. This only affects actions that can be done in a room. Mining, for example, is not affected.
+
+Crafting speed, for craft stations, is increased when in a room. Craft stations a base work speed of 25% when not in a room. When in a room, their work speed is increased up to 100% based on room efficiency.
+
+Research Stations have up to a 50% chance of generating double research points based on room efficiency.
+
+Colonist sleep time decreased up to 25% based on room efficiency.
+
+Colonists can receive various positive and negative stress effects from sleeping or eating in rooms based on decor.
+
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_research.name">Research Projects</gstr>
+        <gstr name="GDGuideTopic.guidetopic_research.desc">            
+Completing research projects will unlock various new structures, recipes and more. Research projects are unlocked by spending Research Points, Tech Fragments and/or Bio Samples.
+
+Research points are generated at the research station by a colonist with the scientist job role. Research points can be generated faster with additional research stations and scientists.
+
+Tech Fragments and Bio Samples can be found from expeditions to surface.
+
+The tech tree, accessed under facility management, is where you can see all the research projects that can be unlocked. 
+
+Research projects in red cannot be researched until the prerequisite research project is completed. Some research projects also require that certain discoveries be made before it can be unlocked.
+
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_power.name">Power Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_power.desc">            
+Electrical Power is required by various machines. Machines can be connected to power by constructing power conduits from under a machine to a power generator.
+
+&lt;size=20&gt;&lt;b&gt;Fuel Powered Generators&lt;/b&gt;&lt;/size&gt;
+The Coal Generator is a type of generator requiring fuel. You can see what fuel is required by clicking on the generator and viewing it’s information. Fuel is consumed at a constant rate while the generator is enabled.
+
+Fuel will be delivered by colonists with the Hauler job role and is automatically prioritized over other hauling jobs.
+
+&lt;size=20&gt;&lt;b&gt;Mechanical Power&lt;/b&gt;&lt;/size&gt;
+The EMG or Emergency Mechanical Generator converts mechanical power to electricity. The generator will need to be wound up by a colonist. The generator will need to be wound up again periodically.
+
+&lt;size=20&gt;&lt;b&gt;Surface Power&lt;/b&gt;&lt;/size&gt;
+Power conduits placed under the elevator will allow you to access any power generated from the surface within the facility.
+
+&lt;size=20&gt;&lt;b&gt;Geothermal Power Generator&lt;/b&gt;&lt;/size&gt;
+Geothermal generators can be placed over steam vents to generate power.
+
+&lt;size=20&gt;&lt;b&gt;Power Storage&lt;/b&gt;&lt;/size&gt;
+Constructed batteries connected to a power network will store any excess power on the network. If you aren’t generating enough power for your machines then power will be taken from a battery, if available.
+
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_water.name">Water Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_water.desc">            
+Water is required by various machines and is generated using a water pump placed over water. It is a good idea to place water pumps adjacent to a walkable floor so colonists have access to build it. 
+
+Machines that require water must have water conduits built from the water pump to the machine.            
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_watertrap.name">Water Trap</gstr>
+        <gstr name="GDGuideTopic.guidetopic_watertrap.desc">            
+The  Water Trap will passively gather materials and food items from underground water sources. Gathering speed is affected by the number of adjacent water tiles. The water trap does not require bait to function, but it’s gathering speed can be further increased by using it. If available, a biologist will bring and apply bait to the trap.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_equipment.name">Equipment</gstr>
+        <gstr name="GDGuideTopic.guidetopic_equipment.desc">
+Equipment items can be equipped by colonists or installed into vehicles and machines to add various effects. Equipment items can be crafted or found inside tech chests. Colonists, machines and vehicles have a fixed amount of equipment slots. 
+
+&lt;size=20&gt;&lt;b&gt;Colonist Equipment&lt;/b&gt;&lt;/size&gt;
+Colonist equipment is equipped by selecting a colonist and clicking on an available equipment slot. After selecting an available equipment item the colonist will go get, and then equip the item.
+
+&lt;size=20&gt;&lt;b&gt;Machine Equipment&lt;/b&gt;&lt;/size&gt;
+Machine equipment is installed by selecting the machine and clicking an available equipment slot. After selecting an available equipment item a builder will go get and then install the equipment item on the machine.
+
+&lt;size=20&gt;&lt;b&gt;Vehicle Equipment&lt;/b&gt;&lt;/size&gt;
+Vehicle equipment is installed by clicking an available equipment slot in the vehicle info on the left side of the planet map interface. After selecting an available equipment item a technician will bring the equipment item to an available shipping container for installation in the vehicle bay. Vehicles must be docked in order to install equipment and can not be embarked again until the equipment is installed.
+
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_caveins.name">Cave-in Event</gstr>
+        <gstr name="GDGuideTopic.guidetopic_caveins.desc">
+A cave-in may occur on any tile that is not within 5 tiles of a structural support object. Structure supports include natural dirt/ore walls, metal walls, doors and the elevator. A cave in may also happen on tiles with constructed flooring so constructed rooms should be not bigger than 10x10. 
+
+When a cave-in does occur the affected tile will collapse and refill with dirt or ore. There is a chance the adjacent tiles will also collapse.
+        </gstr>
+        
+        <gstr name="GDGuideGroup.guidegroup_colonists.name">Colonists</gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_attributes.name">Attributes</gstr>
+        <gstr name="GDGuideTopic.guidetopic_attributes.desc">            
+Each colonist has three core attributes. Attributes determine possible job roles and job role success chance in addition to the effects below. Attributes can be modified by equipment items.
+                        
+&lt;size=20&gt;&lt;b&gt;Smarts&lt;/b&gt;&lt;/size&gt;
+Increases earned experience in Job Roles by 10% per point.
+            
+&lt;size=20&gt;&lt;b&gt;Muscles&lt;/b&gt;&lt;/size&gt;
+Determine inventory space by 10 per level. Colonists with 8 or above in muscles will no longer have a movement penalty applied when carrying items.
+
+&lt;size=20&gt;&lt;b&gt;Athletics&lt;/b&gt;&lt;/size&gt;
+Determines movement speed. Each colonist has a different base movement speed which is increased with each point in Athletics.
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_needs.name">Needs</gstr>
+        <gstr name="GDGuideTopic.guidetopic_needs.desc">            
+&lt;size=20&gt;&lt;b&gt;Health&lt;/b&gt;&lt;/size&gt;
+Colonist health is important to the survival of your colony. Colonists can lose health from various injuries while doing their job. Colonists are far less likely to be injured on the job if they are more skilled in that job. The Medi-Bed is used to treat patients which will restore their health and remove any ailments.
+
+
+&lt;size=20&gt;&lt;b&gt;Fatigue&lt;/b&gt;&lt;/size&gt;
+Colonists will get tired over time. While they can sleep on the floor, they will get greater benefit by sleeping in a bed.
+
+
+&lt;size=20&gt;&lt;b&gt;Hunger&lt;/b&gt;&lt;/size&gt;
+Like most biological lifeforms, colonists will need to consume food. Food is prepared at the cook station from grown crops.
+
+Food items have two important attributes:
+
+Satiation: This is the amount, in percent, of hunger that will be reduced when consuming this item. Better quality meals are more satiating than low quality or raw food item.
+
+Nutrition: This affects the rate of change for the hunger meter. A higher nutrition percent will slow the change rate so that a colonist doesn’t become hungry again so soon. The applied nutrition value decays naturally over time.
+
+
+&lt;size=20&gt;&lt;b&gt;Stress&lt;/b&gt;&lt;/size&gt;
+Colonists work best in a calm and stress free environment. Negative facility decor, sleeping on the ground and other factors can cause colonists to become stressed. 
+
+High stress will decrease the success chance of job actions which can result in various undesired results.
+
+Each colonist also has a stress reaction Quirk. When a colonist reaches 100% stress they will act out depending on this quirk. You can view quirks in the colonist management screen or by selecting a colonist.
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_jobroles.name">Job Roles</gstr>
+        <gstr name="GDGuideTopic.guidetopic_jobroles.desc">
+Job roles determine what a colonist will and won’t do and can be changed at any time by clicking a job slot. Colonists can be assigned a primary, secondary and tertiary job role. The job slot also determines job priority. A job in the primary slot will have a higher priority than a job in the secondary slot.
+
+Colonists gain experience as they perform tasks associated with a given job role. Once a colonist has generated enough experience they will gain a level in that job role. Higher level colonists will work faster and make fewer mistakes.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_schedules.name">Schedules</gstr>
+        <gstr name="GDGuideTopic.guidetopic_schedules.desc">
+The schedules interface allows you to assign activities to your colonists per hour over a 24 hour period. Every colonist is assigned to at least one schedule. Additional schedules can be created and the activity hours can be changed by selecting the activity type and clicking the desired hour.
+
+&lt;size=20&gt;&lt;b&gt;Work&lt;/b&gt;&lt;/size&gt;
+During work hours, colonists will perform work duties such as crafting, hauling, cleaning etc..
+
+&lt;size=20&gt;&lt;b&gt;Sleep&lt;/b&gt;&lt;/size&gt;
+During sleep hours a colonist will sleep if their fatigue is greater than 10%. Once a colonist is sleeping they will continue to sleep until fully rested, ignoring any other scheduled activities during this time.
+
+&lt;size=20&gt;&lt;b&gt;Recreation&lt;/b&gt;&lt;/size&gt;
+During recreation hours a colonist will handle their stress and hunger needs.
+
+&lt;size=20&gt;&lt;b&gt;Training&lt;/b&gt;&lt;/size&gt;
+During training hours a colonist will perform training activities such as working out in the gym or using the memory transfer station.
+
+&lt;size=20&gt;&lt;b&gt;Free Time&lt;/b&gt;&lt;/size&gt;
+Free time hours do not represent any specific activity. During this time colonists are able to perform any actions depending on their needs.
+
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_rostermanagement.name">Roster Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_rostermanagement.desc">
+The colonist roster allows you to assign colonists that can work at the specified machine. Selecting a production machine and clicking the Manage Roster button will show a list of eligible colonists that can be assigned to that machine.
+
+The roster will affect colonists in the following way:
+
+        1. A colonist &lt;i&gt;will&lt;/i&gt; work at a machine with either an empty roster or a machine that has their name on it's roster list.
+        2. A colonist &lt;i&gt;will not&lt;/i&gt; work at a machine that has a roster list and their name isn't on the list.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_robots.name">Robots</gstr>
+        <gstr name="GDGuideTopic.guidetopic_robots.desc">
+Robots are a special type of colonist with limited job abilities. Robots won’t get stressed and don’t eat, but they do need to recharge their batteries at a recharge station. 
+
+Additional robots, and robot types, can be built using the Robot Assembly machine, once the research for it has been performed. 
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_quirks.name">Quirks</gstr>
+        <gstr name="GDGuideTopic.guidetopic_quirks.desc">            
+Colonists may have some personality quirks that can positively or negatively affect both attributes and needs. Quirks can be viewed by selecting a colonist and clicking the Stats button in their info window. Hovering the mouse over a Quirk will show a tool-tip with additional information. 
+
+Quirks are assigned randomly to a colonist upon colonist creation; this is true for cloned colonists as well. Quirks are a permanent element of that colonist.            
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_ailments.name">Ailments</gstr>
+        <gstr name="GDGuideTopic.guidetopic_ailments.desc">            
+Ailments can be contracted while a colonist is performing a job. A colonist with a higher job level in a certain job is less likely to receive an ailment. Ailments can affect colonist needs or attributes in a variety of ways depending on the nature of the ailment. Ailments may also directly impact that colonists health when they first receive the ailment. Ailments can be treated and removed at the Medi-Bed.            
+        </gstr>
+            
+        <gstr name="GDGuideGroup.guidegroup_surfaceexploration.name">Planet Surface</gstr>
+            
+         <gstr name="GDGuideTopic.guidetopic_pois.name">Points Of Interest</gstr>
+        <gstr name="GDGuideTopic.guidetopic_pois.desc">
+Points of Interest are explorable locations on the surface map. These are revealed as the map is explored. 
+
+In order to explore Points Of Interest an expedition must be created. See the Expeditions section for more details.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_expeditions.name">Expeditions</gstr>
+        <gstr name="GDGuideTopic.guidetopic_expeditions.desc">
+Expeditions allow colonists to venture out onto the surface of the planet to investigate points of interest. Points of interest can unlock new discoveries, resources and more.
+
+The expedition list, on the planet map interface, is where you can create and monitor active expeditions. To form an expedition click the “+” button in the expedition list which will open the Create Expedition screen. 
+
+&lt;size=20&gt;&lt;b&gt;Vehicle Selection&lt;/b&gt;&lt;/size&gt;
+While an expedition can travel on foot, a vehicle will provide increased speed and storage space on your journey.
+
+&lt;size=20&gt;&lt;b&gt;Manage Destinations&lt;/b&gt;&lt;/size&gt;
+Click the Manage Destinations button to select one or more Points Of Interest on the map to explore. Once the expedition party is formed they will automatically travel to each selected POI in turn and then return back to the facility to dock.
+
+&lt;size=20&gt;&lt;b&gt;Expedition Items&lt;/b&gt;&lt;/size&gt;
+Human colonists will require food while out exploring points of interest. After selecting your destinations the total distance will appear in the Expedition Details section. Be sure to add enough food so that the estimated food supply is equal to or greater than your estimated travel time.
+
+&lt;size=20&gt;&lt;b&gt;Colonist Selection&lt;/b&gt;&lt;/size&gt;
+Click the Manage Passengers button to select who will go on the expedition. Sending colonists with higher level job skills will increase your chance of succeeding at the points of interest. Selecting a point of interest on the map will provide information on any risk and what job roles are recommended.
+
+Once an expedition has been created the colonists will bring supplies to the vehicle via the elevator or shipping container. Colonists will then board the vehicle. 
+
+The expedition will automatically travel to each selected destination in turn and then return to the facility. When they arrive at a point of interest a window will appear with choices on completing the point of interest.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_surfaceconstruction.name">Surface Construction</gstr>
+        <gstr name="GDGuideTopic.guidetopic_surfaceconstruction.desc">
+Buildings can be constructed on the planet surface. The build menu for surface buildings can be accessed by clicking the building button at the lower left of the Planet Map interface.
+
+Buildings occupy a single tile and some buildings, such as the vehicle bay, must be placed adjacent to the primary facility. A selected structure will highlight green if it can be placed on a given tile.
+
+        </gstr>
+        
+        <gstr name="GDGuideTopic.guidetopic_vehicleassembly.name">Vehicle Assembly</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehicleassembly.desc">
+Vehicles are constructed at the Vehicle Bay. Materials are delivered to the vehicle bay using an available shipping container. Once a vehicle is constructed it is available in the vehicles section of the planet map interface.
+
+Additional vehicle types can be unlocked through research.
+
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_vehiclemanagement.name">Vehicle Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehiclemanagement.desc">
+The vehicle management list, on the planet map interface, will show you the vehicles that you have constructed. When vehicles are docked you have the following button options:
+
+&lt;size=20&gt;&lt;b&gt;Embark&lt;/b&gt;&lt;/size&gt;
+Vehicles need to be embarked before they can explore and harvest on the surface. Clicking the Embark button will spawn the vehicle near your facility. 
+
+&lt;size=20&gt;&lt;b&gt;Deconstruct&lt;/b&gt;&lt;/size&gt;
+This action will deconstruct the vehicle and half of the construction materials will be returned.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_vehicleactionbar.name">Vehicle Actions</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehicleactionbar.desc">
+Selecting a vehicle, after it has been embarked, will show the vehicle action bar at the bottom of the planet map interface. The action bar also shows the current power and health of the vehicle. Actions require power to operate and will stop if the vehicle runs out of power. Vehicles will automatically recharge, using solar panels, during the day.
+
+Most actions take a certain amount of time to perform. The action button, as well as the vehicle list, will show the action progress. Pressing an active action button will stop that action.
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_surfaceresources.name">Surface Resources</gstr>
+        <gstr name="GDGuideTopic.guidetopic_surfaceresources.desc">
+Harvestable resources on the surface can be mined for additional materials. A surface resource deposit has a specific mineable resource and three possible depths. Deposit depths determine how much of a resource is available and what is required to mine it.
+
+Surface deposits uncovered while exploring the map may also contain resources at subsurface and deep depths. The resource scanner is required to uncover hidden deposits on explored tiles that only contain subsurface and/or deep resources. Selecting a resource on the map will show what resources are available.
+
+&lt;size=20&gt;&lt;b&gt;Depth: Surface&lt;/b&gt;&lt;/size&gt;
+Can be mined by mining vehicles or mining platform
+Uncovered while exploring the surface
+
+&lt;size=20&gt;&lt;b&gt;Depth: Subsurface&lt;/b&gt;&lt;/size&gt;
+Can be mined by mining vehicles or mining platform
+Found while scanning using the resource scanner
+
+&lt;size=20&gt;&lt;b&gt;Depth: Deep&lt;/b&gt;&lt;/size&gt;
+Can only be mined by mining platform
+Found while scanning using the resource scanner
+        </gstr>
+    </GDInfo>
+</GDInfos>
+
