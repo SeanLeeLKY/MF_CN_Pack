@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GDInfos>
-    <GDInfo name="lng_en" class="GDGameLanguage">
+    <GDInfo name="lng_cn" class="GDGameLanguage">
         <components>
             <comp class="CProperties">
-                <display_name>English</display_name>
-                <language_code>en-US</language_code>  
+                <display_name>简体中文</display_name>
+                <language_code>zh-CN</language_code>
             </comp>
         </components>
         
