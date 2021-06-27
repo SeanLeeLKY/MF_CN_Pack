@@ -60,12 +60,12 @@
         <gstr name="uigen.objectype.vehicle">地表载具</gstr>
         
         <!-- Intro Text-->
-        <gstr name="ui.introtext.s1">By the turn of the 22nd century, space exploration was dominated by corporate interests. Once a task for governments, space travel became a competitive market, where companies pushed boldly and blindly into the black, intent only on a return on investment.</gstr>
-        <gstr name="ui.introtext.s2">For the first time in human history, Infinity Corp was about to attempt the colonization of a planet outside of Earth’s solar system. The construction vessel Mercury was launched to start the automated construction of an underground facility on an alien planet.</gstr>
-        <gstr name="ui.introtext.s3">A small research team was also sent to survey the planet before a colony ship full of settlers left Earth. The research team would awake from stasis automatically, shortly after their arrival -- or, at least, that was the plan.</gstr>
+        <gstr name="ui.introtext.s1">22世纪，空间探索因为其巨大的利益而被各种企业竞相追逐。太空旅行曾经是国家政府主导的项目，但是现在已经变成了一个极具竞争性的市场，因为可能获得巨额回报，各公司企业都在盲目的将资源投入这个无底洞。</gstr>
+        <gstr name="ui.introtext.s2">这是人类历史上的第一次壮举，无限集团的先驱者！即将在地球太阳系之外的星球上尝试进行殖民。建造船「水星」号作为先驱被发射到一个合适的地外星球，并开始自动在星球上建造一个地下设施。</gstr>
+        <gstr name="ui.introtext.s3">在满载新移民的殖民船离地前往新星球之前，一个小型研究小组也随着建造船一同被派去实地调查这个星球。研究小组将在他们到达后不久自动从静滞休眠状态中醒来——或者，至少原计划是这样的。</gstr>
         
         <gstr name="ui.introwin1.header">欢迎先驱者！</gstr>
-        <gstr name="ui.introwin1.text">Congratulations on being an Infinity Corp Pioneer!&#13;&#10;&#13;&#10;Mercury Fallen is still in active development and not feature complete. Thank you for joining the development journey.&#13;&#10;&#13;&#10;Game manual available by pressing [Tab] to open the Facility Management Interface and selecting Manual at the top.</gstr>
+        <gstr name="ui.introwin1.text">热烈欢迎无限集团的先驱者！&#13;&#10;&#13;&#10;水星坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。也非常谢谢你参与到这个开发过程中来！&#13;&#10;&#13;&#10;游戏手册可以通过按键[Tab]调出设施管理界面，然后再在列表顶端选择。</gstr>
         
         <!-- UI Misc -->
         <gstr name="GDUITab.tab_info.name">信息</gstr>
@@ -104,13 +104,13 @@
         <gstr name="uisec.passengerinfo.emptyseat">空置座位</gstr>
         
         <gstr name="uihud.construct.info.rotate">旋转</gstr>
-        <gstr name="uihud.construct.info.place">放置物件</gstr>      
-        <gstr name="uihud.construct.info.eyedropper">Eye Dropper: Shift + Click</gstr>
+        <gstr name="uihud.construct.info.place">放置物体</gstr>      
+        <gstr name="uihud.construct.info.eyedropper">吸色/取色工具(Eye Dropper)：Shift + Click</gstr>
         
         
         <gstr name="uilistbtn.movetotop.tt">移至顶层</gstr>
         <gstr name="uilistbtn.movetobottom.tt">移至底层</gstr>
-        <gstr name="uilistbtn.viewobject.tt">查看物件</gstr>
+        <gstr name="uilistbtn.viewobject.tt">查看物体</gstr>
         <gstr name="uilistbtn.deconstructobject.tt">取消建造</gstr>
         
         <gstr name="uidec.label.name">拆除模式</gstr>
@@ -186,7 +186,7 @@
         <gstr name="uipmhoverinfo.unknownbiome">未知生态</gstr>
         <gstr name="uipmhoverinfo.unknownbiomesub">需要扫描</gstr>
         
-        <gstr name="uiconfirm.destroysurfstruct">Deconstruct {0}? This will immediately deconstruct this surface structure. Any delivered materials will be returned to the receiving container.</gstr>
+        <gstr name="uiconfirm.destroysurfstruct">确定拆除{0}？这项操作将会立即拆除这个地表建筑。所有已经发送的材料将会被回退到接收容器。</gstr>
         
         <gstr name="cgender.female.name">女性</gstr>
         <gstr name="cgender.male.name">男性</gstr>
@@ -215,8 +215,7 @@
         
         
         <gstr name="mainmenu.welcome.title">欢迎先驱者！</gstr>
-        <gstr name="mainmenu.welcome.message">Mercury Fallen is in a state of active development and is not feature complete.&#13;&#10;&#13;&#10;Should you encounter any issues, certainly let me know. Only through feedback can I ensure we squash these pesky bugs and continue to add great new content. 
-        </gstr>               
+        <gstr name="mainmenu.welcome.message">水星坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。&#13;&#10;&#13;&#10;如果你遇到了任何问题，一定要让我们知道这些情况。只有通过反馈，我们才能修正这些讨厌的错误，并继续增加有意思的新内容。</gstr>               
         
         <!-- UI New Game -->
         <gstr name="newgame.header">游戏设置</gstr>
@@ -232,12 +231,12 @@
         <gstr name="newgame.startpos.icon">起始位置</gstr>
         
         
-        <gstr name="GDWorldSettings.wsettings_easy.name">Easy</gstr>
-        <gstr name="GDWorldSettings.wsettings_easy.desc">Game starts with an additional colonist and robot.</gstr>
-        <gstr name="GDWorldSettings.wsettings_default.name">Default</gstr>
-        <gstr name="GDWorldSettings.wsettings_default.desc">The default start with 3 colonists and 1 robot.</gstr>
-        <gstr name="GDWorldSettings.wsettings_challenge.name">Challenge</gstr>
-        <gstr name="GDWorldSettings.wsettings_challenge.desc">A more challenging start with fewer starting colonists.</gstr>
+        <gstr name="GDWorldSettings.wsettings_easy.name">简单</gstr>
+        <gstr name="GDWorldSettings.wsettings_easy.desc">游戏初始将会有一个额外的殖民者和机器人。</gstr>
+        <gstr name="GDWorldSettings.wsettings_default.name">默认</gstr>
+        <gstr name="GDWorldSettings.wsettings_default.desc">游戏初始将会有3个殖民者和1个机器人。</gstr>
+        <gstr name="GDWorldSettings.wsettings_challenge.name">挑战</gstr>
+        <gstr name="GDWorldSettings.wsettings_challenge.desc">游戏初始只有较少的殖民者。</gstr>
         
         <!-- UI Save Game -->   
         <gstr name="savegame.header">存储游戏</gstr>
@@ -264,7 +263,7 @@
         <gstr name="gamemenu.loadgame.btn">读取游戏</gstr>
         <gstr name="gamemenu.loadgame.info">读取存储的游戏</gstr>
         <gstr name="gamemenu.feedback.btn">反馈</gstr>
-        <gstr name="gamemenu.feedback.info">Opens the contact/report form on the Mercury Fallen website</gstr>
+        <gstr name="gamemenu.feedback.info">打开水星坠落（Mercury Fallen）的联系/反馈页面。</gstr>
         <gstr name="gamemenu.quit.btn">退出到主菜单</gstr>
         <gstr name="gamemenu.quit.info">退出到主菜单</gstr>
         <gstr name="gamemenu.quit.confirm">确定退出到主菜单？所有未存储的内容将会丢失。</gstr>
@@ -282,59 +281,59 @@
         <gstr name="modmgr.viewmodonworkshop.btn">在创意工坊中查看</gstr>
         
         <gstr name="modmgr.viewonsteamworkshop.btn">在创意工坊中查看</gstr>
-        <gstr name="modmgr.uploadtosteam.win.label">Upload {0} to Steam Workshop?&#13;&#10;By clicking OK you confirm that you are either the creator of this mod content or have proper permissions to upload it under your username.</gstr>
+        <gstr name="modmgr.uploadtosteam.win.label">确定上传{0}到创意工坊页面？&#13;&#10;点击“确定”完成操作，并且确认你是这个模组内容的创建者，或者有适当的权限以你的用户名上传。</gstr>
         <gstr name="modmgr.uploadtosteam.progress.label">正在上传模组：{0}</gstr>
         <gstr name="modmgr.uploadtosteam.statussuccess.label">模组已成功上传</gstr>
         <gstr name="modmgr.uploadtosteam.statusfailed.label">设置和上传模组内容时发生意外错误</gstr>
         
         <!-- UI Input Keys -->
-        <gstr name="GDInputKey.ink_camforward.name">Camera Forward</gstr>
-        <gstr name="GDInputKey.ink_cambackward.name">Camera Backward</gstr>
-        <gstr name="GDInputKey.ink_campanleft.name">Camera Left</gstr>
-        <gstr name="GDInputKey.ink_campanright.name">Camera Right</gstr>
-        <gstr name="GDInputKey.ink_camrotleft.name">Camera Rotate Left</gstr>
-        <gstr name="GDInputKey.ink_camrotright.name">Camera Rotate Right</gstr>
-        <gstr name="GDInputKey.ink_camtiltup.name">Camera Tilt Up</gstr>
-        <gstr name="GDInputKey.ink_camtiltdown.name">Camera Tilt Down</gstr>
-        <gstr name="GDInputKey.ink_camzoomin.name">Camera Zoom In</gstr>
-        <gstr name="GDInputKey.ink_camzoomout.name">Camera Zoom Out</gstr>
-        <gstr name="GDInputKey.ink_centerfacility.name">Reset Camera</gstr>
+        <gstr name="GDInputKey.ink_camforward.name">镜头前进</gstr>
+        <gstr name="GDInputKey.ink_cambackward.name">镜头后退</gstr>
+        <gstr name="GDInputKey.ink_campanleft.name">镜头左移</gstr>
+        <gstr name="GDInputKey.ink_campanright.name">镜头右移</gstr>
+        <gstr name="GDInputKey.ink_camrotleft.name">镜头左转</gstr>
+        <gstr name="GDInputKey.ink_camrotright.name">镜头右转</gstr>
+        <gstr name="GDInputKey.ink_camtiltup.name">镜头拉高</gstr>
+        <gstr name="GDInputKey.ink_camtiltdown.name">镜头降低</gstr>
+        <gstr name="GDInputKey.ink_camzoomin.name">镜头缩近</gstr>
+        <gstr name="GDInputKey.ink_camzoomout.name">镜头放远</gstr>
+        <gstr name="GDInputKey.ink_centerfacility.name">重置镜头</gstr>
         
-        <gstr name="GDInputKey.ink_rotobject.name">Rotate Object</gstr>
-        <gstr name="GDInputKey.ink_managementscreen.name">Management Screen</gstr>
+        <gstr name="GDInputKey.ink_rotobject.name">旋转物体</gstr>
+        <gstr name="GDInputKey.ink_managementscreen.name">管理界面</gstr>
         
-        <gstr name="GDInputKey.ink_nextcolonist.name">Select Next Colonist</gstr>
-        <gstr name="GDInputKey.ink_prevcolonist.name">Select Previous Colonist</gstr>
+        <gstr name="GDInputKey.ink_nextcolonist.name">选择下一个殖民者</gstr>
+        <gstr name="GDInputKey.ink_prevcolonist.name">选择上一个殖民者</gstr>
         
-        <gstr name="GDInputKey.ink_speedpause.name">Speed Paused</gstr>
-        <gstr name="GDInputKey.ink_speednormal.name">Speed Normal</gstr>
-        <gstr name="GDInputKey.ink_speedfast.name">Speed Fast</gstr>
-        <gstr name="GDInputKey.ink_speedfastest.name">Speed Hyper</gstr>
+        <gstr name="GDInputKey.ink_speedpause.name">暂停</gstr>
+        <gstr name="GDInputKey.ink_speednormal.name">常速</gstr>
+        <gstr name="GDInputKey.ink_speedfast.name">快速</gstr>
+        <gstr name="GDInputKey.ink_speedfastest.name">高速</gstr>
         
-        <gstr name="GDInputKey.ink_showmanwin_colonists.name">Colonists</gstr>
-        <gstr name="GDInputKey.ink_showmanwin_research.name">Research</gstr>
-        <gstr name="GDInputKey.ink_showmanwin_discoveries.name">Discoveries</gstr>
-        <gstr name="GDInputKey.ink_showmanwin_planetmap.name">Planet Map</gstr>
-        <gstr name="GDInputKey.ink_showmanwin_guide.name">Guide</gstr>
+        <gstr name="GDInputKey.ink_showmanwin_colonists.name">殖民者</gstr>
+        <gstr name="GDInputKey.ink_showmanwin_research.name">科研</gstr>
+        <gstr name="GDInputKey.ink_showmanwin_discoveries.name">发现物</gstr>
+        <gstr name="GDInputKey.ink_showmanwin_planetmap.name">星球地图</gstr>
+        <gstr name="GDInputKey.ink_showmanwin_guide.name">指引</gstr>
         
-        <gstr name="GDInputKey.ink_togglebuildcategory.name">Toggle Build Category</gstr>
-        <gstr name="GDInputKey.ink_toggleharvestmode.name">Toggle Harvest Mode</gstr>
-        <gstr name="GDInputKey.ink_toggledeconstructmode.name">Toggle Deconstruct Mode</gstr>
-        <gstr name="GDInputKey.ink_toggleconstructionqueue.name">Toggle Construction Queue</gstr>
+        <gstr name="GDInputKey.ink_togglebuildcategory.name">切换建筑类别</gstr>
+        <gstr name="GDInputKey.ink_toggleharvestmode.name">切换收割模式</gstr>
+        <gstr name="GDInputKey.ink_toggledeconstructmode.name">切换拆除模式</gstr>
+        <gstr name="GDInputKey.ink_toggleconstructionqueue.name">切换建造队列</gstr>
         
-        <gstr name="GDInputKey.ink_viewnormal.name">View Normal</gstr>
-        <gstr name="GDInputKey.ink_viewpower.name">Toggle Power Conduits Overlay</gstr>
-        <gstr name="GDInputKey.ink_viewwater.name">Toggle Water Conduits Overlay</gstr>
-        <gstr name="GDInputKey.ink_viewdecor.name">Toggle Decor Overlay</gstr>
-        <gstr name="GDInputKey.ink_viewrooms.name">Toggle Rooms Overlay</gstr>
-        <gstr name="GDInputKey.ink_toggleui.name">Toggle UI</gstr>
+        <gstr name="GDInputKey.ink_viewnormal.name">普通视角</gstr>
+        <gstr name="GDInputKey.ink_viewpower.name">切换电线覆层</gstr>
+        <gstr name="GDInputKey.ink_viewwater.name">切换水管覆层</gstr>
+        <gstr name="GDInputKey.ink_viewdecor.name">切换装饰覆层</gstr>
+        <gstr name="GDInputKey.ink_viewrooms.name">切换房间覆层</gstr>
+        <gstr name="GDInputKey.ink_toggleui.name">切换用户界面</gstr>
         
         <!-- Entity Panel -->
-        <gstr name="entpanel.enabled.tt">Enabled&#13;&#10;Click to disable</gstr>
-        <gstr name="entpanel.disabled.tt">Disabled&#13;&#10;Click to enable</gstr>
-        <gstr name="entpanel.destroy.tt">Deconstruct&#13;&#10;Mark Object For Deconstruction.</gstr>
-        <gstr name="entpanel.remove.tt">Remove&#13;&#10;Object being constructed will be removed.</gstr>
-        <gstr name="entpanel.destroycancel.tt">Cancel Deconstruction</gstr>
+        <gstr name="entpanel.enabled.tt">已启用&#13;&#10;点击禁用</gstr>
+        <gstr name="entpanel.disabled.tt">已禁用&#13;&#10;点击启用</gstr>
+        <gstr name="entpanel.destroy.tt">拆除&#13;&#10;标记待拆除物体。</gstr>
+        <gstr name="entpanel.remove.tt">移除&#13;&#10;正在建造的物体将被移除。</gstr>
+        <gstr name="entpanel.destroycancel.tt">取消建造</gstr>
         
         <!-- UI Research Projects Window-->
         <gstr name="reswin.noresearchtext">无激活的研究项目</gstr>
@@ -373,193 +372,193 @@
         <gstr name="cmanwin.energy.label">疲劳度：{0}%</gstr>
         <gstr name="cmanwin.stress.label">紧张度：{0}%</gstr>
         
-        <gstr name="cmanwin.average.header">Status</gstr>
-        <gstr name="cmanwin.population.header">Population</gstr>
+        <gstr name="cmanwin.average.header">状况</gstr>
+        <gstr name="cmanwin.population.header">人口</gstr>
         
-        <gstr name="cmanwin.population.label">{0} Population: {1}</gstr>
+        <gstr name="cmanwin.population.label">{0}人口：{1}</gstr>
         
-        <gstr name="cmanwin.ccard.age">Age: {0}</gstr>
-        <gstr name="cmanwin.job_slot_0.tt">Primary Job</gstr>
-        <gstr name="cmanwin.job_slot_1.tt">Secondary Job</gstr>
-        <gstr name="cmanwin.job_slot_2.tt">Tertiary Job</gstr>
+        <gstr name="cmanwin.ccard.age">年龄：{0}</gstr>
+        <gstr name="cmanwin.job_slot_0.tt">首要工作</gstr>
+        <gstr name="cmanwin.job_slot_1.tt">次要工作</gstr>
+        <gstr name="cmanwin.job_slot_2.tt">第三工作</gstr>
         
-        <gstr name="cmanwin.equipslot.tt">Equipment Slot</gstr>
+        <gstr name="cmanwin.equipslot.tt">装备槽</gstr>
         
-        <gstr name="cmanwin.jritem_age.label">Age: {0}</gstr>
-        <gstr name="cmanwin.jritem_infobtn.tt">Show Info Panel</gstr>
-        <gstr name="cmanwin.edit_name.tt">Edit Name</gstr>
+        <gstr name="cmanwin.jritem_age.label">年龄：{0}</gstr>
+        <gstr name="cmanwin.jritem_infobtn.tt">显示信息面板</gstr>
+        <gstr name="cmanwin.edit_name.tt">编辑姓名</gstr>
         
-        <gstr name="cmanwin.discoveries.nonefound">No discovery items found. Make discoveries by opening item chests and exploring the world.</gstr>
-        <gstr name="cmanwin.planetmap.surfaceoffline">Surface Visibility Offline&#13;&#10;&lt;size=18&gt;Elevator Required&lt;/size&gt;</gstr>
+        <gstr name="cmanwin.discoveries.nonefound">没有找到任何发现物。通过打开物品箱和探索世界寻找发现物。</gstr>
+        <gstr name="cmanwin.planetmap.surfaceoffline">地表监视系统离线&#13;&#10;&lt;size=18&gt;需要升降梯&lt;/size&gt;</gstr>
             
         <!-- UI HUD Inventory -->        
-        <gstr name="uihudinv.categories.tt">Hide Item Categories</gstr>
-        <gstr name="uihudinv.showzeroqty.tt">Hide Items With Zero Quantity</gstr>
-        <gstr name="uihudinv.azsort.tt">Sort Alphabetically</gstr>
-        <gstr name="uihudinv.qtysort.tt">Sort By Item Quantity</gstr>
+        <gstr name="uihudinv.categories.tt">隐藏物品类别</gstr>
+        <gstr name="uihudinv.showzeroqty.tt">隐藏数量为零的物品</gstr>
+        <gstr name="uihudinv.azsort.tt">按字母顺序排列</gstr>
+        <gstr name="uihudinv.qtysort.tt">按物品数量排序</gstr>
         
         <!-- UI Section Headers-->
-        <gstr name="uisecheader.getstartedtutorial">Getting Started</gstr>
-        <gstr name="uisecheader.info">Info</gstr>
-        <gstr name="uisecheader.reliability">Reliability</gstr>
-        <gstr name="uisecheader.buildable">Construction</gstr>
-        <gstr name="uisecheader.mining">Mining</gstr>
-        <gstr name="uisecheader.inventory">Inventory</gstr>
-        <gstr name="uisecheader.receivinginventory">Receiving</gstr>
-        <gstr name="uisecheader.shippinginventory">Shipping</gstr>
-        <gstr name="uisecheader.cropplant">Manage Crop</gstr>
-        <gstr name="uisecheader.cropalgae">Algae</gstr>
-        <gstr name="uisecheader.crafting">Craft Queue</gstr>
-        <gstr name="uisecheader.croster">Colonist Roster</gstr>
-        <gstr name="uisecheader.selectcolonists">Select Colonists</gstr>
-        <gstr name="uisecheader.research">Research</gstr>
-        <gstr name="uisecheader.powergen">Power Generation</gstr>
-        <gstr name="uisecheader.powerstorage">Power Storage</gstr>
-        <gstr name="uisecheader.watergen">Water Generation</gstr>
-        <gstr name="uisecheader.o2gen">O2 Generation</gstr>
-        <gstr name="uisecheader.powerconsumer">Power Consumption</gstr>
-        <gstr name="uisecheader.waterconsumer">Water Consumption</gstr>
-        <gstr name="uisecheader.cinfo">Details</gstr>
-        <gstr name="uisecheader.cattributes">Attributes</gstr>
-        <gstr name="uisecheader.equipment">Equipment</gstr>
-        <gstr name="uisecheader.cprofession">Profession</gstr>
-        <gstr name="uisecheader.cjobroles">Job Roles</gstr>
-        <gstr name="uisecheader.cjobs">Jobs</gstr>
-        <gstr name="uisecheader.cneeds">Needs</gstr>
-        <gstr name="uisecheader.cstats">Attributes</gstr>
-        <gstr name="uisecheader.cquirks">Quirks</gstr>
-        <gstr name="uisecheader.outfitcolors">Outfit Colors</gstr>
-        <gstr name="uisecheader.compdebug">Components Debug</gstr> 
-        <gstr name="uisecheader.ccloner">Clone Grower</gstr>
-        <gstr name="uisecheader.stasiscapsule">Capsule Control</gstr>
-        <gstr name="uisecheader.inactiverobot">Activate Robot</gstr>        
-        <gstr name="uisecheader.setting_video">Video</gstr>
-        <gstr name="uisecheader.setting_audio">Audio</gstr>
-        <gstr name="uisecheader.setting_controls">Controls</gstr>
-        <gstr name="uisecheader.setting_gameplay">Game</gstr>
-        <gstr name="uisecheader.setting_key_bindings">Key Bindings</gstr>
-        <gstr name="uisecheader.lightcolor">Light Color</gstr>
-        <gstr name="uisecheader.planter">Planter Settings</gstr>
-        <gstr name="uisecheader.filteritems">Set Allowed Items</gstr>
-        <gstr name="uisecheader.additemorder">Add Item Order</gstr>
-        <gstr name="uisecheader.updateitemorder">Modify Item Order</gstr>
-        <gstr name="uisecheader.robotassembly">Robot Assembly</gstr>
-        <gstr name="uisecheader.vehicleassembly">Vehicle Assembly</gstr>
-        <gstr name="uisecheader.equipment">Equipment</gstr>
-        <gstr name="uisecheader.debg_build_options">Debug Options</gstr>
-        <gstr name="uisecheader.dbg_colonist">Colonist Options</gstr>
-        <gstr name="uisecheader.dbg_tileinfo">Tile Info</gstr>
-        <gstr name="uisecheader.dbg_build_queue">Build Queue</gstr>
-        <gstr name="uisecheader.dbg_spawn_colonist">Spawn Colonist</gstr>
-        <gstr name="uisecheader.dgb_spawnitems">Spawn Items</gstr>
-        <gstr name="uisecheader.dgb_triggers">Triggers</gstr>
-        <gstr name="uisecheader.dgb_currencies">Currencies</gstr>
-        <gstr name="uisecheader.dgb_loottester">Loot Tester</gstr>
-        <gstr name="uisecheader.dgb_stories">Stories</gstr>
-        <gstr name="uisecheader.itemcanister">Item Chest</gstr>
-        <gstr name="uisecheader.cropfish">Manage Fish</gstr>
-        <gstr name="uisecheader.scancontrol">Surface Scanning</gstr>
-        <gstr name="uisecheader.vehiclelist">Vehicles</gstr>
-        <gstr name="uisecheader.buildinglist">Buildings</gstr>
-        <gstr name="uisecheader.pmdispmodes">Display Modes</gstr>
-        <gstr name="uisecheader.cassignvehicles">Assign Delivery Vehicles</gstr>
-        <gstr name="uisecheader.cassigncolonist">Assign Colonist</gstr>
-        <gstr name="uisecheader.celectricconnector">Power Network Info</gstr>
-        <gstr name="uisecheader.celectricconsumer">Power Consumption</gstr>
-        <gstr name="uisecheader.charvestable">Harvestable</gstr>
-        <gstr name="uisecheader.actionowner">Action Info</gstr>
-        <gstr name="uisecheader.watertrap">Water Trap</gstr>
-        <gstr name="uisecheader.passengerlist">Passenger List</gstr>
-        <gstr name="uisecheader.miningplatform">Mining Platform</gstr>
-        <gstr name="uisecheader.haulitems">Haul Items</gstr>
-        <gstr name="uisecheader.surfharvestable">Harvestable Resource</gstr>
-        <gstr name="uisecheader.roominfo">Room Info</gstr>
-        <gstr name="uisecheader.fishtank">Fish Tank</gstr>
+        <gstr name="uisecheader.getstartedtutorial">入门指南</gstr>
+        <gstr name="uisecheader.info">信息</gstr>
+        <gstr name="uisecheader.reliability">可靠度</gstr>
+        <gstr name="uisecheader.buildable">建筑</gstr>
+        <gstr name="uisecheader.mining">采掘</gstr>
+        <gstr name="uisecheader.inventory">库存</gstr>
+        <gstr name="uisecheader.receivinginventory">接收</gstr>
+        <gstr name="uisecheader.shippinginventory">运送</gstr>
+        <gstr name="uisecheader.cropplant">作物管理</gstr>
+        <gstr name="uisecheader.cropalgae">水藻 </gstr>
+        <gstr name="uisecheader.crafting">制造队列</gstr>
+        <gstr name="uisecheader.croster">殖民者名册</gstr>
+        <gstr name="uisecheader.selectcolonists">选择殖民者</gstr>
+        <gstr name="uisecheader.research">科研</gstr>
+        <gstr name="uisecheader.powergen">电力生产</gstr>
+        <gstr name="uisecheader.powerstorage">电力存储</gstr>
+        <gstr name="uisecheader.watergen">水资源生产</gstr>
+        <gstr name="uisecheader.o2gen">氧气生产</gstr>
+        <gstr name="uisecheader.powerconsumer">电力消耗</gstr>
+        <gstr name="uisecheader.waterconsumer">水资源消耗</gstr>
+        <gstr name="uisecheader.cinfo">详细内容</gstr>
+        <gstr name="uisecheader.cattributes">特质</gstr>
+        <gstr name="uisecheader.equipment">装备</gstr>
+        <gstr name="uisecheader.cprofession">职业</gstr>
+        <gstr name="uisecheader.cjobroles">工作岗位</gstr>
+        <gstr name="uisecheader.cjobs">工作</gstr>
+        <gstr name="uisecheader.cneeds">需求</gstr>
+        <gstr name="uisecheader.cstats">属性</gstr>
+        <gstr name="uisecheader.cquirks">怪癖</gstr>
+        <gstr name="uisecheader.outfitcolors">衣服颜色</gstr>
+        <gstr name="uisecheader.compdebug">部件调试</gstr> 
+        <gstr name="uisecheader.ccloner">克隆生长器（Clone Grower）</gstr>
+        <gstr name="uisecheader.stasiscapsule">静滞休眠仓控制</gstr>
+        <gstr name="uisecheader.inactiverobot">激活机器人</gstr>        
+        <gstr name="uisecheader.setting_video">视频</gstr>
+        <gstr name="uisecheader.setting_audio">音频</gstr>
+        <gstr name="uisecheader.setting_controls">控制</gstr>
+        <gstr name="uisecheader.setting_gameplay">游戏</gstr>
+        <gstr name="uisecheader.setting_key_bindings">键位绑定</gstr>
+        <gstr name="uisecheader.lightcolor">灯光颜色</gstr>
+        <gstr name="uisecheader.planter">花盆设定</gstr>
+        <gstr name="uisecheader.filteritems">设置允许物品</gstr>
+        <gstr name="uisecheader.additemorder">添加物品订单</gstr>
+        <gstr name="uisecheader.updateitemorder">修改物品订单</gstr>
+        <gstr name="uisecheader.robotassembly">机器人组装</gstr>
+        <gstr name="uisecheader.vehicleassembly">载具组装</gstr>
+        <gstr name="uisecheader.equipment">装备</gstr>
+        <gstr name="uisecheader.debg_build_options">调试选项</gstr>
+        <gstr name="uisecheader.dbg_colonist">殖民者选项</gstr>
+        <gstr name="uisecheader.dbg_tileinfo">地板信息</gstr>
+        <gstr name="uisecheader.dbg_build_queue">建造队列</gstr>
+        <gstr name="uisecheader.dbg_spawn_colonist">生成殖民者</gstr>
+        <gstr name="uisecheader.dgb_spawnitems">生成物品</gstr>
+        <gstr name="uisecheader.dgb_triggers">触发器</gstr>
+        <gstr name="uisecheader.dgb_currencies">货币</gstr>
+        <gstr name="uisecheader.dgb_loottester">战利品测试器</gstr>
+        <gstr name="uisecheader.dgb_stories">故事</gstr>
+        <gstr name="uisecheader.itemcanister">物品箱</gstr>
+        <gstr name="uisecheader.cropfish">鱼类管理</gstr>
+        <gstr name="uisecheader.scancontrol">地表扫描</gstr>
+        <gstr name="uisecheader.vehiclelist">载具</gstr>
+        <gstr name="uisecheader.buildinglist">建筑</gstr>
+        <gstr name="uisecheader.pmdispmodes">显示模式</gstr>
+        <gstr name="uisecheader.cassignvehicles">指定配送载具</gstr>
+        <gstr name="uisecheader.cassigncolonist">指定殖民者</gstr>
+        <gstr name="uisecheader.celectricconnector">电力网络信息</gstr>
+        <gstr name="uisecheader.celectricconsumer">电力消耗</gstr>
+        <gstr name="uisecheader.charvestable">可收获</gstr>
+        <gstr name="uisecheader.actionowner">行动信息</gstr>
+        <gstr name="uisecheader.watertrap">水泵</gstr>
+        <gstr name="uisecheader.passengerlist">乘员列表</gstr>
+        <gstr name="uisecheader.miningplatform">采矿平台</gstr>
+        <gstr name="uisecheader.haulitems">搬运物品</gstr>
+        <gstr name="uisecheader.surfharvestable">可收获资源</gstr>
+        <gstr name="uisecheader.roominfo">房间信息</gstr>
+        <gstr name="uisecheader.fishtank">鱼缸</gstr>
         
-        <gstr name="uiwinheader.createexpedition">Create Expedition</gstr>
-        <gstr name="uisecheader.expchoosecolonists">Choose Colonists</gstr>
-        <gstr name="uisecheader.expchooseitems">Expedition Items</gstr>
-        <gstr name="uisecheader.expchoosepois">POI Selection</gstr>
-        <gstr name="uisecheader.expdetails">Expedition Details</gstr>
+        <gstr name="uiwinheader.createexpedition">创建探险队</gstr>
+        <gstr name="uisecheader.expchoosecolonists">选择殖民者</gstr>
+        <gstr name="uisecheader.expchooseitems">探险队物品</gstr>
+        <gstr name="uisecheader.expchoosepois">选择兴趣点</gstr>
+        <gstr name="uisecheader.expdetails">探险队细节</gstr>
         
-        <gstr name="uisecheader.expeditions">Expeditions</gstr>
+        <gstr name="uisecheader.expeditions">探险</gstr>
         
-        <gstr name="uisecheader.hologramemitter">Hologram Emitter</gstr>
-        <gstr name="uisecheader.doorcontrol">Door Control</gstr>
-        <gstr name="uisecheader.poilist">Manage Destinations</gstr>
+        <gstr name="uisecheader.hologramemitter">全息投影器</gstr>
+        <gstr name="uisecheader.doorcontrol">门控系统</gstr>
+        <gstr name="uisecheader.poilist">目标地点管理</gstr>
         
-        <gstr name="uiwinheader.choosecrop">Choose Crop</gstr>
-        <gstr name="uiwinheader.choosefish">Choose Fish</gstr>
-        <gstr name="uiwinheader.choosefertilizer">Choose Fertilizer</gstr>
-        <gstr name="uiwinheader.chooserecipeitem">Choose Recipe Ingredient</gstr>
+        <gstr name="uiwinheader.choosecrop">选择作物</gstr>
+        <gstr name="uiwinheader.choosefish">选择鱼类</gstr>
+        <gstr name="uiwinheader.choosefertilizer">选择肥料</gstr>
+        <gstr name="uiwinheader.chooserecipeitem">选择配方材料</gstr>
         
 
         <!-- Settings -->
-        <gstr name="GDGS_Resolution.gs_resolution.name">Resolution</gstr>
-        <gstr name="GDGS_FullScreen.gs_fullscreen.name">Full Screen</gstr>
-        <gstr name="GDGS_Audio.vol_master.name">Master Volume</gstr>
-        <gstr name="GDGS_Audio.vol_sfx.name">FX Volume</gstr>
-        <gstr name="GDGS_Audio.vol_music.name">Music Volume</gstr>
-        <gstr name="GDGS_Audio.vol_ui.name">UI Volume</gstr>
-        <gstr name="GDGS_InvertCamRot.gs_invertcamrot.name">Invert Camera Rotation</gstr>
-        <gstr name="GDGS_GFXQuality.gfx_quality.name">Quality</gstr>
-        <gstr name="GDGS_GFXQuality.lowquality.name">Low</gstr>
-        <gstr name="GDGS_GFXQuality.medquality.name">Medium</gstr>
-        <gstr name="GDGS_GFXQuality.highquality.name">High</gstr>
-        <gstr name="GDGS_Brightness.gfx_brightness.name">Brightness</gstr>
-        <gstr name="GDGS_ShowShortcutsOnHUD.gs_showhudshortcuts.name">Show HUD shortcuts</gstr>
+        <gstr name="GDGS_Resolution.gs_resolution.name">分辨率</gstr>
+        <gstr name="GDGS_FullScreen.gs_fullscreen.name">全屏</gstr>
+        <gstr name="GDGS_Audio.vol_master.name">主音量</gstr>
+        <gstr name="GDGS_Audio.vol_sfx.name">特效（FX）音量</gstr>
+        <gstr name="GDGS_Audio.vol_music.name">音乐（Music）音量</gstr>
+        <gstr name="GDGS_Audio.vol_ui.name">界面（UI）音量</gstr>
+        <gstr name="GDGS_InvertCamRot.gs_invertcamrot.name">反向镜头旋转</gstr>
+        <gstr name="GDGS_GFXQuality.gfx_quality.name">质量</gstr>
+        <gstr name="GDGS_GFXQuality.lowquality.name">低</gstr>
+        <gstr name="GDGS_GFXQuality.medquality.name">中</gstr>
+        <gstr name="GDGS_GFXQuality.highquality.name">高</gstr>
+        <gstr name="GDGS_Brightness.gfx_brightness.name">亮度</gstr>
+        <gstr name="GDGS_ShowShortcutsOnHUD.gs_showhudshortcuts.name">显示HUD快捷键</gstr>
         
         
-        <gstr name="GDGS_MouseSensitivity.gs_msensitivity.name">Camera Rotation Speed</gstr>
-        <gstr name="GDGS_CameraMoveSpeed.gs_cammovespeed.name">Camera Move Speed</gstr>
-        <gstr name="GDGS_ObjectTracking.gs_trackobjects.name">Selection Lock</gstr>
-        <gstr name="GDGS_EdgeScroll.gs_edgescroll.name">Edge Scrolling</gstr>
-        <gstr name="GDGS_ConfineCursor.gs_confinecursor.name">Lock Cursor To Window</gstr>
-        <gstr name="GDGS_VSync.gfx_vsync.name">VSync</gstr>
-        <gstr name="GDGS_Language.gs_language.name">Language</gstr>
-        <gstr name="GDGS_TemperatureUnits.gs_tempunits.name">Temperature Unit</gstr>
-        <gstr name="GDGS_TemperatureUnits.tempunit.f">Fahrenheit</gstr>
-        <gstr name="GDGS_TemperatureUnits.tempunit.c">Celsius</gstr>
-        <gstr name="GDGS_TemperatureUnits.tempunit.k">Kelvin</gstr>
+        <gstr name="GDGS_MouseSensitivity.gs_msensitivity.name">镜头旋转速度</gstr>
+        <gstr name="GDGS_CameraMoveSpeed.gs_cammovespeed.name">镜头移动速度</gstr>
+        <gstr name="GDGS_ObjectTracking.gs_trackobjects.name">锁定选择</gstr>
+        <gstr name="GDGS_EdgeScroll.gs_edgescroll.name">边缘滚屏</gstr>
+        <gstr name="GDGS_ConfineCursor.gs_confinecursor.name">锁定光标于窗口</gstr>
+        <gstr name="GDGS_VSync.gfx_vsync.name">垂直同步</gstr>
+        <gstr name="GDGS_Language.gs_language.name">语言</gstr>
+        <gstr name="GDGS_TemperatureUnits.gs_tempunits.name">温度单位</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.f">华氏度</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.c">摄氏度</gstr>
+        <gstr name="GDGS_TemperatureUnits.tempunit.k">开氏度</gstr>
         
-        <gstr name="GDGS_MeasureUnits.gs_measureunits.name">Measuring Unit</gstr>
-        <gstr name="GDGS_MeasureUnits.measureunit.imperial">Imperial</gstr>
-        <gstr name="GDGS_MeasureUnits.measureunit.metric">Metric</gstr>
+        <gstr name="GDGS_MeasureUnits.gs_measureunits.name">测量单位</gstr>
+        <gstr name="GDGS_MeasureUnits.measureunit.imperial">英制</gstr>
+        <gstr name="GDGS_MeasureUnits.measureunit.metric">公制</gstr>
         
-        <gstr name="GDGS_AutoSaveTime.gs_autosavetime.name">Auto Save Every</gstr>
-        <gstr name="GDGS_AutoSaveTime.option.off">Never</gstr>
-        <gstr name="GDGS_AutoSaveTime.option.label">{0} Minutes</gstr>
+        <gstr name="GDGS_AutoSaveTime.gs_autosavetime.name">自动存储间隔</gstr>
+        <gstr name="GDGS_AutoSaveTime.option.off">从不</gstr>
+        <gstr name="GDGS_AutoSaveTime.option.label">{0}分钟</gstr>
         
-        <gstr name="GDGS_UIScale.ui_scale.name">UI Scale</gstr>
-        <gstr name="GDGS_UIScale.optionlabel.0">Small</gstr>
-        <gstr name="GDGS_UIScale.optionlabel.1">Medium</gstr>
-        <gstr name="GDGS_UIScale.optionlabel.2">Large</gstr>
+        <gstr name="GDGS_UIScale.ui_scale.name">用户界面缩放</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.0">小</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.1">中</gstr>
+        <gstr name="GDGS_UIScale.optionlabel.2">大</gstr>
         
         
         <!-- UI Section Data -->
-        <gstr name="uiresgen.label.text">{0} Generated: {1}{2}</gstr>
-        <gstr name="uiresconsume.label.text">{0} Consumed: {1}{2} / {3}{4}</gstr>
+        <gstr name="uiresgen.label.text">{0}已生成：{1}{2}</gstr>
+        <gstr name="uiresconsume.label.text">{0}已消耗：{1}{2} / {3}{4}</gstr>
         
-        <gstr name="uiresconsumerdisabled.label">Object disabled</gstr>
-        <gstr name="uiresconsumerbroken.label">Object is broken or not operational</gstr>
-        <gstr name="uiresconsumernoconnection.label">Not connected</gstr>
-        <gstr name="uiresgenerror.label.text">Not connected, not enough power or structure disabled.</gstr>
+        <gstr name="uiresconsumerdisabled.label">物体已禁用</gstr>
+        <gstr name="uiresconsumerbroken.label">物体已损坏或无法交互。</gstr>
+        <gstr name="uiresconsumernoconnection.label">未连接</gstr>
+        <gstr name="uiresgenerror.label.text">未连接电源，或者没有足够的电力亦或建筑被禁用。</gstr>
         
-        <gstr name="uibuildqueue.queuecount.label">Queue Count: {0}</gstr>
-        <gstr name="uibuildqueue.cancelall.btn">Cancel All</gstr>
-        <gstr name="uibuildqueue.cancelall.notice">Remove all objects in the construction queue?</gstr>
+        <gstr name="uibuildqueue.queuecount.label">队列计数：{0}</gstr>
+        <gstr name="uibuildqueue.cancelall.btn">取消所有</gstr>
+        <gstr name="uibuildqueue.cancelall.notice">移除建造队列中的所有物体？</gstr>
         
-        <gstr name="uirestype.water.name">Water</gstr>
-        <gstr name="uirestype.water.unit">Gal.</gstr>
-        <gstr name="uirestype.water.tt">Total water consumption over total water generation</gstr>
+        <gstr name="uirestype.water.name">水</gstr>
+        <gstr name="uirestype.water.unit">加仑</gstr>
+        <gstr name="uirestype.water.tt">总耗水量超过总生产量</gstr>
         
-        <gstr name="uirestype.power.name">Power</gstr>
-        <gstr name="uirestype.powerstorage.name">Power Stored</gstr>
-        <gstr name="uirestype.power.unit">W</gstr>
-        <gstr name="uirestype.power.tt">Total Output: {0}&#13;&#10;Total Stored: {1}&#13;&#10;Total Consumed: {2}</gstr>
+        <gstr name="uirestype.power.name">电力</gstr>
+        <gstr name="uirestype.powerstorage.name">电力存储</gstr>
+        <gstr name="uirestype.power.unit">瓦</gstr>
+        <gstr name="uirestype.power.tt">总输出：{0}&#13;&#10;总存储：{1}&#13;&#10;总消耗：{2}</gstr>
         
-        <gstr name="uirestype.o2.name">O2</gstr>
-        <gstr name="uirestype.o2.unit">L</gstr>
+        <gstr name="uirestype.o2.name">氧气</gstr>
+        <gstr name="uirestype.o2.unit">升</gstr>
         
         <gstr name="uiseccloner.grow_btn">Grow Clone</gstr>
         <gstr name="uiseccloner.cloning.label">Clone Progress</gstr>
@@ -601,7 +600,7 @@
         <gstr name="uiseccinfo.durability.label">Durability</gstr>
         <gstr name="uiseccinfo.durabilityrepairat.label">Repair At {0:0}%</gstr>
         <gstr name="uiseccinfo.gender.label">Gender: {0}</gstr>
-        <gstr name="uiseccinfo.age.label">Age: {0}</gstr>   
+        <gstr name="uiseccinfo.age.label">年龄：{0}</gstr>   
         <gstr name="uiseccinfo.actionidle.label">Idle</gstr>
         <gstr name="uiseccinfo.actiondead.label">Dead</gstr>
         <gstr name="uiseccinfo.actionexpedition.label">On Expedition</gstr>
@@ -821,8 +820,8 @@
         
         <gstr name="uisecequipment.back.btn">&lt;&lt; Back</gstr>
         <gstr name="uisecequipment.removeequipment.label">Remove equipment: {0}? Equipment item will be destroyed in the removal process.</gstr>
-        <gstr name="uisecequipment.noequipmentinstalled.tt">Available Equipment Slot&#13;&#10;&#13;&#10;Click To Choose Equipment</gstr>
-        <gstr name="uisecequipment.noequipmentinstalledvehiclenotdocked.tt">Available Equipment Slot&#13;&#10;&#13;&#10;Vehicle Must Be Docked To Install Equipment</gstr>
+        <gstr name="uisecequipment.noequipmentinstalled.tt">Available 装备槽&#13;&#10;&#13;&#10;Click To Choose Equipment</gstr>
+        <gstr name="uisecequipment.noequipmentinstalledvehiclenotdocked.tt">Available 装备槽&#13;&#10;&#13;&#10;Vehicle Must Be Docked To Install Equipment</gstr>
         <gstr name="uisecequipment.waitingforinstall.tt">{0}&#13;&#10; Waiting For Install</gstr>
         <gstr name="uisecequipment.chooserselect.label">Choose Equipment</gstr>
         <gstr name="uisecequipment.choosernoequipment.label">No Equipment Available</gstr>
@@ -2822,7 +2821,7 @@ Bunny is excited for the trip and, frankly, so am I. It’s been a long time sin
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">First Research Project</gstr>
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">Open the Research Projects screen from the bottom button bar and choose an available project from the list. Once you have enough research points a research project can be unlocked.</gstr>
         <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.name">Assign Job Roles</gstr>
-        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.desc">Colonists awoken from stasis will already have one primary job assigned. Colonists can have up to three jobs assigned. &#13;&#10;&#13;&#10;Left Click on a colonist to select them. Then click on a job slot in their info panel to assign or change the job in that slot. &#13;&#10;&#13;&#10;Job priority is based on the primary, secondary and tertiary job slots. Primary jobs will be attempted first and so on.</gstr>
+        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.desc">Colonists awoken from stasis will already have one 首要工作 assigned. Colonists can have up to three jobs assigned. &#13;&#10;&#13;&#10;Left Click on a colonist to select them. Then click on a job slot in their info panel to assign or change the job in that slot. &#13;&#10;&#13;&#10;Job priority is based on the primary, secondary and tertiary job slots. 首要工作s will be attempted first and so on.</gstr>
         
     </GDInfo>
 </GDInfos>
