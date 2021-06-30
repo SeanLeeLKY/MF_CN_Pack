@@ -105,7 +105,7 @@
         
         <gstr name="uihud.construct.info.rotate">旋转</gstr>
         <gstr name="uihud.construct.info.place">放置物体</gstr>      
-        <gstr name="uihud.construct.info.eyedropper">吸色/取色工具(Eye Dropper)：Shift + Click</gstr>
+        <gstr name="uihud.construct.info.eyedropper">选择复制工具：Shift + Click</gstr>
         
         
         <gstr name="uilistbtn.movetotop.tt">移至顶层</gstr>
@@ -139,7 +139,7 @@
         
         <gstr name="uiwin.biomescanresults.header">{0}生态扫描结果</gstr>
         
-        <gstr name="uiwin.jobchooser.header">Choose {0} Job Role</gstr>
+        <gstr name="uiwin.jobchooser.header">选取{0}工作</gstr>
         <gstr name="uiwin.jobchooser.header.primary">首选</gstr>
         <gstr name="uiwin.jobchooser.header.secondary">次选</gstr>
         <gstr name="uiwin.jobchooser.header.tertiary">第三</gstr>
@@ -560,231 +560,231 @@
         <gstr name="uirestype.o2.name">氧气</gstr>
         <gstr name="uirestype.o2.unit">升</gstr>
         
-        <gstr name="uiseccloner.grow_btn">Grow Clone</gstr>
-        <gstr name="uiseccloner.cloning.label">Clone Progress</gstr>
+        <gstr name="uiseccloner.grow_btn">克隆仓</gstr>
+        <gstr name="uiseccloner.cloning.label">克隆进度</gstr>
         <gstr name="uiseccloner.progress.label">{0:0.0}%</gstr>
-        <gstr name="uiseccloner.capwarning.label">Cloning additional colonists could result in oxygen deprivation.</gstr>
+        <gstr name="uiseccloner.capwarning.label">克隆额外的殖民者可能会导致缺氧。</gstr>
         
-        <gstr name="uiseccinfo.outfitcolor.tt">Outfit Color {0}</gstr>
-        <gstr name="uiseccinfo.smarts.label">Smarts {0}</gstr>
-        <gstr name="uiseccinfo.muscles.label">Muscles {0}</gstr>
-        <gstr name="uiseccinfo.athletics.label">Athletics {0}</gstr>
+        <gstr name="uiseccinfo.outfitcolor.tt">服装颜色{0}</gstr>
+        <gstr name="uiseccinfo.smarts.label">才智{0}</gstr>
+        <gstr name="uiseccinfo.muscles.label">力量{0}</gstr>
+        <gstr name="uiseccinfo.athletics.label">敏捷{0}</gstr>
         
-        <gstr name="uiseccinfo.recycle.btn">Recycle Robot</gstr>
-        <gstr name="uiseccinfo.recycle.tt">Set robot to be recycled. Robot will go to an available Robot Recycler.</gstr>
-        <gstr name="uiseccinfo.cancelrecycle.btn">Cancel Recycle</gstr>
-        <gstr name="uiseccinfo.cancelrecycle.tt">Robot is marked for recycling. Click to cancel.</gstr>
+        <gstr name="uiseccinfo.recycle.btn">回收机器人</gstr>
+        <gstr name="uiseccinfo.recycle.tt">将机器人设置为待回收状态。之后机器人将被送到一个可用的机器人回收站。</gstr>
+        <gstr name="uiseccinfo.cancelrecycle.btn">取消回收</gstr>
+        <gstr name="uiseccinfo.cancelrecycle.tt">机器人已经被标记为待回收状态，点击取消。</gstr>
         
-        <gstr name="uisecinfo.poi.ignorbtn">Ignore POI</gstr>
-        <gstr name="uisecinfo.poi.ignorwin">This will remove the POI from the map. Continue?</gstr>
+        <gstr name="uisecinfo.poi.ignorbtn">忽略兴趣点</gstr>
+        <gstr name="uisecinfo.poi.ignorwin">这个选项将会从地图上移除兴趣点，继续吗？</gstr>
         
-        <gstr name="uiseccanister.open.label">Open Canister</gstr>
+        <gstr name="uiseccanister.open.label">打开</gstr>
         
-        <gstr name="uisecjobchooser.primary.label">Primary</gstr>
-        <gstr name="uisecjobchooser.secondary.label">Secondary</gstr>
-        <gstr name="uisecjobchooser.tertiary.label">Tertiary</gstr>
-        <gstr name="uisecjobchooser.incapable.label">Incapable</gstr>
+        <gstr name="uisecjobchooser.primary.label">首要</gstr>
+        <gstr name="uisecjobchooser.secondary.label">次要</gstr>
+        <gstr name="uisecjobchooser.tertiary.label">第三</gstr>
+        <gstr name="uisecjobchooser.incapable.label">无法指定</gstr>
             
-        <gstr name="iusecbuildinfo.req_research.label">Required Research</gstr>
-        <gstr name="iusecbuildinfo.decor.label">Decor {0:+##;-##}</gstr>
-        <gstr name="iusecbuildinfo.currencycap.label">{0} Cap +{1}</gstr>
-        <gstr name="iusecbuildinfo.colonistcap.label">{0} Population Cap +{1}</gstr>
-        <gstr name="iusecbuildinfo.invcapacity.label">Capacity: {0}</gstr>
-        <gstr name="iusecbuildinfo.requires.label">Requires</gstr>
+        <gstr name="iusecbuildinfo.req_research.label">需要研究</gstr>
+        <gstr name="iusecbuildinfo.decor.label">装饰{0:+##;-##}</gstr>
+        <gstr name="iusecbuildinfo.currencycap.label">{0} 上限 +{1}</gstr>
+        <gstr name="iusecbuildinfo.colonistcap.label">{0} 人口上限 +{1}</gstr>
+        <gstr name="iusecbuildinfo.invcapacity.label">容量： {0}</gstr>
+        <gstr name="iusecbuildinfo.requires.label">需要</gstr>
         <gstr name="iusecbuildinfo.sizeinfo.label"> {0}x{1}</gstr>
-        <gstr name="iusecbuildinfo.resconsumption.label">Resource Consumption</gstr>
-        <gstr name="iusecbuildinfo.resgeneration.label">Resource Output</gstr>
-        <gstr name="iusecbuildinfo.materials.label">Materials</gstr>            
-        <gstr name="uisecbuildinfo.sleeptime.label">Sleep Time ~{0} Hours</gstr>
+        <gstr name="iusecbuildinfo.resconsumption.label">资源消耗</gstr>
+        <gstr name="iusecbuildinfo.resgeneration.label">资源产出</gstr>
+        <gstr name="iusecbuildinfo.materials.label">材料</gstr>            
+        <gstr name="uisecbuildinfo.sleeptime.label">睡眠时间 ~{0} 小时</gstr>
         
-        <gstr name="uiseccinfo.durability.label">Durability</gstr>
-        <gstr name="uiseccinfo.durabilityrepairat.label">Repair At {0:0}%</gstr>
-        <gstr name="uiseccinfo.gender.label">Gender: {0}</gstr>
+        <gstr name="uiseccinfo.durability.label">耐久度</gstr>
+        <gstr name="uiseccinfo.durabilityrepairat.label">维修于 {0:0}%</gstr>
+        <gstr name="uiseccinfo.gender.label">性别：{0}</gstr>
         <gstr name="uiseccinfo.age.label">年龄：{0}</gstr>   
-        <gstr name="uiseccinfo.actionidle.label">Idle</gstr>
-        <gstr name="uiseccinfo.actiondead.label">Dead</gstr>
-        <gstr name="uiseccinfo.actionexpedition.label">On Expedition</gstr>
+        <gstr name="uiseccinfo.actionidle.label">闲置</gstr>
+        <gstr name="uiseccinfo.actiondead.label">死亡</gstr>
+        <gstr name="uiseccinfo.actionexpedition.label">探险中</gstr>
         
-        <gstr name="uisecbaittrap.baitinfo.label">Bait: {0}%</gstr>
-        <gstr name="uisecbaittrap.status.label">Status: {0}</gstr>
-        <gstr name="uisecbaittrap.status.offline.label">Offline</gstr>
-        <gstr name="uisecbaittrap.status.full.label">Full</gstr>
-        <gstr name="uisecbaittrap.status.working.label">Working</gstr>
-        <gstr name="uisecbaittrap.baitinfo.tt">Bait&#13;&#10;Bait is required in order to attract and collect resources. Delivered by Biologist</gstr>
-        <gstr name="uisecbaittrap.efficiency.label">Efficiency: {0}%</gstr>
-        <gstr name="uisecbaittrap.efficiency.tt">Efficiency&#13;&#10;Determined by the amount of adjacent water tiles. Affects collection speed.</gstr>
-        <gstr name="uisecbaittrap.collectedinv.label">Items Collected</gstr>
+        <gstr name="uisecbaittrap.baitinfo.label">饵料： {0}%</gstr>
+        <gstr name="uisecbaittrap.status.label">状况： {0}</gstr>
+        <gstr name="uisecbaittrap.status.offline.label">离线</gstr>
+        <gstr name="uisecbaittrap.status.full.label">充满</gstr>
+        <gstr name="uisecbaittrap.status.working.label">工作中</gstr>
+        <gstr name="uisecbaittrap.baitinfo.tt">饵料&#13;&#10;诱饵是用于吸引和收集资源的目的。由生物学家提供。</gstr>
+        <gstr name="uisecbaittrap.efficiency.label">效率： {0}%</gstr>
+        <gstr name="uisecbaittrap.efficiency.tt">效率&#13;&#10;由相邻水域方格的数量决定。影响收集速度。</gstr>
+        <gstr name="uisecbaittrap.collectedinv.label">物品已收集</gstr>
         
-        <gstr name="uisecbuildable.progress.label">Progress</gstr>
-        <gstr name="uisecbuildable.requirements.label">Build Requirements</gstr>
-        <gstr name="uisecbuildable.buildqueuepos.label">Position In Build Queue: {0}</gstr>
-        <gstr name="uisecbuildable.areanotclear.label">Waiting For Area To Be Cleared</gstr>
-        <gstr name="uisecbuildable.floornotdone.label">Floor Not Constructed Yet</gstr>
-        <gstr name="uisecbuildable.notreachable.label">Object Not Reachable</gstr>
-        <gstr name="uisecbuildable.highpriority.button">High Priority</gstr>
-        <gstr name="uisecbuildable.highpriority.button.tt">Sets this object to first place in the build queue.</gstr>
-        <gstr name="uisecbuildable.lowpriority.button">Low Priority</gstr>
-        <gstr name="uisecbuildable.lowpriority.button.tt">Sets this object to last place in the build queue.</gstr>
+        <gstr name="uisecbuildable.progress.label">进度</gstr>
+        <gstr name="uisecbuildable.requirements.label">建造需求</gstr>
+        <gstr name="uisecbuildable.buildqueuepos.label">建造队列位置：{0}</gstr>
+        <gstr name="uisecbuildable.areanotclear.label">等待区域清理完毕</gstr>
+        <gstr name="uisecbuildable.floornotdone.label">地板尚未建造</gstr>
+        <gstr name="uisecbuildable.notreachable.label">目标无法抵达</gstr>
+        <gstr name="uisecbuildable.highpriority.button">高优先级</gstr>
+        <gstr name="uisecbuildable.highpriority.button.tt">将此对象设置为建造队列中的第一位。</gstr>
+        <gstr name="uisecbuildable.lowpriority.button">低优先级</gstr>
+        <gstr name="uisecbuildable.lowpriority.button.tt">将此对象设置为建造队列中的最后一位。</gstr>
             
-        <gstr name="uiseccolroster.manage.btn">Manage Roster</gstr>
-        <gstr name="uiseccolroster.clear.btn">Clear Roster</gstr>        
+        <gstr name="uiseccolroster.manage.btn">管理名册</gstr>
+        <gstr name="uiseccolroster.clear.btn">清除名册</gstr>        
         
-        <gstr name="uisecjobrole.priority.tt">Colonists will do jobs with a higher priority first if they can. 1 = High Priority, 10 = Low Priority.</gstr>
+        <gstr name="uisecjobrole.priority.tt">正常情况下，殖民者会先做优先级较高的工作。1=高优先级，10=低优先级。</gstr>
         
-        <gstr name="uisecjobrole.unabletoperform.tt">Unable to perform job</gstr>
-        <gstr name="uisecjobrole.successchance.tt">Success Chance: {0}%</gstr>        
-        <gstr name="uisecjobrole.chancefromlevel.tt">{0}% From Level</gstr>
-        <gstr name="uisecjobrole.chancefromattr.tt">{0}% From {1}</gstr>
-        <gstr name="uisecjobrole.stresspercent.tt">-{0:0}% From Stress</gstr>
-        <gstr name="uisecjobrole.workspeed.tt">Work Speed: +{0}%</gstr>
+        <gstr name="uisecjobrole.unabletoperform.tt">无法执行工作</gstr>
+        <gstr name="uisecjobrole.successchance.tt">成功几率：{0}%</gstr>        
+        <gstr name="uisecjobrole.chancefromlevel.tt">{0}% 源于等级</gstr>
+        <gstr name="uisecjobrole.chancefromattr.tt">{0}% 源于{1}</gstr>
+        <gstr name="uisecjobrole.stresspercent.tt">-{0:0}% 源于压力</gstr>
+        <gstr name="uisecjobrole.workspeed.tt">工作速度： +{0}%</gstr>
                 
-        <gstr name="uisecjoblist.minsmarts.label">Minimum Smarts Required To Perform Job</gstr>
-        <gstr name="uisecjoblist.minmuscles.label">Minimum Muscles Required To Perform Job</gstr>
-        <gstr name="uisecjoblist.minathletics.label">Minimum Athletics Required To Perform Job</gstr>
+        <gstr name="uisecjoblist.minsmarts.label">完成工作所需的最低才智等级</gstr>
+        <gstr name="uisecjoblist.minmuscles.label">完成工作所需的最低力量等级</gstr>
+        <gstr name="uisecjoblist.minathletics.label">完成工作所需的最低敏捷等级</gstr>
         
-        <gstr name="uiseccraftqueue.recipe.label">Recipe</gstr>
-        <gstr name="uiseccraftqueue.additemorder.btn">+ Add Order</gstr>
-        <gstr name="uiseccraftqueue.efficiency.tt">Efficiency&#13;&#10;Efficiency affects the work speed of this machine. Efficiency can be increased by room efficiency.&#13;&#10;Room Efficiency: {0:P0}</gstr>
-        <gstr name="uiseccraftqueue.deliveritemtoggle.label">Deliver To Storage</gstr>
-        <gstr name="uiseccraftqueue.deliveritemtoggle.tooltip">If checked colonist will collect produced item and deliver to storage. Otherwise they will drop it on the floor.</gstr>
-        <gstr name="uiseccraftqueue.jobrole.label">Job: {0}</gstr>
-        <gstr name="uiseccraftqueue.ingredients.label">Ingredients</gstr>
-        <gstr name="uiseccraftqueue.queueitems.label">Craft Queue</gstr>
-        <gstr name="uiseccraftqueue.queueempty.label">Craft Queue Empty</gstr>
-        <gstr name="uiseccraftqueue.craftx.label">Craft {0}</gstr>
-        <gstr name="uiseccraftqueue.craftifbelowx.label">Craft If Below {0}</gstr>
+        <gstr name="uiseccraftqueue.recipe.label">配方</gstr>
+        <gstr name="uiseccraftqueue.additemorder.btn">+ 添加订单</gstr>
+        <gstr name="uiseccraftqueue.efficiency.tt">效率&#13;&#10;效率影响机器工作速度，并且可以通过提高房间效率来进一步提升。&#13;&#10;房间效率： {0:P0}</gstr>
+        <gstr name="uiseccraftqueue.deliveritemtoggle.label">运送到存储区</gstr>
+        <gstr name="uiseccraftqueue.deliveritemtoggle.tooltip">如果选中，殖民者将收集生产的物品并将其送到仓库。否则，他们将把物品留在地上。</gstr>
+        <gstr name="uiseccraftqueue.jobrole.label">工作： {0}</gstr>
+        <gstr name="uiseccraftqueue.ingredients.label">原料</gstr>
+        <gstr name="uiseccraftqueue.queueitems.label">制造队列</gstr>
+        <gstr name="uiseccraftqueue.queueempty.label">空制造队列</gstr>
+        <gstr name="uiseccraftqueue.craftx.label">制造 {0}</gstr>
+        <gstr name="uiseccraftqueue.craftifbelowx.label">当数量低于 {0} 时制造</gstr>
         
-        <gstr name="uiseccraftqueue.win.type.label">Type</gstr>
-        <gstr name="uiseccraftqueue.win.available.label">In Stock: {0}</gstr>
-        <gstr name="uiseccraftqueue.win.type.craftx">Craft X Amount</gstr>
-        <gstr name="uiseccraftqueue.win.type.craftx.info">{0} of this item will be crafted. Item order will be removed upon completion.</gstr>
-        <gstr name="uiseccraftqueue.win.type.craftifbelowx">Craft If Below X Amount</gstr>
-        <gstr name="uiseccraftqueue.win.type.craftifbelowx.info">Item will continue to be crafted if there is less than {0} available. Item order will not be automatically removed.</gstr>
-        <gstr name="uiseccraftqueue.win.craftamt.label">Craft Amount</gstr>
+        <gstr name="uiseccraftqueue.win.type.label">类型</gstr>
+        <gstr name="uiseccraftqueue.win.available.label">库存： {0}</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftx">制造 X 次</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftx.info">将会制造 {0} 次物品。项目订单将在完成后自动删除。</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftifbelowx">当数量低于 X 时制造</gstr>
+        <gstr name="uiseccraftqueue.win.type.craftifbelowx.info">如果物品少于 {0}，物品订单将自动开启制造流程，且订单不会被自动删除。</gstr>
+        <gstr name="uiseccraftqueue.win.craftamt.label">制造数量</gstr>
         
-        <gstr name="uiseccropfield.seedunavailable.label">{0} Unavailable To Plant</gstr>
-        <gstr name="uiseccropfield.growthspeed.label">Growth Speed: {0}%</gstr>        
-        <gstr name="uiseccropfield.growth.label">Growth {0:0.0}%</gstr>
-        <gstr name="uiseccropfield.growing.label">Growing: {0}</gstr>
-        <gstr name="uiseccropfield.output.label">Output:</gstr>
+        <gstr name="uiseccropfield.seedunavailable.label">{0} 无法进行种植</gstr>
+        <gstr name="uiseccropfield.growthspeed.label">生长速度： {0}%</gstr>        
+        <gstr name="uiseccropfield.growth.label">成长 {0:0.0}%</gstr>
+        <gstr name="uiseccropfield.growing.label">种植： {0}</gstr>
+        <gstr name="uiseccropfield.output.label">产出：</gstr>
         <gstr name="uiseccropfield.outputitem.label">{0}x {1}</gstr>
-        <gstr name="uiseccropfield.croptype.label">Crop Type</gstr>
-        <gstr name="uiseccropfield.fertilizer.label">Fertilizer</gstr>
-        <gstr name="uiseccropfield.plantcrop.btn">Plant Crop</gstr>
-        <gstr name="uiseccropfield.droponground.toggle">Drop Harvest On Ground</gstr>
-        <gstr name="uiseccropfield.clearcrop.btn">Clear Current Crop</gstr>
-        <gstr name="uiseccropfield.autogrow.btn">Auto Grow</gstr>
-        <gstr name="uiseccropfield.waiting.label">Waiting For {0} To Plant: {1}</gstr>
-        <gstr name="uiseccropfield.missingnutrient.label">Unable to plant crop. No {0} available to deliver</gstr>
-        <gstr name="uiseccropfield.timebonus.label">Growth Time: -{0}%</gstr>
-        <gstr name="uiseccropfield.reqnutrient.label">Fertilizer: {0}</gstr>
-        <gstr name="uiseccropfield.outputbonus.label">Output Bonus: +{0}%</gstr>
+        <gstr name="uiseccropfield.croptype.label">作物类型</gstr>
+        <gstr name="uiseccropfield.fertilizer.label">肥料</gstr>
+        <gstr name="uiseccropfield.plantcrop.btn">种植作物</gstr>
+        <gstr name="uiseccropfield.droponground.toggle">收获后放于地上</gstr>
+        <gstr name="uiseccropfield.clearcrop.btn">清除当前作物</gstr>
+        <gstr name="uiseccropfield.autogrow.btn">自动种植</gstr>
+        <gstr name="uiseccropfield.waiting.label">等待 {0} 种植： {1}</gstr>
+        <gstr name="uiseccropfield.missingnutrient.label">无法种植作物。没有可用的 {0}</gstr>
+        <gstr name="uiseccropfield.timebonus.label">生长时间： -{0}%</gstr>
+        <gstr name="uiseccropfield.reqnutrient.label">肥料： {0}</gstr>
+        <gstr name="uiseccropfield.outputbonus.label">产出增益： +{0}%</gstr>
         
-        <gstr name="uiseccropfish.eggunavailable.label">{0} Unavailable</gstr>
-        <gstr name="uiseccropfish.waiting.label">Waiting For {0} To Add: {1}</gstr>
-        <gstr name="uiseccropfish.clearcrop.btn">Clear Current Fish</gstr>
+        <gstr name="uiseccropfish.eggunavailable.label">{0} 不可用</gstr>
+        <gstr name="uiseccropfish.waiting.label">等待 {0} 增加： {1}</gstr>
+        <gstr name="uiseccropfish.clearcrop.btn">清除当前鱼类</gstr>
         
-        <gstr name="uiseccrop.unassigned.tt">No Crop Assigned&#13;&#10;Click To Select Crop</gstr>
-        <gstr name="uiseccrop.waiting.tt">{0}&#13;&#10;Waiting For Colonist To Add Crop</gstr>
-        <gstr name="uiseccrop.fertilizer_none.tt">Fertilizer&#13;&#10;Click To Select Fertilizer</gstr>
-        <gstr name="uiseccrop.fertilizer_waiting.tt">{0}&#13;&#10;Waiting For Botanist To Apply Fertilizer</gstr>
-        <gstr name="uiseccrop.fertilizer_ass.tt">{0}&#13;&#10;Active</gstr>
+        <gstr name="uiseccrop.unassigned.tt">未指定作物&#13;&#10;点击选择作物</gstr>
+        <gstr name="uiseccrop.waiting.tt">{0}&#13;&#10;等待殖民者添加作物</gstr>
+        <gstr name="uiseccrop.fertilizer_none.tt">肥料&#13;&#10;点击选择肥料</gstr>
+        <gstr name="uiseccrop.fertilizer_waiting.tt">{0}&#13;&#10;等待植物学家施肥</gstr>
+        <gstr name="uiseccrop.fertilizer_ass.tt">{0}&#13;&#10;启用</gstr>
             
-        <gstr name="uisecfishgrower.waiting.label">Waiting For {0} To Add {1}</gstr>
-        <gstr name="uisecfishgrower.addfish.btn">Add Fish</gstr>
-        <gstr name="uisecfishgrower.foodlvl.label">Food: {0}%</gstr>
+        <gstr name="uisecfishgrower.waiting.label">等待 {0} 增加 {1}</gstr>
+        <gstr name="uisecfishgrower.addfish.btn">添加鱼类</gstr>
+        <gstr name="uisecfishgrower.foodlvl.label">食物： {0}%</gstr>
         
-        <gstr name="uisecdurability.durability.label">Reliability</gstr>
-        <gstr name="uisecdurability.readyinspect.label">Ready For Inspection</gstr>
-        <gstr name="uisecdurability.nextinspect.label">Next Inspection In {0}</gstr>
+        <gstr name="uisecdurability.durability.label">耐久度</gstr>
+        <gstr name="uisecdurability.readyinspect.label">准备检查</gstr>
+        <gstr name="uisecdurability.nextinspect.label">下一项检查 {0}</gstr>
         
-        <gstr name="uisecgenres.choose.btn">Open Research Screen</gstr>
-        <gstr name="uisecgenres.doublebonus.label">Bonus Chance: {0:P0}</gstr>
-        <gstr name="uisecgenres.doublebonus.tt">Chance to generate double research points. Bonus is based on room efficiency and is capped at 50%.&#13;&#10;Room Efficiency: {0:P0}</gstr>
+        <gstr name="uisecgenres.choose.btn">开启科研界面</gstr>
+        <gstr name="uisecgenres.doublebonus.label">增益几率： {0:P0}</gstr>
+        <gstr name="uisecgenres.doublebonus.tt">产生双倍研究点数的几率。增益效果以房间效率为基准，上限为50%。&#13;&#10;房间效率： {0:P0}</gstr>
         
-        <gstr name="uisecgsvideo.res.label">Resolution</gstr>
-        <gstr name="uisecgsvideo.fullscreen.label">Full screen</gstr>
-        <gstr name="uisecgsvideo.quality.label">Graphics Quality</gstr>
-        <gstr name="uisecgsvideo.qual_1.label">Low</gstr>
-        <gstr name="uisecgsvideo.qual_2.label">Medium</gstr>
-        <gstr name="uisecgsvideo.qual_3.label">High</gstr>
+        <gstr name="uisecgsvideo.res.label">分辨率</gstr>
+        <gstr name="uisecgsvideo.fullscreen.label">全屏</gstr>
+        <gstr name="uisecgsvideo.quality.label">画面质量</gstr>
+        <gstr name="uisecgsvideo.qual_1.label">低</gstr>
+        <gstr name="uisecgsvideo.qual_2.label">中</gstr>
+        <gstr name="uisecgsvideo.qual_3.label">高</gstr>
         
-        <gstr name="uisecinactiverobot.activate.label">Activate Robot</gstr>
+        <gstr name="uisecinactiverobot.activate.label">激活机器人</gstr>
         
-        <gstr name="uisecgeninfo.movespeed.label">Movement Speed {0}{1}%</gstr>
-        <gstr name="uisecgeninfo.decor.label">Decor {0:+##;-##}</gstr>
-        <gstr name="uisecgeninfo.action.label">Action: {0}</gstr>
-        <gstr name="uisecgeninfo.actionnone.label">Action: None</gstr>
+        <gstr name="uisecgeninfo.movespeed.label">移动速度 {0}{1}%</gstr>
+        <gstr name="uisecgeninfo.decor.label">装饰度 {0:+##;-##}</gstr>
+        <gstr name="uisecgeninfo.action.label">行动： {0}</gstr>
+        <gstr name="uisecgeninfo.actionnone.label">行动： 无</gstr>
         
-        <gstr name="uisecinventory.capacity.label">Capacity</gstr>
-        <gstr name="uisecinventory.alloweditems.btn">Allowed Items</gstr>
-        <gstr name="uisecinventory.warnnoitemsallowed.label">No Items Currently Allowed</gstr>
-        <gstr name="uisecinventory.priority">Priority</gstr>
-        <gstr name="uisecinventory.priority.low">Low</gstr>        
-        <gstr name="uisecinventory.priority.normal">Normal</gstr>
-        <gstr name="uisecinventory.priority.high">High</gstr>
-        <gstr name="uisecinventory.priority.critical">Critical</gstr>
+        <gstr name="uisecinventory.capacity.label">容量</gstr>
+        <gstr name="uisecinventory.alloweditems.btn">允许物品</gstr>
+        <gstr name="uisecinventory.warnnoitemsallowed.label">当前未允许任何物品</gstr>
+        <gstr name="uisecinventory.priority">优先级</gstr>
+        <gstr name="uisecinventory.priority.low">低</gstr>        
+        <gstr name="uisecinventory.priority.normal">中</gstr>
+        <gstr name="uisecinventory.priority.high">高</gstr>
+        <gstr name="uisecinventory.priority.critical">最高</gstr>
         
-        <gstr name="uisecmining.density.label">Material Density: {0}</gstr>
+        <gstr name="uisecmining.density.label">材料强度： {0}</gstr>
         <gstr name="uisecmining.contents.label">{2} {0}/{1}</gstr>
-        <gstr name="uisecmining.deepmine_enable.btn">Enable Deep Mining</gstr>
-        <gstr name="uisecmining.deepmine_disable.btn">Disable Deep Mining</gstr>
+        <gstr name="uisecmining.deepmine_enable.btn">启用深层采掘</gstr>
+        <gstr name="uisecmining.deepmine_disable.btn">禁用深层采掘</gstr>
         
-        <gstr name="uisecplantpot.planted.label">Currently Planted: {0}</gstr>
-        <gstr name="uisecplantpot.plantdropdown.label">Plant</gstr>
+        <gstr name="uisecplantpot.planted.label">当前种植： {0}</gstr>
+        <gstr name="uisecplantpot.plantdropdown.label">作物</gstr>
         
-        <gstr name="uisecresconsumer.required.label">{0} Required {1}{2}/s</gstr>
-        <gstr name="uisecresconsumer.received_positive.label">{0} Received &lt;color=green&gt;{1}{2}/s&lt;/color&gt;</gstr>
-        <gstr name="uisecresconsumer.received_negative.label">{0} Received &lt;color=red&gt;{1}{2}/s&lt;/color&gt;</gstr>
+        <gstr name="uisecresconsumer.required.label">{0} 需要 {1}{2}/s</gstr>
+        <gstr name="uisecresconsumer.received_positive.label">{0} 已接收 &lt;color=green&gt;{1}{2}/s&lt;/color&gt;</gstr>
+        <gstr name="uisecresconsumer.received_negative.label">{0} 已接收 &lt;color=red&gt;{1}{2}/s&lt;/color&gt;</gstr>
         
-        <gstr name="uisecresconsumer.network_power.label">Network Power: {0}</gstr>
-        <gstr name="uisecresconsumer.consuming.label">Consuming: {0}/{1}</gstr>
+        <gstr name="uisecresconsumer.network_power.label">全网电力： {0}</gstr>
+        <gstr name="uisecresconsumer.consuming.label">消耗： {0}/{1}</gstr>
         
-        <gstr name="uisecpowerconnector.network_power.label">Network Power </gstr>
-        <gstr name="uisecpowerconnector.network_total_power.label">Network Total Power: {0}</gstr>
-        <gstr name="uisecpowerconnector.network_total_stored.label">Network Total Stored: {0}</gstr>
-        <gstr name="uisecpowerconnector.network_total_consumed.label">Network Total Consumption: {0}</gstr>
+        <gstr name="uisecpowerconnector.network_power.label">电力</gstr>
+        <gstr name="uisecpowerconnector.network_total_power.label">全网总电力： {0}</gstr>
+        <gstr name="uisecpowerconnector.network_total_stored.label">全网总储存： {0}</gstr>
+        <gstr name="uisecpowerconnector.network_total_consumed.label">全网总消耗： {0}</gstr>
         
-        <gstr name="uisecelectricsolar.solar_energy.label">Solar Energy: {0:0}%</gstr>
+        <gstr name="uisecelectricsolar.solar_energy.label">太阳能： {0:0}%</gstr>
         
-        <gstr name="uisecresgenerator.charge.label">Charge </gstr>
-        <gstr name="uisecresgenerator.chargedby.label">Charged By Technician</gstr>
-        <gstr name="uisecresgenerator.fuelitem.label">Fuel Item: {0}</gstr>
-        <gstr name="uisecresgenerator.disablerefill.btn">Disable Fuel Refill</gstr>
-        <gstr name="uisecresgenerator.allowedfuel.label">Allowed Fuel</gstr>
-        <gstr name="uisecresgenerator.fuellevel.label">Fuel Level</gstr>
-        <gstr name="uisecresgenerator.refillat.label">Refill at {0:##}%</gstr>
-        <gstr name="uisecresgenerator.refillat.tooltip">Colonists will add fuel when current fuel level is at or below this amount</gstr>
-        <gstr name="uisecresgenerator.output.label">Output: {0}</gstr>
-        <gstr name="uisecresgenerator.output.tooltip">Connected Devices: {0}</gstr>
+        <gstr name="uisecresgenerator.charge.label">充能 </gstr>
+        <gstr name="uisecresgenerator.chargedby.label">由技术工负责充能</gstr>
+        <gstr name="uisecresgenerator.fuelitem.label">燃料物品： {0}</gstr>
+        <gstr name="uisecresgenerator.disablerefill.btn">禁止加注燃料</gstr>
+        <gstr name="uisecresgenerator.allowedfuel.label">允许的燃料</gstr>
+        <gstr name="uisecresgenerator.fuellevel.label">燃料等级</gstr>
+        <gstr name="uisecresgenerator.refillat.label">加注燃料于 {0:##}%</gstr>
+        <gstr name="uisecresgenerator.refillat.tooltip">当低于这个数量时，殖民者会加注燃料。</gstr>
+        <gstr name="uisecresgenerator.output.label">产出： {0}</gstr>
+        <gstr name="uisecresgenerator.output.tooltip">已连接设备： {0}</gstr>
         
-        <gstr name="uiseccapsule.statusempty.label">Status: Empty</gstr>
-        <gstr name="uiseccapsule.statusoccupied.label">Status: Occupied</gstr>
-        <gstr name="uiseccapsule.occupantnone.label">Condition: N/A</gstr>
-        <gstr name="uiseccapsule.occupantcondition.label">Condition: Stable</gstr>
-        <gstr name="uiseccapsule.occupantnamenone.label">Occupant: N/A</gstr>
-        <gstr name="uiseccapsule.occupantname.label">Occupant: {0}</gstr>  
-        <gstr name="uiseccapsule.occupantrolenone.label">Primary Role: N/A</gstr>
-        <gstr name="uiseccapsule.occupantrole.label">Primary Role: {0}</gstr>  
-        <gstr name="uiseccapsule.systemready.label">System: Ready</gstr>
-        <gstr name="uiseccapsule.systemopen.label">System: Capsule Open</gstr>
-        <gstr name="uiseccapsule.systemerror.label">System: Error</gstr>
-        <gstr name="uiseccapsule.systemblocked.label">Door Access Blocked</gstr>
-        <gstr name="uiseccapsule.systemcapacity.label">Colonist Capacity Reached or Exceeded</gstr>
+        <gstr name="uiseccapsule.statusempty.label">状态： 空置</gstr>
+        <gstr name="uiseccapsule.statusoccupied.label">状态： 已占用</gstr>
+        <gstr name="uiseccapsule.occupantnone.label">情况： N/A</gstr>
+        <gstr name="uiseccapsule.occupantcondition.label">情况： 稳定</gstr>
+        <gstr name="uiseccapsule.occupantnamenone.label">使用者： N/A</gstr>
+        <gstr name="uiseccapsule.occupantname.label">使用者： {0}</gstr>  
+        <gstr name="uiseccapsule.occupantrolenone.label">首要工作： N/A</gstr>
+        <gstr name="uiseccapsule.occupantrole.label">首要工作： {0}</gstr>  
+        <gstr name="uiseccapsule.systemready.label">系统： 就绪</gstr>
+        <gstr name="uiseccapsule.systemopen.label">系统： 休眠仓开启</gstr>
+        <gstr name="uiseccapsule.systemerror.label">系统： 错误</gstr>
+        <gstr name="uiseccapsule.systemblocked.label">门禁阻塞</gstr>
+        <gstr name="uiseccapsule.systemcapacity.label">已达到或超过的殖民者人数</gstr>
         
-        <gstr name="uisecrobotass.pointsleft.label">Points Remaining: {0}</gstr>
-        <gstr name="uisecrobotass.finalcost.label">Material Cost</gstr>
-        <gstr name="uisecrobotass.construct.btn">Construct Robot</gstr>
-        <gstr name="uisecrobotass.rtype.label">Constructing {0}</gstr>
-        <gstr name="uisecrobotass.progress.label">Progress</gstr>
-        <gstr name="uisecrobotass.cancelconstruct.btn">Cancel Construction</gstr>               
-        <gstr name="uisecrobotass.rdy_mats.label">Waiting For {0} To Deliver Materials</gstr>
+        <gstr name="uisecrobotass.pointsleft.label">点数剩余： {0}</gstr>
+        <gstr name="uisecrobotass.finalcost.label">材料消耗</gstr>
+        <gstr name="uisecrobotass.construct.btn">建筑机器人</gstr>
+        <gstr name="uisecrobotass.rtype.label">正在建造 {0}</gstr>
+        <gstr name="uisecrobotass.progress.label">进度</gstr>
+        <gstr name="uisecrobotass.cancelconstruct.btn">取消建造</gstr>               
+        <gstr name="uisecrobotass.rdy_mats.label">等待 {0} 递送材料</gstr>
         
-        <gstr name="uisecvehicleass.type.label">Type</gstr>
-        <gstr name="uisecvehicleass.materials.label">Build Materials</gstr>
-        <gstr name="uisecvehicleass.create.button">Construct Vehicle</gstr>
-        <gstr name="uisecvehicleass.constructinfo.label">Constructing: {0}</gstr>
-        <gstr name="uisecvehicleass.atcapacity.label">Vehicle Bay At Capacity</gstr>
+        <gstr name="uisecvehicleass.type.label">类型</gstr>
+        <gstr name="uisecvehicleass.materials.label">建造材料</gstr>
+        <gstr name="uisecvehicleass.create.button">建造载具</gstr>
+        <gstr name="uisecvehicleass.constructinfo.label">正在建造： {0}</gstr>
+        <gstr name="uisecvehicleass.atcapacity.label">载具停放区容量</gstr>
         
         <gstr name="uiseccommstation.notinuse.label">Resource Scanner not in use</gstr>
         <gstr name="uiseccommstation.coverage.label">Planet Scan Progress: {0:0.##}%</gstr>
