@@ -934,22 +934,22 @@
         <gstr name="GDNotifyEvent.notice_world_refuelfail.desc">{0} 加注燃料失败。泄漏的燃料需要清理干净。</gstr>
         <gstr name="GDNotifyEvent.notice_world_patientkilled.desc">{0} 在治疗病人 {1} 时发生严重失误。不知道该怎么说，但 {1} 已经死亡。</gstr>
         
-        <gstr name="GDNotifyEvent.notice_world_robotconstructed.desc">{0} has finished constructing {1}</gstr>
-        <gstr name="GDNotifyEvent.notice_world_vehicleconstructed.desc">{0} has been constructed</gstr>
-        <gstr name="GDNotifyEvent.notice_world_foodlow.desc">We're running low on food</gstr>
-        <gstr name="GDNotifyEvent.notice_world_reachedresearchcap.desc">We've generated as many {0} as we can currently store</gstr>
-        <gstr name="GDNotifyEvent.notice_world_biomescan.desc">Biome Scan Complete</gstr>
-        <gstr name="GDNotifyEvent.notice_world_surfaceminingcomplete.desc">{0} has finished mining</gstr>
-        <gstr name="GDNotifyEvent.notice_world_vehiclepathcomplete.desc">{0} has arrived at destination</gstr>
-        <gstr name="GDNotifyEvent.notice_world_vehicledocked.desc">{0} has docked at the primary facility</gstr>
-        <gstr name="GDNotifyEvent.notice_pm_resourcefound.desc">Surface resource deposit discovered: {0}</gstr>
-        <gstr name="GDNotifyEvent.notice_pm_vehiclefinishedmining.desc">{0} has finished mining surface deposit</gstr>
+        <gstr name="GDNotifyEvent.notice_world_robotconstructed.desc">{0} 已经完成了对 {1} 的建造。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_vehicleconstructed.desc">{0} 已经建造完成</gstr>
+        <gstr name="GDNotifyEvent.notice_world_foodlow.desc">我们的食物不足</gstr>
+        <gstr name="GDNotifyEvent.notice_world_reachedresearchcap.desc">我们已经生成了尽可能多的{0}，目前已达存储上限。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_biomescan.desc">生物群落扫描完成</gstr>
+        <gstr name="GDNotifyEvent.notice_world_surfaceminingcomplete.desc">{0} 已经完成采掘</gstr>
+        <gstr name="GDNotifyEvent.notice_world_vehiclepathcomplete.desc">{0} 已经到达目的地</gstr>
+        <gstr name="GDNotifyEvent.notice_world_vehicledocked.desc">{0} 已停靠在主设施</gstr>
+        <gstr name="GDNotifyEvent.notice_pm_resourcefound.desc">发现地表资源点： {0}</gstr>
+        <gstr name="GDNotifyEvent.notice_pm_vehiclefinishedmining.desc">{0} 已经完成地表资源点采掘</gstr>
         
-        <gstr name="GDNotifyEvent.notice_event_motivatedcolonist.desc">{0} is feeling super motivated today and will work faster for the next 24 hours.</gstr>
-        <gstr name="GDNotifyEvent.notice_event_cavein.desc">A cave in has occured! Areas without walls or flooring are structurally unstable and can collapse.</gstr>
-        <gstr name="GDNotifyEvent.notice_event_cropdisease.desc">A crop has become diseased! The crop should be cleared before it spreads.</gstr>
-        <gstr name="GDNotifyEvent.notice_event_depressedcolonist.desc">{0} is feeling depressed today and will work slower for the next 24 hours.</gstr>
-        <gstr name="GDNotifyEvent.notice_event_xenomold.desc">A strange type of xeno mold has been spotted. It appears to be rather invasive. It should be cleaned up quickly before it spreads out of control.</gstr>
+        <gstr name="GDNotifyEvent.notice_event_motivatedcolonist.desc">{0} 今天感觉精神振奋，在接下来的24小时内工作速度会比平时更快。</gstr>
+        <gstr name="GDNotifyEvent.notice_event_cavein.desc">一块地区发生了坍塌！没有墙壁或地板的地方结构不稳定，可能会坍塌。</gstr>
+        <gstr name="GDNotifyEvent.notice_event_cropdisease.desc">作物发生了病害！在它蔓延之前赶快清除染病作物。</gstr>
+        <gstr name="GDNotifyEvent.notice_event_depressedcolonist.desc">{0} 今天感觉心情压抑，在接下来的24小时内会工作速度会比平时慢。</gstr>
+        <gstr name="GDNotifyEvent.notice_event_xenomold.desc">我们发现了一种奇怪的异种霉菌。它似乎相当有侵略性。我们应该在它失去控制前迅速清理。</gstr>
         
         <gstr name="ui.notice.emptycraftqueue">{0} has completed its craft queue</gstr>
         <gstr name="ui.notice.craftitemcomplete">{0} has finished crafting {1}</gstr>
