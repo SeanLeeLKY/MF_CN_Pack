@@ -786,153 +786,153 @@
         <gstr name="uisecvehicleass.constructinfo.label">正在建造： {0}</gstr>
         <gstr name="uisecvehicleass.atcapacity.label">载具停放区容量</gstr>
         
-        <gstr name="uiseccommstation.notinuse.label">Resource Scanner not in use</gstr>
-        <gstr name="uiseccommstation.coverage.label">Planet Scan Progress: {0:0.##}%</gstr>
-        <gstr name="uiseccommstation.scanning.label">Scanning For Resources...</gstr>
-        <gstr name="uiseccommstation.searching.label">Searching...</gstr>
-        <gstr name="uiseccommstation.scanposition.label">Position: {0}</gstr>
-        <gstr name="uiseccommstation.progress.label">Scanning Surface ... {0:0.#}%</gstr>
-        <gstr name="uiseccommstation.scanfull.label">Unable to scan for additional points of interest. Too much interference from existing points of interest.</gstr>
-        <gstr name="uiseccommstation.jobrole.label">Job Role: Surveyor</gstr>
+        <gstr name="uiseccommstation.notinuse.label">资源扫描器未使用</gstr>
+        <gstr name="uiseccommstation.coverage.label">星球扫描进度： {0:0.##}%</gstr>
+        <gstr name="uiseccommstation.scanning.label">正在扫描资源...</gstr>
+        <gstr name="uiseccommstation.searching.label">搜寻中...</gstr>
+        <gstr name="uiseccommstation.scanposition.label">位置： {0}</gstr>
+        <gstr name="uiseccommstation.progress.label">正在扫描地表... {0:0.#}%</gstr>
+        <gstr name="uiseccommstation.scanfull.label">现有的兴趣点产生较多干扰，导致无法精确扫描更多的兴趣点。</gstr>
+        <gstr name="uiseccommstation.jobrole.label">工作岗位： 测量员</gstr>
         
-        <gstr name="uipmdispmods.normal.tt">View Normal</gstr>
-        <gstr name="uipmdispmods.foundbiomes.tt">Discovered Biomes</gstr>
-        <gstr name="uipmdispmods.scancoverage.tt">Scan Coverage</gstr>
-        <gstr name="uipmdispmods.temp.tt">Temperature</gstr>
-        <gstr name="uipmdispmods.moisture.tt">Moisture</gstr>
-        <gstr name="uipmdispmods.elevation.tt">Elevation</gstr>
-        <gstr name="uipmdispmods.resources.tt">Resources</gstr>
-        <gstr name="uipmdispmods.filterdd.label">Filter</gstr>
-        <gstr name="uipmdispmods.resourcedd.label">Resource</gstr>
+        <gstr name="uipmdispmods.normal.tt">普通视图</gstr>
+        <gstr name="uipmdispmods.foundbiomes.tt">已发现的生态群落</gstr>
+        <gstr name="uipmdispmods.scancoverage.tt">扫描范围</gstr>
+        <gstr name="uipmdispmods.temp.tt">温度</gstr>
+        <gstr name="uipmdispmods.moisture.tt">湿度</gstr>
+        <gstr name="uipmdispmods.elevation.tt">海拔</gstr>
+        <gstr name="uipmdispmods.resources.tt">资源</gstr>
+        <gstr name="uipmdispmods.filterdd.label">过滤器</gstr>
+        <gstr name="uipmdispmods.resourcedd.label">资源</gstr>
         
-        <gstr name="uisecvehiclelist.vehiclebaynotbuilt.label">Vehicle Bay Not Constructed</gstr>
-        <gstr name="uisecvehiclelist.novehicles.label">No Vehicles Constructed</gstr>
-        <gstr name="uisecvehiclelist.embark.tt">Embark Vehicle</gstr>
-        <gstr name="uisecvehiclelist.deconstruct.tt">Deconstruct Vehicle&#13;&#10;Vehicle must docked at facility.</gstr>
-        <gstr name="uisecvehiclelist.deconstructwin.text">Deconstruct Vehicle?&#13;&#10; This will deconstruct the vehicle and recover some of its materials.</gstr>
+        <gstr name="uisecvehiclelist.vehiclebaynotbuilt.label">载具区还未建造</gstr>
+        <gstr name="uisecvehiclelist.novehicles.label">没有载具</gstr>
+        <gstr name="uisecvehiclelist.embark.tt">启动载具</gstr>
+        <gstr name="uisecvehiclelist.deconstruct.tt">拆解载具&#13;&#10;载具必须停靠在设施内。</gstr>
+        <gstr name="uisecvehiclelist.deconstructwin.text">是否拆解载具？&#13;&#10; 将会拆解载具并返还一些资源。</gstr>
         
-        <gstr name="uisecvehicle.detailsgrid.label">Vehicle Details</gstr>
+        <gstr name="uisecvehicle.detailsgrid.label">载具细节</gstr>
         
-        <gstr name="uisecassignable.add.label">Add</gstr>
-        <gstr name="uisecassignable.addbtn.label">+ Add Selected</gstr>
+        <gstr name="uisecassignable.add.label">添加</gstr>
+        <gstr name="uisecassignable.addbtn.label">+ 添加选中项</gstr>
         
-        <gstr name="uiseccapsule.open.btn">Open Capsule</gstr>      
+        <gstr name="uiseccapsule.open.btn">打开休眠仓</gstr>      
         
-        <gstr name="uisecequipment.back.btn">&lt;&lt; Back</gstr>
-        <gstr name="uisecequipment.removeequipment.label">Remove equipment: {0}? Equipment item will be destroyed in the removal process.</gstr>
-        <gstr name="uisecequipment.noequipmentinstalled.tt">Available 装备槽&#13;&#10;&#13;&#10;Click To Choose Equipment</gstr>
-        <gstr name="uisecequipment.noequipmentinstalledvehiclenotdocked.tt">Available 装备槽&#13;&#10;&#13;&#10;Vehicle Must Be Docked To Install Equipment</gstr>
-        <gstr name="uisecequipment.waitingforinstall.tt">{0}&#13;&#10; Waiting For Install</gstr>
-        <gstr name="uisecequipment.chooserselect.label">Choose Equipment</gstr>
-        <gstr name="uisecequipment.choosernoequipment.label">No Equipment Available</gstr>
-        <gstr name="uisecequipment.similarequipment.label">&#13;&#10;Similar Equipment Already Installed</gstr>
+        <gstr name="uisecequipment.back.btn">&lt;&lt; 返回</gstr>
+        <gstr name="uisecequipment.removeequipment.label">移除装配：{0}？装备物在移除过程中会被损坏。</gstr>
+        <gstr name="uisecequipment.noequipmentinstalled.tt">可用装备槽&#13;&#10;&#13;&#10;点击选择装备</gstr>
+        <gstr name="uisecequipment.noequipmentinstalledvehiclenotdocked.tt">可用装备槽&#13;&#10;&#13;&#10;载具必须停靠好才能安装设备。</gstr>
+        <gstr name="uisecequipment.waitingforinstall.tt">{0}&#13;&#10; 正在等待安装</gstr>
+        <gstr name="uisecequipment.chooserselect.label">选择装备</gstr>
+        <gstr name="uisecequipment.choosernoequipment.label">无装备可用</gstr>
+        <gstr name="uisecequipment.similarequipment.label">&#13;&#10;已经安装类似装备</gstr>
         
-        <gstr name="uisecembarkdetails.vehicle.label">Vehicle</gstr>
-        <gstr name="uisecembarkdetails.onfoot.label">On Foot</gstr>
-        <gstr name="uisecembarkdetails.managepassengers.label">Manage Passengers</gstr>
-        <gstr name="uisecembarkdetails.fooddaysnone.label">Estimated Food Supply: N/A</gstr>
-        <gstr name="uisecembarkdetails.fooddays.label">Estimated Food Supply: {0}</gstr>
-        <gstr name="uisecembarkdetails.rationsneeded.label">Rations Needed: {0}</gstr>
-        <gstr name="uisecembarkdetails.rationssupplied.label">Rations Supplied: {0}</gstr>
-        <gstr name="uisecembarkdetails.items.label">Items</gstr>
-        <gstr name="uisecembarkdetails.vehicledetails.label">Vehicle Details</gstr>
-        <gstr name="uisecembarkdetails.passengers.label">Passengers {0}/{1}</gstr>
-        <gstr name="uisecembarkdetails.traveltime.label">Estimated Travel Time: {0}</gstr>
-        <gstr name="uisecembarkdetails.traveldist.label">Distance: {0}</gstr>
+        <gstr name="uisecembarkdetails.vehicle.label">载具</gstr>
+        <gstr name="uisecembarkdetails.onfoot.label">步行</gstr>
+        <gstr name="uisecembarkdetails.managepassengers.label">管理乘员</gstr>
+        <gstr name="uisecembarkdetails.fooddaysnone.label">食物补给预计可用： N/A</gstr>
+        <gstr name="uisecembarkdetails.fooddays.label">食物补给预计可用： {0}</gstr>
+        <gstr name="uisecembarkdetails.rationsneeded.label">补给需求： {0}</gstr>
+        <gstr name="uisecembarkdetails.rationssupplied.label">补给已供应： {0}</gstr>
+        <gstr name="uisecembarkdetails.items.label">物品</gstr>
+        <gstr name="uisecembarkdetails.vehicledetails.label">载具细节</gstr>
+        <gstr name="uisecembarkdetails.passengers.label">乘员 {0}/{1}</gstr>
+        <gstr name="uisecembarkdetails.traveltime.label">预计行程时间： {0}</gstr>
+        <gstr name="uisecembarkdetails.traveldist.label">距离： {0}</gstr>
         
-        <gstr name="uisecexpeditions.create.tooltip">Create Expedition</gstr>
-        <gstr name="uicreateexp.embark.btn">Embark</gstr>
+        <gstr name="uisecexpeditions.create.tooltip">创建探险队</gstr>
+        <gstr name="uicreateexp.embark.btn">登车</gstr>
         
-        <gstr name="uisecmineplatform.resource.label">Resources Remaining {0}</gstr>
-        <gstr name="uisecmineplatform.depleted.label">Resource Depleted</gstr>
+        <gstr name="uisecmineplatform.resource.label">剩余资源 {0}</gstr>
+        <gstr name="uisecmineplatform.depleted.label">资源枯竭</gstr>
         
-        <gstr name="uisecsurfharvestable.resource.label">&lt;b&gt;&lt;size=14&gt;Depth: {0}&lt;/size&gt;&lt;/b&gt; &#13;&#10;Amount: {1}</gstr>
+        <gstr name="uisecsurfharvestable.resource.label">&lt;b&gt;&lt;size=14&gt;深度： {0}&lt;/size&gt;&lt;/b&gt; &#13;&#10;总量： {1}</gstr>
         
-        <gstr name="uisecstory.action.noone.label">No One</gstr>
-        <gstr name="uisecstory.action.baserisk.label">Base Risk: {0:P0}</gstr>
-        <gstr name="uisecstory.action.finalrisk.label">Crew Risk: {0:P0}</gstr>
-        <gstr name="uisecstory.action.riskbonus.label">Risk Reduction: -{0:P0}</gstr>
-        <gstr name="uisecstory.action.riskbonusnone.label">Risk Reduction: None</gstr>
-        <gstr name="uisecstory.action.jobbonus.label">{0} Bonus: {1:P0}</gstr>
+        <gstr name="uisecstory.action.noone.label">无人</gstr>
+        <gstr name="uisecstory.action.baserisk.label">基本风险： {0:P0}</gstr>
+        <gstr name="uisecstory.action.finalrisk.label">人员风险： {0:P0}</gstr>
+        <gstr name="uisecstory.action.riskbonus.label">风险降低： -{0:P0}</gstr>
+        <gstr name="uisecstory.action.riskbonusnone.label">风险降低： 无</gstr>
+        <gstr name="uisecstory.action.jobbonus.label">{0} 增益： {1:P0}</gstr>
         <gstr name="uisecstory.action.lowchance.label">{0} {1}  &lt; 1%</gstr>
-        <gstr name="uisecstory.action.tt.dead">Unable to perform action. Colonist no longer alive.</gstr>
-        <gstr name="uisecstory.action.tt.success">Success: {0:0.#}%</gstr>
-        <gstr name="uisecstory.action.tt.successlow">Success: &lt; 1%</gstr>
-        <gstr name="uisecstory.action.tt.healthpctnone">--% from Health</gstr>
-        <gstr name="uisecstory.action.tt.healthpct">{0:+0.#;-0.#;0}% from Health</gstr>
-        <gstr name="uisecstory.action.tt.stresspctnone">--% from Stress</gstr>
-        <gstr name="uisecstory.action.tt.stresspct">{0:+0.#;-0.#;0}% from Stress</gstr>
-        <gstr name="uisecstory.action.tt.valuepctnone">--% from {0}</gstr>
-        <gstr name="uisecstory.action.tt.valuepct">{0:+0.#;-0.#;0}% from {1}</gstr>
+        <gstr name="uisecstory.action.tt.dead">无法执行行动。殖民者已无生机。</gstr>
+        <gstr name="uisecstory.action.tt.success">成功率： {0:0.#}%</gstr>
+        <gstr name="uisecstory.action.tt.successlow">成功率： &lt; 1%</gstr>
+        <gstr name="uisecstory.action.tt.healthpctnone">--% 来自健康度</gstr>
+        <gstr name="uisecstory.action.tt.healthpct">{0:+0.#;-0.#;0}% 来自健康度</gstr>
+        <gstr name="uisecstory.action.tt.stresspctnone">--% 来自压力</gstr>
+        <gstr name="uisecstory.action.tt.stresspct">{0:+0.#;-0.#;0}% 来自压力</gstr>
+        <gstr name="uisecstory.action.tt.valuepctnone">--% 来自 {0}</gstr>
+        <gstr name="uisecstory.action.tt.valuepct">{0:+0.#;-0.#;0}% 来自 {1}</gstr>
         
-        <gstr name="uisecharvestable.select">Harvest</gstr>
-        <gstr name="uisecharvestable.deselect">Deselect For Harvest</gstr>
+        <gstr name="uisecharvestable.select">收获</gstr>
+        <gstr name="uisecharvestable.deselect">取消选定收获</gstr>
         
-        <gstr name="uisecfishtank.currentfish.label">Fish: {0}</gstr>
-        <gstr name="uisecfishtank.setfish.btn">Set Fish</gstr>
+        <gstr name="uisecfishtank.currentfish.label">鱼类： {0}</gstr>
+        <gstr name="uisecfishtank.setfish.btn">设置鱼类</gstr>
         
-        <gstr name="uisecjobtrainer.trainer.label">Trainer</gstr>
-        <gstr name="uisecjobtrainer.trainee.label">Trainee</gstr>
-        <gstr name="uisecjobtrainer.job.label">Job</gstr>
+        <gstr name="uisecjobtrainer.trainer.label">训练员</gstr>
+        <gstr name="uisecjobtrainer.trainee.label">受训物</gstr>
+        <gstr name="uisecjobtrainer.job.label">工作</gstr>
         <gstr name="uisecjobtrainer.lvl.label">Lv. {0} {1}</gstr>
         
-        <gstr name="uisecpoi.header">POI Info</gstr>
-        <gstr name="uisecpoi.risk.label">Risk: {0}</gstr>
-        <gstr name="uisecpoi.jobroles.label">Recommended Roles:</gstr>
-        <gstr name="uisecselectpois.selectinfo.label">&lt;b&gt;&lt;size=20&gt;Select Points Of Interest&lt;/size&gt;&lt;/b&gt;&#13;&#10;Distance: {0}&#13;&#10;&#13;&#10;&lt;sprite name=&quot;mouse_lb&quot;&gt;Add/Remove    &lt;sprite name=&quot;mouse_rb&quot;&gt;Finish Selection</gstr>
+        <gstr name="uisecpoi.header">兴趣点信息</gstr>
+        <gstr name="uisecpoi.risk.label">风险： {0}</gstr>
+        <gstr name="uisecpoi.jobroles.label">推荐参与人员：</gstr>
+        <gstr name="uisecselectpois.selectinfo.label">&lt;b&gt;&lt;size=20&gt;选择兴趣点&lt;/size&gt;&lt;/b&gt;&#13;&#10;距离： {0}&#13;&#10;&#13;&#10;&lt;sprite name=&quot;mouse_lb&quot;&gt;添加/移除  &lt;sprite name=&quot;mouse_rb&quot;&gt;完成选择</gstr>
                 
-        <gstr name="uisecselectminetile.selectinfo.label">&lt;b&gt;&lt;size=20&gt;Select Surface Resource&lt;/size&gt;&lt;/b&gt;&#13;&#10;Distance: {0}&#13;&#10;&#13;&#10;&lt;sprite name=&quot;mouse_lb&quot;&gt;Select    &lt;sprite name=&quot;mouse_rb&quot;&gt;Cancel</gstr>
+        <gstr name="uisecselectminetile.selectinfo.label">&lt;b&gt;&lt;size=20&gt;选择地表资源&lt;/size&gt;&lt;/b&gt;&#13;&#10;距离： {0}&#13;&#10;&#13;&#10;&lt;sprite name=&quot;mouse_lb&quot;&gt;Select    &lt;sprite name=&quot;mouse_rb&quot;&gt;取消</gstr>
         
-        <gstr name="uisecpoilist.item.label">{0}. {1}&#13;&#10;Risk: {2}</gstr>
-        <gstr name="uisecpoilist.info.label">Setting destinations for your expedition is an optional step to automate POI exploration. The expedition can be manually controlled once it embarks.</gstr>
+        <gstr name="uisecpoilist.item.label">{0}. {1}&#13;&#10;风险： {2}</gstr>
+        <gstr name="uisecpoilist.info.label">为您的探险队设置目的地是兴趣点自动探索的一个可选项目。探险活动开始后，也可以转为手动控制。</gstr>
         
-        <gstr name="uisecdoorctrl.lock">Lock</gstr>
-        <gstr name="uisecdoorctrl.unlock">Unlock</gstr>
-        <gstr name="uisecdoorctrl.lockall">Lock All</gstr>
-        <gstr name="uisecdoorctrl.unlockall">UnLock All</gstr>
+        <gstr name="uisecdoorctrl.lock">锁定</gstr>
+        <gstr name="uisecdoorctrl.unlock">解锁</gstr>
+        <gstr name="uisecdoorctrl.lockall">锁定全部</gstr>
+        <gstr name="uisecdoorctrl.unlockall">解锁全部</gstr>
         
-        <gstr name="uisechologramem.hologramdd.label">Hologram:</gstr>
+        <gstr name="uisechologramem.hologramdd.label">全息影像：</gstr>
                 
-        <gstr name="uisecroominfo.warnnofloor.label">Missing Valid Flooring</gstr>
-        <gstr name="uisecroominfo.warnnotconstructed.label">Room Not Finished Being Constructed</gstr>
-        <gstr name="uisecroominfo.decor.label">Decor: {0}</gstr>
-        <gstr name="uisecroominfo.decor.tt">Decor score of room. Can be improved by adding decorations. &#13;&#10;Value: {0:P0}</gstr>
-        <gstr name="uisecroominfo.lighting.label">Lighting: {0:P0}</gstr>
-        <gstr name="uisecroominfo.lighting.tt">The current lighting level of this room. Can be improved by adding lights.</gstr>
-        <gstr name="uisecroominfo.efficiency.label">Efficiency: {0:P0}</gstr>
-        <gstr name="uisecroominfo.efficiency.tt">The efficiency of this room is based on the decor and lighting values and can affect colonist actions in various ways depending on the room type.</gstr>
+        <gstr name="uisecroominfo.warnnofloor.label">缺少有效地板</gstr>
+        <gstr name="uisecroominfo.warnnotconstructed.label">还未完工正在建造中的房间</gstr>
+        <gstr name="uisecroominfo.decor.label">装饰： {0}</gstr>
+        <gstr name="uisecroominfo.decor.tt">房间的装饰程度。可以通过添加装饰物来提高。 &#13;&#10;价值： {0:P0}</gstr>
+        <gstr name="uisecroominfo.lighting.label">照明： {0:P0}</gstr>
+        <gstr name="uisecroominfo.lighting.tt">房间目前的照明水平。可以通过添加照明器具来改善。</gstr>
+        <gstr name="uisecroominfo.efficiency.label">效率： {0:P0}</gstr>
+        <gstr name="uisecroominfo.efficiency.tt">房间的效率是基于装饰程度和照明水平综合考量，根据房间的类型，能够影响殖民者的各种行动和状态。</gstr>
         
-        <gstr name="uisecroominfo.decor.pos5">Amazing</gstr>
-        <gstr name="uisecroominfo.decor.pos4">Beautiful</gstr>
-        <gstr name="uisecroominfo.decor.pos3">Great</gstr>
-        <gstr name="uisecroominfo.decor.pos2">Pleasant</gstr>
-        <gstr name="uisecroominfo.decor.pos1">Acceptable</gstr>
-        <gstr name="uisecroominfo.decor.zero">Bland</gstr>
-        <gstr name="uisecroominfo.decor.neg1">Unacceptable</gstr>
-        <gstr name="uisecroominfo.decor.neg2">Unpleasant</gstr>
-        <gstr name="uisecroominfo.decor.neg3">Bad</gstr>
-        <gstr name="uisecroominfo.decor.neg4">Disgusting</gstr>
-        <gstr name="uisecroominfo.decor.neg5">Dreadful</gstr>
+        <gstr name="uisecroominfo.decor.pos5">惊艳</gstr>
+        <gstr name="uisecroominfo.decor.pos4">美丽</gstr>
+        <gstr name="uisecroominfo.decor.pos3">很好</gstr>
+        <gstr name="uisecroominfo.decor.pos2">不错</gstr>
+        <gstr name="uisecroominfo.decor.pos1">还行</gstr>
+        <gstr name="uisecroominfo.decor.zero">一般</gstr>
+        <gstr name="uisecroominfo.decor.neg1">不好</gstr>
+        <gstr name="uisecroominfo.decor.neg2">较差</gstr>
+        <gstr name="uisecroominfo.decor.neg3">很差</gstr>
+        <gstr name="uisecroominfo.decor.neg4">恶心</gstr>
+        <gstr name="uisecroominfo.decor.neg5">可怕</gstr>
         
-        <gstr name="entwin.info.label.name">Info</gstr>
-        <gstr name="entwin.jobs.label.name">Jobs</gstr>
-        <gstr name="entwin.stats.label.name">Stats</gstr>        
-        <gstr name="entwin.debug.label.name">Debug</gstr>
+        <gstr name="entwin.info.label.name">信息</gstr>
+        <gstr name="entwin.jobs.label.name">工作</gstr>
+        <gstr name="entwin.stats.label.name">状态</gstr>        
+        <gstr name="entwin.debug.label.name">调试</gstr>
         
         
         <!-- UI Section Notices -->
-        <gstr name="GDNotifyEvent.notice_c_actionailment.desc">{0} has contracted a new ailment {1} from {2}</gstr>
-        <gstr name="GDNotifyEvent.notice_c_foodailment.desc">{0} has contracted {1} while eating {2}</gstr>
-        <gstr name="GDNotifyEvent.notice_c_dead.desc">{0} has perished. Cause: {1}</gstr>
-        <gstr name="GDNotifyEvent.notice_c_levelup.desc">{0} is now a level {1} {2}</gstr>
-        <gstr name="GDNotifyEvent.notice_world_expeditionteamdead.desc">An expedition team has perished</gstr>
+        <gstr name="GDNotifyEvent.notice_c_actionailment.desc">{0}从{2}那里感染了一种新的疾病{1}。</gstr>
+        <gstr name="GDNotifyEvent.notice_c_foodailment.desc">{0}在食用{2}时感染了{1}。</gstr>
+        <gstr name="GDNotifyEvent.notice_c_dead.desc">{0}已经遇险灭亡。原因： {1}</gstr>
+        <gstr name="GDNotifyEvent.notice_c_levelup.desc">{0} 现在是一名等级为 {1} 的 {2}</gstr>
+        <gstr name="GDNotifyEvent.notice_world_expeditionteamdead.desc">一支探险队遇险灭亡。</gstr>
         
-        <gstr name="GDNotifyEvent.notice_world_craftitemcomplete.desc">{0} has finished crafting {1}</gstr>
-        <gstr name="GDNotifyEvent.notice_world_craftitemfail.desc">{0} failed to craft {1}. Recipe materials have been lost in the process.</gstr>
-        <gstr name="GDNotifyEvent.notice_world_clonecomplete.desc">{0} has produced a new colonist</gstr>
-        <gstr name="GDNotifyEvent.notice_world_harvestfail.desc">{0} failed harvesting {1} and lost half of the harvest</gstr>
-        <gstr name="GDNotifyEvent.notice_world_refuelfail.desc">{0} failed to refuel generator. Fuel spill requires cleanup.</gstr>
-        <gstr name="GDNotifyEvent.notice_world_patientkilled.desc">{0} critically failed while treating patient {1}. Not sure how to say this, but {1} is dead.</gstr>
+        <gstr name="GDNotifyEvent.notice_world_craftitemcomplete.desc">{0} 已经完成制造 {1}</gstr>
+        <gstr name="GDNotifyEvent.notice_world_craftitemfail.desc">{0} 未能制造 {1}。 配方中的部分材料已被损耗在流程中。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_clonecomplete.desc">{0} 已经生产出一个新的殖民者。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_harvestfail.desc">{0} 收获 {1} 失败并且浪费了一半的产物。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_refuelfail.desc">{0} 加注燃料失败。泄漏的燃料需要清理干净。</gstr>
+        <gstr name="GDNotifyEvent.notice_world_patientkilled.desc">{0} 在治疗病人 {1} 时发生严重失误。不知道该怎么说，但 {1} 已经死亡。</gstr>
         
         <gstr name="GDNotifyEvent.notice_world_robotconstructed.desc">{0} has finished constructing {1}</gstr>
         <gstr name="GDNotifyEvent.notice_world_vehicleconstructed.desc">{0} has been constructed</gstr>
