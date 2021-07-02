@@ -748,7 +748,7 @@
         <gstr name="uisecelectricsolar.solar_energy.label">太阳能： {0:0}%</gstr>
         
         <gstr name="uisecresgenerator.charge.label">充能 </gstr>
-        <gstr name="uisecresgenerator.chargedby.label">由技术工负责充能</gstr>
+        <gstr name="uisecresgenerator.chargedby.label">由技师负责充能</gstr>
         <gstr name="uisecresgenerator.fuelitem.label">燃料物品： {0}</gstr>
         <gstr name="uisecresgenerator.disablerefill.btn">禁止加注燃料</gstr>
         <gstr name="uisecresgenerator.allowedfuel.label">允许的燃料</gstr>
@@ -951,156 +951,156 @@
         <gstr name="GDNotifyEvent.notice_event_depressedcolonist.desc">{0} 今天感觉心情压抑，在接下来的24小时内会工作速度会比平时慢。</gstr>
         <gstr name="GDNotifyEvent.notice_event_xenomold.desc">我们发现了一种奇怪的异种霉菌。它似乎相当有侵略性。我们应该在它失去控制前迅速清理。</gstr>
         
-        <gstr name="ui.notice.emptycraftqueue">{0} has completed its craft queue</gstr>
-        <gstr name="ui.notice.craftitemcomplete">{0} has finished crafting {1}</gstr>
-        <gstr name="ui.notice.researchcomplete">Research Complete: {0}</gstr>
-        <gstr name="ui.notice.colonistdead">{0} has perished. Cause: {1}</gstr>
-        <gstr name="ui.notice.colonistactionailment">{0} has contracted a new ailment {1} from {2}</gstr>
-        <gstr name="ui.notice.colonistfoodailment">{0} has contracted {1} while eating {2}</gstr>
-        <gstr name="ui.notice.robotconstructed">{0} has finished constructing {1}</gstr>
-        <gstr name="ui.notice.colonistlevelup">{0} is now a level {1} {2}</gstr>
-        <gstr name="ui.notice.vehiclecomplete">{0} has been constructed.</gstr>
-        <gstr name="ui.notice.unknowncauses">unknown causes</gstr>
-        <gstr name="ui.notice.constructfail">{0} critically failed while constructing {1}. Structure and materials have been lost.</gstr>
-        <gstr name="ui.notice.craftfail">{0} failed to craft {1}. Recipe materials have been lost in the process.</gstr>
-        <gstr name="ui.notice.researchfail">{0} critically failed while researching {1}. Research progress lost.</gstr>
-        <gstr name="ui.notice.refuelfail">{0} critically failed while refueling {1}. Fuel item lost in the process.</gstr>
-        <gstr name="ui.notice.harvestfail">{0} critically failed while harvesting {1} and lost half of the harvest.</gstr>
-        <gstr name="ui.notice.doctorkilledpatient">{0} critically failed while treating patient {1}. Not sure how to say this, but {1} is dead.</gstr>
+        <gstr name="ui.notice.emptycraftqueue">{0} 已经完成制造队列</gstr>
+        <gstr name="ui.notice.craftitemcomplete">{0} 已经完成制造 {1}</gstr>
+        <gstr name="ui.notice.researchcomplete">研究完成： {0}</gstr>
+        <gstr name="ui.notice.colonistdead">{0} 已经死亡。原因： {1}</gstr>
+        <gstr name="ui.notice.colonistactionailment">{0} 从 {2} 感染了一种新的疾病 {1}。</gstr>
+        <gstr name="ui.notice.colonistfoodailment">{0}在食用{2}时感染了{1}。</gstr>
+        <gstr name="ui.notice.robotconstructed">{0} 已经完成建造 {1}</gstr>
+        <gstr name="ui.notice.colonistlevelup">{0} 现在是等级 {1} 的 {2}</gstr>
+        <gstr name="ui.notice.vehiclecomplete">{0} 已经建造完毕。</gstr>
+        <gstr name="ui.notice.unknowncauses">未知原因</gstr>
+        <gstr name="ui.notice.constructfail">{0}在建造{1}时发生严重失误。建筑和材料都已损毁。</gstr>
+        <gstr name="ui.notice.craftfail">{0}制造{1}失败。配方中的材料已经损毁。</gstr>
+        <gstr name="ui.notice.researchfail">{0}在研究{1}时发生严重失误。研究进程丢失。</gstr>
+        <gstr name="ui.notice.refuelfail">{0}在给{1}加注燃料时发生严重失误。燃料物品已经损失。</gstr>
+        <gstr name="ui.notice.harvestfail">{0}在收获{1}时发生严重失误，导致一半的产物被损毁。</gstr>
+        <gstr name="ui.notice.doctorkilledpatient">{0}在治疗{1}时发生严重失误。不知道如何是好，{1}已经永远的离开了我们。</gstr>
         
         
         <!-- Colonist Types -->
-        <gstr name="EColonist.male_colonist.name">Human Colonist</gstr>
-        <gstr name="EColonist.male_colonist.desc">The prominent hominid from the planet Earth.</gstr>
-        <gstr name="EColonist.female_colonist.name">Human Colonist</gstr>
-        <gstr name="EColonist.female_colonist.desc">The prominent hominid from the planet Earth.</gstr>
+        <gstr name="EColonist.male_colonist.name">人类殖民者</gstr>
+        <gstr name="EColonist.male_colonist.desc">来自地球上的原生人类。</gstr>
+        <gstr name="EColonist.female_colonist.name">人类殖民者</gstr>
+        <gstr name="EColonist.female_colonist.desc">来自地球上的原生人类。</gstr>
         
-        <gstr name="EColonistRobot.bot_walker.name">Worker Bot</gstr>
-        <gstr name="EColonistRobot.bot_walker.desc">A basic robot capable of mining, building and hauling.</gstr>
-        <gstr name="EColonistRobot.bot_deepdriller.name">Deep Driller</gstr>
-        <gstr name="EColonistRobot.bot_deepdriller.desc">A hefty bot capable of mining floor ore tiles.</gstr>
+        <gstr name="EColonistRobot.bot_walker.name">工作机器人</gstr>
+        <gstr name="EColonistRobot.bot_walker.desc">一个基础机器人，能采矿，建筑和运输。</gstr>
+        <gstr name="EColonistRobot.bot_deepdriller.name">深层钻机</gstr>
+        <gstr name="EColonistRobot.bot_deepdriller.desc">一个能够进行深层采掘的大型机器人。</gstr>
         
-        <gstr name="GDColonistRobot.bot_walker.name">Worker Bot</gstr>
-        <gstr name="GDColonistRobot.bot_walker.desc">A basic robot capable of mining, building and hauling.</gstr>
-        <gstr name="GDColonistRobot.bot_deepdriller.name">Deep Driller</gstr>
-        <gstr name="GDColonistRobot.bot_deepdriller.desc">A hefty bot capable of mining floor ore tiles.</gstr>
+        <gstr name="GDColonistRobot.bot_walker.name">工作机器人</gstr>
+        <gstr name="GDColonistRobot.bot_walker.desc">一个基础机器人，能采矿，建筑和运输。</gstr>
+        <gstr name="GDColonistRobot.bot_deepdriller.name">深层钻机</gstr>
+        <gstr name="GDColonistRobot.bot_deepdriller.desc">一个能够进行深层采掘的大型机器人。</gstr>
         
         <!-- Colonist Schedules -->
-        <gstr name="GDColonistSchedule.csch_schedule_template.name">Default Schedule</gstr>
-        <gstr name="GDColonistScheduleActivity.csch_act_work.name">Work</gstr>
-        <gstr name="GDColonistScheduleActivity.csch_act_sleep.name">Sleep</gstr>
-        <gstr name="GDColonistScheduleActivity.csch_act_recreation.name">Recreation</gstr>
-        <gstr name="GDColonistScheduleActivity.csch_act_training.name">Training</gstr>
-        <gstr name="GDColonistScheduleActivity.csch_act_freetime.name">Free Time</gstr>
+        <gstr name="GDColonistSchedule.csch_schedule_template.name">默认日程表</gstr>
+        <gstr name="GDColonistScheduleActivity.csch_act_work.name">工作</gstr>
+        <gstr name="GDColonistScheduleActivity.csch_act_sleep.name">睡眠</gstr>
+        <gstr name="GDColonistScheduleActivity.csch_act_recreation.name">娱乐</gstr>
+        <gstr name="GDColonistScheduleActivity.csch_act_training.name">训练</gstr>
+        <gstr name="GDColonistScheduleActivity.csch_act_freetime.name">空闲时间</gstr>
         
         <!-- Colonist Groups -->
-        <gstr name="GDColonistGroup.cgrp_human.name">Humans</gstr>
-        <gstr name="GDColonistGroup.cgrp_human.desc">The prominent hominid from the planet earth.&#13;&#10;&#13;&#10;O2 Generators required to increase cap.</gstr>
-        <gstr name="GDColonistGroup.cgrp_robot.name">Robots</gstr>        
-        <gstr name="GDColonistGroup.cgrp_robot.desc">Complex machines capable of performing some human duties</gstr>
+        <gstr name="GDColonistGroup.cgrp_human.name">人类</gstr>
+        <gstr name="GDColonistGroup.cgrp_human.desc">来自地球上的原生人类。&#13;&#10;&#13;&#10;需要提高氧气发生器上限。</gstr>
+        <gstr name="GDColonistGroup.cgrp_robot.name">机器人</gstr>        
+        <gstr name="GDColonistGroup.cgrp_robot.desc">一些能够执行人类部分工作的复杂机器。</gstr>
         
         <!-- Colonist Attributes -->
-        <gstr name="GDAttribute.c_health.name">Health</gstr>
-        <gstr name="GDAttribute.c_health.desc">Overall health of the colonist. When this drops to zero the colonist has perished.</gstr>
-        <gstr name="GDAttribute.c_sleep.name">Fatigue</gstr>
-        <gstr name="GDAttribute.c_sleep.desc">Colonists require sleep</gstr>
-        <gstr name="GDAttribute.c_power.name">Power</gstr>
-        <gstr name="GDAttribute.c_power.desc">Robots will recharge at an available charge pad</gstr>
-        <gstr name="GDAttribute.c_hunger.name">Hunger</gstr>
-        <gstr name="GDAttribute.c_hunger.desc">A hungry colonist is an unhappy colonist</gstr>
-        <gstr name="GDAttribute.c_stress.name">Stress</gstr>
-        <gstr name="GDAttribute.c_stress.desc">A happy colonist is an efficient colonist. Ensure they don't get too stressed out or accidents may happen.</gstr>
+        <gstr name="GDAttribute.c_health.name">健康</gstr>
+        <gstr name="GDAttribute.c_health.desc">殖民者的整体健康状况。当这一比例降至零时，殖民者就会迎来死亡。</gstr>
+        <gstr name="GDAttribute.c_sleep.name">疲劳</gstr>
+        <gstr name="GDAttribute.c_sleep.desc">殖民者需要休息的程度</gstr>
+        <gstr name="GDAttribute.c_power.name">电力</gstr>
+        <gstr name="GDAttribute.c_power.desc">机器人将移动刀一个可用的充电板充电</gstr>
+        <gstr name="GDAttribute.c_hunger.name">饥饿</gstr>
+        <gstr name="GDAttribute.c_hunger.desc">饥饿的殖民者是不快乐的殖民者</gstr>
+        <gstr name="GDAttribute.c_stress.name">压力</gstr>
+        <gstr name="GDAttribute.c_stress.desc">快乐的殖民者才是高效的殖民者。确保他们的压力不会太大，否则可能会发生意外。</gstr>
         
-        <gstr name="GDAttribute.c_muscles.name">Muscles</gstr>
-        <gstr name="GDAttribute.c_muscles.desc">Increases carry capacity by 5 per point</gstr>
-        <gstr name="GDAttribute.c_smarts.name">Smarts</gstr>
-        <gstr name="GDAttribute.c_smarts.desc">Increases job experience gain by 10% per point</gstr>
-        <gstr name="GDAttribute.c_athletics.name">Athletics</gstr>
-        <gstr name="GDAttribute.c_athletics.desc">Increases movement speed by 5% per point.</gstr>
+        <gstr name="GDAttribute.c_muscles.name">力量</gstr>
+        <gstr name="GDAttribute.c_muscles.desc">每个点数增加5运载力</gstr>
+        <gstr name="GDAttribute.c_smarts.name">才智</gstr>
+        <gstr name="GDAttribute.c_smarts.desc">每点增加10%的工作经验</gstr>
+        <gstr name="GDAttribute.c_athletics.name">敏捷</gstr>
+        <gstr name="GDAttribute.c_athletics.desc">每点增加5%的移动速度。</gstr>
         
-        <gstr name="GDAttribute.human_movespeed.name">Move Speed</gstr>
-        <gstr name="GDAttribute.human_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
-        <gstr name="GDAttribute.rb_worker_movespeed.name">Move Speed</gstr>
-        <gstr name="GDAttribute.rb_worker_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
-        <gstr name="GDAttribute.rb_driller_movespeed.name">Move Speed</gstr>
-        <gstr name="GDAttribute.rb_driller_movespeed.desc">Base movement speed. Movement speed is additionally modified by Athletics.</gstr>
-        <gstr name="GDAttribute.c_workspeed.name">Work Speed</gstr>
-        <gstr name="GDAttribute.c_workspeed.desc">Base work speed. Work speed additionally modified by job skill level.</gstr>
+        <gstr name="GDAttribute.human_movespeed.name">移动速度</gstr>
+        <gstr name="GDAttribute.human_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.rb_worker_movespeed.name">移动速度</gstr>
+        <gstr name="GDAttribute.rb_worker_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.rb_driller_movespeed.name">移动速度</gstr>
+        <gstr name="GDAttribute.rb_driller_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.c_workspeed.name">工作速度</gstr>
+        <gstr name="GDAttribute.c_workspeed.desc">基础工作速度。此外工作速度还受到工作技能等级的影响。</gstr>
         
         <!-- Object Attributes -->
-        <gstr name="GDAttribute.object_health.name">Durability</gstr>
-        <gstr name="GDAttribute.object_health.desc">Objects will break down if durability drops below 5%. Repaired by technician.</gstr>
-        <gstr name="GDAttribute.object_durability_drain.name">Reliability</gstr>
-        <gstr name="GDAttribute.object_durability_drain.desc">Objects with low reliability may malfunction, take damage or break down.</gstr>
+        <gstr name="GDAttribute.object_health.name">耐久度</gstr>
+        <gstr name="GDAttribute.object_health.desc">如果耐久度低于5%，物体就会彻底损坏。由技师进行维护修理。</gstr>
+        <gstr name="GDAttribute.object_durability_drain.name">可靠性</gstr>
+        <gstr name="GDAttribute.object_durability_drain.desc">低可靠性的物体可能会出现故障、损坏或故障。</gstr>
         
         <!-- Colonist Damage Effects -->
-        <gstr name="GDAttributeEffect.dmg_effect_recycler.name">Recycled</gstr>
-        <gstr name="GDAttributeEffect.dmg_critfail_mining.name">Critically Failed At Mining</gstr>
-        <gstr name="GDAttributeEffect.dmg_critfail_construct.name">Critically Failed At Construction</gstr>
-        <gstr name="GDAttributeEffect.dmg_critfail_patient.name">Being Treated At A Medi-Bed</gstr>
+        <gstr name="GDAttributeEffect.dmg_effect_recycler.name">回收利用</gstr>
+        <gstr name="GDAttributeEffect.dmg_critfail_mining.name">采掘时发生严重失误</gstr>
+        <gstr name="GDAttributeEffect.dmg_critfail_construct.name">建造时发生严重失误</gstr>
+        <gstr name="GDAttributeEffect.dmg_critfail_patient.name">正在病床上接受治疗</gstr>
         
         <!-- Colonist Ailments -->
-        <gstr name="GDAilment.ail_ankle_sprain.name">Sprained Ankle</gstr>
-        <gstr name="GDAilment.ail_ankle_sprain.desc"></gstr>
-        <gstr name="GDAilment.ail_broken_leg.name">Broken Leg</gstr>
-        <gstr name="GDAilment.ail_broken_leg.desc"></gstr>
-        <gstr name="GDAilment.ail_musclestrain.name">Muscle Strain</gstr>
-        <gstr name="GDAilment.ail_musclestrain.desc"></gstr>
-        <gstr name="GDAilment.ail_headinjury.name">Head Injury</gstr>
-        <gstr name="GDAilment.ail_headinjury.desc"></gstr>
-        <gstr name="GDAilment.ail_hand_cramp.name">Hand Cramp</gstr>
-        <gstr name="GDAilment.ail_hand_cramp.desc"></gstr>
-        <gstr name="GDAilment.ail_broken_arm.name">Broken Arm</gstr>
-        <gstr name="GDAilment.ail_broken_arm.desc"></gstr>
-        <gstr name="GDAilment.ail_stomach_parasite.name">Gut Worms</gstr>
-        <gstr name="GDAilment.ail_stomach_parasite.desc"></gstr>
-        <gstr name="GDAilment.ail_stomach_ache.name">Stomach Ache</gstr>
-        <gstr name="GDAilment.ail_stomach_ache.desc"></gstr>
-        <gstr name="GDAilment.ail_eyestrain.name">Eye Strain</gstr>
-        <gstr name="GDAilment.ail_eyestrain.desc"></gstr>
-        <gstr name="GDAilment.ail_brainfog.name">Brain Fog</gstr>
-        <gstr name="GDAilment.ail_brainfog.desc"></gstr>
+        <gstr name="GDAilment.ail_ankle_sprain.name">踝部扭伤</gstr>
+        <gstr name="GDAilment.ail_ankle_sprain.desc">踝部扭伤</gstr>
+        <gstr name="GDAilment.ail_broken_leg.name">腿部骨折</gstr>
+        <gstr name="GDAilment.ail_broken_leg.desc">腿部骨折</gstr>
+        <gstr name="GDAilment.ail_musclestrain.name">肌肉拉伤</gstr>
+        <gstr name="GDAilment.ail_musclestrain.desc">肌肉拉伤</gstr>
+        <gstr name="GDAilment.ail_headinjury.name">头部损伤</gstr>
+        <gstr name="GDAilment.ail_headinjury.desc">头部损伤</gstr>
+        <gstr name="GDAilment.ail_hand_cramp.name">手部痉挛</gstr>
+        <gstr name="GDAilment.ail_hand_cramp.desc">手部痉挛</gstr>
+        <gstr name="GDAilment.ail_broken_arm.name">手臂骨折</gstr>
+        <gstr name="GDAilment.ail_broken_arm.desc">手臂骨折</gstr>
+        <gstr name="GDAilment.ail_stomach_parasite.name">肠道蠕虫</gstr>
+        <gstr name="GDAilment.ail_stomach_parasite.desc">肠道蠕虫</gstr>
+        <gstr name="GDAilment.ail_stomach_ache.name">肚子痛</gstr>
+        <gstr name="GDAilment.ail_stomach_ache.desc">肚子痛</gstr>
+        <gstr name="GDAilment.ail_eyestrain.name">眼疲劳</gstr>
+        <gstr name="GDAilment.ail_eyestrain.desc">眼疲劳</gstr>
+        <gstr name="GDAilment.ail_brainfog.name">意识浑浊</gstr>
+        <gstr name="GDAilment.ail_brainfog.desc">意识浑浊</gstr>
         
         <!-- Attribute Effects Misc -->
-        <gstr name="GDAttributeEffect.ae_quirk_favorite_food.name">Ate Favorite Meal</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_favorite_food.desc">Ate my favorite meal</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_liked_food.name">Ate Liked Meal</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_liked_food.desc">Ate a meal I like</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_disliked_food.name">Ate Disliked Meal</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_disliked_food.desc">Ate a meal I don't like</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_hated_food.name">Ate Hated Meal</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_hated_food.desc">Ate a meal I hate</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_favorite_food.name">吃了最喜欢的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_favorite_food.desc">吃了我最喜欢的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_liked_food.name">吃了不错的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_liked_food.desc">吃了我觉得还不错的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_disliked_food.name">吃了不喜欢的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_disliked_food.desc">吃了我不喜欢的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_hated_food.name">吃了讨厌的饭菜</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_hated_food.desc">我讨厌这东西</gstr>
         
-        <gstr name="GDAttributeEffect.ae_quirk_love_job.name">Performed Job I Love</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_love_job.desc">Performed a job that I love</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_like_job.name">Performed Job I Like</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_like_job.desc">Performed a job that I like</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_dislike_job.name">Performed Job I Dislike</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_dislike_job.desc">Performed a job that I dislike</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_hate_job.name">Performed Job I Hate</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_hate_job.desc">Performed a job that I hate</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_love_job.name">我特别喜欢的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_love_job.desc">做着我特别喜欢的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_like_job.name">我喜欢的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_like_job.desc">做着我觉得不错的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_dislike_job.name">我不喜欢的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_dislike_job.desc">做着我不怎么喜欢的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_hate_job.name">我讨厌的工作</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_hate_job.desc">做着我讨厌的工作</gstr>
         
-        <gstr name="GDAttributeEffect.ae_quirk_charming.name">Charmed</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_charming.desc">Charmed By Another Colonist</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_annoying.name">Annoyed</gstr>
-        <gstr name="GDAttributeEffect.ae_quirk_annoying.desc">Annoyed By Another Colonist</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_charming.name">着迷</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_charming.desc">对另一个殖民者着迷</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_annoying.name">厌烦</gstr>
+        <gstr name="GDAttributeEffect.ae_quirk_annoying.desc">厌烦另一个殖民者</gstr>
         
-        <gstr name="GDAttributeEffect.stress_low_expectations.name">Low Expectations</gstr>
-        <gstr name="GDAttributeEffect.stress_low_expectations.desc">I have pretty low expections at the moment</gstr>
-        <gstr name="GDAttributeEffect.stress_reaction_relief.name">Stress Relief</gstr>
-        <gstr name="GDAttributeEffect.stress_reaction_relief.desc">I had a bit of a mental break, but I'm feeling better now.</gstr>
+        <gstr name="GDAttributeEffect.stress_low_expectations.name">期望很低</gstr>
+        <gstr name="GDAttributeEffect.stress_low_expectations.desc">此刻万事能过得去就行</gstr>
+        <gstr name="GDAttributeEffect.stress_reaction_relief.name">压力宣泄</gstr>
+        <gstr name="GDAttributeEffect.stress_reaction_relief.desc">我曾有一点崩溃的感觉，不过现在我感觉好多了。</gstr>
         
-        <gstr name="GDAttributeEffect.stress_pos_playedss.name">Played Sole Survivor</gstr>
-        <gstr name="GDAttributeEffect.stress_pos_playedss.desc">Nothing like a video game to relieve some stress</gstr>
-        <gstr name="GDAttributeEffect.stress_pos_playeddarts.name">Played Darts</gstr>
-        <gstr name="GDAttributeEffect.stress_pos_playeddarts.desc">Nothing like lobbing pointy sticks into a target to relieve some stress</gstr>
+        <gstr name="GDAttributeEffect.stress_pos_playedss.name">玩过孤独幸存者</gstr>
+        <gstr name="GDAttributeEffect.stress_pos_playedss.desc">没有什么比电子游戏更能缓解压力了</gstr>
+        <gstr name="GDAttributeEffect.stress_pos_playeddarts.name">玩过飞镖</gstr>
+        <gstr name="GDAttributeEffect.stress_pos_playeddarts.desc">没有什么比向目标认真投掷飞镖更能缓解压力了</gstr>
         
         <!-- Colonist Quirks -->
-        <gstr name="GDQuirk.StressReactionType.label">Stress Reaction</gstr>
-        <gstr name="GDQuirk_ConsumeEffect.quirk_favorite_food.name">Favorite Meal</gstr>
-        <gstr name="GDQuirk_ConsumeEffect.quirk_favorite_food.desc">I really love eating {0}. Reduces stress when eating this food.</gstr>
-        <gstr name="GDQuirk_ConsumeEffect.quirk_liked_food.name">Liked Meal</gstr>
-        <gstr name="GDQuirk_ConsumeEffect.quirk_liked_food.desc">I like eating {0}. Minor reduction to stress when eating this food.</gstr>
+        <gstr name="GDQuirk.StressReactionType.label">压力反应</gstr>
+        <gstr name="GDQuirk_ConsumeEffect.quirk_favorite_food.name">最爱的饭菜</gstr>
+        <gstr name="GDQuirk_ConsumeEffect.quirk_favorite_food.desc">我非常喜欢{0}，吃的时候我甚至感觉身心愉悦。</gstr>
+        <gstr name="GDQuirk_ConsumeEffect.quirk_liked_food.name">喜欢的饭菜</gstr>
+        <gstr name="GDQuirk_ConsumeEffect.quirk_liked_food.desc">我喜欢{0}，吃的时候能够让我感觉放松一点。</gstr>
         
         <gstr name="GDQuirk_ConsumeEffect.quirk_hated_food.name">Hated Meal</gstr>
         <gstr name="GDQuirk_ConsumeEffect.quirk_hated_food.desc">I hate eating {0}. Increases stress when eating this food.</gstr>
@@ -1508,14 +1508,14 @@
         
         
         <!-- UI Structure Categories-->
-        <gstr name="GDUIStructCat.uisc_struct.name">Structure</gstr>
-        <gstr name="GDUIStructCat.uisc_production.name">Production</gstr>
-        <gstr name="GDUIStructCat.uisc_furniture.name">Furniture</gstr>
-        <gstr name="GDUIStructCat.uisc_utility.name">Utilities</gstr>
-        <gstr name="GDUIStructCat.uisc_storage.name">Storage</gstr>
-        <gstr name="GDUIStructCat.uisc_surfacestructures.name">Buildings</gstr>
-        <gstr name="GDUIStructCat.uisc_zones.name">Zones</gstr>
-        <gstr name="GDUIStructCat.uisc_debug.name">Debug</gstr>
+        <gstr name="GDUIStructCat.uisc_struct.name">结构</gstr>
+        <gstr name="GDUIStructCat.uisc_production.name">生产</gstr>
+        <gstr name="GDUIStructCat.uisc_furniture.name">家具</gstr>
+        <gstr name="GDUIStructCat.uisc_utility.name">功能</gstr>
+        <gstr name="GDUIStructCat.uisc_storage.name">存储</gstr>
+        <gstr name="GDUIStructCat.uisc_surfacestructures.name">建筑</gstr>
+        <gstr name="GDUIStructCat.uisc_zones.name">区域</gstr>
+        <gstr name="GDUIStructCat.uisc_debug.name">调试</gstr>
         
         <!-- Events -->
         <gstr name="GDGEvent_MotivatedColonist.gevent_motivatedcolonist.name">Motivated Colonist</gstr>
@@ -1526,33 +1526,33 @@
         
         
         <!-- Job Roles -->
-        <gstr name="GDJobRole.prof_builder.name">Builder</gstr>
+        <gstr name="GDJobRole.prof_builder.name">建筑师</gstr>
         <gstr name="GDJobRole.prof_builder.desc">Builds and deconstructs objects</gstr>
-        <gstr name="GDJobRole.prof_miner.name">Miner</gstr>
+        <gstr name="GDJobRole.prof_miner.name">矿工</gstr>
         <gstr name="GDJobRole.prof_miner.desc">Mines out designated areas</gstr>
-        <gstr name="GDJobRole.prof_engineer.name">Engineer</gstr>
+        <gstr name="GDJobRole.prof_engineer.name">工程师</gstr>
         <gstr name="GDJobRole.prof_engineer.desc">Crafts and refines various materials</gstr>
-        <gstr name="GDJobRole.prof_technician.name">Technician</gstr>
+        <gstr name="GDJobRole.prof_technician.name">技师</gstr>
         <gstr name="GDJobRole.prof_technician.desc">Repairs damaged objects, installs equipment items and recharges the EMG.</gstr>
-        <gstr name="GDJobRole.prof_botonist.name">Botanist</gstr>
+        <gstr name="GDJobRole.prof_botonist.name">植物学家</gstr>
         <gstr name="GDJobRole.prof_botonist.desc">Plants and harvests crops</gstr>
-        <gstr name="GDJobRole.prof_cook.name">Cook</gstr>
+        <gstr name="GDJobRole.prof_cook.name">厨师</gstr>
         <gstr name="GDJobRole.prof_cook.desc">Cooks meals at the cook station</gstr>
-        <gstr name="GDJobRole.prof_scientist.name">Scientist</gstr>
+        <gstr name="GDJobRole.prof_scientist.name">科学家</gstr>
         <gstr name="GDJobRole.prof_scientist.desc">Works at the research station to generate research points</gstr>        
-        <gstr name="GDJobRole.prof_commofficer.name">Surveyor</gstr>
+        <gstr name="GDJobRole.prof_commofficer.name">测量员</gstr>
         <gstr name="GDJobRole.prof_commofficer.desc">Scans for surface resources using the Resource Scanner</gstr>
-        <gstr name="GDJobRole.prof_doctor.name">Doctor</gstr>
+        <gstr name="GDJobRole.prof_doctor.name">医生</gstr>
         <gstr name="GDJobRole.prof_doctor.desc">Treats patients at the Medi-Bed</gstr>
-        <gstr name="GDJobRole.prof_biologist.name">Biologist</gstr>
+        <gstr name="GDJobRole.prof_biologist.name">生物学家</gstr>
         <gstr name="GDJobRole.prof_biologist.desc">Handler of living organisms</gstr>
-        <gstr name="GDJobRole.prof_haul.name">Hauler</gstr>
+        <gstr name="GDJobRole.prof_haul.name">搬运工</gstr>
         <gstr name="GDJobRole.prof_haul.desc">Hauls Items to and from containers as well as refills fuel.</gstr>
-        <gstr name="GDJobRole.prof_janitor.name">Janitor</gstr>
+        <gstr name="GDJobRole.prof_janitor.name">清洁工</gstr>
         <gstr name="GDJobRole.prof_janitor.desc">Cleans up spills and messes</gstr>
         
         <!-- Currencies -->
-        <gstr name="GDCurrency.currency_research.name">Research Points</gstr>
+        <gstr name="GDCurrency.currency_research.name">研究点数</gstr>
         <gstr name="GDCurrency.currency_research.desc">Generated at the computer station and are used to unlock research projects.</gstr>
         <gstr name="GDCurrency.currency_techfragments.name">Tech Fragments</gstr>
         <gstr name="GDCurrency.currency_techfragments.desc">Used to unlock technology research projects</gstr>
@@ -1759,8 +1759,8 @@
         <gstr name="EStructure.start_supply_cannister.desc">There is a note attached to the side that simply says: "Good Luck. -A.K."</gstr>
         
         <!-- Misc -->
-        <gstr name="GameEntity.MSP_ArmsFolded.name">Male Colonist</gstr>
-        <gstr name="GameEntity.FSP_ArmsFolded.name">Female Colonist</gstr>
+        <gstr name="GameEntity.MSP_ArmsFolded.name">男性殖民者</gstr>
+        <gstr name="GameEntity.FSP_ArmsFolded.name">女性殖民者</gstr>
         
         <!-- Surface Structures -->
         <gstr name="ESurfaceFacility.main_facility.desc">The surface side of the research facility in all it's glory. While it shows some age, everything appears to be in working order.</gstr>
@@ -1892,8 +1892,8 @@
         
         
         <!-- Story Titles -->
-        <gstr name="GDStory.cs_intro_01.name">Awakening</gstr>
-        <gstr name="GDStory.cs_expeditionteamdead.name">Tragic End</gstr>        
+        <gstr name="GDStory.cs_intro_01.name">苏醒</gstr>
+        <gstr name="GDStory.cs_expeditionteamdead.name">悲惨结局</gstr>        
                 
         
         <!-- Floors -->
@@ -2038,42 +2038,42 @@
         <gstr name="GDZoneRoom.zone_room.desc">Defines a room zone. Room zones must be surrounded by walls and have at least one door.</gstr>
         
         <!-- Items -->
-        <gstr name="GDItem.res_mineral.name">Mineral Compound</gstr>
+        <gstr name="GDItem.res_mineral.name">矿物复合物</gstr>
         <gstr name="GDItem.res_mineral.desc">A mixture of minerals that can be further refined in to usable material.</gstr>
-        <gstr name="GDItem.res_structresin.name">Structure Resin</gstr>
+        <gstr name="GDItem.res_structresin.name">结构树脂</gstr>
         <gstr name="GDItem.res_structresin.desc">A malleable material that cures in to a dense and durable structure.</gstr>
-        <gstr name="GDItem.res_ironore.name">Hematite</gstr>
+        <gstr name="GDItem.res_ironore.name">赤铁矿</gstr>
         <gstr name="GDItem.res_ironore.desc">A mineral form of iron oxide.</gstr>
-        <gstr name="GDItem.res_coalore.name">Anthracite</gstr>
+        <gstr name="GDItem.res_coalore.name">无烟煤</gstr>
         <gstr name="GDItem.res_coalore.desc">A harder and purer form of carbon than coal.</gstr>
-        <gstr name="GDItem.res_copperore.name">Azurite</gstr>
+        <gstr name="GDItem.res_copperore.name">蓝铜矿</gstr>
         <gstr name="GDItem.res_copperore.desc">A soft mineral form of copper.</gstr>
-        <gstr name="GDItem.res_titaniumore.name">Rutile</gstr>
+        <gstr name="GDItem.res_titaniumore.name">金红石</gstr>
         <gstr name="GDItem.res_titaniumore.desc">A mineral composed primarily of titanium dioxide.</gstr>
-        <gstr name="GDItem.res_goldore.name">Unrefined Gold</gstr>
+        <gstr name="GDItem.res_goldore.name">未提炼的黄金</gstr>
         <gstr name="GDItem.res_goldore.desc">Raw, unprocessed, gold metal.</gstr>
-        <gstr name="GDItem.res_sand.name">Sand</gstr>
+        <gstr name="GDItem.res_sand.name">沙子</gstr>
         <gstr name="GDItem.res_sand.desc">Granular material composed of finely divided rock and mineral particles including silica.</gstr>
-        <gstr name="GDItem.res_biofuelpellet.name">Biofuel Pellets</gstr>
+        <gstr name="GDItem.res_biofuelpellet.name">生物燃料颗粒</gstr>
         <gstr name="GDItem.res_biofuelpellet.desc">A renewable fuel source that is not as efficient as anthracite.</gstr>
         
         
         
-        <gstr name="GDItem.res_hemp.name">Hemp</gstr>
-        <gstr name="GDItem.res_hemp.desc">A commonly misunderstood crop that can be used to make plastics.</gstr>
-        <gstr name="GDItem.res_glowbulb.name">Lumen Bulb</gstr>
-        <gstr name="GDItem.res_glowbulb.desc">A glowing plant bulb containing a cluster of sticky fibrous membranes.</gstr>
-        <gstr name="GDItem.res_cloth.name">Cloth</gstr>
-        <gstr name="GDItem.res_cloth.desc">I fibrous and comfy material used to make comfy things.</gstr>
-        <gstr name="GDItem.res_potato.name">Potato</gstr>
-        <gstr name="GDItem.res_potato.desc">Tastes great in a stew.</gstr>
-        <gstr name="GDItem.res_wheatthorn.name">Wheat Thorn</gstr>
-        <gstr name="GDItem.res_wheatthorn.desc">A strange and pointy grain plant that can be processed to make flour.</gstr>
-        <gstr name="GDItem.res_tanglefruit.name">Tangle Fruit</gstr>
+        <gstr name="GDItem.res_hemp.name">大麻</gstr>
+        <gstr name="GDItem.res_hemp.desc">可用来制造塑料的一种植物，但是经常被误为他用。</gstr>
+        <gstr name="GDItem.res_glowbulb.name">光球茎</gstr>
+        <gstr name="GDItem.res_glowbulb.desc">一种含有一大簇粘性纤维的球状发光植物。</gstr>
+        <gstr name="GDItem.res_cloth.name">布</gstr>
+        <gstr name="GDItem.res_cloth.desc">拥有长长纤维和舒适质感的材料，一般用来制造一些让人感觉舒服的东西。</gstr>
+        <gstr name="GDItem.res_potato.name">土豆</gstr>
+        <gstr name="GDItem.res_potato.desc">炖熟来吃很不错。</gstr>
+        <gstr name="GDItem.res_wheatthorn.name">刺麦</gstr>
+        <gstr name="GDItem.res_wheatthorn.desc">一种长着长长尖刺的类似于麦子的谷物植物，可以用来加工成面粉。</gstr>
+        <gstr name="GDItem.res_tanglefruit.name">缠结果</gstr>
         <gstr name="GDItem.res_tanglefruit.desc">A sweet fruit that looks a bit like an orange banana.</gstr>
-        <gstr name="GDItem.res_greenalgae.name">Green Algae</gstr>
+        <gstr name="GDItem.res_greenalgae.name">绿藻</gstr>
         <gstr name="GDItem.res_greenalgae.desc">An edible polyphyletic organism. This could also be used to generate nutrients for better plant growth.</gstr>
-        <gstr name="GDItem.res_arrowheadfungus.name">Arrow Head Fungus</gstr>
+        <gstr name="GDItem.res_arrowheadfungus.name">箭头菇</gstr>
         <gstr name="GDItem.res_arrowheadfungus.desc">A large blue capped edible fungus.</gstr>
         <gstr name="GDItem.res_spongestalk.name">Sponge Stalk</gstr>
         <gstr name="GDItem.res_spongestalk.desc">A spongy, and sorta slimy, vegetable crop.</gstr>
@@ -2787,40 +2787,40 @@ Bunny is excited for the trip and, frankly, so am I. It’s been a long time sin
         <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_invboost_2.desc">Blueprint detailing how to create an advanced cargo expander for increased vehicle cargo capacity. Further research will be required.</gstr>
         
         <!-- Popup Tips -->
-        <gstr name="GDPopupTip.poptip_colonistmgr.name">Colonist Management</gstr>
+        <gstr name="GDPopupTip.poptip_colonistmgr.name">殖民者管理</gstr>
         <gstr name="GDPopupTip.poptip_colonistmgr.desc">Here we can get an overview of our colonists and manage job roles, equipment and view our colony status.</gstr>
-        <gstr name="GDPopupTip.poptip_researchwin.name">Research</gstr>
+        <gstr name="GDPopupTip.poptip_researchwin.name">科研</gstr>
         <gstr name="GDPopupTip.poptip_researchwin.desc">The research window is where we can unlock new technologies, recipes and more by spending research points, Tech Fragments and/or Bio-Samples.</gstr>
-        <gstr name="GDPopupTip.poptip_discoverywin.name">Discoveries</gstr>
+        <gstr name="GDPopupTip.poptip_discoverywin.name">发现物</gstr>
         <gstr name="GDPopupTip.poptip_discoverywin.desc">There are many things to discover including blueprints, resources and data. This is where we can view what we have discovered.</gstr>
-        <gstr name="GDPopupTip.poptip_planetmapnotable.name">Offline :: Missing Elevator</gstr>
+        <gstr name="GDPopupTip.poptip_planetmapnotable.name">离线：：缺少升降梯</gstr>
         <gstr name="GDPopupTip.poptip_planetmapnotable.desc">The planet map interface is where you can manage expeditions, surface structures and vehicles. An elevator needs to be constructed before we have access to the surface.</gstr>
-        <gstr name="GDPopupTip.poptip_planetmapwithtable.name">Planet Map</gstr>
+        <gstr name="GDPopupTip.poptip_planetmapwithtable.name">星球地图</gstr>
         <gstr name="GDPopupTip.poptip_planetmapwithtable.desc">The planet map interface is where you can manage expeditions, surface structures and vehicles.</gstr>
         
         <!-- Tutorial Tasks-->
-        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.name">Supplies!</gstr>
-        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.desc">A starting supply chest has been left near the stasis capsules by an unknown benefactor. Select the chest and press the Open button.</gstr>
-        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.name">Revive Colonists</gstr>
-        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.desc">Your colonists are currently in stasis capsules. Click on a stasis capsule and click open to get them out.&#13;&#10;&#13;&#10;Colonists can have 3 job roles assigned at a time. These can be changed by clicking the job role button in their info panel.</gstr>
-        <gstr name="GDTutTask_Mining.tuttask_mine.name">Gather Resources</gstr>
-        <gstr name="GDTutTask_Mining.tuttask_mine.desc">We'll need some structure resin to get started. We don't currently have the means to process materials so we'll have to deconstruct walls/flooring for structure resin. The Builder job role is responsible for deconstructing objects.&#13;&#10;&#13;&#10;Click the deconstruct button on the main button bar and select walls or floors. Hold LMB + Drag to select wall debris to be mined. Drag over already selected tile to deselect.&#13;&#10;&#13;&#10;Colonist job roles can be re-assigned by clicking on the respective job role button.</gstr>
-        <gstr name="GDTutTask_BuildElevator.tuttask_belevator.name">Construct Elevator</gstr>
+        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.name">补给品！</gstr>
+        <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.desc">静滞休眠仓附近发现了一个启动补给箱，可能是某个不知名的好心人留下的吧。选择箱子然后点击打开按钮</gstr>
+        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.name">唤醒殖民者</gstr>
+        <gstr name="GDTutTask_OpenStasis.tuttask_stasis.desc">你的殖民者们现在都在静滞休眠仓内。点击静滞休眠仓，打开并唤醒殖民者。&#13;&#10;&#13;&#10;殖民者可以同时执行3个工作角色。可以通过点击殖民者信息面板上的工作角色按钮来进行切换操作。</gstr>
+        <gstr name="GDTutTask_Mining.tuttask_mine.name">采集资源</gstr>
+        <gstr name="GDTutTask_Mining.tuttask_mine.desc">我们需要一些结构树脂来开始工作。我们目前没有加工材料的手段，所以我们必须拆除一些残垣断壁来获得结构树脂。建筑师角色的一项工作就是是负责拆解物体。&#13;&#10;&#13;&#10;点击主按钮栏上的收获按钮，选择拆解。按住 左键+拖拽 的方式选择需要拆解的废墟建筑。从已经选定的格子开始点击并拖动可以取消选择。&#13;&#10;&#13;&#10;殖民者的工作角色可以通过点击相应的角色按钮进行重新分配。</gstr>
+        <gstr name="GDTutTask_BuildElevator.tuttask_belevator.name">建造升降梯</gstr>
         <gstr name="GDTutTask_BuildElevator.tuttask_belevator.desc">We'll need to regain access to the top side facility by constructing an elevator. Scans indicate the solar panels are still functional. We can route power from the elevator. </gstr>
         
         <!--<gstr name="GDTutTask_RefineResin.tuttask_refineresin.name">Refine Structure Resin</gstr>
         <gstr name="GDTutTask_RefineResin.tuttask_refineresin.desc">Find and click on the Bio-Refiner in the facility. Click the Add Item Order button. Select structure resin and how much to craft. An engineer will craft the items if the recipe ingredients are available.</gstr>-->
-        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.name">Build A Crop Field</gstr>
+        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.name">建造作物种植田</gstr>
         <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.desc">Growing crops is important for food and refining materials. Find and select the crop field from the build menu under production. Must be placed on dirt floor.</gstr>
-        <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.name">Refinery Room</gstr>
+        <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.name">精炼室</gstr>
         <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.desc">In order to refine materials such as structure resin and bioplastic we'll need a Bio-Refiner. &#13;&#10;&#13;&#10;The Bio-Refiner must be constructed on refinery flooring and connected to power. Construct power conduits from the EMG to the Bio-Refiner.</gstr>
         <gstr name="GDTutTask_BuildObject.tuttask_bpower.name">Power Generation</gstr>
         <gstr name="GDTutTask_BuildObject.tuttask_bpower.desc">We'll need to get power going before we can start research projects. Construct a room using Utility Floor and place an EMG. The EMG will need to be charged up by a colonist.</gstr>
-        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.name">Science Lab</gstr>
+        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.name">实验室</gstr>
         <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">Research points are generated at the Research Station by a colonist with the scientist job role. Research points are used to unlock research projects. &#13;&#10;&#13;&#10;The Research Station must be constructed on science lab flooring and requires power. Construct power conduits from the power generator to the Research Station.</gstr>
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">First Research Project</gstr>
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">Open the Research Projects screen from the bottom button bar and choose an available project from the list. Once you have enough research points a research project can be unlocked.</gstr>
-        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.name">Assign Job Roles</gstr>
+        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.name">分配工作角色</gstr>
         <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.desc">Colonists awoken from stasis will already have one 首要工作 assigned. Colonists can have up to three jobs assigned. &#13;&#10;&#13;&#10;Left Click on a colonist to select them. Then click on a job slot in their info panel to assign or change the job in that slot. &#13;&#10;&#13;&#10;Job priority is based on the primary, secondary and tertiary job slots. 首要工作s will be attempted first and so on.</gstr>
         
     </GDInfo>

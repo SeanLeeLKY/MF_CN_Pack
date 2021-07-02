@@ -10,9 +10,9 @@
         </components>
         
         <!-- Guide Data -->
-        <gstr name="GDGuideGroup.guidegroup_basics.name">Basics</gstr>
+        <gstr name="GDGuideGroup.guidegroup_basics.name">基础</gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_intro.name">Introduction</gstr>
+        <gstr name="GDGuideTopic.guidetopic_intro.name">简介</gstr>
         <gstr name="GDGuideTopic.guidetopic_intro.desc">            
 Congratulations on being an Infinity Corp Pioneer! 
 
