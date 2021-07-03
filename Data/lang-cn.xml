@@ -2101,9 +2101,9 @@
         <gstr name="GDItem.res_iron.desc">The fourth most abundant element in the Earth's crust. It's rather abundant here too.</gstr>
         <gstr name="GDItem.res_copper.name">铜锭</gstr>
         <gstr name="GDItem.res_copper.desc">A soft metal with high thermal and electrical conductivity. Great for electronics.</gstr>
-        <gstr name="GDItem.res_steel.name">钢坯</gstr>
+        <gstr name="GDItem.res_steel.name">钢锭</gstr>
         <gstr name="GDItem.res_steel.desc">A strong metal alloy composed of iron and carbon.</gstr>
-        <gstr name="GDItem.res_titanium.name">钛钢坯</gstr>
+        <gstr name="GDItem.res_titanium.name">钛钢锭</gstr>
         <gstr name="GDItem.res_titanium.desc">A lustrous metal with a silver color, low density and high strength.</gstr>
         <gstr name="GDItem.res_gold.name">金锭</gstr>
         <gstr name="GDItem.res_gold.desc">A dense, malleable precious metal with impressive conductive properties.</gstr>
