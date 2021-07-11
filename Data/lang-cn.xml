@@ -1613,101 +1613,101 @@
         <gstr name="EResearchStation.research_bench.name">研究站</gstr>
         <gstr name="EResearchStation.research_bench.desc">科学家在这里进行科学研究，生成研究点数。</gstr>
         
-        <gstr name="ECommStation.comm_station.name">Resource Scanner</gstr>
-        <gstr name="ECommStation.comm_station.desc">Surveyor will use this station to scan for hidden deep resources on explored planet tiles.</gstr>
+        <gstr name="ECommStation.comm_station.name">资源扫描器</gstr>
+        <gstr name="ECommStation.comm_station.desc">测量员将会使用这个工作站来扫描星球上已探明地块的深层隐藏资源。</gstr>
         
-        <gstr name="EStructure.crop_field.name">Crop Field</gstr>
-        <gstr name="EStructure.crop_field.desc">A small field to grow crops. Must be placed on dirt.</gstr>
-        <gstr name="EStructure.clone_chamber.name">Clone Chamber</gstr>
-        <gstr name="EStructure.clone_chamber.desc">No longer are we required to toil in the unpredictable task of normal procreation. The clone chamber allows us to create the ideal colonists.</gstr>
+        <gstr name="EStructure.crop_field.name">作物田</gstr>
+        <gstr name="EStructure.crop_field.desc">一小块种植作物的田地。必须放在泥土地面上。</gstr>
+        <gstr name="EStructure.clone_chamber.name">克隆舱</gstr>
+        <gstr name="EStructure.clone_chamber.desc">我们不再需要在不可预知的“生育任务”中辛苦工作。克隆舱能让我们创造出理想的殖民者。</gstr>
         
-        <gstr name="EStructure.stasis_capsule.name">Stasis Capsule</gstr>
-        <gstr name="EStructure.stasis_capsule.desc">The only means of safely traveling from one star to another without dying of old age.</gstr>
-        <gstr name="EStructure.stasis_capsule_broken.name">Opened Stasis Capsule</gstr>
-        <gstr name="EStructure.stasis_capsule_broken.desc">This stasis capsule has already been opened. Internal logs show the capsule was opened at the planned revival time. There is no sign of the original occupant.</gstr>
-        <gstr name="EStructure.inactive_robot.name">Inactive Robot</gstr>
-        <gstr name="EStructure.inactive_robot.desc">This robot doesn't appear to be damaged and is just powered off.</gstr>
+        <gstr name="EStructure.stasis_capsule.name">静滞休眠仓</gstr>
+        <gstr name="EStructure.stasis_capsule.desc">安全地从一个星体旅行到另一个星体而不至于老死的唯一手段。</gstr>
+        <gstr name="EStructure.stasis_capsule_broken.name">打开的静滞休眠仓</gstr>
+        <gstr name="EStructure.stasis_capsule_broken.desc">这个静滞休眠仓已经被打开了。内部日志显示，该休眠仓是在计划的唤醒时间打开的。目前没有原使用者的其他迹象。</gstr>
+        <gstr name="EStructure.inactive_robot.name">未激活的机器人</gstr>
+        <gstr name="EStructure.inactive_robot.desc">这个机器人似乎没有损坏，只是被关闭了电源。</gstr>
         
-        <gstr name="EDoor.door_single.name">Door</gstr>
-        <gstr name="EDoor.door_single.desc">With the miracle of modern science the door opens and closes all by itself.</gstr>
-        <gstr name="EDoor.door_single_damaged.name">Damaged Door</gstr>
-        <gstr name="EDoor.door_single_damaged.desc">This door shall slide no more.</gstr>
+        <gstr name="EDoor.door_single.name">门</gstr>
+        <gstr name="EDoor.door_single.desc">在现代科学的奇迹下，门会自己打开和关闭。</gstr>
+        <gstr name="EDoor.door_single_damaged.name">损坏的门</gstr>
+        <gstr name="EDoor.door_single_damaged.desc">这扇门无法滑动。</gstr>
         
-        <gstr name="EStorageContainer.storage_crate_mk1.name">Raw Storage Container</gstr>
-        <gstr name="EStorageContainer.storage_crate_mk1.desc">A larger container for storing raw materials.</gstr>
-        <gstr name="EStorageContainer.storage_crate_mk1_v.name">Storage Container</gstr>
-        <gstr name="EStorageContainer.storage_crate_mk1_v.desc">A general purpose container for storing non-food items.</gstr>
-        <gstr name="ECropBin.storage_cropbin.name">Crop Bin</gstr>
-        <gstr name="ECropBin.storage_cropbin.desc">Storage container for crops and seeds.</gstr>
-        <gstr name="EStorageContainer.storage_fridge.name">Refrigerator</gstr>
-        <gstr name="EStorageContainer.storage_fridge.desc">Stores raw food ingredients.</gstr>
-        <gstr name="EStorageContainer.storage_fooddispenser.name">Food Dispenser</gstr>
-        <gstr name="EStorageContainer.storage_fooddispenser.desc">A place to store and retrieve meals.</gstr>
-        <gstr name="EDataServer.dataserver.name">Data Server</gstr>
-        <gstr name="EDataServer.dataserver.desc">The data server increases the amount of research points we can store.</gstr>
-        <gstr name="EStructure.shippingcontainer.name">Shipping</gstr>
-        <gstr name="EStructure.shippingcontainer.desc">Access point for items that are needed on the surface.</gstr>
-        <gstr name="EStructure.receivingcontainer.name">Receiving</gstr>
-        <gstr name="EStructure.receivingcontainer.desc">Access point for items delivered from the surface.</gstr>
+        <gstr name="EStorageContainer.storage_crate_mk1.name">原材料存储容器</gstr>
+        <gstr name="EStorageContainer.storage_crate_mk1.desc">一个用于存储各种原材料的大型容器。</gstr>
+        <gstr name="EStorageContainer.storage_crate_mk1_v.name">储存容器</gstr>
+        <gstr name="EStorageContainer.storage_crate_mk1_v.desc">一个用于储存非食物物品的通用存储容器。</gstr>
+        <gstr name="ECropBin.storage_cropbin.name">作物箱</gstr>
+        <gstr name="ECropBin.storage_cropbin.desc">用于存储各种作物和种子的存储容器。</gstr>
+        <gstr name="EStorageContainer.storage_fridge.name">冰箱</gstr>
+        <gstr name="EStorageContainer.storage_fridge.desc">存储各种生食材料。</gstr>
+        <gstr name="EStorageContainer.storage_fooddispenser.name">食品分配器</gstr>
+        <gstr name="EStorageContainer.storage_fooddispenser.desc">一个储存和取回餐食的地方。</gstr>
+        <gstr name="EDataServer.dataserver.name">数据服务器</gstr>
+        <gstr name="EDataServer.dataserver.desc">数据服务器增加了研究点的存储数量上限。</gstr>
+        <gstr name="EStructure.shippingcontainer.name">递送器</gstr>
+        <gstr name="EStructure.shippingcontainer.desc">地表需求物品的传输接入点。</gstr>
+        <gstr name="EStructure.receivingcontainer.name">接收器</gstr>
+        <gstr name="EStructure.receivingcontainer.desc">地表回传物品的传输接入点。</gstr>
         
-        <gstr name="EBed.single_bed.name">Bed</gstr>
-        <gstr name="EBed.single_bed.desc">A far more comfortable option than the floor while being unconscious.</gstr>
+        <gstr name="EBed.single_bed.name">床</gstr>
+        <gstr name="EBed.single_bed.desc">当想要休息的时候，这东西可比地板舒服多了。</gstr>
         
-        <gstr name="EBed.sleeping_mat.name">Sleeping Mat</gstr>
-        <gstr name="EBed.sleeping_mat.desc">A slight improvement over sleeping on the floor.</gstr>
+        <gstr name="EBed.sleeping_mat.name">睡垫</gstr>
+        <gstr name="EBed.sleeping_mat.desc">比起睡在地板上，有了些许的改善。</gstr>
         
-        <gstr name="EStructure.standing_lamp.name">Standing Lamp</gstr>
-        <gstr name="EStructure.standing_lamp.desc">Illuminating</gstr>
-        <gstr name="EWallObject.wall_light_01.name">Wall Light</gstr>
-        <gstr name="EWallObject.wall_light_01.desc">Illuminating</gstr>
-        <gstr name="EStructure.hologram_emitter.name">Holographic Display</gstr>
-        <gstr name="EStructure.hologram_emitter.desc">A high tech means of displaying light.</gstr>
-        <gstr name="EStructure.deco_metalspheres.name">Glowing Spheres</gstr>
-        <gstr name="EStructure.deco_metalspheres.desc">A decorative stack of illuminated balls.</gstr>
-        <gstr name="EStructure.deco_hexagonbookcase.name">Hexagon Bookcase</gstr>
-        <gstr name="EStructure.deco_hexagonbookcase.desc">A decorative bookcase in a sleek hexagon design.</gstr>        
+        <gstr name="EStructure.standing_lamp.name">落地灯</gstr>
+        <gstr name="EStructure.standing_lamp.desc">照明用具。</gstr>
+        <gstr name="EWallObject.wall_light_01.name">墙灯</gstr>
+        <gstr name="EWallObject.wall_light_01.desc">照明用具。</gstr>
+        <gstr name="EStructure.hologram_emitter.name">全息显示器</gstr>
+        <gstr name="EStructure.hologram_emitter.desc">发射各种光线的高科技显示装置。</gstr>
+        <gstr name="EStructure.deco_metalspheres.name">炽光球</gstr>
+        <gstr name="EStructure.deco_metalspheres.desc">一堆装饰性的照明球。</gstr>
+        <gstr name="EStructure.deco_hexagonbookcase.name">六角书柜</gstr>
+        <gstr name="EStructure.deco_hexagonbookcase.desc">时尚的六边形装饰性书柜。</gstr>        
         
-        <gstr name="EStructure.night_stand.name">Night Stand</gstr>
-        <gstr name="EStructure.night_stand.desc">Night time underground is probably hard to notice.</gstr>
+        <gstr name="EStructure.night_stand.name">床头柜</gstr>
+        <gstr name="EStructure.night_stand.desc">夜晚的地下世界可能很难注意到什么东西。</gstr>
         
-        <gstr name="EStructure.plant_pot.name">Plant Pot</gstr>
-        <gstr name="EStructure.plant_pot.desc">A nice way to spruce up the place.</gstr>
-        <gstr name="EStructure.locker.name">Locker</gstr>
-        <gstr name="EStructure.locker.desc">Sometimes lockers store stuff and sometimes they just sit there to look cool.</gstr>        
-        <gstr name="EPunchingBag.punchingbag.name">Punching Bag</gstr>
-        <gstr name="EPunchingBag.punchingbag.desc">Punching a padded pole will increase muscles.</gstr>
-        <gstr name="ETreadmill.treadmill.name">Treadmill</gstr>
-        <gstr name="ETreadmill.treadmill.desc">Running in place for a while will help increase athletics.</gstr>
+        <gstr name="EStructure.plant_pot.name">种植盆</gstr>
+        <gstr name="EStructure.plant_pot.desc">装饰这里的好方法之一。</gstr>
+        <gstr name="EStructure.locker.name">储物柜</gstr>
+        <gstr name="EStructure.locker.desc">有时储物柜可以存放东西，有时它们只是立在那里看起来很酷。</gstr>        
+        <gstr name="EPunchingBag.punchingbag.name">拳击袋</gstr>
+        <gstr name="EPunchingBag.punchingbag.desc">捶打垫高的杆子会增加肌肉的力量。</gstr>
+        <gstr name="ETreadmill.treadmill.name">跑步机</gstr>
+        <gstr name="ETreadmill.treadmill.desc">原地跑步一段时间将有助于提高运动能力。</gstr>
         
-        <gstr name="EAeroponicsFarm.aeroponicsfarm.name">Aeroponics Farm</gstr>
-        <gstr name="EAeroponicsFarm.aeroponicsfarm.desc">A controlled environment for faster plant growth.</gstr>
-        <gstr name="EAlgaeFarm.algaefarm.name">Algae Farm</gstr>
-        <gstr name="EAlgaeFarm.algaefarm.desc">A sophistacated way to grow beneficial sludge.</gstr>
-        <gstr name="EAquarium.fishtank.name">Fish Tank</gstr>
-        <gstr name="EAquarium.fishtank.desc">A decorative object to keep colonists happy. Don't tap the glass.</gstr>
-        <gstr name="EAquarium.aquarium.name">Aquarium</gstr>
-        <gstr name="EAquarium.aquarium.desc">A place for growing and harvesting fish.</gstr>
-        <gstr name="EStructure.food_processor.name">Food Processor</gstr>
-        <gstr name="EStructure.food_processor.desc">It slices, dices and grinds. Oh my.</gstr>
-        <gstr name="EArcadeCabinet.arcade_cabinet.name">Arcade Cabinet</gstr>
-        <gstr name="EArcadeCabinet.arcade_cabinet.desc">Playing a game of Soul Survivor will help reduce stress.</gstr>
-        <gstr name="EDartBoard.dart_board.name">Dart Board</gstr>
-        <gstr name="EDartBoard.dart_board.desc">Throwing some short pointy sticks should help reduce stress.</gstr>
+        <gstr name="EAeroponicsFarm.aeroponicsfarm.name">气培农场</gstr>
+        <gstr name="EAeroponicsFarm.aeroponicsfarm.desc">一个能提供使植物生长更快的受控种植环境的设施。</gstr>
+        <gstr name="EAlgaeFarm.algaefarm.name">水藻农场</gstr>
+        <gstr name="EAlgaeFarm.algaefarm.desc">一种培育有益污泥的复杂方法。</gstr>
+        <gstr name="EAquarium.fishtank.name">鱼缸</gstr>
+        <gstr name="EAquarium.fishtank.desc">让殖民者高兴的装饰品。不要敲打玻璃。</gstr>
+        <gstr name="EAquarium.aquarium.name">养鱼池</gstr>
+        <gstr name="EAquarium.aquarium.desc">一个养殖和收获鱼类的设施。</gstr>
+        <gstr name="EStructure.food_processor.name">食品加工机</gstr>
+        <gstr name="EStructure.food_processor.desc">它可以切片、切块和磨碎很多东西。</gstr>
+        <gstr name="EArcadeCabinet.arcade_cabinet.name">电玩柜</gstr>
+        <gstr name="EArcadeCabinet.arcade_cabinet.desc">玩“灵魂幸存者”游戏将有助于减轻压力。</gstr>
+        <gstr name="EDartBoard.dart_board.name">飞镖盘</gstr>
+        <gstr name="EDartBoard.dart_board.desc">扔一些短的尖头飞镖应该有助于减少压力。</gstr>
         
-        <gstr name="EWaterTrap.water_trap.name">Water Trap</gstr>
-        <gstr name="EWaterTrap.water_trap.desc">Can be placed over water to capture small water critters.</gstr>
-        <gstr name="EFertilizerStation.fertilizer_station.name">Fertilizer Station</gstr>
-        <gstr name="EFertilizerStation.fertilizer_station.desc">A station for making nutritional plant mixtures.</gstr>
+        <gstr name="EWaterTrap.water_trap.name">水阱笼</gstr>
+        <gstr name="EWaterTrap.water_trap.desc">可以放在水上捕捉小的水生物</gstr>
+        <gstr name="EFertilizerStation.fertilizer_station.name">肥料站</gstr>
+        <gstr name="EFertilizerStation.fertilizer_station.desc">一个用于制作营养植物混合物的站台。</gstr>
         
-        <gstr name="EStructure.medical_cabinet.name">Medical Cabinet</gstr>
-        <gstr name="EStructure.medical_cabinet.desc">Medical Cabinet</gstr>
+        <gstr name="EStructure.medical_cabinet.name">医疗箱</gstr>
+        <gstr name="EStructure.medical_cabinet.desc">医疗箱</gstr>
         
-        <gstr name="ESeatEntity.bench.name">Bench</gstr>
-        <gstr name="ESeatEntity.bench.desc">A nice place to sit and relax.</gstr>
-        <gstr name="ESeatEntity.chair.name">Chair</gstr>
-        <gstr name="ESeatEntity.chair.desc">A nice place to sit and relax</gstr>
+        <gstr name="ESeatEntity.bench.name">长凳</gstr>
+        <gstr name="ESeatEntity.bench.desc">一个可以坐下来放松的好地方。</gstr>
+        <gstr name="ESeatEntity.chair.name">椅子</gstr>
+        <gstr name="ESeatEntity.chair.desc">一个可以坐下来放松的好地方。</gstr>
                 
-        <gstr name="EStructure.cook_station.name">Cooking Station</gstr>
+        <gstr name="EStructure.cook_station.name">烹饪台</gstr>
         <gstr name="EStructure.cook_station.desc">A place to make meals.</gstr>
         <gstr name="ESmelter.ore_refinery.name">Ore Refinery</gstr>
         <gstr name="ESmelter.ore_refinery.desc">Refine raw ore in to ingots.</gstr>
@@ -1821,7 +1821,7 @@
         <gstr name="GDMapPOI.poi_spongestalk.desc">This area contains some natural flora.</gstr>
         <gstr name="GDMapPOI.poi_hologramforest.name">Hologram Forest</gstr>
         <gstr name="GDMapPOI.poi_hologramforest.desc">A strange shimmering forest.</gstr>
-        <gstr name="GDMapPOI.poi_glowingspheres.name">Glowing Spheres</gstr>
+        <gstr name="GDMapPOI.poi_glowingspheres.name">炽光球</gstr>
         <gstr name="GDMapPOI.poi_glowingspheres.desc">Glowing metal spheres were spotted here. We should investigate.</gstr>
         <gstr name="GDMapPOI.poi_shrine_01.name">Shrine</gstr>
         <gstr name="GDMapPOI.poi_shrine_01.desc">The remains of an alien shrine</gstr>
@@ -2718,8 +2718,8 @@ Bunny is excited for the trip and, frankly, so am I. It’s been a long time sin
         <!-- Discoveries: Decoration Blueprints -->
         <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.name">Holographic Display</gstr>
         <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.desc">A sophisticated means of displaying light. With some further study we can use these for decorations.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.name">Glowing Spheres</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.desc">A strange stack of metal glowing spheres. Not sure what they're for, but they sure look cool.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.name">炽光球</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.desc">A strange stack of metal 炽光球. Not sure what they're for, but they sure look cool.</gstr>
         
         <!-- Discoveries: Machine Blueprints -->
         <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.name">Clone Chamber Blueprint</gstr>
