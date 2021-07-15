@@ -1708,97 +1708,97 @@
         <gstr name="ESeatEntity.chair.desc">一个可以坐下来放松的好地方。</gstr>
                 
         <gstr name="EStructure.cook_station.name">烹饪台</gstr>
-        <gstr name="EStructure.cook_station.desc">A place to make meals.</gstr>
-        <gstr name="ESmelter.ore_refinery.name">Ore Refinery</gstr>
-        <gstr name="ESmelter.ore_refinery.desc">Refine raw ore in to ingots.</gstr>
-        <gstr name="EStructure.bio_refiner.name">Bio-Refiner</gstr>
-        <gstr name="EStructure.bio_refiner.desc">A craft station used to refine raw bio materials.</gstr>
-        <gstr name="ERobotAssembler.robot_assembler.name">Robot Assembler</gstr>
-        <gstr name="ERobotAssembler.robot_assembler.desc">Station for constructing robots.</gstr>
-        <gstr name="ETechPrinter.tech_printer.name">Tech Printer</gstr>
-        <gstr name="ETechPrinter.tech_printer.desc">An advanced 3D printer used to construct electrical and mechanical technologies.</gstr>
-        <gstr name="EVehicleAssembler.vehicle_assembly_station.name">Vehicle Assembly Station</gstr>
-        <gstr name="EVehicleAssembler.vehicle_assembly_station.desc">Remotely control the vehicle bay machinery for the construction of vehicles.</gstr>
-        <gstr name="EMapTable.map_table.name">Map Table</gstr>
-        <gstr name="EMapTable.map_table.desc">In order to monitor surface operations we'll need a map table.</gstr>
-        <gstr name="ERobotRecycler.robot_recycler.name">Robot Recycler</gstr>
-        <gstr name="ERobotRecycler.robot_recycler.desc">It slices, it dices. Recycle robots to get back construction materials. Set robots for recycle from a robots info panel.</gstr>
+        <gstr name="EStructure.cook_station.desc">制作食物的地方。</gstr>
+        <gstr name="ESmelter.ore_refinery.name">矿石精炼器</gstr>
+        <gstr name="ESmelter.ore_refinery.desc">把原矿冶炼成为初级材料。</gstr>
+        <gstr name="EStructure.bio_refiner.name">生物精炼器</gstr>
+        <gstr name="EStructure.bio_refiner.desc">用来加工生物材料的机器。</gstr>
+        <gstr name="ERobotAssembler.robot_assembler.name">机器人组装器</gstr>
+        <gstr name="ERobotAssembler.robot_assembler.desc">建造机器人的站点。</gstr>
+        <gstr name="ETechPrinter.tech_printer.name">高科技打印机</gstr>
+        <gstr name="ETechPrinter.tech_printer.desc">一台高级的3D打印机，用于制造一些电子和机械科技件。</gstr>
+        <gstr name="EVehicleAssembler.vehicle_assembly_station.name">载具组装站</gstr>
+        <gstr name="EVehicleAssembler.vehicle_assembly_station.desc">远程控制载载具仓组装载具。</gstr>
+        <gstr name="EMapTable.map_table.name">地图工作台</gstr>
+        <gstr name="EMapTable.map_table.desc">用于监视和操控地表行动的地图显示台。</gstr>
+        <gstr name="ERobotRecycler.robot_recycler.name">机器人回收器</gstr>
+        <gstr name="ERobotRecycler.robot_recycler.desc">拆卸，切除。将机器人回收为基本建造材料。回收机器人需要在信息面板启用回收标志。</gstr>
         
-        <gstr name="ERobotRechargeStation.charge_pad.name">Charge Pad</gstr>
-        <gstr name="ERobotRechargeStation.charge_pad.desc">Robots will use charge pads to restore power.</gstr>
+        <gstr name="ERobotRechargeStation.charge_pad.name">充电板</gstr>
+        <gstr name="ERobotRechargeStation.charge_pad.desc">机器人将会在这里充电。</gstr>
         
-        <gstr name="EMedBed.medical_bed.name">Medi-Bed</gstr>
-        <gstr name="EMedBed.medical_bed.desc">Heals the sick as long as there is a good doctor.</gstr>
-        <gstr name="EStructure.job_trainer.name">Memory Transfer Station</gstr>
-        <gstr name="EStructure.job_trainer.desc">Used to transfer job skills from one colonist to another.</gstr>
+        <gstr name="EMedBed.medical_bed.name">医疗床</gstr>
+        <gstr name="EMedBed.medical_bed.desc">只要有好医生，就能治愈病人。</gstr>
+        <gstr name="EStructure.job_trainer.name">记忆传输站</gstr>
+        <gstr name="EStructure.job_trainer.desc">将一个殖民者的工作技能传输给另一个殖民者。</gstr>
         
-        <gstr name="EStructure.eating_table.name">Eating Table</gstr>
-        <gstr name="EStructure.eating_table.desc">A place for up to four colonists to enjoy a meal.</gstr>
+        <gstr name="EStructure.eating_table.name">饭桌</gstr>
+        <gstr name="EStructure.eating_table.desc">殖民者能安心享用美餐的好地方。</gstr>
         
-        <gstr name="EWall.wall_metal.name">Wall</gstr>
-        <gstr name="EWall.wall_metal.desc">A consistent reminder not to walk in that direction.</gstr>
-        <gstr name="EStructure.wall_debris.name">Damaged Wall</gstr>
-        <gstr name="EStructure.wall_debris.desc">The aging remains of the Mercury facility.</gstr>
+        <gstr name="EWall.wall_metal.name">墙</gstr>
+        <gstr name="EWall.wall_metal.desc">明确告诉我们不要再往前走了。</gstr>
+        <gstr name="EStructure.wall_debris.name">损坏的墙</gstr>
+        <gstr name="EStructure.wall_debris.desc">水星号设施的陈旧遗迹。</gstr>
         
-        <gstr name="EPowerConduit.power_conduit.name">Power Conduit</gstr>
-        <gstr name="EPowerConduit.power_conduit.desc">Speedy electron travel to machines in need.</gstr>
-        <gstr name="EWaterConduit.water_conduit.name">Water Conduit</gstr>
-        <gstr name="EWaterConduit.water_conduit.desc">Perfect way to get water to machines in need.</gstr>
+        <gstr name="EPowerConduit.power_conduit.name">电线</gstr>
+        <gstr name="EPowerConduit.power_conduit.desc">为需要的地方快速提供电力。</gstr>
+        <gstr name="EWaterConduit.water_conduit.name">水管</gstr>
+        <gstr name="EWaterConduit.water_conduit.desc">为需要的地方快速提供水源。</gstr>
         
-        <gstr name="EStructure.medical_cannister.name">Medical Chest</gstr>
-        <gstr name="EStructure.medical_cannister.desc">Medical Chest</gstr>
-        <gstr name="EStructure.organics_cannister.name">Organics Chest</gstr>
-        <gstr name="EStructure.organics_cannister.desc">A cargo chest containing various organic materials.</gstr>
-        <gstr name="EStructure.tech_cannister.name">Tech Chest</gstr>
-        <gstr name="EStructure.tech_cannister.desc">A cargo chest containing various technology items.</gstr>
-        <gstr name="EStructure.minerals_cannister.name">Minerals Chest</gstr>
-        <gstr name="EStructure.minerals_cannister.desc">A cargo chest containing various minerals.</gstr>
-        <gstr name="EStructure.food_cannister.name">Food Chest</gstr>
-        <gstr name="EStructure.food_cannister.desc">A cargo chest containing various food supplies.</gstr>
-        <gstr name="EStructure.start_supply_cannister.name">Supply Chest</gstr>
-        <gstr name="EStructure.start_supply_cannister.desc">There is a note attached to the side that simply says: "Good Luck. -A.K."</gstr>
+        <gstr name="EStructure.medical_cannister.name">医疗箱</gstr>
+        <gstr name="EStructure.medical_cannister.desc">医疗箱</gstr>
+        <gstr name="EStructure.organics_cannister.name">有机物箱</gstr>
+        <gstr name="EStructure.organics_cannister.desc">一个包含多种有机物材料的货箱。</gstr>
+        <gstr name="EStructure.tech_cannister.name">科技物品箱</gstr>
+        <gstr name="EStructure.tech_cannister.desc">一个包含多种有科技物品的货箱。</gstr>
+        <gstr name="EStructure.minerals_cannister.name">矿物箱</gstr>
+        <gstr name="EStructure.minerals_cannister.desc">一个包含多种矿物的货箱。</gstr>
+        <gstr name="EStructure.food_cannister.name">食物箱</gstr>
+        <gstr name="EStructure.food_cannister.desc">一个包含多种食物补给的货箱。</gstr>
+        <gstr name="EStructure.start_supply_cannister.name">补给箱</gstr>
+        <gstr name="EStructure.start_supply_cannister.desc">旁边贴着一张纸条，上面写着：“祝你好运！ -A.K.”</gstr>
         
         <!-- Misc -->
         <gstr name="GameEntity.MSP_ArmsFolded.name">男性殖民者</gstr>
         <gstr name="GameEntity.FSP_ArmsFolded.name">女性殖民者</gstr>
         
         <!-- Surface Structures -->
-        <gstr name="ESurfaceFacility.main_facility.desc">The surface side of the research facility in all it's glory. While it shows some age, everything appears to be in working order.</gstr>
-        <gstr name="ESurfaceVehicleBay.sf_vehiclebay.name">Vehicle Bay</gstr>
-        <gstr name="ESurfaceVehicleBay.sf_vehiclebay.desc">For the construction of vehicles to explore and exploit the planet surface.</gstr>
-        <gstr name="EMiningPlatform.remote_mining_facility.name">Mining Platform</gstr>
-        <gstr name="EMiningPlatform.remote_mining_facility.desc">Mines selected materials in an area around the platform.</gstr>
-        <gstr name="ESurfaceOutpost.remote_radar_platform.name">Radar Tower</gstr>
-        <gstr name="ESurfaceOutpost.remote_radar_platform.desc">Adds additional tiles around the tower that can be scanned for points of interest.</gstr>
-        <gstr name="ESurfaceOutpost.sf_resourcedepot.name">Resource Depot</gstr>
-        <gstr name="ESurfaceOutpost.sf_resourcedepot.desc">Allows access to the shipping &amp; recieving inventories by vehicles</gstr>
+        <gstr name="ESurfaceFacility.main_facility.desc">研究设施表面仍旧有光亮，这表明虽然已经有些年头了，但是一切似乎都还处于工作状态。</gstr>
+        <gstr name="ESurfaceVehicleBay.sf_vehiclebay.name">载具仓</gstr>
+        <gstr name="ESurfaceVehicleBay.sf_vehiclebay.desc">用于建造探索和装载的载具，方便对地表世界进行探查。</gstr>
+        <gstr name="EMiningPlatform.remote_mining_facility.name">采矿平台</gstr>
+        <gstr name="EMiningPlatform.remote_mining_facility.desc">采掘平台周围选定的材料。</gstr>
+        <gstr name="ESurfaceOutpost.remote_radar_platform.name">雷达塔</gstr>
+        <gstr name="ESurfaceOutpost.remote_radar_platform.desc">在塔周围显示额外的地图方格，可以用于扫描兴趣点。</gstr>
+        <gstr name="ESurfaceOutpost.sf_resourcedepot.name">资源库</gstr>
+        <gstr name="ESurfaceOutpost.sf_resourcedepot.desc">允许载具递送&amp;接收库存货物。</gstr>
         
-        <gstr name="ESurfacePOI.spoi_blank_unknown.name">Point Of Interest</gstr>
-        <gstr name="ESurfacePOI.spoi_blank_unknown.desc">The comm station has detected an unknown point of interest. We should send out an expedition team to investigate.</gstr>
-        <gstr name="ESurfacePOI.spoi_flora_unknown.name">Investigate Flora</gstr>
-        <gstr name="ESurfacePOI.spoi_flora_unknown.desc">We should send out an expedition team to investigate this area for possible flora research.</gstr>
-        <gstr name="ESurfacePOI.spoi_fauna_unknown.name">Investigate Fauna</gstr>
-        <gstr name="ESurfacePOI.spoi_fauna_unknown.desc">We should send out an expedition team to investigate this area for possible fauna research.</gstr>
+        <gstr name="ESurfacePOI.spoi_blank_unknown.name">兴趣点（POI）</gstr>
+        <gstr name="ESurfacePOI.spoi_blank_unknown.desc">通讯站侦测到一个未知兴趣点。我么应该派一支探险队去查探一下。</gstr>
+        <gstr name="ESurfacePOI.spoi_flora_unknown.name">调查植物群系</gstr>
+        <gstr name="ESurfacePOI.spoi_flora_unknown.desc">我们应该派出一支探险队，调查这一地区可能的植物群系。</gstr>
+        <gstr name="ESurfacePOI.spoi_fauna_unknown.name">调查动物群系</gstr>
+        <gstr name="ESurfacePOI.spoi_fauna_unknown.desc">我们应该派出一支探险队，调查这一地区可能的动物群系。</gstr>
         
         <!-- POI Risk Levels -->
-        <gstr name="mappoi.risk.veryminor">Very Minor</gstr>
-        <gstr name="mappoi.risk.minor">Minor</gstr>
-        <gstr name="mappoi.risk.moderate">Moderate</gstr>
-        <gstr name="mappoi.risk.severe">Severe</gstr>
-        <gstr name="mappoi.risk.extreme">Extreme</gstr>
-        <gstr name="mappoi.risk.impossible">Impossible</gstr>
+        <gstr name="mappoi.risk.veryminor">非常低</gstr>
+        <gstr name="mappoi.risk.minor">低</gstr>
+        <gstr name="mappoi.risk.moderate">中等</gstr>
+        <gstr name="mappoi.risk.severe">较高</gstr>
+        <gstr name="mappoi.risk.extreme">很高</gstr>
+        <gstr name="mappoi.risk.impossible">极高</gstr>
         
         <!-- POIs -->
-        <gstr name="GDMapPOI.poi_abandonedmine.name">Abandoned Mine</gstr>
-        <gstr name="GDMapPOI.poi_abandonedmine.desc">We’ve found what appears to be an ancient mine shaft. There may be some remaining resources we could harvest.</gstr>
-        <gstr name="GDMapPOI.poi_discoveryrover.name">Discovery Rover</gstr>
-        <gstr name="GDMapPOI.poi_discoveryrover.desc">What remains of the original survey rover sent by Infinity Corp.</gstr>        
-        <gstr name="GDMapPOI.poi_warehouse_01.name">Alien Structure</gstr>
-        <gstr name="GDMapPOI.poi_warehouse_01.desc">Some sort of ancient structure.</gstr>        
-        <gstr name="GDMapPOI.poi_crashedship_sp_01.name">Crashed Space Vessel</gstr>
-        <gstr name="GDMapPOI.poi_crashedship_sp_01.desc">The remains of a strange space vessel settling in the swamp.</gstr>
-        <gstr name="GDMapPOI.poi_crashedship_sp_03.name">Space Vessel</gstr>
-        <gstr name="GDMapPOI.poi_crashedship_sp_03.desc">A large green space vessel was spotted in this area.</gstr>
+        <gstr name="GDMapPOI.poi_abandonedmine.name">废弃的矿井</gstr>
+        <gstr name="GDMapPOI.poi_abandonedmine.desc">我们发现了一个古老的矿井。可能有一些剩余的资源可以收获。</gstr>
+        <gstr name="GDMapPOI.poi_discoveryrover.name">发现勘测车</gstr>
+        <gstr name="GDMapPOI.poi_discoveryrover.desc">无限集团最初派出的勘测车残骸。看看里面还有些什么有用的东西。</gstr>        
+        <gstr name="GDMapPOI.poi_warehouse_01.name">异星建筑</gstr>
+        <gstr name="GDMapPOI.poi_warehouse_01.desc">某种古老的建筑。</gstr>        
+        <gstr name="GDMapPOI.poi_crashedship_sp_01.name">坠毁的太空船</gstr>
+        <gstr name="GDMapPOI.poi_crashedship_sp_01.desc">一艘奇怪的太空船的残骸沉没在沼泽里。</gstr>
+        <gstr name="GDMapPOI.poi_crashedship_sp_03.name">太空船</gstr>
+        <gstr name="GDMapPOI.poi_crashedship_sp_03.desc">在这个地区发现了一艘绿色的大型太空船。</gstr>
         <gstr name="GDMapPOI.poi_cruiseship_01.name">Massive Space Vessel</gstr>
         <gstr name="GDMapPOI.poi_cruiseship_01.desc">A rather large space ship has crashed here.</gstr>
         <gstr name="GDMapPOI.poi_ancientarchives.name">Alien Structure</gstr>
@@ -2392,7 +2392,7 @@
         <!-- Research Groups -->
         <gstr name="GDUIResearchGroup.rsch_grp_deco_lighting.name">照明</gstr>
         <gstr name="GDUIResearchGroup.rsch_grp_deco_furniture.name">家具</gstr>
-        <gstr name="GDUIResearchGroup.rsch_grp_deco_displays.name">显示</gstr>
+        <gstr name="GDUIResearchGroup.rsch_grp_deco_displays.name">观感</gstr>
         <gstr name="GDUIResearchGroup.rsch_grp_techprinter.cequipment.name">高技术打印:: 人员装备</gstr>
         <gstr name="GDUIResearchGroup.rsch_grp_techprinter.oequipment.name">高技术打印:: 机器装备</gstr>
         <gstr name="GDUIResearchGroup.rsch_grp_techprinter.vequipment.name">高技术打印:: 载具装备</gstr>
