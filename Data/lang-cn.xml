@@ -1923,7 +1923,7 @@
         <gstr name="EFloor.rm_floor_utility.desc">主要用于标记生产和存储各种类似于电力等“虚”资源的地板。</gstr>
         <gstr name="EFloor.rm_floor_engineering.name">精炼厂地板</gstr>
         <gstr name="EFloor.rm_floor_engineering.desc">标记用于将原始资源转化成为可用资源房间的地板。</gstr>
-        <gstr name="EFloor.rm_floor_assembly.name">组装实验室地板</gstr>
+        <gstr name="EFloor.rm_floor_assembly.name">组装室地板</gstr>
         <gstr name="EFloor.rm_floor_assembly.desc">标记用于组装机器人和高级零部件房间的地板。</gstr>
         <gstr name="EFloor.rm_floor_science.name">实验室地板</gstr>
         <gstr name="EFloor.rm_floor_science.desc">实验室用于研发各种新式科技内容。</gstr>
@@ -1946,116 +1946,116 @@
         <!--
         <gstr name="GDRoom.rm_floor_hallway.name">Hallway</gstr>
         <gstr name="GDRoom.rm_floor_medbay.name">MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_utility.name">Utility Room</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.name">Engineering Room</gstr>
+        <gstr name="GDRoom.rm_floor_utility.name">功能室</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.name">工程室</gstr>
         <gstr name="GDRoom.rm_floor_kitchen.name">Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_science.name">Science Lab</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.name">Rec Room</gstr>
+        <gstr name="GDRoom.rm_floor_science.name">实验室</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.name">娱乐室</gstr>
         <gstr name="GDRoom.rm_floor_cafeteria.name">Cafeteria</gstr>        
-        <gstr name="GDRoom.rm_floor_assembly.name">Assembly Room</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.name">Bio Lab</gstr>
-        <gstr name="GDRoom.rm_floor_operations.name">Operations Room</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.name">组装室</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.name">生物实验室</gstr>
+        <gstr name="GDRoom.rm_floor_operations.name">指令室</gstr>
         -->
-        <gstr name="GDRoom.rm_floor_hallway.name">Hallway</gstr>
-        <gstr name="GDRoom.rm_floor_hallway.small.name">Small Hallway</gstr>
-        <gstr name="GDRoom.rm_floor_hallway.medium.name">Medium Hallway</gstr>
-        <gstr name="GDRoom.rm_floor_hallway.large.name">Large Hallway</gstr>
-        <gstr name="GDRoom.rm_floor_hallway.massive.name">Massive Hallway</gstr>
+        <gstr name="GDRoom.rm_floor_hallway.name">门厅</gstr>
+        <gstr name="GDRoom.rm_floor_hallway.small.name">小型门厅</gstr>
+        <gstr name="GDRoom.rm_floor_hallway.medium.name">中型门厅</gstr>
+        <gstr name="GDRoom.rm_floor_hallway.large.name">大型门厅</gstr>
+        <gstr name="GDRoom.rm_floor_hallway.massive.name">巨型门厅</gstr>
         
-        <gstr name="GDRoom.rm_floor_medbay.name">MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_medbay.small.name">Small MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_medbay.medium.name">Medium MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_medbay.large.name">Large MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_medbay.massive.name">Massive MedBay</gstr>
+        <gstr name="GDRoom.rm_floor_medbay.name">医疗室</gstr>
+        <gstr name="GDRoom.rm_floor_medbay.small.name">小型医疗室</gstr>
+        <gstr name="GDRoom.rm_floor_medbay.medium.name">中型医疗室</gstr>
+        <gstr name="GDRoom.rm_floor_medbay.large.name">大型医疗室</gstr>
+        <gstr name="GDRoom.rm_floor_medbay.massive.name">巨型医疗室</gstr>
         
-        <gstr name="GDRoom.rm_floor_utility.name">Utility Room</gstr>
-        <gstr name="GDRoom.rm_floor_utility.small.name">Small Utility Room</gstr>
-        <gstr name="GDRoom.rm_floor_utility.medium.name">Medium Utility Room</gstr>
-        <gstr name="GDRoom.rm_floor_utility.large.name">Large Utility Room</gstr>
-        <gstr name="GDRoom.rm_floor_utility.massive.name">Massive Utility Room</gstr>
+        <gstr name="GDRoom.rm_floor_utility.name">功能室</gstr>
+        <gstr name="GDRoom.rm_floor_utility.small.name">小型功能室</gstr>
+        <gstr name="GDRoom.rm_floor_utility.medium.name">中型功能室</gstr>
+        <gstr name="GDRoom.rm_floor_utility.large.name">大型功能室</gstr>
+        <gstr name="GDRoom.rm_floor_utility.massive.name">巨型功能室</gstr>
         
-        <gstr name="GDRoom.rm_floor_engineering.name">Engineering Room</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.small.name">Small Engineering Room</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.medium.name">Medium Engineering Room</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.large.name">Large Engineering Room</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.massive.name">Massive Engineering Room</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.name">工程室</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.small.name">小型工程室</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.medium.name">中型工程室</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.large.name">大型工程室</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.massive.name">巨型工程室</gstr>
         
-        <gstr name="GDRoom.rm_floor_bedroom.name">Bedroom</gstr>
-        <gstr name="GDRoom.rm_floor_bedroom.small.name">Small Bedroom</gstr>
-        <gstr name="GDRoom.rm_floor_bedroom.medium.name">Medium Bedroom</gstr>
-        <gstr name="GDRoom.rm_floor_bedroom.large.name">Large Bedroom</gstr>
-        <gstr name="GDRoom.rm_floor_bedroom.massive.name">Massive Bedroom</gstr>
+        <gstr name="GDRoom.rm_floor_bedroom.name">卧室</gstr>
+        <gstr name="GDRoom.rm_floor_bedroom.small.name">小型卧室</gstr>
+        <gstr name="GDRoom.rm_floor_bedroom.medium.name">中型卧室</gstr>
+        <gstr name="GDRoom.rm_floor_bedroom.large.name">大型卧室</gstr>
+        <gstr name="GDRoom.rm_floor_bedroom.massive.name">巨型卧室</gstr>
         
-        <gstr name="GDRoom.rm_floor_kitchen.name">Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_kitchen.small.name">Small Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_kitchen.medium.name">Medium Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_kitchen.large.name">Large Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_kitchen.massive.name">Massive Kitchen</gstr>
+        <gstr name="GDRoom.rm_floor_kitchen.name">厨房</gstr>
+        <gstr name="GDRoom.rm_floor_kitchen.small.name">小型厨房</gstr>
+        <gstr name="GDRoom.rm_floor_kitchen.medium.name">中型厨房</gstr>
+        <gstr name="GDRoom.rm_floor_kitchen.large.name">大型厨房</gstr>
+        <gstr name="GDRoom.rm_floor_kitchen.massive.name">巨型厨房</gstr>
         
-        <gstr name="GDRoom.rm_floor_science.name">Science Lab</gstr>
-        <gstr name="GDRoom.rm_floor_science.small.name">Small Science Lab</gstr>
-        <gstr name="GDRoom.rm_floor_science.medium.name">Medium Science Lab</gstr>
-        <gstr name="GDRoom.rm_floor_science.large.name">Large Science Lab</gstr>
-        <gstr name="GDRoom.rm_floor_science.massive.name">Massive Science Lab</gstr>
+        <gstr name="GDRoom.rm_floor_science.name">实验室</gstr>
+        <gstr name="GDRoom.rm_floor_science.small.name">小型实验室</gstr>
+        <gstr name="GDRoom.rm_floor_science.medium.name">中型实验室</gstr>
+        <gstr name="GDRoom.rm_floor_science.large.name">大型实验室</gstr>
+        <gstr name="GDRoom.rm_floor_science.massive.name">巨型实验室</gstr>
         
-        <gstr name="GDRoom.rm_floor_recreation.name">Rec Room</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.small.name">Small Rec Room</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.medium.name">Medium Rec Room</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.large.name">Large Rec Room</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.massive.name">Massive Rec Room</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.name">娱乐室</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.small.name">小型娱乐室</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.medium.name">中型娱乐室</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.large.name">大型娱乐室</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.massive.name">巨型娱乐室</gstr>
         
-        <gstr name="GDRoom.rm_floor_cafeteria.name">Cafeteria</gstr>
-        <gstr name="GDRoom.rm_floor_cafeteria.small.name">Small Cafeteria</gstr>
-        <gstr name="GDRoom.rm_floor_cafeteria.medium.name">Medium Cafeteria</gstr>
-        <gstr name="GDRoom.rm_floor_cafeteria.large.name">Large Cafeteria</gstr>
-        <gstr name="GDRoom.rm_floor_cafeteria.massive.name">Massive Cafeteria</gstr>
+        <gstr name="GDRoom.rm_floor_cafeteria.name">餐厅</gstr>
+        <gstr name="GDRoom.rm_floor_cafeteria.small.name">小型餐厅</gstr>
+        <gstr name="GDRoom.rm_floor_cafeteria.medium.name">中型餐厅</gstr>
+        <gstr name="GDRoom.rm_floor_cafeteria.large.name">大型餐厅</gstr>
+        <gstr name="GDRoom.rm_floor_cafeteria.massive.name">巨型餐厅</gstr>
         
-        <gstr name="GDRoom.rm_floor_assembly.name">Assembly Room</gstr>
-        <gstr name="GDRoom.rm_floor_assembly.small.name">Small Assembly Room</gstr>
-        <gstr name="GDRoom.rm_floor_assembly.medium.name">Medium Assembly Room</gstr>
-        <gstr name="GDRoom.rm_floor_assembly.large.name">Large Assembly Room</gstr>
-        <gstr name="GDRoom.rm_floor_assembly.massive.name">Massive Assembly Room</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.name">组装室</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.small.name">小型组装室</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.medium.name">中型组装室</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.large.name">大型组装室</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.massive.name">巨型组装室</gstr>
         
-        <gstr name="GDRoom.rm_floor_biolab.name">Bio Lab</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.small.name">Small Bio Lab</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.medium.name">Medium Bio Lab</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.large.name">Large Bio Lab</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.massive.name">Massive Bio Lab</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.name">生物实验室</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.small.name">小型生物实验室</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.medium.name">中型生物实验室</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.large.name">大型生物实验室</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.massive.name">巨型生物实验室</gstr>
         
-        <gstr name="GDRoom.rm_floor_operations.name">Operations Room</gstr>
-        <gstr name="GDRoom.rm_floor_operations.small.name">Small Operations Room</gstr>
-        <gstr name="GDRoom.rm_floor_operations.medium.name">Medium Operations Room</gstr>
-        <gstr name="GDRoom.rm_floor_operations.large.name">Large Operations Room</gstr>
-        <gstr name="GDRoom.rm_floor_operations.massive.name">Massive Operations Room</gstr>
+        <gstr name="GDRoom.rm_floor_operations.name">指令室</gstr>
+        <gstr name="GDRoom.rm_floor_operations.small.name">小型指令室</gstr>
+        <gstr name="GDRoom.rm_floor_operations.medium.name">中型指令室</gstr>
+        <gstr name="GDRoom.rm_floor_operations.large.name">大型指令室</gstr>
+        <gstr name="GDRoom.rm_floor_operations.massive.name">巨型指令室</gstr>
         
-        <gstr name="GDRoom.name_undefined.label">Undefined Room</gstr>
-        <gstr name="GDRoom.desc_noflooring.label">No flooring found for this room. Add flooring to determine the type of this room.</gstr>
+        <gstr name="GDRoom.name_undefined.label">未定义房间</gstr>
+        <gstr name="GDRoom.desc_noflooring.label">未在房间找到地板。添加相应的地板来定义房间用途。</gstr>
         
         <!-- Zones -->
-        <gstr name="GDZonePlantCrop.zone_crop.name">Crop Zone</gstr>
-        <gstr name="GDZonePlantCrop.zone_crop.desc">Defines an area for growing plants in the dirt.</gstr>
-        <gstr name="GDZoneRoom.zone_room.name">Room Zone</gstr>
-        <gstr name="GDZoneRoom.zone_room.desc">Defines a room zone. Room zones must be surrounded by walls and have at least one door.</gstr>
+        <gstr name="GDZonePlantCrop.zone_crop.name">作物区</gstr>
+        <gstr name="GDZonePlantCrop.zone_crop.desc">定义一个区域用于在地面上种植作物。</gstr>
+        <gstr name="GDZoneRoom.zone_room.name">房间区域</gstr>
+        <gstr name="GDZoneRoom.zone_room.desc">定义一个房间区域。房间区域必须用墙分隔包围，并至少有一个门。</gstr>
         
         <!-- Items -->
         <gstr name="GDItem.res_mineral.name">矿物复合物</gstr>
-        <gstr name="GDItem.res_mineral.desc">A mixture of minerals that can be further refined in to usable material.</gstr>
+        <gstr name="GDItem.res_mineral.desc">可进一步提炼为可用材料的矿物混合物。</gstr>
         <gstr name="GDItem.res_structresin.name">结构树脂</gstr>
-        <gstr name="GDItem.res_structresin.desc">A malleable material that cures in to a dense and durable structure.</gstr>
+        <gstr name="GDItem.res_structresin.desc">一种可塑性强的材料，可固化为一种致密和耐用的结构性材料。</gstr>
         <gstr name="GDItem.res_ironore.name">赤铁矿</gstr>
-        <gstr name="GDItem.res_ironore.desc">A mineral form of iron oxide.</gstr>
+        <gstr name="GDItem.res_ironore.desc">氧化铁的一种矿物形式。</gstr>
         <gstr name="GDItem.res_coalore.name">无烟煤</gstr>
-        <gstr name="GDItem.res_coalore.desc">A harder and purer form of carbon than coal.</gstr>
+        <gstr name="GDItem.res_coalore.desc">一种非常坚硬和相对纯净的碳产物，燃烧起来比普通煤炭更清洁。</gstr>
         <gstr name="GDItem.res_copperore.name">蓝铜矿</gstr>
-        <gstr name="GDItem.res_copperore.desc">A soft mineral form of copper.</gstr>
+        <gstr name="GDItem.res_copperore.desc">铜的一种软质矿物形式。</gstr>
         <gstr name="GDItem.res_titaniumore.name">金红石</gstr>
-        <gstr name="GDItem.res_titaniumore.desc">A mineral composed primarily of titanium dioxide.</gstr>
+        <gstr name="GDItem.res_titaniumore.desc">一种主要由二氧化钛组成的矿物。</gstr>
         <gstr name="GDItem.res_goldore.name">未提炼的黄金</gstr>
-        <gstr name="GDItem.res_goldore.desc">Raw, unprocessed, gold metal.</gstr>
+        <gstr name="GDItem.res_goldore.desc">原始未提炼的黄金金属。</gstr>
         <gstr name="GDItem.res_sand.name">沙子</gstr>
-        <gstr name="GDItem.res_sand.desc">Granular material composed of finely divided rock and mineral particles including silica.</gstr>
+        <gstr name="GDItem.res_sand.desc">由细小的岩石和矿物颗粒组成的颗粒状材料，包括硅石。</gstr>
         <gstr name="GDItem.res_biofuelpellet.name">生物燃料颗粒</gstr>
-        <gstr name="GDItem.res_biofuelpellet.desc">A renewable fuel source that is not as efficient as anthracite.</gstr>
+        <gstr name="GDItem.res_biofuelpellet.desc">一种可再生的燃料来源，效率不如无烟煤。</gstr>
         
         
         
@@ -2070,31 +2070,31 @@
         <gstr name="GDItem.res_wheatthorn.name">刺麦</gstr>
         <gstr name="GDItem.res_wheatthorn.desc">一种长着长长尖刺的类似于麦子的谷物植物，可以用来加工成面粉。</gstr>
         <gstr name="GDItem.res_tanglefruit.name">缠结果</gstr>
-        <gstr name="GDItem.res_tanglefruit.desc">A sweet fruit that looks a bit like an orange banana.</gstr>
+        <gstr name="GDItem.res_tanglefruit.desc">一种甜美的水果，看起来有点像橙色的香蕉。</gstr>
         <gstr name="GDItem.res_greenalgae.name">绿藻</gstr>
-        <gstr name="GDItem.res_greenalgae.desc">An edible polyphyletic organism. This could also be used to generate nutrients for better plant growth.</gstr>
+        <gstr name="GDItem.res_greenalgae.desc">一种可食用的多浆有机物。也可以用来产生营养物质，能够让作物生长得更加良好。</gstr>
         <gstr name="GDItem.res_arrowheadfungus.name">箭头菇</gstr>
-        <gstr name="GDItem.res_arrowheadfungus.desc">A large blue capped edible fungus.</gstr>
+        <gstr name="GDItem.res_arrowheadfungus.desc">一种拥有大型蓝色伞盖的可食用菌。</gstr>
         <gstr name="GDItem.res_spongestalk.name">海绵茎</gstr>
-        <gstr name="GDItem.res_spongestalk.desc">A spongy, and sorta slimy, vegetable crop.</gstr>
+        <gstr name="GDItem.res_spongestalk.desc">一种海绵状的、有点黏糊糊的蔬菜作物。</gstr>
         <gstr name="GDItem.res_bluefish.name">蓝双翅鱼</gstr>
-        <gstr name="GDItem.res_bluefish.desc">It's a bit slimy. Probably best to cook it first.</gstr>
+        <gstr name="GDItem.res_bluefish.desc">有点黏糊糊的玩意。最好先把它煮熟。</gstr>
         <gstr name="GDItem.res_bloodfish.name">血鱼</gstr>
-        <gstr name="GDItem.res_bloodfish.desc">It's a bit slimy. Probably best to cook it first.</gstr>        
+        <gstr name="GDItem.res_bloodfish.desc">有点黏糊糊的玩意。最好先把它煮熟。</gstr>        
         <gstr name="GDItem.res_flour.name">面粉</gstr>
-        <gstr name="GDItem.res_flour.desc">A powdery mixture made from processing Wheat Thorn. I think we can make some bread with it.</gstr>
+        <gstr name="GDItem.res_flour.desc">由刺麦加工制成的粉状物。我想我们可以用它做一些面包。</gstr>
         <gstr name="GDItem.res_fishchunks.name">鱼肉块</gstr>
-        <gstr name="GDItem.res_fishchunks.desc">Processed fishy bits. Still a good idea to cook it first.</gstr>
+        <gstr name="GDItem.res_fishchunks.desc">加工过的有味道的鱼块。最好还是先把它煮熟。</gstr>
         <gstr name="GDItem.res_biowaste.name">生物废料</gstr>
-        <gstr name="GDItem.res_biowaste.desc">Something smells funny.</gstr>
+        <gstr name="GDItem.res_biowaste.desc">一些闻起来很带劲的玩意。</gstr>
         <gstr name="GDItem.res_plantnutrients.name">作物营养剂</gstr>
-        <gstr name="GDItem.res_plantnutrients.desc">Required liquid nutrition for growing plants in the Aeroponics Farm.</gstr>
+        <gstr name="GDItem.res_plantnutrients.desc">在气培农场种植作物所需的液体营养质。</gstr>
         <gstr name="GDItem.res_techfragments.name">技术片段</gstr>
-        <gstr name="GDItem.res_techfragments.desc">Various technology fragments that can be used to further research.</gstr>        
+        <gstr name="GDItem.res_techfragments.desc">可用于进一步研究的各种技术片段。</gstr>        
         <gstr name="GDItem.res_glass.name">玻璃</gstr>
-        <gstr name="GDItem.res_glass.desc">An amorphous solid derived from silica.</gstr>
+        <gstr name="GDItem.res_glass.desc">一种由二氧化硅衍生的无定形固体。</gstr>
         <gstr name="GDItem.res_silicon.name">碳化硅</gstr>
-        <gstr name="GDItem.res_silicon.desc">A hard and brittle crystalline solid used in electronics.</gstr>
+        <gstr name="GDItem.res_silicon.desc">一种用于电子领域的硬而脆的晶体固体。</gstr>
         
         
         <gstr name="GDItem.res_iron.name">铁锭</gstr>
@@ -2817,7 +2817,7 @@ Bunny is excited for the trip and, frankly, so am I. It’s been a long time sin
         <gstr name="GDTutTask_BuildObject.tuttask_bpower.name">Power Generation</gstr>
         <gstr name="GDTutTask_BuildObject.tuttask_bpower.desc">We'll need to get power going before we can start research projects. Construct a room using Utility Floor and place an EMG. The EMG will need to be charged up by a colonist.</gstr>
         <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.name">实验室</gstr>
-        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">Research points are generated at the Research Station by a colonist with the scientist job role. Research points are used to unlock research projects. &#13;&#10;&#13;&#10;The Research Station must be constructed on science lab flooring and requires power. Construct power conduits from the power generator to the Research Station.</gstr>
+        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">Research points are generated at the Research Station by a colonist with the scientist job role. Research points are used to unlock research projects. &#13;&#10;&#13;&#10;The Research Station must be constructed on 实验室 flooring and requires power. Construct power conduits from the power generator to the Research Station.</gstr>
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">First Research Project</gstr>
         <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">Open the Research Projects screen from the bottom button bar and choose an available project from the list. Once you have enough research points a research project can be unlocked.</gstr>
         <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.name">分配工作角色</gstr>
