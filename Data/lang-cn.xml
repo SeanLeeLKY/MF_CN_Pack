@@ -2098,41 +2098,41 @@
         
         
         <gstr name="GDItem.res_iron.name">铁锭</gstr>
-        <gstr name="GDItem.res_iron.desc">The fourth most abundant element in the Earth's crust. It's rather abundant here too.</gstr>
+        <gstr name="GDItem.res_iron.desc">地壳中第四丰富的元素。这里也相当丰富。</gstr>
         <gstr name="GDItem.res_copper.name">铜锭</gstr>
-        <gstr name="GDItem.res_copper.desc">A soft metal with high thermal and electrical conductivity. Great for electronics.</gstr>
+        <gstr name="GDItem.res_copper.desc">一种具有高导热性和导电性的软金属。优异的电子产品材料。</gstr>
         <gstr name="GDItem.res_steel.name">钢锭</gstr>
-        <gstr name="GDItem.res_steel.desc">A strong metal alloy composed of iron and carbon.</gstr>
+        <gstr name="GDItem.res_steel.desc">钢一种由铁和碳组成的硬质金属合金。</gstr>
         <gstr name="GDItem.res_titanium.name">钛钢锭</gstr>
-        <gstr name="GDItem.res_titanium.desc">A lustrous metal with a silver color, low density and high strength.</gstr>
+        <gstr name="GDItem.res_titanium.desc">一种有光泽的金属，呈银色，密度低，强度高。</gstr>
         <gstr name="GDItem.res_gold.name">金锭</gstr>
-        <gstr name="GDItem.res_gold.desc">A dense, malleable precious metal with impressive conductive properties.</gstr>
+        <gstr name="GDItem.res_gold.desc">一种致密的、可延展的贵金属，具有超强的导电性能。</gstr>
         
         <gstr name="GDItem.kit_repair_1.name">修补工具</gstr>
-        <gstr name="GDItem.kit_repair_1.desc">A small repair kit used to repair machinery.</gstr>
+        <gstr name="GDItem.kit_repair_1.desc">用于修理机器的小型修理包。</gstr>
         <gstr name="GDItem.kit_repair_2.name">维修工具</gstr>
-        <gstr name="GDItem.kit_repair_2.desc">A more efficient repair kit used to repair machinery.</gstr>
+        <gstr name="GDItem.kit_repair_2.desc">用于修理机器的更有效的修理工具。</gstr>
         <gstr name="GDItem.kit_repair_3.name">高级维修工具</gstr>
-        <gstr name="GDItem.kit_repair_3.desc">A highly efficient repair kit used to repair machinery.</gstr>
+        <gstr name="GDItem.kit_repair_3.desc">用于维修机器的高效维修工具。</gstr>
         
         <gstr name="GDItem.meal_simple.name">烹制过的土豆</gstr>
-        <gstr name="GDItem.meal_simple.desc">Not all that filling, but better than a raw potato</gstr>
+        <gstr name="GDItem.meal_simple.desc">不是说多好吃，但是肯定比生土豆好多了。</gstr>
         <gstr name="GDItem.meal_emergencyration.name">应急口粮</gstr>
-        <gstr name="GDItem.meal_emergencyration.desc">I'm pretty sure this is an emergency.</gstr>
+        <gstr name="GDItem.meal_emergencyration.desc">我很确定这是一个紧急情况。</gstr>
         <gstr name="GDItem.meal_cavesalad.name">洞穴沙拉</gstr>
-        <gstr name="GDItem.meal_cavesalad.desc">A multi-colored array of vegetable goodness.</gstr>
+        <gstr name="GDItem.meal_cavesalad.desc">五颜六色的蔬菜佳肴。</gstr>
         <gstr name="GDItem.meal_friedfish.name">炸鱼</gstr>
-        <gstr name="GDItem.meal_friedfish.desc">Alien fish cooked to perfection.</gstr>
+        <gstr name="GDItem.meal_friedfish.desc">这些怪鱼烹煮过后异常美味。</gstr>
         <gstr name="GDItem.meal_sushi.name">寿司</gstr>
-        <gstr name="GDItem.meal_sushi.desc">Now with 100% more raw fish.</gstr>
+        <gstr name="GDItem.meal_sushi.desc">现在里面百分百有生鱼片。</gstr>
         <gstr name="GDItem.meal_fishnchips.name">鱼肉 &amp; 薯片</gstr>
-        <gstr name="GDItem.meal_fishnchips.desc">Far more filling than just a potato.</gstr>
+        <gstr name="GDItem.meal_fishnchips.desc">比光吃土豆好多了。</gstr>
         <gstr name="GDItem.meal_tangleloaf.name">螺旋面包</gstr>
-        <gstr name="GDItem.meal_tangleloaf.desc">Great at holiday parties.</gstr>
+        <gstr name="GDItem.meal_tangleloaf.desc">在节日聚会上很有优势。</gstr>
         <gstr name="GDItem.meal_fishsandwich.name">鱼肉三明治</gstr>
-        <gstr name="GDItem.meal_fishsandwich.desc">Maybe it's the environment, but this is the best sandwich I've ever had.</gstr>
+        <gstr name="GDItem.meal_fishsandwich.desc">也许是环境的原因，但这是我吃过的最好的三明治。</gstr>
         <gstr name="GDItem.meal_bread.name">面包</gstr>
-        <gstr name="GDItem.meal_bread.desc">Just like Mom used to make.</gstr>
+        <gstr name="GDItem.meal_bread.desc">就像妈妈以前做的那样。</gstr>
         
         <gstr name="GDItem.tr_travelration_t1.name">少量口粮</gstr>
         <gstr name="GDItem.tr_travelration_t1.desc"></gstr>
@@ -2142,25 +2142,25 @@
         <gstr name="GDItem.tr_travelration_t3.desc"></gstr>
         
         <gstr name="GDItem.res_fishfood.name">鱼片</gstr>
-        <gstr name="GDItem.res_fishfood.desc">Flaky goodness for fish friends.</gstr>
+        <gstr name="GDItem.res_fishfood.desc">片状的美味鱼类朋友们。</gstr>
         <gstr name="GDItem.res_caveworm.name">洞穴蠕虫</gstr>
-        <gstr name="GDItem.res_caveworm.desc">It's wrigley and gross, but fish seem to like it.</gstr>
+        <gstr name="GDItem.res_caveworm.desc">它又皱又恶心，但鱼似乎很喜欢它。</gstr>
         
         <gstr name="GDItem.res_bait.name">陷阱诱饵</gstr>
-        <gstr name="GDItem.res_bait.desc">An attractive clump of protein.</gstr>
+        <gstr name="GDItem.res_bait.desc">一团有吸引力的蛋白质团块。</gstr>
         
         <gstr name="GDItem.res_bioplastic.name">生物塑料</gstr>
-        <gstr name="GDItem.res_bioplastic.desc">A durable, but biodegradable, plastic used for construction.</gstr>
+        <gstr name="GDItem.res_bioplastic.desc">一种用于建筑的耐用但可生物降解的塑料。</gstr>
         <gstr name="GDItem.res_electronics.name">电子元件</gstr>
-        <gstr name="GDItem.res_electronics.desc">Various electronic parts used in advanced construction.</gstr>
+        <gstr name="GDItem.res_electronics.desc">高级建筑中使用的各种电子零件。</gstr>
         <gstr name="GDItem.res_processor.name">处理器</gstr>
-        <gstr name="GDItem.res_processor.desc">Sophisticated electronic logic processing device.</gstr>
+        <gstr name="GDItem.res_processor.desc">精密的电子逻辑处理装置。</gstr>
         <gstr name="GDItem.res_mechparts.name">紧固件</gstr>
-        <gstr name="GDItem.res_mechparts.desc">Various screws, nuts and bolts.</gstr>
+        <gstr name="GDItem.res_mechparts.desc">各种各样的螺丝、螺母和螺栓。</gstr>
         <gstr name="GDItem.res_hardenedmechparts.name">硬化紧固件</gstr>
-        <gstr name="GDItem.res_hardenedmechparts.desc">Durable fasteners using superior materials.</gstr>
+        <gstr name="GDItem.res_hardenedmechparts.desc">使用高级材料的耐用紧固件。</gstr>
         <gstr name="GDItem.res_rubber.name">橡胶</gstr>
-        <gstr name="GDItem.res_rubber.desc">A tough elastic polymeric substance.</gstr>
+        <gstr name="GDItem.res_rubber.desc">一种坚韧的有弹性的高分子物质。</gstr>
         
         <!-- Item Values -->
         <gstr name="itemvalue.travel_ration_value.label">旅行口粮 +{0}</gstr>
@@ -2170,10 +2170,10 @@
         <gstr name="itemvalue.baiteff_pcnt.label">诱饵效率 +{0:P0}</gstr>
         
         <!-- Item Rarity -->
-        <gstr name="GDItemRarity.ir_common.name">Common</gstr>
-        <gstr name="GDItemRarity.ir_uncommon.name">Uncommon</gstr>
-        <gstr name="GDItemRarity.ir_rare.name">Rare</gstr>
-        <gstr name="GDItemRarity.ir_unique.name">Unique</gstr>
+        <gstr name="GDItemRarity.ir_common.name">普通</gstr>
+        <gstr name="GDItemRarity.ir_uncommon.name">特别</gstr>
+        <gstr name="GDItemRarity.ir_rare.name">稀有</gstr>
+        <gstr name="GDItemRarity.ir_unique.name">独特</gstr>
         
         <!-- Item Types -->
         <gstr name="GDItemType.it_mineral.name">矿物</gstr>
@@ -2223,7 +2223,7 @@
         <gstr name="GDCropPlant.crop_arrowheadfungus.name">箭头菇</gstr>
         <gstr name="GDCropPlant.crop_tanglefruit.name">缠结果</gstr>
         <gstr name="GDCropPlant.crop_crimsonbloom.name">绯红花</gstr>
-        <gstr name="GDCropPlant.crop_crimsonbloom.desc">A decorative flowering plant with a sweet smell.</gstr>
+        <gstr name="GDCropPlant.crop_crimsonbloom.desc">一种装饰性的开花植物，有甜美的气味。</gstr>
         <gstr name="GDCropPlant.crop_thornwheat.name">刺麦</gstr>
         <gstr name="GDCropFish.fishcrop_bluefish.name">蓝双翅鱼</gstr>
         <gstr name="GDCropFish.fishcrop_bloodfish.name">血鱼</gstr>
@@ -2255,17 +2255,17 @@
         
         <!-- Crop State Info -->
         <gstr name="GDStateInfo.si_crop_healthy.name">健康</gstr>
-        <gstr name="GDStateInfo.si_crop_healthy.desc">Crop is happy and healthy</gstr>
+        <gstr name="GDStateInfo.si_crop_healthy.desc">作物茁壮健康。</gstr>
         <gstr name="GDStateInfo.si_crop_readyforharvest.name">可收获</gstr>
-        <gstr name="GDStateInfo.si_crop_readyforharvest.desc">Crop is ready for harvesting. Available botanist will come and harvest crop.</gstr>
+        <gstr name="GDStateInfo.si_crop_readyforharvest.desc">作物已经准备好收割了。植物学家将会来收割作物。</gstr>
         <gstr name="GDStateInfo.si_crop_withered.name">枯萎</gstr>
-        <gstr name="GDStateInfo.si_crop_withered.desc">Crops will wither if not harvested in time by a botanist.</gstr>
+        <gstr name="GDStateInfo.si_crop_withered.desc">如果植物学家不及时收割，农作物就会枯萎。</gstr>
         <gstr name="GDStateInfo.si_crop_diseased.name">患病</gstr>
-        <gstr name="GDStateInfo.si_crop_diseased.desc">Crop is currently infested with a disease. Disease can spread to nearby crops if not cleared.</gstr>
+        <gstr name="GDStateInfo.si_crop_diseased.desc">作物目前被一种疾病侵袭。如果不清除，疾病会传播到附近的作物。</gstr>
         <gstr name="GDStateInfo.si_cropfish_hungry.name">饥饿</gstr>
-        <gstr name="GDStateInfo.si_cropfish_hungry.desc">Fish are in need of a food delivery from a biologist.</gstr>
+        <gstr name="GDStateInfo.si_cropfish_hungry.desc">鱼儿需要生物学家送来的食物。</gstr>
         <gstr name="GDStateInfo.si_cropfish_dead.name">死亡</gstr>
-        <gstr name="GDStateInfo.si_cropfish_dead.desc">Fish have died from lack of food.</gstr>
+        <gstr name="GDStateInfo.si_cropfish_dead.desc">鱼儿已经饿死了。</gstr>
         
         <!-- Plants -->
         <gstr name="EPlant.plant_hemp.name">大麻</gstr>
