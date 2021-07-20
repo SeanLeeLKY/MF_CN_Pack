@@ -568,7 +568,7 @@
         <gstr name="uiseccinfo.outfitcolor.tt">服装颜色{0}</gstr>
         <gstr name="uiseccinfo.smarts.label">才智{0}</gstr>
         <gstr name="uiseccinfo.muscles.label">力量{0}</gstr>
-        <gstr name="uiseccinfo.athletics.label">敏捷{0}</gstr>
+        <gstr name="uiseccinfo.athletics.label">运动{0}</gstr>
         
         <gstr name="uiseccinfo.recycle.btn">回收机器人</gstr>
         <gstr name="uiseccinfo.recycle.tt">将机器人设置为待回收状态。之后机器人将被送到一个可用的机器人回收站。</gstr>
@@ -640,7 +640,7 @@
                 
         <gstr name="uisecjoblist.minsmarts.label">完成工作所需的最低才智等级</gstr>
         <gstr name="uisecjoblist.minmuscles.label">完成工作所需的最低力量等级</gstr>
-        <gstr name="uisecjoblist.minathletics.label">完成工作所需的最低敏捷等级</gstr>
+        <gstr name="uisecjoblist.minathletics.label">完成工作所需的最低运动等级</gstr>
         
         <gstr name="uiseccraftqueue.recipe.label">配方</gstr>
         <gstr name="uiseccraftqueue.additemorder.btn">+ 添加订单</gstr>
@@ -1005,7 +1005,7 @@
         <gstr name="GDAttribute.c_sleep.name">疲劳</gstr>
         <gstr name="GDAttribute.c_sleep.desc">殖民者需要休息的程度</gstr>
         <gstr name="GDAttribute.c_power.name">电力</gstr>
-        <gstr name="GDAttribute.c_power.desc">机器人将移动刀一个可用的充电板充电</gstr>
+        <gstr name="GDAttribute.c_power.desc">机器人将移动到一个可用的充电板充电</gstr>
         <gstr name="GDAttribute.c_hunger.name">饥饿</gstr>
         <gstr name="GDAttribute.c_hunger.desc">饥饿的殖民者是不快乐的殖民者</gstr>
         <gstr name="GDAttribute.c_stress.name">压力</gstr>
@@ -1015,15 +1015,15 @@
         <gstr name="GDAttribute.c_muscles.desc">每个点数增加5运载力</gstr>
         <gstr name="GDAttribute.c_smarts.name">才智</gstr>
         <gstr name="GDAttribute.c_smarts.desc">每点增加10%的工作经验</gstr>
-        <gstr name="GDAttribute.c_athletics.name">敏捷</gstr>
+        <gstr name="GDAttribute.c_athletics.name">运动</gstr>
         <gstr name="GDAttribute.c_athletics.desc">每点增加5%的移动速度。</gstr>
         
         <gstr name="GDAttribute.human_movespeed.name">移动速度</gstr>
-        <gstr name="GDAttribute.human_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.human_movespeed.desc">基础移动速度。此外移动速度还受运动数值的影响。</gstr>
         <gstr name="GDAttribute.rb_worker_movespeed.name">移动速度</gstr>
-        <gstr name="GDAttribute.rb_worker_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.rb_worker_movespeed.desc">基础移动速度。此外移动速度还受运动数值的影响。</gstr>
         <gstr name="GDAttribute.rb_driller_movespeed.name">移动速度</gstr>
-        <gstr name="GDAttribute.rb_driller_movespeed.desc">基础移动速度。此外移动速度还受敏捷数值的影响。</gstr>
+        <gstr name="GDAttribute.rb_driller_movespeed.desc">基础移动速度。此外移动速度还受运动数值的影响。</gstr>
         <gstr name="GDAttribute.c_workspeed.name">工作速度</gstr>
         <gstr name="GDAttribute.c_workspeed.desc">基础工作速度。此外工作速度还受到工作技能等级的影响。</gstr>
         
@@ -2279,115 +2279,115 @@
         
         <!-- Research -->
         <gstr name="GDResearch.rsch_basicrefining.name">材料生产</gstr>
-        <gstr name="GDResearch.rsch_basicrefining.desc">The Bio-Refiner will unlock the ability to craft construction materials.</gstr>
+        <gstr name="GDResearch.rsch_basicrefining.desc">生物精炼器将解锁制造建筑材料的能力。</gstr>
         <gstr name="GDResearch.rsch_bedrooms.name">卧室器具</gstr>
-        <gstr name="GDResearch.rsch_bedrooms.desc">Better than sleeping on the ground.</gstr>
+        <gstr name="GDResearch.rsch_bedrooms.desc">比地板更佳的睡眠条件。</gstr>
         <gstr name="GDResearch.rsch_foodprep.name">食物料理</gstr>
-        <gstr name="GDResearch.rsch_foodprep.desc">Unlocks the ability to make proper meals and raw food storage.</gstr>
+        <gstr name="GDResearch.rsch_foodprep.desc">解锁基本的食物处理和食物材料的储存能力。</gstr>
         <gstr name="GDResearch.rsch_basicproduction.name">矿物处理</gstr>
-        <gstr name="GDResearch.rsch_basicproduction.desc">We'll need to start processing metals if we hope to rebuild the facility.</gstr>
+        <gstr name="GDResearch.rsch_basicproduction.desc">如果我们希望重建基地设施，我们需要更多的加工金属。</gstr>
         <gstr name="GDResearch.rsch_utility.name">管道系统</gstr>
-        <gstr name="GDResearch.rsch_utility.desc">I'm sure there is a source of water around here somewhere.</gstr>
+        <gstr name="GDResearch.rsch_utility.desc">我相信在这附近的某个地方肯定有水源。</gstr>
         <gstr name="GDResearch.rsch_lifesupport.name">生命维持</gstr>
-        <gstr name="GDResearch.rsch_lifesupport.desc">After extensive testing we've learned that humans, apparently, can't live without oxygen.</gstr>
+        <gstr name="GDResearch.rsch_lifesupport.desc">经过广泛的测试，我们发现，没有氧气人类就无法生存。</gstr>
         <gstr name="GDResearch.rsch_entertainment2.name">娱乐器具</gstr>
-        <gstr name="GDResearch.rsch_entertainment2.desc">A fun new way to relieve stress.</gstr>
+        <gstr name="GDResearch.rsch_entertainment2.desc">缓解压力的有趣新方法。</gstr>
         <gstr name="GDResearch.rsch_physicaltraining.name">体能训练</gstr>
-        <gstr name="GDResearch.rsch_physicaltraining.desc">The gym will allow us to improve some of our colonists attributes</gstr>
+        <gstr name="GDResearch.rsch_physicaltraining.desc">健身房将使我们能够改善一些殖民者的属性。</gstr>
         <gstr name="GDResearch.rsch_repair_tech_1.name">维修技术I</gstr>
-        <gstr name="GDResearch.rsch_repair_tech_1.desc">Improved repair kits will allow us to repair machines more efficiently.</gstr>
+        <gstr name="GDResearch.rsch_repair_tech_1.desc">改进后的维修工具将使我们能够更有效地维修机器。</gstr>
         <gstr name="GDResearch.rsch_repair_tech_2.name">维修技术II</gstr>
-        <gstr name="GDResearch.rsch_repair_tech_2.desc">Even better repair kits will allow us to repair machines more efficiently.</gstr>
+        <gstr name="GDResearch.rsch_repair_tech_2.desc">更好的修理工具将使我们能够更有效地修理机器。</gstr>
         <gstr name="GDResearch.rsch_surfaceexploration.name">地表探索</gstr>
-        <gstr name="GDResearch.rsch_surfaceexploration.desc">Construction of the elevator and map table will allow us to start sending out expedition parties to investigate points of interest.</gstr>
+        <gstr name="GDResearch.rsch_surfaceexploration.desc">建设升降梯和地图工作台将使我们可以开始派出探险队去调查兴趣点。</gstr>
         
         <gstr name="GDResearch.rsch_power_store_1.name">基础电力存储</gstr>
-        <gstr name="GDResearch.rsch_power_store_1.desc">Unlocks the ability to store electrical energy for later use.</gstr>
+        <gstr name="GDResearch.rsch_power_store_1.desc">解锁储存电能供以备后用。</gstr>
         <gstr name="GDResearch.rsch_power_coal.name">固体燃料发电机</gstr>
-        <gstr name="GDResearch.rsch_power_coal.desc">Using anthracite as a fuel source will help increase our power generation for further expansion.</gstr>
+        <gstr name="GDResearch.rsch_power_coal.desc">使用无烟煤作为燃料来源将有助于增加我们的发电量，以便进一步扩大基地设施。</gstr>
         <gstr name="GDResearch.rsch_power_store_2.name">进阶电力存储</gstr>
-        <gstr name="GDResearch.rsch_power_store_2.desc">Larger batteries will allow us to store even more electrical energy.</gstr>
+        <gstr name="GDResearch.rsch_power_store_2.desc">更大的电池让我们能够储存更多的电能。</gstr>
                 
         <gstr name="GDResearch.rsch_powergen.name">地热能</gstr>
-        <gstr name="GDResearch.rsch_powergen.desc">By tapping thermal vents, we can generate sustainable power that doesn't require fuel.</gstr>
+        <gstr name="GDResearch.rsch_powergen.desc">通过改造地热喷口，我们可以产生不需要燃料的可持续电力。</gstr>
         
         <gstr name="GDResearch.rsch_surfacepower_1.name">地表电力</gstr>
-        <gstr name="GDResearch.rsch_surfacepower_1.desc">WORK IN PROGRESS</gstr>
+        <gstr name="GDResearch.rsch_surfacepower_1.desc">（制作中）</gstr>
         
         <gstr name="GDResearch.rsch_biology.name">异种生物学</gstr>
-        <gstr name="GDResearch.rsch_biology.desc">Something smells fishy.</gstr>
+        <gstr name="GDResearch.rsch_biology.desc">闻起来“很有意思”。</gstr>
         <gstr name="GDResearch.rsch_watertrap.name">渔业</gstr>
-        <gstr name="GDResearch.rsch_watertrap.desc">This will allow us to harvest resources from the surrounding water.</gstr>
+        <gstr name="GDResearch.rsch_watertrap.desc">这将使我们能够从周围的水域中获取资源。</gstr>
         <gstr name="GDResearch.rsch_metallurgy.name">冶金学</gstr>
-        <gstr name="GDResearch.rsch_metallurgy.desc">Time to make the alloys.</gstr>
+        <gstr name="GDResearch.rsch_metallurgy.desc">是时候制造一些合金了。</gstr>
         <gstr name="GDResearch.rsch_cloning.name">克隆技术</gstr>
-        <gstr name="GDResearch.rsch_cloning.desc">The questionable ability to make new people.</gstr>
+        <gstr name="GDResearch.rsch_cloning.desc">一种值得商榷的“造人”新方式。</gstr>
         <gstr name="GDResearch.rsch_jobtraining.name">记忆转移</gstr>
-        <gstr name="GDResearch.rsch_jobtraining.desc">This new technology will allow us to copy job skills from one colonist to another.</gstr>
+        <gstr name="GDResearch.rsch_jobtraining.desc">这项新技术将使我们能够将工作技能从一个殖民者复制到另一个。</gstr>
         <gstr name="GDResearch.rsch_recreation.name">娱乐设施</gstr>
-        <gstr name="GDResearch.rsch_recreation.desc">Nothing quite like a good sit down.</gstr>
+        <gstr name="GDResearch.rsch_recreation.desc">没有什么能比得上好好坐下来干点什么有趣的事了。</gstr>
         <gstr name="GDResearch.rsch_decor.name">装饰器具</gstr>
-        <gstr name="GDResearch.rsch_decor.desc">Hopefully some decorations will calm people down around here.</gstr>
+        <gstr name="GDResearch.rsch_decor.desc">希望一些装饰品能让人们舒缓平静下来。</gstr>
         <gstr name="GDResearch.rsch_relaxation.name">休闲设施</gstr>
-        <gstr name="GDResearch.rsch_relaxation.desc">Nothing quite like a good sit down.</gstr>
+        <gstr name="GDResearch.rsch_relaxation.desc">没有什么能比得上好好坐下来干点什么有趣的事了。</gstr>
         <gstr name="GDResearch.rsch_basicrobotics.name">基础机器人</gstr>
-        <gstr name="GDResearch.rsch_basicrobotics.desc">Physical labor is great, especially when it's not me.</gstr>
+        <gstr name="GDResearch.rsch_basicrobotics.desc">体力劳动是伟大的，尤其不是我需要做的时候。</gstr>
         <gstr name="GDResearch.rsch_robotrecycling.name">机器人回收</gstr>
-        <gstr name="GDResearch.rsch_robotrecycling.desc">Now we can recover some materials by squishing our robots into tiny bits.</gstr>
+        <gstr name="GDResearch.rsch_robotrecycling.desc">现在，我们可以通过将机器人压成小块来回收一些材料。</gstr>
         <gstr name="GDResearch.rsch_robotics_tier2.name">机器人 II</gstr>
-        <gstr name="GDResearch.rsch_robotics_tier2.desc">In order to mine ores on the ground we'll need a deep driller bot.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier2.desc">为了在深层地下开采矿石，我们需要深层钻探机器人。</gstr>
         <gstr name="GDResearch.rsch_robotics_tier3.name">机器人 III</gstr>
-        <gstr name="GDResearch.rsch_robotics_tier3.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier3.desc">增加机器人建造过程中可分配的最大属性点。</gstr>
         <gstr name="GDResearch.rsch_robotics_tier4.name">机器人 IV</gstr>
-        <gstr name="GDResearch.rsch_robotics_tier4.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier4.desc">增加机器人建造过程中可分配的最大属性点。</gstr>
         <gstr name="GDResearch.rsch_robotics_tier5.name">机器人 V</gstr>
-        <gstr name="GDResearch.rsch_robotics_tier5.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier5.desc">增加机器人建造过程中可分配的最大属性点。</gstr>
         <gstr name="GDResearch.rsch_robotics_tier6.name">机器人 VI</gstr>
-        <gstr name="GDResearch.rsch_robotics_tier6.desc">Increases max attribute points that can be assigned during robot construction.</gstr>
+        <gstr name="GDResearch.rsch_robotics_tier6.desc">增加机器人建造过程中可分配的最大属性点。</gstr>
         <gstr name="GDResearch.rsch_techprinting.name">高技术打印</gstr>
-        <gstr name="GDResearch.rsch_techprinting.desc">More advanced component creation.</gstr>
+        <gstr name="GDResearch.rsch_techprinting.desc">更先进的组件制造方式。</gstr>
         <gstr name="GDResearch.rsch_dataservers.name">数据服务</gstr>
-        <gstr name="GDResearch.rsch_dataservers.desc">Data servers will allow us to store more research data.</gstr>
+        <gstr name="GDResearch.rsch_dataservers.desc">数据服务器将使我们能够存储更多的研究数据。</gstr>
         <gstr name="GDResearch.rsch_dining.name">精致餐饮</gstr>
-        <gstr name="GDResearch.rsch_dining.desc">Having a dedicated eating area will be good for morale.</gstr>
+        <gstr name="GDResearch.rsch_dining.desc">拥有一个专门的饮食区将有利于鼓舞士气。</gstr>
         <gstr name="GDResearch.rsch_foodprocessing.name">食物处理</gstr>
-        <gstr name="GDResearch.rsch_foodprocessing.desc">The food processor can make ingredients for better meals.</gstr>
+        <gstr name="GDResearch.rsch_foodprocessing.desc">食品加工机可以制作出更好的膳食原料。</gstr>
         <gstr name="GDResearch.rsch_medical.name">医疗技术</gstr>
-        <gstr name="GDResearch.rsch_medical.desc">What is with all these hand cramps?</gstr>
+        <gstr name="GDResearch.rsch_medical.desc">这些手总是痉挛是怎么回事？</gstr>
         <gstr name="GDResearch.rsch_aeroponics.name">无土栽培</gstr>
-        <gstr name="GDResearch.rsch_aeroponics.desc">A superior method of plant cultivation that doesn't require one to get their hands dirty.</gstr>
+        <gstr name="GDResearch.rsch_aeroponics.desc">一种先进的植物栽培方法，不再会让人们弄脏手了。</gstr>
         <gstr name="GDResearch.rsch_fertilizer.name">肥料技术</gstr>
-        <gstr name="GDResearch.rsch_fertilizer.desc">Fertilizer will allow us to increase plant growth.</gstr>
+        <gstr name="GDResearch.rsch_fertilizer.desc">肥料可以加速植物生长。</gstr>
         <gstr name="GDResearch.rsch_botany.name">异种植物学</gstr>
-        <gstr name="GDResearch.rsch_botany.desc">The scientific study of plants &amp; algae.</gstr>
+        <gstr name="GDResearch.rsch_botany.desc">作物&amp;藻类等的相关科学。</gstr>
         <gstr name="GDResearch.rsch_vehicleconstruction.name">载具建造</gstr>
-        <gstr name="GDResearch.rsch_vehicleconstruction.desc">The construction of vehicles will allow us to further explore and exploit the surface.</gstr>
+        <gstr name="GDResearch.rsch_vehicleconstruction.desc">建造车辆将使我们能够进一步探索和开发地表。</gstr>
         <gstr name="GDResearch.rsch_resourcescanning.name">资源扫描</gstr>
-        <gstr name="GDResearch.rsch_resourcescanning.desc">The resource scanner will allow us to scan for deeper resource deposits on the surface. Sub-surface deposits will require the use of a mining vehicle.</gstr>
+        <gstr name="GDResearch.rsch_resourcescanning.desc">资源扫描仪将使我们能够扫描地表较深的资源矿藏。地表下的矿藏需要使用采矿车进行处理。</gstr>
         <gstr name="GDResearch.rsch_miningoutpost.name">采掘平台</gstr>
-        <gstr name="GDResearch.rsch_miningoutpost.desc">This will allow mining vehicles to be converted into mining platforms. We can start to automate resource gathering using resource transport vehicles.</gstr>
+        <gstr name="GDResearch.rsch_miningoutpost.desc">使采矿车可以转化为采矿平台。我们可以开始使用资源运输车自动收集资源。</gstr>
         <gstr name="GDResearch.rsch_expeditions.name">地表探索</gstr>
-        <gstr name="GDResearch.rsch_expeditions.desc">We should begin exploring the surface of this world. The map table will allow us to visualize the surface and check out points of interest found by the comm station.</gstr>
+        <gstr name="GDResearch.rsch_expeditions.desc">我们应该开始探索这个世界的地表。地图工作台可以使我们能够直观地看到地表大致情况，并查看通讯站发现的兴趣点。</gstr>
         <gstr name="GDResearch.rsch_surfacemining.name">地表采掘</gstr>
-        <gstr name="GDResearch.rsch_surfacemining.desc">Now that we have a better idea of what's out there, we need to start harvesting those resources for further expansion.</gstr>
+        <gstr name="GDResearch.rsch_surfacemining.desc">现在我们对地表的具体情况有了更深入的了解，我们可以更进一步开始收获这些资源。</gstr>
         <gstr name="GDResearch.rsch_vehiclehovertech.name">悬浮技术</gstr>
-        <gstr name="GDResearch.rsch_vehiclehovertech.desc">Unlocks new hover variants of existing vehicles that allow traversal over water.</gstr>
+        <gstr name="GDResearch.rsch_vehiclehovertech.desc">解锁现有载具的新悬浮变体，允许在水面上穿行。</gstr>
         <gstr name="GDResearch.rsch_silicaprocessing.name">硅石处理</gstr>
-        <gstr name="GDResearch.rsch_silicaprocessing.desc">Processing silica will allow us to craft glass and silicon carbide for advanced technologies.</gstr>
+        <gstr name="GDResearch.rsch_silicaprocessing.desc">加工二氧化硅将使我们能够制作玻璃和碳化硅。</gstr>
         <gstr name="GDResearch.rsch_flora_crimsonbloom.name">绯红花</gstr>
-        <gstr name="GDResearch.rsch_flora_crimsonbloom.desc">A decorative plant with a crimson colored flower.</gstr>
+        <gstr name="GDResearch.rsch_flora_crimsonbloom.desc">一种具有深红色花朵的装饰性植物。</gstr>
         <gstr name="GDResearch.rsch_objectequipment_t1.name">功能装备</gstr>
-        <gstr name="GDResearch.rsch_objectequipment_t1.desc">This will unlock various equipment that can be crafted to improve machines and objects.</gstr>
+        <gstr name="GDResearch.rsch_objectequipment_t1.desc">这将解锁制造各种装备设备，用来改进机器和物体。</gstr>
         <gstr name="GDResearch.rsch_objectequipment_t2.name">功能装备 II</gstr>
-        <gstr name="GDResearch.rsch_objectequipment_t2.desc">This will unlock various equipment that can be crafted to improve machines and objects.</gstr>
+        <gstr name="GDResearch.rsch_objectequipment_t2.desc">这将解锁制造各种装备设备，用来改进机器和物体。</gstr>
         <gstr name="GDResearch.rsch_vehicleequipment_t1.name">载具装备</gstr>
-        <gstr name="GDResearch.rsch_vehicleequipment_t1.desc">This will unlock various equipment that can be crafted to improve vehicles.</gstr>
+        <gstr name="GDResearch.rsch_vehicleequipment_t1.desc">这将解锁制造各种设备，改善车辆相关性能。</gstr>
         <gstr name="GDResearch.rsch_vehicleequipment_t2.name">载具装备 II</gstr>
-        <gstr name="GDResearch.rsch_vehicleequipment_t2.desc">This will unlock various equipment that can be crafted to improve vehicles.</gstr>
+        <gstr name="GDResearch.rsch_vehicleequipment_t2.desc">这将解锁制造各种设备，改善车辆相关性能。</gstr>
         <gstr name="GDResearch.rsch_colonistequipment_t1.name">人员装备</gstr>
-        <gstr name="GDResearch.rsch_colonistequipment_t1.desc">This will unlock various equipment that can be crafted and equipped by colonists.</gstr>
+        <gstr name="GDResearch.rsch_colonistequipment_t1.desc">这将解锁制造各种设备，改善人员相关表现。</gstr>
         <gstr name="GDResearch.rsch_colonistequipment_t2.name">人员装备 II</gstr>
-        <gstr name="GDResearch.rsch_colonistequipment_t2.desc">This will unlock various equipment that can be crafted and equipped by colonists.</gstr>
+        <gstr name="GDResearch.rsch_colonistequipment_t2.desc">这将解锁制造各种设备，改善人员相关表现。</gstr>
         
         <!-- Research Groups -->
         <gstr name="GDUIResearchGroup.rsch_grp_deco_lighting.name">照明</gstr>
@@ -2400,118 +2400,118 @@
         <gstr name="GDUIResearchGroup.rsch_grp_vehiclebay.name">载具</gstr>
         
         <!-- Colonist Equipment Items -->
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.name">Back Brace</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.desc">Muscles {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.name">Sturdy Back Brace</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.desc">Muscles {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.name">背部支撑器</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_1.desc">力量 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.name">坚固背部支撑器</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_muscles_2.desc">力量 {0}</gstr> 
         
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.name">Comfy Shoes</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.desc">Athletics {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.name">Running Shoes</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.desc">Athletics {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.name">舒适的鞋</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_1.desc">运动 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.name">跑鞋</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_athletics_2.desc">运动 {0}</gstr> 
         
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_1.name">Thinking Cap</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_1.desc">Smarts {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_2.name">Neural Stim</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_2.desc">Smarts {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_1.name">思维帽</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_1.desc">才智 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_2.name">神经接口</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_ch_smarts_2.desc">才智 {0}</gstr> 
         
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.name">Sturdy Frame</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.desc">Muscles {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.name">Heavy Frame</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.desc">Muscles {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.name">坚固框架</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_1.desc">力量 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.name">重型框架</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_muscles_2.desc">力量 {0}</gstr> 
         
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.name">Sturdy Servos</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.desc">Athletics {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.name">Heavy Servos</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.desc">Athletics {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.name">坚固伺服系统</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_1.desc">运动 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.name">重型伺服系统</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_athletics_2.desc">运动 {0}</gstr> 
         
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_1.name">Microchip</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_1.desc">Smarts {0}</gstr> 
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_2.name">Microchip Mk. II</gstr>
-        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_2.desc">Smarts {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_1.name">微芯片</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_1.desc">才智 {0}</gstr> 
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_2.name">微芯片MkII型</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_smarts_2.desc">才智 {0}</gstr> 
         
         
         <!-- Vehicle Equipment Items -->
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.name">Improved Engine</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.desc">Movement Speed {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.name">Advanced Engine</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.desc">Movement Speed {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.name">Superior Engine</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.desc">Movement Speed {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.name">改进引擎</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_1.desc">移动速度 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.name">高级引擎</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_2.desc">移动速度 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.name">超级引擎</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_movespeed_3.desc">移动速度 {0}%</gstr> 
         
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.name">Improved Scanner</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.desc">Scan Time {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.name">Advanced Scanner</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.desc">Scan Time {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.name">Superior Scanner</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.desc">Scan Time {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.name">改进扫描器</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_1.desc">扫描时间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.name">高级扫描器</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_2.desc">扫描时间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.name">超级扫描器</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_scanspeed_3.desc">扫描时间 {0}%</gstr> 
         
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.name">Improved Mining Laser</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.desc">Mining Time {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.name">Advanced Mining Laser</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.desc">Mining Time {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.name">Superior Mining Laser</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.desc">Mining Time {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.name">改进采矿激光</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_1.desc">采矿时间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.name">高级采矿激光</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_2.desc">采矿时间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.name">超级采矿激光</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_minespeed_3.desc">采矿时间 {0}%</gstr> 
         
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.name">Cargo Expander I</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.desc">Vehicle Cargo Space {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.name">Cargo Expander II</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.desc">Vehicle Cargo Space {0}%</gstr> 
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.name">Cargo Expander III</gstr>
-        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.desc">Vehicle Cargo Space {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.name">货仓扩展器 I</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_1.desc">载具货仓空间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.name">货仓扩展器 II</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_2.desc">载具货仓空间 {0}%</gstr> 
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.name">货仓扩展器 III</gstr>
+        <gstr name="GDEquipment_VehicleAttribute.ei_v_invboost_3.desc">载具货仓空间 {0}%</gstr> 
         
         <!-- Object Equipment Items -->
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.name">Craft Efficiency I</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.desc">Double Output Chance {0}%</gstr>        
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.name">Craft Efficiency II</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.desc">Double Output Chance {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.name">Craft Efficiency III</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.desc">Double Output Chance {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.name">制造增效器 I</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_1.desc">双倍输出几率 {0}%</gstr>        
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.name">制造增效器 II</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_2.desc">双倍输出几率 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.name">制造增效器 III</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_doublecraft_3.desc">双倍输出几率 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.name">Improved Power Supply</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.desc">Power Consumption {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.name">Advanced Power Supply</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.desc">Power Consumption {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.name">Superior Power Supply</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.desc">Power Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.name">改进能源供应模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_1.desc">能源消耗 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.name">高级能源供应模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_2.desc">能源消耗 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.name">超级能源供应模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powereff_3.desc">能源消耗 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.name">Improved Power Coil</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.desc">Power Output {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.name">Advanced Power Coil</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.desc">Power Output {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.name">Superior Power Coil</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.desc">Power Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.name">改进能源线圈</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_1.desc">能源输出 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.name">高级能源线圈</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_2.desc">能源输出 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.name">超级能源线圈</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_powerboost_3.desc">能源输出 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.name">Improved Inlet Valve</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.desc">Water Consumption {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.name">Advanced Inlet Valve</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.desc">Water Consumption {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.name">Superior Inlet Valve</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.desc">Water Consumption {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.name">改进进水阀</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_1.desc">水资源消耗 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.name">高级进水阀</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_2.desc">水资源消耗 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.name">超级进水阀</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_watereff_3.desc">水资源消耗 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.name">Improved Pump Motor</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.desc">Water Output {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.name">Advanced Pump Motor</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.desc">Water Output {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.name">Superior Pump Motor</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.desc">Water Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.name">改进泵机模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_1.desc">水资源输出 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.name">高级泵机模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_2.desc">水资源输出 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.name">超级泵机模块</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_waterboost_3.desc">水资源输出 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.name">Storage Expander I</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.desc">Inventory Capacity {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.name">Storage Expander II</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.desc">Inventory Capacity {0}%</gstr>        
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.name">Storage Expander III</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.desc">Inventory Capacity {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.name">存储扩展器 I</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_1.desc">容量空间 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.name">存储扩展器 II</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_2.desc">容量空间 {0}%</gstr>        
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.name">存储扩展器 III</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_invboost_3.desc">容量空间 {0}%</gstr>
         
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_1.name">Battery Booster I</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_1.desc">Battery Capacity {0}%</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_2.name">Battery Booster II</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_2.desc">Battery Capacity {0}%</gstr>        
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_3.name">Battery Booster III</gstr>
-        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_3.desc">Battery Capacity {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_1.name">电池优化器 I</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_1.desc">电池容量 {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_2.name">电池优化器 II</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_2.desc">电池容量 {0}%</gstr>        
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_3.name">电池优化器 III</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_batteryboost_3.desc">电池容量 {0}%</gstr>
         
-        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.name">Map Display Modes</gstr>
-        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.desc">Display Mode Options For Planet Map. Install in Map Table.</gstr>
+        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.name">地图调制器</gstr>
+        <gstr name="GDEquipmentItem.ei_maptable_displaymodes.desc">增加星球地图的显示模式选项。安装在地图工作台中。</gstr>
         
             
         <!-- Biomes -->
