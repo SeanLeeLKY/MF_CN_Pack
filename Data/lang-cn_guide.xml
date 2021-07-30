@@ -279,19 +279,33 @@ Colonists gain experience as they perform tasks associated with a given job role
 The schedules interface allows you to assign activities to your colonists per hour over a 24 hour period. Every colonist is assigned to at least one schedule. Additional schedules can be created and the activity hours can be changed by selecting the activity type and clicking the desired hour.
 
 &lt;size=20&gt;&lt;b&gt;Work&lt;/b&gt;&lt;/size&gt;
-During work hours, colonists will perform work duties such as crafting, hauling, cleaning etc..
+During work hours, colonists will perform work duties. Needs such as sleeping and eating will only occur if they become critical.
 
 &lt;size=20&gt;&lt;b&gt;Sleep&lt;/b&gt;&lt;/size&gt;
-During sleep hours a colonist will sleep if their fatigue is greater than 10%. Once a colonist is sleeping they will continue to sleep until fully rested, ignoring any other scheduled activities during this time.
+The desire for sleep is increased during sleep hours. Colonists will head to bed during sleep hours if their sleep need is above 30%. Once a colonist is sleeping they will continue to sleep until fully rested, ignoring any other scheduled activities during this time.
 
 &lt;size=20&gt;&lt;b&gt;Recreation&lt;/b&gt;&lt;/size&gt;
-During recreation hours a colonist will handle their stress and hunger needs.
+During recreation hours a colonist will handle their stress and hunger needs. The desire to eat is increased during this time and colonists will eat if their hunger is greater than 30%.
 
 &lt;size=20&gt;&lt;b&gt;Training&lt;/b&gt;&lt;/size&gt;
-During training hours a colonist will perform training activities such as working out in the gym or using the memory transfer station.
+During training hours a colonist will perform attribute training activities such as working out in the gym or using the reading station.
 
 &lt;size=20&gt;&lt;b&gt;Free Time&lt;/b&gt;&lt;/size&gt;
 Free time hours do not represent any specific activity. During this time colonists are able to perform any actions depending on their needs.
+
+        </gstr>
+            
+        <gstr name="GDGuideTopic.guidetopic_training.name">Training</gstr>
+        <gstr name="GDGuideTopic.guidetopic_training.desc">
+Colonists attributes and job roles can be trained using specialized equipment.
+
+&lt;size=20&gt;&lt;b&gt;Attributes&lt;/b&gt;&lt;/size&gt;
+Colonists will train attributes at specific equipment, such as the treadmill, during designated training times. Training times can be configured using colonist schedules.
+
+&lt;size=20&gt;&lt;b&gt;Job Roles&lt;/b&gt;&lt;/size&gt;
+The memory transfer station is used to transfer job experience from one colonist to another. The memory transfer station must be configured with a trainer, a trainee and what job to train.
+
+Once set up, the trainer will begin transferring their job skill to the trainee for the assigned job role. Colonists will only use the memory transfer station during scheduled training hours. The trainee will gain job experience from the trainer until they are at the same level as the trainer.
 
         </gstr>
             

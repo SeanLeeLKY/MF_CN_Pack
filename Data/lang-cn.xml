@@ -98,6 +98,7 @@
         <gstr name="expeditioninfo.ready.label">准备出发</gstr>
         <gstr name="expeditioninfo.waitforpassengers.label">正在等待乘员</gstr>
         <gstr name="expeditioninfo.waitforsupplies.label">正在补给物资</gstr>
+        <gstr name="expeditioninfo.cancelexpedition.btn">取消探险</gstr>
         
         <gstr name="uisec.passengerinfo.boarded">已搭乘</gstr>
         <gstr name="uisec.passengerinfo.waiting">正在等待乘员搭乘</gstr>
@@ -167,10 +168,10 @@
         <gstr name="gdattribute.changerate.label">变化率：</gstr>
         <gstr name="gdattributeeffect.tt">{0}&#13;&#10;{1} {2}&#13;&#10;将于{3}后过期</gstr>
         <gstr name="gdattributeeffect.target_current"></gstr>
-        <gstr name="gdattributeeffect.target_min">Min</gstr>
-        <gstr name="gdattributeeffect.target_max">Max</gstr>
-        <gstr name="gdattributeeffect.target_rate">Rate</gstr>
-        <gstr name="gdquirk.tt">{0}&#13;&#10;{1} {2}&#13;&#10;Quirk</gstr>
+        <gstr name="gdattributeeffect.target_min">最低值</gstr>
+        <gstr name="gdattributeeffect.target_max">最高值</gstr>
+        <gstr name="gdattributeeffect.target_rate">比率</gstr>
+        <gstr name="gdquirk.tt">{0}&#13;&#10;{1} {2}&#13;&#10;怪癖</gstr>
         
         <gstr name="gdailment.norm.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;疾病</gstr>
         <gstr name="gdailment.damage.tt">{0}&#13;&#10;{1} {2} {3}&#13;&#10;承受伤害量：{4}&#13;&#10;疾病</gstr>
@@ -388,8 +389,10 @@
         <gstr name="cmanwin.jritem_infobtn.tt">显示信息面板</gstr>
         <gstr name="cmanwin.edit_name.tt">编辑姓名</gstr>
         
-        <gstr name="cmanwin.discoveries.nonefound">没有找到任何发现物。通过打开物品箱和探索世界寻找发现物。</gstr>
-        <gstr name="cmanwin.planetmap.surfaceoffline">地表监视系统离线&#13;&#10;&lt;size=18&gt;需要升降梯&lt;/size&gt;</gstr>
+        <gstr name="cmanwin.schedule.assign">Assign</gstr>
+        <gstr name="cmanwin.schedule.newschedule">Create Schedule</gstr>
+        <gstr name="cmanwin.schedule.name.default">Default Schedule</gstr>
+        <gstr name="cmanwin.schedule.name.new">New Schedule</gstr>
             
         <!-- UI HUD Inventory -->        
         <gstr name="uihudinv.categories.tt">隐藏物品类别</gstr>
@@ -487,10 +490,12 @@
         <gstr name="uisecheader.doorcontrol">门控系统</gstr>
         <gstr name="uisecheader.poilist">目标地点管理</gstr>
         
-        <gstr name="uiwinheader.choosecrop">选择作物</gstr>
-        <gstr name="uiwinheader.choosefish">选择鱼类</gstr>
-        <gstr name="uiwinheader.choosefertilizer">选择肥料</gstr>
-        <gstr name="uiwinheader.chooserecipeitem">选择配方材料</gstr>
+        <gstr name="uiwinheader.choosecrop">Choose Crop</gstr>
+        <gstr name="uiwinheader.choosefish">Choose Fish</gstr>
+        <gstr name="uiwinheader.choosefertilizer">Choose Fertilizer</gstr>
+        <gstr name="uiwinheader.chooserecipeitem">Choose Recipe Ingredient</gstr>
+        <gstr name="uisecheader.trainingstation">Memory Transfer</gstr>
+        <gstr name="uisecheader.colonistattributetraining">Training</gstr>
         
 
         <!-- Settings -->
@@ -875,6 +880,12 @@
         <gstr name="uisecjobtrainer.trainee.label">受训物</gstr>
         <gstr name="uisecjobtrainer.job.label">工作</gstr>
         <gstr name="uisecjobtrainer.lvl.label">Lv. {0} {1}</gstr>
+
+        <gstr name="uisec.attributetrainer.efficiency">Efficiency: {0:P0}</gstr>
+        <gstr name="uisec.attributetrainer.efficiency.tt">Training Equipment is affected by room efficiency</gstr>
+        
+        <gstr name="uisec.jobtrainer.efficiency">Efficiency: {0:P0}</gstr>
+        <gstr name="uisec.jobtrainer.efficiency.tt">Memory transfer speed affected by trainee smarts and room efficiency</gstr>
         
         <gstr name="uisecpoi.header">兴趣点信息</gstr>
         <gstr name="uisecpoi.risk.label">风险： {0}</gstr>
@@ -1278,6 +1289,10 @@
         <gstr name="GPActionBoardExpedition.action_BoardExpedition.desc">正在启程探险</gstr>        
         <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.name">向探险队运送物品</gstr>
         <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.desc">正在向探险队运送物品</gstr>
+        <gstr name="GPActionBoardExpedition.action_BoardExpedition.name">Leaving On Expedition</gstr>
+        <gstr name="GPActionBoardExpedition.action_BoardExpedition.desc">Leaving On Expedition</gstr>        
+        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.name">Delivering Items To Expedition</gstr>
+        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.desc">Delivering Items To Expedition</gstr>
         
         <gstr name="GPActionHaulBait.action_BaitTrap.name">往陷阱添加诱饵</gstr>
         <gstr name="GPActionHaulBait.action_BaitTrap.desc">正在往陷阱添加诱饵</gstr>
@@ -1678,6 +1693,11 @@
         <gstr name="EPunchingBag.punchingbag.desc">捶打垫高的杆子会增加肌肉的力量。</gstr>
         <gstr name="ETreadmill.treadmill.name">跑步机</gstr>
         <gstr name="ETreadmill.treadmill.desc">原地跑步一段时间将有助于提高运动能力。</gstr>
+        <gstr name="ETreadmill.treadmill.desc">Running in place for a while will help increase athletics.</gstr>
+        <gstr name="ETreadmill.treadmill.action_desc">Training athletics</gstr>
+        <gstr name="EReadingStation.reading_station.name">Reading Station</gstr>
+        <gstr name="EReadingStation.reading_station.desc">Nothing like reading to get the brain juices flowing. Used to train smarts.</gstr>
+        <gstr name="EReadingStation.reading_station.action_desc">Training smarts</gstr>
         
         <gstr name="EAeroponicsFarm.aeroponicsfarm.name">气培农场</gstr>
         <gstr name="EAeroponicsFarm.aeroponicsfarm.desc">一个能提供使植物生长更快的受控种植环境的设施。</gstr>
@@ -1946,15 +1966,15 @@
         <!--
         <gstr name="GDRoom.rm_floor_hallway.name">Hallway</gstr>
         <gstr name="GDRoom.rm_floor_medbay.name">MedBay</gstr>
-        <gstr name="GDRoom.rm_floor_utility.name">功能室</gstr>
-        <gstr name="GDRoom.rm_floor_engineering.name">工程室</gstr>
+        <gstr name="GDRoom.rm_floor_utility.name">Utility Room</gstr>
+        <gstr name="GDRoom.rm_floor_engineering.name">Engineering Room</gstr>
         <gstr name="GDRoom.rm_floor_kitchen.name">Kitchen</gstr>
-        <gstr name="GDRoom.rm_floor_science.name">实验室</gstr>
-        <gstr name="GDRoom.rm_floor_recreation.name">娱乐室</gstr>
+        <gstr name="GDRoom.rm_floor_science.name">Science Lab</gstr>
+        <gstr name="GDRoom.rm_floor_recreation.name">Rec Room</gstr>
         <gstr name="GDRoom.rm_floor_cafeteria.name">Cafeteria</gstr>        
-        <gstr name="GDRoom.rm_floor_assembly.name">组装室</gstr>
-        <gstr name="GDRoom.rm_floor_biolab.name">生物实验室</gstr>
-        <gstr name="GDRoom.rm_floor_operations.name">指令室</gstr>
+        <gstr name="GDRoom.rm_floor_assembly.name">Assembly Room</gstr>
+        <gstr name="GDRoom.rm_floor_biolab.name">Bio Lab</gstr>
+        <gstr name="GDRoom.rm_floor_operations.name">Operations Room</gstr>
         -->
         <gstr name="GDRoom.rm_floor_hallway.name">门厅</gstr>
         <gstr name="GDRoom.rm_floor_hallway.small.name">小型门厅</gstr>
@@ -2027,6 +2047,12 @@
         <gstr name="GDRoom.rm_floor_operations.medium.name">中型指令室</gstr>
         <gstr name="GDRoom.rm_floor_operations.large.name">大型指令室</gstr>
         <gstr name="GDRoom.rm_floor_operations.massive.name">巨型指令室</gstr>
+        
+        <gstr name="GDRoom.rm_floor_gym.name">Gym</gstr>
+        <gstr name="GDRoom.rm_floor_gym.small.name">Small Gym</gstr>
+        <gstr name="GDRoom.rm_floor_gym.medium.name">Medium Gym</gstr>
+        <gstr name="GDRoom.rm_floor_gym.large.name">Large Gym</gstr>
+        <gstr name="GDRoom.rm_floor_gym.massive.name">Massive Gym</gstr>
         
         <gstr name="GDRoom.name_undefined.label">未定义房间</gstr>
         <gstr name="GDRoom.desc_noflooring.label">未在房间找到地板。添加相应的地板来定义房间用途。</gstr>
@@ -2294,6 +2320,8 @@
         <gstr name="GDResearch.rsch_entertainment2.desc">缓解压力的有趣新方法。</gstr>
         <gstr name="GDResearch.rsch_physicaltraining.name">体能训练</gstr>
         <gstr name="GDResearch.rsch_physicaltraining.desc">健身房将使我们能够改善一些殖民者的属性。</gstr>
+        <gstr name="GDResearch.rsch_braintraining.name">Brain Training</gstr>
+        <gstr name="GDResearch.rsch_braintraining.desc">A new place to sit and read. This will help increase colonist smarts.</gstr>
         <gstr name="GDResearch.rsch_repair_tech_1.name">维修技术I</gstr>
         <gstr name="GDResearch.rsch_repair_tech_1.desc">改进后的维修工具将使我们能够更有效地维修机器。</gstr>
         <gstr name="GDResearch.rsch_repair_tech_2.name">维修技术II</gstr>
