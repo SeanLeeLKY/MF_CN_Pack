@@ -2586,76 +2586,72 @@
         -->
         
         <!-- Discovery Groups-->
-        <gstr name="GDDiscoveryGroup.dscgrp_datalogs.name">Alex Kenner Logs #1</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_datalogs_02.name">Alex Kenner Logs #2</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_flora.name">Flora</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_fauna.name">Fauna</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_decoblueprints.name">Decoration Blueprints</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_t1.name">Machine Blueprints</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_vehicleblueprints.name">Vehicle Blueprints</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_cequip_t2.name">Colonist Equipment Blueprints</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_oequip_t2.name">Machine Equipment Blueprints</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_vequip_t2.name">Vehicle Equipment Blueprints</gstr>        
-        <gstr name="GDDiscoveryGroup.dscgrp_resources.name">Resources</gstr>
-        <gstr name="GDDiscoveryGroup.dscgrp_biomes.name">Biomes</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_datalogs.name">亚历克斯·肯纳日志 #1</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_datalogs_02.name">亚历克斯·肯纳日志 #2</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_flora.name">植物群</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_fauna.name">动物群</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_decoblueprints.name">装饰蓝图</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_t1.name">机械蓝图</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_vehicleblueprints.name">载具蓝图</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_cequip_t2.name">人员装备蓝图</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_oequip_t2.name">机器装备蓝图</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_blueprints_vequip_t2.name">载具装备蓝图</gstr>        
+        <gstr name="GDDiscoveryGroup.dscgrp_resources.name">资源</gstr>
+        <gstr name="GDDiscoveryGroup.dscgrp_biomes.name">生物群系</gstr>
         
         <!-- Discoveries: Data Logs -->
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.name">Colonist Log - Day 1</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.desc">My name is Doctor Alex Kenner. Something has gone terribly wrong. I awoke from stasis, but the other members of the research team have not. The system appears to be in some sort of lock down and, unless I missed a briefing, this should not be the case. Mission protocol states that the research team stasis capsules are suppose to open shortly after arrival at the Mercury facility. My stasis capsule appears to be the only one functioning properly. The comm satellite is online and I’ve dispatched the relevant data back to earth.        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.name">殖民者日志——第1天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.desc">我的是亚历克斯·肯纳博士，目前的情况似乎有大麻烦。我从休眠状态中苏醒，但研究小组的其他成员却没有。该系统似乎处于某种锁定状态，除非我错过了某些任务信息简报，否则不应该发生这种情况。任务协议规定，研究小组的静滞舱应该在到达水星号基地设施不久后自动激活。我的静滞舱似乎是唯一一个运作正常的。目前通讯卫星已经上线，我已经将相关数据发回地球。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.name">Colonist Log - Day 2</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.desc">The facility AI has been shutting me out of more systems. It indicates that there are issues with the stasis systems, but is expecting an engineer to fix it. The engineer is one of the people still in stasis. This system was supposed to be fail safe, but no one thought of this scenario? Who designed this bloody system?
-        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.name">殖民者日志——第2天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.desc">整个设施的AI一直将我封锁在更多可用系统之外。这表明停滞系统有问题，需要工程师来修复。但是工程师是仍处于停滞状态的人之一。这个系统应该是自发防故障的，但没人预想到这种情况，谁设计了这个该死的系统？</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.name">Colonist Log - Day 5</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.desc">Still no word from Earth comm. I’m a botanist, not an engineer. I’m liable to kill them if I try to repair the systems myself. Given I’m the only one awake, I have plenty of food rations to last for now, but I certainly don’t want to stay here alone. The robots are still functional and I’ve started a daily log.
-        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.name">殖民者日志——第5天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_03.desc">地球方面仍然没有任何通讯回应。我是个植物学家而不是机电工程师。如果我试着去修复系统问题，那么他们有可能死于非命。目前我是小组里唯一处于清醒状态的人，而且食物配给充足，但是我不想就这样一个人待着。自动机器人现在还处于正常工作的状态，我也只能开始每天记录日志。</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.name">Colonist Log - Day 11</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.desc">I received an automated message back from Earth. I would like to state for the record that this automated message simply says: “Congratulations on a successful landing. We look forward to further reports.” I sprained my ankle after kicking one of the robots.
-        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.name">殖民者日志——第11天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.desc">我收到了地球自动回复的信息。我想郑重声明，这条自动留言只是说：“祝贺成功着陆。我们期待进一步的报道。”气得我狠狠踢了机器人一脚，然后扭伤了脚踝......</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.name">Colonist Log - Day 14</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.desc">I’ve started naming the robots. One of the robots has a malfunctioning servo, coincidentally after I kicked it. It has a bit of a hop to its step now so I’ve named her Bunny. I realize it’s silly to infer genders to these things, but after two weeks alone I’ve decided I don’t care.
-        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.name">殖民者日志——第14天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.desc">我已经开始给机器人起名字了。我踢过的那个机器人的伺服系统出了故障。它的步伐有点跳跃，所以我给它起名叫“兔子”。我知道用性别来推断这些事情显得很愚蠢，但两周后，我就再也不在乎这些东西了。</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.name">Colonist Log - Day 18</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.name">殖民者日志——第18天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.desc">I’ve heard it said that having a daily routine is important in a survival scenario, but I’m deeply concerned that I’ve accepted that this is a survival scenario at this point. In the mornings Bunny and I take a jog from the Botany Lab down to MedBay. After that we complete a full inspection of the facility. I found the inspection checklist in storage. </gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.name">Colonist Log - Day 22</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.name">殖民者日志——第22天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.desc">I took a trip to the surface today to take soil samples. I’ve been so focused on other tasks to keep my mind occupied that I forgot about my actual assignment here. The original surveys of the planet indicated a high level of solar radiation on the surface, but a breathable atmosphere and adequate moisture content. The radiation levels are far lower than was originally estimated and appear to be in decline. The surrounding area from the facility shows signs of limited plant growth.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.name">Colonist Log - Day 30</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.name">殖民者日志——第30天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.desc">I’ve received additional automated responses back from Earth, but nothing that would be considered a valid response to the situation we’re in. It’s only been a month, but I have little hope in getting more than that. We all signed on knowing this was a one way ticket, but I wasn’t expecting to be here alone. At least I have Bunny.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.name">Colonist Log - Day 35</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.name">殖民者日志——第35天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.desc">What little data I’ve managed to get from the stasis systems indicates that the stasis capsules are due to unlock in several hundred years. Primary facility power will never last that long, but the backup batteries in the pods themselves should last indefinitely.
 
 I’m not entirely sure how to feel about that. I find I’m no longer angry about my situation, but it now appears that I’ll be living the remainder of my life inside my own tomb. Bunny says hello.
         </gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.name">Colonist Log - Day 42</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.name">殖民者日志——第42天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.desc">While I still have plenty of rations I’ve decided to start growing some of the crops from storage. The hydroponics system is working quite well and it’s nice to be focusing on something other than daily system checks. I’m starting to wish the hemp we brought was something I could smoke.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.name">Colonist Log - Day 55</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.name">殖民者日志——第55天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.desc">I’m not sure if my mind is playing tricks on me, but I saw a light in the distance when out collecting samples. It blinked. I thought it must have been a glinting reflection off something in the distance so I went back outside at night. It was still there. I stared at it for almost ten minutes before it suddenly stopped. Bunny thinks I’m just seeing things.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.name">Colonist Log - Day 122</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.name">殖民者日志——第122天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.desc">Further research on the surface shows the solar radiation is declining far faster than expected. No sign of the blinking light. Moisture levels show a dramatic increase which would indicate that the surrounding area could become forested by the time the team wakes up. Speaking of which, I’m unsure what the team will awake to as far as the facility is concerned, given that it was never meant to last that long without proper maintenance.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.name">Colonist Log - Day 196</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.name">殖民者日志——第196天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.desc">Many of the earlier log entries have gone missing and I’m not sure why. They show as deleted, but I certainly don’t remember deleting any entries. Could be some sort of data corruption in the files. Bunny insists that she didn’t do it, but I’m not so sure.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.name">Colonist Log - Day 245</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.name">殖民者日志——第245天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.desc">The blinking light in the distance returned. Bunny saw it too. The excursion suit won’t last for that distance and the radiation levels are still too high. I can’t risk it.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.name">Colonist Log - Day 471</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.name">殖民者日志——第471天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.desc">I thought I almost lost Bunny today. She fell over and there was a sudden burning smell. Thank god they were made to be modular. The vision sensor fried, but I was able to plug in a replacement from storage. Damn it, Bunny, don’t scare me like that!</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.name">Colonist Log - Day 1,023</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.name">殖民者日志——第1023天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.desc">Years’ worth of records are no longer in the system. Some of them I deleted myself, but I don’t remember deleting the others. Maybe I deleted them all. I’m not sure it’ll make any sense to whoever reads these, IF someone reads these.</gstr>
             
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.name">Colonist Log - Day 2,024</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.name">殖民者日志——第2024天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.desc">I need to know what’s out there. The solar radiation has fallen to a point where I don’t need the excursion suit. I’ve already taken some trips outside without it. I’m not sure what we’ll find out there, but I know what I’ll find down here. 
 Bunny is excited for the trip and, frankly, so am I. It’s been a long time since I’ve felt excited. I’ve deactivated all of the robots. I’m not sure we’ll return.
         </gstr>
