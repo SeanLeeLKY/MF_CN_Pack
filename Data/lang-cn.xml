@@ -388,11 +388,14 @@
         <gstr name="cmanwin.jritem_age.label">年龄：{0}</gstr>
         <gstr name="cmanwin.jritem_infobtn.tt">显示信息面板</gstr>
         <gstr name="cmanwin.edit_name.tt">编辑姓名</gstr>
+
+        <gstr name="cmanwin.discoveries.nonefound">没有找到任何发现物。通过打开物品箱和探索世界寻找发现物。</gstr>
+        <gstr name="cmanwin.planetmap.surfaceoffline">地表监视系统离线&#13;&#10;&lt;size=18&gt;需要升降梯&lt;/size&gt;</gstr>
         
-        <gstr name="cmanwin.schedule.assign">Assign</gstr>
-        <gstr name="cmanwin.schedule.newschedule">Create Schedule</gstr>
-        <gstr name="cmanwin.schedule.name.default">Default Schedule</gstr>
-        <gstr name="cmanwin.schedule.name.new">New Schedule</gstr>
+        <gstr name="cmanwin.schedule.assign">指定</gstr>
+        <gstr name="cmanwin.schedule.newschedule">创建日程表</gstr>
+        <gstr name="cmanwin.schedule.name.default">默认日程表</gstr>
+        <gstr name="cmanwin.schedule.name.new">新日程表</gstr>
             
         <!-- UI HUD Inventory -->        
         <gstr name="uihudinv.categories.tt">隐藏物品类别</gstr>
@@ -490,12 +493,12 @@
         <gstr name="uisecheader.doorcontrol">门控系统</gstr>
         <gstr name="uisecheader.poilist">目标地点管理</gstr>
         
-        <gstr name="uiwinheader.choosecrop">Choose Crop</gstr>
-        <gstr name="uiwinheader.choosefish">Choose Fish</gstr>
-        <gstr name="uiwinheader.choosefertilizer">Choose Fertilizer</gstr>
-        <gstr name="uiwinheader.chooserecipeitem">Choose Recipe Ingredient</gstr>
-        <gstr name="uisecheader.trainingstation">Memory Transfer</gstr>
-        <gstr name="uisecheader.colonistattributetraining">Training</gstr>
+        <gstr name="uiwinheader.choosecrop">选择作物</gstr>
+        <gstr name="uiwinheader.choosefish">选择鱼类</gstr>
+        <gstr name="uiwinheader.choosefertilizer">选择肥料</gstr>
+        <gstr name="uiwinheader.chooserecipeitem">选择配方材料</gstr>
+        <gstr name="uisecheader.trainingstation">记忆传输</gstr>
+        <gstr name="uisecheader.colonistattributetraining">训练</gstr>
         
 
         <!-- Settings -->
