@@ -61,11 +61,11 @@
         
         <!-- Intro Text-->
         <gstr name="ui.introtext.s1">22世纪，空间探索因为其巨大的利益而被各种企业竞相追逐。太空旅行曾经是国家政府主导的项目，但是现在已经变成了一个极具竞争性的市场，因为可能获得巨额回报，各公司企业都在盲目的将资源投入这个无底洞。</gstr>
-        <gstr name="ui.introtext.s2">这是人类历史上的第一次壮举，无限集团的先驱者！即将在地球太阳系之外的星球上尝试进行殖民。建造船「水星」号作为先驱被发射到一个合适的地外星球，并开始自动在星球上建造一个地下设施。</gstr>
+        <gstr name="ui.introtext.s2">这是人类历史上的第一次壮举，无限集团的先驱者！即将在地球太阳系之外的星球上尝试进行殖民。建造船「水银」号作为先驱被发射到一个合适的地外星球，并开始自动在星球上建造一个地下设施。</gstr>
         <gstr name="ui.introtext.s3">在满载新移民的殖民船离地前往新星球之前，一个小型研究小组也随着建造船一同被派去实地调查这个星球。研究小组将在他们到达后不久自动从静滞休眠状态中醒来——或者，至少原计划是这样的。</gstr>
         
         <gstr name="ui.introwin1.header">欢迎先驱者！</gstr>
-        <gstr name="ui.introwin1.text">热烈欢迎无限集团的先驱者！&#13;&#10;&#13;&#10;水星坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。也非常谢谢你参与到这个开发过程中来！&#13;&#10;&#13;&#10;游戏手册可以通过按键[Tab]调出设施管理界面，然后再在列表顶端选择。</gstr>
+        <gstr name="ui.introwin1.text">热烈欢迎无限集团的先驱者！&#13;&#10;&#13;&#10;水银坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。也非常谢谢你参与到这个开发过程中来！&#13;&#10;&#13;&#10;游戏手册可以通过按键[Tab]调出设施管理界面，然后再在列表顶端选择。</gstr>
         
         <!-- UI Misc -->
         <gstr name="GDUITab.tab_info.name">信息</gstr>
@@ -216,7 +216,7 @@
         
         
         <gstr name="mainmenu.welcome.title">欢迎先驱者！</gstr>
-        <gstr name="mainmenu.welcome.message">水星坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。&#13;&#10;&#13;&#10;如果你遇到了任何问题，一定要让我们知道这些情况。只有通过反馈，我们才能修正这些讨厌的错误，并继续增加有意思的新内容。</gstr>               
+        <gstr name="mainmenu.welcome.message">水银坠落（Mercury Fallen）仍然处在开发状态中，其内容并不完善。&#13;&#10;&#13;&#10;如果你遇到了任何问题，一定要让我们知道这些情况。只有通过反馈，我们才能修正这些讨厌的错误，并继续增加有意思的新内容。</gstr>               
         
         <!-- UI New Game -->
         <gstr name="newgame.header">游戏设置</gstr>
@@ -264,7 +264,7 @@
         <gstr name="gamemenu.loadgame.btn">读取游戏</gstr>
         <gstr name="gamemenu.loadgame.info">读取存储的游戏</gstr>
         <gstr name="gamemenu.feedback.btn">反馈</gstr>
-        <gstr name="gamemenu.feedback.info">打开水星坠落（Mercury Fallen）的联系/反馈页面。</gstr>
+        <gstr name="gamemenu.feedback.info">打开水银坠落（Mercury Fallen）的联系/反馈页面。</gstr>
         <gstr name="gamemenu.quit.btn">退出到主菜单</gstr>
         <gstr name="gamemenu.quit.info">退出到主菜单</gstr>
         <gstr name="gamemenu.quit.confirm">确定退出到主菜单？所有未存储的内容将会丢失。</gstr>
@@ -1761,7 +1761,7 @@
         <gstr name="EWall.wall_metal.name">墙</gstr>
         <gstr name="EWall.wall_metal.desc">明确告诉我们不要再往前走了。</gstr>
         <gstr name="EStructure.wall_debris.name">损坏的墙</gstr>
-        <gstr name="EStructure.wall_debris.desc">水星号设施的陈旧遗迹。</gstr>
+        <gstr name="EStructure.wall_debris.desc">水银号设施的陈旧遗迹。</gstr>
         
         <gstr name="EPowerConduit.power_conduit.name">电线</gstr>
         <gstr name="EPowerConduit.power_conduit.desc">为需要的地方快速提供电力。</gstr>
@@ -2632,7 +2632,7 @@
         
         <!-- Discoveries: Data Logs -->
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.name">殖民者日志——第1天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.desc">我的是亚历克斯·肯纳博士，目前的情况似乎有大麻烦。我从休眠状态中苏醒，但研究小组的其他成员却没有。该系统似乎处于某种锁定状态，除非我错过了某些任务信息简报，否则不应该发生这种情况。任务协议规定，研究小组的静滞舱应该在到达水星号基地设施不久后自动激活。我的静滞舱似乎是唯一一个运作正常的。目前通讯卫星已经上线，我已经将相关数据发回地球。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_01.desc">我的是亚历克斯·肯纳博士，目前的情况似乎有大麻烦。我从休眠状态中苏醒，但研究小组的其他成员却没有。该系统似乎处于某种锁定状态，除非我错过了某些任务信息简报，否则不应该发生这种情况。任务协议规定，研究小组的静滞舱应该在到达水银号基地设施不久后自动激活。我的静滞舱似乎是唯一一个运作正常的。目前通讯卫星已经上线，我已经将相关数据发回地球。</gstr>
         
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.name">殖民者日志——第2天</gstr>
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02.desc">整个设施的AI一直将我封锁在更多可用系统之外。这表明停滞系统有问题，需要工程师来修复。但是工程师是仍处于停滞状态的人之一。这个系统应该是自发防故障的，但没人预想到这种情况，谁设计了这个该死的系统？</gstr>
