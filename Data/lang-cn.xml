@@ -880,15 +880,15 @@
         <gstr name="uisecfishtank.setfish.btn">设置鱼类</gstr>
         
         <gstr name="uisecjobtrainer.trainer.label">训练员</gstr>
-        <gstr name="uisecjobtrainer.trainee.label">受训物</gstr>
+        <gstr name="uisecjobtrainer.trainee.label">受训者</gstr>
         <gstr name="uisecjobtrainer.job.label">工作</gstr>
         <gstr name="uisecjobtrainer.lvl.label">Lv. {0} {1}</gstr>
 
-        <gstr name="uisec.attributetrainer.efficiency">Efficiency: {0:P0}</gstr>
-        <gstr name="uisec.attributetrainer.efficiency.tt">Training Equipment is affected by room efficiency</gstr>
+        <gstr name="uisec.attributetrainer.efficiency">效率： {0:P0}</gstr>
+        <gstr name="uisec.attributetrainer.efficiency.tt">训练设施的效率受房间效率影响。</gstr>
         
-        <gstr name="uisec.jobtrainer.efficiency">Efficiency: {0:P0}</gstr>
-        <gstr name="uisec.jobtrainer.efficiency.tt">Memory transfer speed affected by trainee smarts and room efficiency</gstr>
+        <gstr name="uisec.jobtrainer.efficiency">效率： {0:P0}</gstr>
+        <gstr name="uisec.jobtrainer.efficiency.tt">记忆传输速度受受训者才智和房间效率影响。</gstr>
         
         <gstr name="uisecpoi.header">兴趣点信息</gstr>
         <gstr name="uisecpoi.risk.label">风险： {0}</gstr>
@@ -1292,10 +1292,10 @@
         <gstr name="GPActionBoardExpedition.action_BoardExpedition.desc">正在启程探险</gstr>        
         <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.name">向探险队运送物品</gstr>
         <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.desc">正在向探险队运送物品</gstr>
-        <gstr name="GPActionBoardExpedition.action_BoardExpedition.name">Leaving On Expedition</gstr>
-        <gstr name="GPActionBoardExpedition.action_BoardExpedition.desc">Leaving On Expedition</gstr>        
-        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.name">Delivering Items To Expedition</gstr>
-        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.desc">Delivering Items To Expedition</gstr>
+        <gstr name="GPActionBoardExpedition.action_BoardExpedition.name">开始探险</gstr>
+        <gstr name="GPActionBoardExpedition.action_BoardExpedition.desc">开始探险</gstr>        
+        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.name">递送物品到探险队</gstr>
+        <gstr name="GPActionHaulToExpedition.action_HaulToExpedition.desc">递送物品到探险队</gstr>
         
         <gstr name="GPActionHaulBait.action_BaitTrap.name">往陷阱添加诱饵</gstr>
         <gstr name="GPActionHaulBait.action_BaitTrap.desc">正在往陷阱添加诱饵</gstr>
@@ -1696,11 +1696,11 @@
         <gstr name="EPunchingBag.punchingbag.desc">捶打垫高的杆子会增加肌肉的力量。</gstr>
         <gstr name="ETreadmill.treadmill.name">跑步机</gstr>
         <gstr name="ETreadmill.treadmill.desc">原地跑步一段时间将有助于提高运动能力。</gstr>
-        <gstr name="ETreadmill.treadmill.desc">Running in place for a while will help increase athletics.</gstr>
-        <gstr name="ETreadmill.treadmill.action_desc">Training athletics</gstr>
-        <gstr name="EReadingStation.reading_station.name">Reading Station</gstr>
-        <gstr name="EReadingStation.reading_station.desc">Nothing like reading to get the brain juices flowing. Used to train smarts.</gstr>
-        <gstr name="EReadingStation.reading_station.action_desc">Training smarts</gstr>
+        <gstr name="ETreadmill.treadmill.desc">跑步可以增强运动能力。</gstr>
+        <gstr name="ETreadmill.treadmill.action_desc">运动训练</gstr>
+        <gstr name="EReadingStation.reading_station.name">阅读站</gstr>
+        <gstr name="EReadingStation.reading_station.desc">没有什么比阅读更能让大脑活动起来。用于训练才智能力。</gstr>
+        <gstr name="EReadingStation.reading_station.action_desc">才智训练。</gstr>
         
         <gstr name="EAeroponicsFarm.aeroponicsfarm.name">气培农场</gstr>
         <gstr name="EAeroponicsFarm.aeroponicsfarm.desc">一个能提供使植物生长更快的受控种植环境的设施。</gstr>
@@ -2051,11 +2051,11 @@
         <gstr name="GDRoom.rm_floor_operations.large.name">大型指令室</gstr>
         <gstr name="GDRoom.rm_floor_operations.massive.name">巨型指令室</gstr>
         
-        <gstr name="GDRoom.rm_floor_gym.name">Gym</gstr>
-        <gstr name="GDRoom.rm_floor_gym.small.name">Small Gym</gstr>
-        <gstr name="GDRoom.rm_floor_gym.medium.name">Medium Gym</gstr>
-        <gstr name="GDRoom.rm_floor_gym.large.name">Large Gym</gstr>
-        <gstr name="GDRoom.rm_floor_gym.massive.name">Massive Gym</gstr>
+        <gstr name="GDRoom.rm_floor_gym.name"> 健身房</gstr>
+        <gstr name="GDRoom.rm_floor_gym.small.name">小型健身房</gstr>
+        <gstr name="GDRoom.rm_floor_gym.medium.name">中型健身房</gstr>
+        <gstr name="GDRoom.rm_floor_gym.large.name">大型健身房</gstr>
+        <gstr name="GDRoom.rm_floor_gym.massive.name">巨型健身房</gstr>
         
         <gstr name="GDRoom.name_undefined.label">未定义房间</gstr>
         <gstr name="GDRoom.desc_noflooring.label">未在房间找到地板。添加相应的地板来定义房间用途。</gstr>
@@ -2323,8 +2323,8 @@
         <gstr name="GDResearch.rsch_entertainment2.desc">缓解压力的有趣新方法。</gstr>
         <gstr name="GDResearch.rsch_physicaltraining.name">体能训练</gstr>
         <gstr name="GDResearch.rsch_physicaltraining.desc">健身房将使我们能够改善一些殖民者的属性。</gstr>
-        <gstr name="GDResearch.rsch_braintraining.name">Brain Training</gstr>
-        <gstr name="GDResearch.rsch_braintraining.desc">A new place to sit and read. This will help increase colonist smarts.</gstr>
+        <gstr name="GDResearch.rsch_braintraining.name">脑力训练</gstr>
+        <gstr name="GDResearch.rsch_braintraining.desc">新的坐着阅读的地方。可以帮助殖民者们提高才智能力。</gstr>
         <gstr name="GDResearch.rsch_repair_tech_1.name">维修技术I</gstr>
         <gstr name="GDResearch.rsch_repair_tech_1.desc">改进后的维修工具将使我们能够更有效地维修机器。</gstr>
         <gstr name="GDResearch.rsch_repair_tech_2.name">维修技术II</gstr>
@@ -2603,7 +2603,7 @@
         <gstr name="GDPlanetBiome.pbiome_freshwaterice.name">冰湖</gstr>
         <gstr name="GDPlanetBiome.pbiome_freshwaterice.desc">冰湖</gstr>
         <gstr name="GDPlanetBiome.pbiome_river.name">河流</gstr>
-        <gstr name="GDPlanetBiome.pbiome_river.desc">和地球一样，河水也从山中流向大海。</gstr>
+        <gstr name="GDPlanetBiome.pbiome_river.desc">和地球一样，河水也从山川流向大海。</gstr>
         <gstr name="GDPlanetBiome.pbiome_beach.name">沙滩</gstr>
         <gstr name="GDPlanetBiome.pbiome_beach.desc">当你从沙滩上凝视大海时，你几乎会误以为这是在地球上。 </gstr>
         
@@ -2644,186 +2644,182 @@
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_04.desc">我收到了地球自动回复的信息。我想郑重声明，这条自动留言只是说：“祝贺成功着陆。我们期待进一步的报道。”气得我狠狠踢了机器人一脚，然后扭伤了脚踝......</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.name">殖民者日志——第14天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.desc">我已经开始给机器人起名字了。我踢过的那个机器人的伺服系统出了故障。它的步伐有点跳跃，所以我给它起名叫“兔子”。我知道用性别来推断这些事情显得很愚蠢，但两周后，我就再也不在乎这些东西了。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_05.desc">我已经开始给机器人起名字了。我踢过的那个机器人的伺服系统出了故障。它的步伐有点跳跃，所以我给它起名叫“邦妮”（兔子）。我知道用性别来推断这些事情显得很愚蠢，但两周后，我就再也不在乎这些东西了。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.name">殖民者日志——第18天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.desc">I’ve heard it said that having a daily routine is important in a survival scenario, but I’m deeply concerned that I’ve accepted that this is a survival scenario at this point. In the mornings Bunny and I take a jog from the Botany Lab down to MedBay. After that we complete a full inspection of the facility. I found the inspection checklist in storage. </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_06.desc">我听人说过，好的日常生活习惯对生存之旅来说很重要，但我很担心，我现在已经接受了这是一个求生的景况。早上邦妮和我从植物实验室慢跑到医疗室。之后，我们会对工厂进行全面检查。我在仓库里找到了检查清单。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.name">殖民者日志——第22天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.desc">I took a trip to the surface today to take soil samples. I’ve been so focused on other tasks to keep my mind occupied that I forgot about my actual assignment here. The original surveys of the planet indicated a high level of solar radiation on the surface, but a breathable atmosphere and adequate moisture content. The radiation levels are far lower than was originally estimated and appear to be in decline. The surrounding area from the facility shows signs of limited plant growth.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_07.desc">我今天去了一趟地表，采集土壤样本。我一直专注于其他任务以保持我的头脑，以至于我忘记了我在这里的实际任务。对这个星球的最初调查表明，地表的日光辐射水平很高，但大气成分可以呼吸，水分含量充足。但是实际辐射水平远远低于最初的调查数值，而且似乎正在缓慢下降。从设施的周围地区显示出有限的植物生长的迹象。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.name">殖民者日志——第30天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.desc">I’ve received additional automated responses back from Earth, but nothing that would be considered a valid response to the situation we’re in. It’s only been a month, but I have little hope in getting more than that. We all signed on knowing this was a one way ticket, but I wasn’t expecting to be here alone. At least I have Bunny.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_08.desc">我收到了更多来自地球的自动回复，但都不能算是对我们所处情况的有效回应。虽然才过了一个月，但我已经不指望什么了。这就是单程票，但我没想到会一个人待在这里，也不是，至少我还有邦妮陪着。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.name">殖民者日志——第35天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.desc">What little data I’ve managed to get from the stasis systems indicates that the stasis capsules are due to unlock in several hundred years. Primary facility power will never last that long, but the backup batteries in the pods themselves should last indefinitely.
-
-I’m not entirely sure how to feel about that. I find I’m no longer angry about my situation, but it now appears that I’ll be living the remainder of my life inside my own tomb. Bunny says hello.
-        </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_09.desc">我从静滞休眠系统得到的一点数据表明，休眠舱将在几百年后解锁。主要设施的电力不会持续那么久，但休眠舱本身的备用电池应该可以持续使用极长时间。我不知道该作何感想。我发现我不再对这种处境生气，但现在看来我的余生将在坟墓里度过。邦妮向你问好。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.name">殖民者日志——第42天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.desc">While I still have plenty of rations I’ve decided to start growing some of the crops from storage. The hydroponics system is working quite well and it’s nice to be focusing on something other than daily system checks. I’m starting to wish the hemp we brought was something I could smoke.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_10.desc">虽然我仍然有大量的口粮，但我决定开始种植一些储存的作物。水培系统运行得很好，除了每天检查系统外，能专注于其他事情也很好。我开始希望我们带来的大麻能给我带来一点迷醉的感觉。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.name">殖民者日志——第55天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.desc">I’m not sure if my mind is playing tricks on me, but I saw a light in the distance when out collecting samples. It blinked. I thought it must have been a glinting reflection off something in the distance so I went back outside at night. It was still there. I stared at it for almost ten minutes before it suddenly stopped. Bunny thinks I’m just seeing things.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_11.desc">我不确定是不是我有什么问题，但我在收集样品的时候看到了远处的一束光。它闪了闪。我想那一定是远处什么东西的闪光反射，所以我晚上又去了外面。它仍然在那里。我盯着它看了将近十分钟，它才突然小时。邦妮认为我是看到了一些奇怪东西。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.name">殖民者日志——第122天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.desc">Further research on the surface shows the solar radiation is declining far faster than expected. No sign of the blinking light. Moisture levels show a dramatic increase which would indicate that the surrounding area could become forested by the time the team wakes up. Speaking of which, I’m unsure what the team will awake to as far as the facility is concerned, given that it was never meant to last that long without proper maintenance.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_12.desc">对地表的进一步研究表明，太阳辐射的下降速度远远超过预期。奇怪的闪光再也没出现过。湿度水平急剧上升，这表明当探险队醒来时，周围地区可能已经变成森林。说到这里，我不确定团队醒来后会发现什么，就设施而言，不知到能在无维护状态下支撑多久。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.name">殖民者日志——第196天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.desc">Many of the earlier log entries have gone missing and I’m not sure why. They show as deleted, but I certainly don’t remember deleting any entries. Could be some sort of data corruption in the files. Bunny insists that she didn’t do it, but I’m not so sure.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_13.desc">许多早期的日志条目都不见了，我不知道为什么。它们显示为已删除，但我肯定没有删除过任何条目。可能是文件中的数据损坏了。邦妮坚持说不是她干的，但我不太确定。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.name">殖民者日志——第245天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.desc">The blinking light in the distance returned. Bunny saw it too. The excursion suit won’t last for that distance and the radiation levels are still too high. I can’t risk it.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_14.desc">远处的闪烁的光又回来了。邦妮也看到了。探险服不能坚持那么远的距离，而且辐射水平对于人类来说仍然太高。我不能冒这个险。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.name">殖民者日志——第471天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.desc">I thought I almost lost Bunny today. She fell over and there was a sudden burning smell. Thank god they were made to be modular. The vision sensor fried, but I was able to plug in a replacement from storage. Damn it, Bunny, don’t scare me like that!</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_15.desc">我以为我今天差点失去了邦妮。她摔倒后，突然传来一股烧焦的味道。谢天谢地，它们是模块化制造的。仅仅是视觉传感器烧坏了，我能够从仓库里插上一个替代品。该死，邦妮，别这样吓我！</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.name">殖民者日志——第1023天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.desc">Years’ worth of records are no longer in the system. Some of them I deleted myself, but I don’t remember deleting the others. Maybe I deleted them all. I’m not sure it’ll make any sense to whoever reads these, IF someone reads these.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_16.desc">多年的记录已经不在系统中了。其中一些是我自己删除的，但我不记得删除了其他的。也许我把它们都删除了。我不确定这对读到这些的人来说是否有意义，如果有人读到这些的话。</gstr>
             
         <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.name">殖民者日志——第2024天</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.desc">I need to know what’s out there. The solar radiation has fallen to a point where I don’t need the excursion suit. I’ve already taken some trips outside without it. I’m not sure what we’ll find out there, but I know what I’ll find down here. 
-Bunny is excited for the trip and, frankly, so am I. It’s been a long time since I’ve felt excited. I’ve deactivated all of the robots. I’m not sure we’ll return.
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_17.desc">我要知道外面有什么。太阳辐射已经下降到我不需要探险服的程度了。我已经不带它出去旅行过几次了。我不确定我们能在那里找到什么，但我知道在这里能找到什么。邦妮对这次旅行很兴奋，坦白说，我也是。我已经很久没这么兴奋了。我已经关闭了所有的机器人。因为我不确定我们是否还会回来。
         </gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_01.name">Expedition Log - Day 0</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_01.desc">We’re ready to go. Given the terrain I estimate it’ll take about a day and a half to reach the source of the blinking light. We’ll be heading out in the morning. The blinking light source is no longer visible due to flora growth, but I have a heading and a boat load of curiosity. Also bunny. Can’t forget Bunny.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_01.name">探险日志——第0天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_01.desc">我们准备出发了。考虑到地形，我估计需要大约一天半的时间才能到达闪烁光源。我们将在早上出发。由于植物群的生长，闪烁光源已不再可见，但我有一个方向和一独自的好奇心。还有邦妮。不能忘记小邦妮。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_02.name">Expedition Log - Day 1</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_02.desc">We’re on the road! I wish there were roads. It’s been a tough hike and we’re taking a short break under a rocky outcrop. Bunny has slowed me down a bit, but I’m glad she is here. I packed a solar charger for her and rations for me. It’s hard to believe we’ve been on this planet for over 5 years now. The landscape has changed so much in that time.&#13;&#10;&#13;&#10;The radiation-soaked wasteland has given way to quite a wide variety of flora and fauna. I still don’t understand how this much growth can occur over such a short amount of time. Bunny and I found a cave and are spending the night. We’ve only seen smaller fauna, but the possibility of larger fauna can’t be ignored. There is so much I don’t understand here.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_02.name">探险日志——第1天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_02.desc">我们踏上了旅途！希望前路平安。这是一次非常艰难的徒步之旅，我们在一块突出的巨大岩石下休息了一会儿。邦妮很显然是拖后腿的那个，但我很高兴她能陪着我。我给她装了一个太阳能电池板，为我自己装了口粮。很难相信我们已经在这个星球上生活了5年多了。在这段时间里，周围的环境发生了很大变化。&#13;&#10;&#13;&#10;充满辐射的荒地已经布满了各样的动植物。我不明白为什么在这么短的时间内会有这么大的变化。我和邦妮找到了一个山洞过夜。目前只看到过较小的动物群，但大型动物群存在的可能性不容忽视。这里有太多我不明白的地方。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_03.name">Expedition Log - Day 2</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_03.desc">We found what appear to be animal tracks outside the cave this morning. The shape is quite alien. I suppose, though, I’m the real alien here. We should be at the source of the blinking light later today. </gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_03.name">探险日志——第2天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_03.desc">今天早上我们在洞穴外发现了动物的足迹。形状很奇怪。不过，换个角度来说，我们才算是外星人。按照目标的速度，今天晚些时候就能到达闪烁光源的地方了。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_04.name">Expedition Log - Day 2</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_04.desc">I’m not sure what I was expecting to find. The source of the blinking light was the destiny rover that was sent during the initial planet survey. The solar panel is still operational, but the satellite uplink looks damaged. There is captured data that was never sent back. Bunny should be able to interface and download the data from the rover.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_04.name">探险日志——第2天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_04.desc">我不确定我想找到什么。我已经确定闪烁光源是在最初的行星殖民调查期间发射的“命运号”探测器。它的太阳能电池板仍在工作，但卫星上行链路似乎遭到损坏。探测器捕获的数据从未发回。邦妮应该能够连接并从探测器下载数据。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_05.name">Expedition Log - Day 3</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_05.desc">Wow. I’ve been reviewing the data that Bunny downloaded from the rover. Some of the images show what appears to be a small angular structure. This can’t be a natural formation. The coordinates indicate that it’s not far from here. If I ration the rations (heh), I think we should be able to see the structure for ourselves. Wow.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_05.name">探险日志——第3天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_05.desc">哇！我一直在查看邦妮从探测器上下载的数据。一些图像组合成了一个小型的角状建筑。这东西不可能是自然形成的物体，并且坐标显示离我不远。如果我带上这些补给品，应该能够看到这个建筑。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_06.name">Expedition Log - Day 4</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_06.desc">I sampled some of the alien flora this morning. After some initial observations, it appeared to be edible. I ate it. All right, eating alien flora is not the smartest thing to do, but I’m a botanist. That’s what I told Bunny, but she just rolled her eye. I’m not dead yet, so that’s a good sign.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_06.name">探险日志——第4天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_06.desc">今天早晨我试着尝了一些外星植物。经过我的初步观测，这些东西可以食用。我已经吃了一点了。不过吃这些外星植物的确不是什么明智的选择，但是谁让我是一个植物学家呢？我就是这么给邦妮说的，不过她只知道翻白眼。好消息是，直到现在，我都还没挂掉！</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_07.name">Expedition Log - Day 5</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_07.desc">Definitely not a natural formation. Had to work my way through some new overgrowth, but there is a door. I repeat: we have a door. I am pretty sure I didn’t make this door, so there is, or was, some sort of advanced life on this planet at some point. What I would like to find out is what is behind said door, but so far I’ve been unable to open it. It has a smooth metal surface, and there is no sign of a handle. There are some symbols, but I’m not sure if they serve a function, or are just decorative. I would settle for at least a doorbell at this point.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_07.name">探险日志——第5天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_07.desc">这东西绝不可能是自然形成的。在我艰难的穿过一片杂草后，我发现了一扇门。重复一遍：我发现了一扇门。我非常确定这扇门不是我造的，所以，这个星球有，或者说曾经在某个时间点上有某种高级生命存在。我想知道这扇门后面是什么，但到目前为止我还没法打开。它有着光滑的金属表面，没有看见把手，另外有一些纹路符号，我不确定这些是装饰还是有什么其它功能。现在要是有个门铃就好了。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_08.name">Expedition Log - Day 8</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_08.desc">I had the strangest dream last night. I climbed a giant pizza mountain. The crust was the base and it was just a single giant slice over a 1000 feet high. I clambered over hamburg boulders and scaled pepperoni slices, but I made it to the top. From the top of Mount Pizza, I could see the house I grew up in. I don’t remember how I got there, but suddenly I was in front of the house, and walked inside. No one was home. I was filled with panic as I desperately searched for my family inside the house. I grew more and more scared until finally I woke up.&#13;&#10;&#13;&#10;As strange as that dream was, it was even more bizarre to realize I woke up and I’m still on an alien planet. I could really go for some pizza.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_08.name">探险日志——第8天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_08.desc">我昨晚做了一个很奇怪的梦。我梦见爬了一座巨大的披萨山。地壳是它的底部，整体是一个超过1000英尺高的巨大薄片。我爬过汉堡巨石，登上意大利辣香肠片，最后还爬到了山顶。从比萨山的山顶上，我可以看到从小长大的房子。我不记得我是怎么到那儿的，但突然间我就到了房子前面，走进去却发现没有人在家。当我绝望恐慌地在房子里寻找不到我的家人时，心里越来越害怕。直到最后从梦中惊醒。&#13;&#10;&#13;&#10;虽然那个梦很奇怪，但更奇怪的是我醒来时发现自己仍然在外星球。唉！我真想去吃点披萨。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_09.name">Expedition Log - Day 11</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_09.desc">Made a trip back to the facility for more supplies. Really wish the vehicle bay was operational. Brought back a mining laser, but it had no effect on the door. Stupidly burned myself touching the door after. The structure itself is the size of a small shack. I’m not sure if I’ve stumbled upon an ancient secret facility, or an ancient alien storage shed.&#13;&#10;&#13;&#10;On a more important note, I spotted more animal tracks. I have the feeling that we're being followed.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_09.name">探险日志——第11天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_09.desc">我得回基地去拿更多的补给。真希望载具车间能正常工作。我带回来一个采矿激光，但对门没有任何作用。然后在不小心碰到门的时候还把自己烫伤了。这个奇怪建筑本身只有一个小棚屋那么大。我不确定我是偶然发现了一个古老的秘密设施，还是一个古老的外星人储藏室。&#13;&#10;&#13;&#10;更重要的是，我发现了更多的动物足迹。我觉得有什么东西在跟踪我们。</gstr>
         
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_10.name">Expedition Log - Day 13</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_10.desc">It’s open. I’m not sure how or why, but the doorway was open this morning. There is just a small empty room inside. There is a panel just inside the door with some sort of controls. Bunny thinks it could be some sort of elevator. It very well could be. I’ve cleared my usual busy schedule to tinker with the controls. Wish me luck.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_10.name">探险日志——第13天</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_mp_dlog_02_10.desc">它打开了。我不知道怎么回事，也不知道为什么，但门今早是开着的。里面只是一个很小的空间。门内侧有一个控制面板。邦妮觉得可能是某种升降梯。这个可能性和大。我已经把平时繁忙的工作日程全部清空，全心去研究控制装置了。祝我好运吧！</gstr>
         
         <!-- Discoveries: Flora -->
         <gstr name="GDDiscoveryItem.dscitm_seed_lumenbulbus.name">光球茎</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_lumenbulbus.desc">A glowing plant bulb containing a cluster of sticky fibrous membranes.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_lumenbulbus.desc">茎秆含有一长簇粘性纤维膜的发光球状茎的植物。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_seed_tanglefruit.name">缠结果</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_tanglefruit.desc">A sweet fruit that looks a bit like an orange banana.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_tanglefruit.desc">一种看起来又像葡萄又像香蕉的甜美果实。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_seed_wheatthorn.name">刺麦</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_wheatthorn.desc">A strange and pointy grain plant that can be processed to make flour.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_wheatthorn.desc">一种可以加工成面粉的拥有奇怪芒刺的谷物类植物。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_seed_spongestalk.name">海绵茎</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_spongestalk.desc">A spongy, and sorta slimy, vegetable crop.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_spongestalk.desc">一种海绵状，有点黏糊糊的蔬菜作物。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_flora_greenalgae.name">绿藻</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_flora_greenalgae.desc">An edible polyphyletic organism. This could also be used to generate nutrients for better plant growth.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_flora_greenalgae.desc">一类可食用的多品种生物。也可以用来生产促进植物生长的营养物质。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_seed_arrowheadfungus.name">箭头菇</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_arrowheadfungus.desc">A large blue capped edible fungus.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_arrowheadfungus.desc">一种顶着蓝色帽子的大型食用菌。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_seed_crimsonbloom.name">绯红花</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_seed_crimsonbloom.desc">A flowering plant with a deep 绯红花.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_seed_crimsonbloom.desc">一种绽放着的深红色美丽花朵。</gstr>
         
         
         <!-- Discoveries: Fauna -->
         <gstr name="GDDiscoveryItem.dscitm_fauna_bluefish.name">蓝双翅鱼</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_fauna_bluefish.desc">A strange alien fish with red fins on the front and rear. A large yellow eye sits near the middle of it's body.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_fauna_bluefish.desc">一种前后有红色鳍的奇特外星鱼。它身体中部有一只黄色的大眼睛。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_fauna_bloodfish.name">血鱼</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_fauna_bloodfish.desc">A small red and black fish that lives predominantly in cave waters.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_fauna_bloodfish.desc">一种红黑色小鱼，主要生活在洞穴水域中。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_fauna_caveworm.name">洞穴蠕虫</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_fauna_caveworm.desc">An elongated and soft bodied animal that is strikingly familiar to an ordinary earth worm. The animal is commonly found in the underground waterways.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_fauna_caveworm.desc">一种细长的软体动物，与普通蚯蚓非常相似。这种动物通常出现在地下水域中。</gstr>
         
         <!-- Discoveries: Decoration Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.name">Holographic Display</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.desc">A sophisticated means of displaying light. With some further study we can use these for decorations.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.name">全息显示器</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_deco_hologramemitters.desc">一种显示光线图形的复杂方法。经过进一步的研究，这些东西可以用于装饰环境。</gstr>
         <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.name">炽光球</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.desc">A strange stack of metal 炽光球. Not sure what they're for, but they sure look cool.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_deco_metalspheres.desc">一堆奇怪的闪光亮球。不知道是做什么用的，但看起来确实很酷。</gstr>
         
         <!-- Discoveries: Machine Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.name">Clone Chamber Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.desc">Blueprint detailing how to create a cloning system. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_memorytransfer.name">Memory Transfer Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_memorytransfer.desc">Blueprint detailing how to create a memory transfer system. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.name">Robot Assembler Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.desc">Blueprint detailing how to create a robot assembly machine. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.name">Aeroponics Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.desc">Blueprint detailing how to create an aeroponics farm. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_hologramemitters.name">Hologram Tech</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpt1_hologramemitters.desc">It looks rather complicated, but the blueprint illustrates a way of manipulating light to create holgrams.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.name">克隆舱蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_clonechamber.desc">创建克隆系统的蓝图。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_memorytransfer.name">记忆传输器蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_memorytransfer.desc">创建记忆传输系统的蓝图。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.name">机器人组装器蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_robotassembler.desc">创建机器人组装器的蓝图。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.name">无土栽培技术蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_aeroponics.desc">创建气培农场的技术蓝图。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_hologramemitters.name">全息技术</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpt1_hologramemitters.desc">技术细节看起来相当复杂，但蓝图展示了一种操纵光线来创建全息影像的方法。</gstr>
         
         <!-- Discoveries: Vehicle Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_hoverdrone.name">Wasp Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_hoverdrone.desc">Blueprints detailing how to create a new vehicle. Further research required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_rover_mk2.name">Hover Explorer Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_rover_mk2.desc">Blueprints detailing how to create a new vehicle. Further research required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_miner.name">Beetle Miner Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_miner.desc">Blueprints detailing how to create a new vehicle. Further research required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_hoverminer.name">Whale Miner Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_hoverminer.desc">Blueprints detailing how to create a new vehicle. Further research required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_res_drone_mk2.name">Sea Turtle Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_res_drone_mk2.desc">Blueprints detailing how to create a new vehicle. Further research required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_hoverdrone.name">“黄蜂”蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_hoverdrone.desc">蓝图详细描述了如何创建一辆新型载具。还需要进一步研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_rover_mk2.name">“悬浮探索者”蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_rover_mk2.desc">蓝图详细描述了如何创建一辆新型载具。还需要进一步研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_miner.name">“甲虫采矿者”蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_miner.desc">蓝图详细描述了如何创建一辆新型载具。还需要进一步研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_hoverminer.name">“鲸鱼采矿者”蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_hoverminer.desc">蓝图详细描述了如何创建一辆新型载具。还需要进一步研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_res_drone_mk2.name">“海龟运输器”蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_res_drone_mk2.desc">蓝图详细描述了如何创建一辆新型载具。还需要进一步研究。</gstr>
         
         <!-- Discoveries: Colonist Equipment Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_muscles_2.name">Sturdy Back Brace Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_muscles_2.desc">Blueprint detailing how to create a sturdy back brace to increase colonist strength. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_muscles_2.name">Heavy Frame Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_muscles_2.desc">Blueprint detailing how to create a sturdier robot frame to increase robot strength. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_athletics_2.name">Running Shoes Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_athletics_2.desc">Blueprint detailing how to create a stylish and functional running shoe. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_athletics_2.name">Heavy Servos Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_athletics_2.desc">Blueprint detailing how to create better servos to increase robotic movement. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_smarts_2.name">Neural Stim Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_smarts_2.desc">Blueprint detailing how to create a neural stimulator. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_smarts_2.name">Microchip Mk. II Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_smarts_2.desc">Blueprint detailing how to create an advanced microship to increase robotic intelligence. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_muscles_2.name">坚固背部支撑器蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_muscles_2.desc">蓝图详细描述了如何制造用于增强殖民者力量的坚固背部支撑器。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_muscles_2.name">重型框架蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_muscles_2.desc">蓝图详细描述了如何制造用于增强机器人力量的重型框架。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_athletics_2.name">跑鞋蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_athletics_2.desc">蓝图详细描述了如何制造时髦又实用的跑鞋。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_athletics_2.name">重型伺服系统蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_athletics_2.desc">蓝图详细描述了如何制造用于增强机器人移动能力的重型伺服系统。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_smarts_2.name">神经接口蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_ch_smarts_2.desc">蓝图详细描述了如何制造神经接口。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_smarts_2.name">微芯片MkII型蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_cr_smarts_2.desc">蓝图详细描述了如何制造增强机器人智能的MkII型微芯片。还需要进一步的研究。</gstr>
         
         <!-- Discoveries: Object Equipment Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powereff_2.name">Advanced Power Supply Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powereff_2.desc">Blueprint detailing how to create an advanced power supply. These should further improve power consumption efficiency. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_watereff_2.name">Advanced Inlet Valve Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_watereff_2.desc">Blueprint detailing how to create an advanced inlet valve to improve water usage efficiency. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_waterboost_2.name">Advanced Pump Motor Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_waterboost_2.desc">Blueprint detailing how to create an advanced pump motor to increase water pump output. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_doublecraft_2.name">Craft Efficiency II Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_doublecraft_2.desc">Blueprint detailing how to create an advanced creaft efficieny module. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powerboost_2.name">Advanced Power Coil Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powerboost_2.desc">Blueprint detailing how to create an advanced power coil to increase power output. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_batteryboost_2.name">Battery Booster II Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_batteryboost_2.desc">Blueprint detailing how to create an improved version of our battery boosters to increase power storage capacity. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_invboost_2.name">Storage Expander II Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_invboost_2.desc">Blueprint detailing how to create an improved version of our storage technology to further increase storage capacity. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powereff_2.name">高级能源供应模块蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powereff_2.desc">蓝图详细描述了如何制造高级能源供应模块。这个模块应该可以提高能源使用效率。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_watereff_2.name">高级进水阀蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_watereff_2.desc">蓝图详细描述了如何制造提高水资源使用效率的高级进水阀。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_waterboost_2.name">高级泵机蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_waterboost_2.desc">蓝图详细描述了如何制造提高泵水效率的高级泵机。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_doublecraft_2.name">制造效率II型蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_doublecraft_2.desc">蓝图详细描述了如何制造制造效率II型模。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powerboost_2.name">高级能源线圈蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_powerboost_2.desc">蓝图详细描述了如何制造提高电力输出的高级能源线圈。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_batteryboost_2.name">电池扩充器II型蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_batteryboost_2.desc">蓝图详细描述了如何制造提高电池储量的电池扩充器II型n模块。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_invboost_2.name">存储扩展器II型蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_invboost_2.desc">蓝图详细描述了如何制造提升存储空间的存储扩展器II型模块。还需要进一步的研究。</gstr>
         
         
         <!-- Discoveries: Vehicle Equipment Blueprints -->
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_movespeed_2.name">Advanced Engine Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_movespeed_2.desc">Blueprint detailing how to create an advanced engine for increased vehicle speed. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_scanspeed_2.name">Advanced Scanner Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_scanspeed_2.desc">Blueprint detailing how to create an advanced scanner device for increased scanning speed. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_minespeed_2.name">Advanced Mining Laser Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_minespeed_2.desc">Blueprint detailing how to create an advanced mining laser for increased vehicle mining speed. Further research will be required.</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_invboost_2.name">Cargo Expander II Blueprint</gstr>
-        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_invboost_2.desc">Blueprint detailing how to create an advanced cargo expander for increased vehicle cargo capacity. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_movespeed_2.name">高级引擎蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_movespeed_2.desc">蓝图详细描述了如何制造提高载具速度的高级引擎。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_scanspeed_2.name">高级扫描器蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_scanspeed_2.desc">蓝图详细描述了如何制造提高扫描速度的高级扫描器。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_minespeed_2.name">高级采矿激光蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_minespeed_2.desc">蓝图详细描述了如何制造提高采矿速度的高级采矿激光。还需要进一步的研究。</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_invboost_2.name">货仓扩展器II型蓝图</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_v_invboost_2.desc">蓝图详细描述了如何制造提高载具货仓的货仓扩展器II型。还需要进一步的研究。</gstr>
         
         <!-- Popup Tips -->
         <gstr name="GDPopupTip.poptip_colonistmgr.name">殖民者管理</gstr>
-        <gstr name="GDPopupTip.poptip_colonistmgr.desc">Here we can get an overview of our colonists and manage job roles, equipment and view our colony status.</gstr>
+        <gstr name="GDPopupTip.poptip_colonistmgr.desc">在这里我们可以看到殖民地概述，并管理工作角色，设备和查看殖民地的状态。</gstr>
         <gstr name="GDPopupTip.poptip_researchwin.name">科研</gstr>
-        <gstr name="GDPopupTip.poptip_researchwin.desc">The research window is where we can unlock new technologies, recipes and more by spending research points, Tech Fragments and/or Bio-Samples.</gstr>
+        <gstr name="GDPopupTip.poptip_researchwin.desc">在科研界面，我们可以通过花费研究点、技术片段或生物样本来解锁新技术、配方等。</gstr>
         <gstr name="GDPopupTip.poptip_discoverywin.name">发现物</gstr>
-        <gstr name="GDPopupTip.poptip_discoverywin.desc">There are many things to discover including blueprints, resources and data. This is where we can view what we have discovered.</gstr>
+        <gstr name="GDPopupTip.poptip_discoverywin.desc">有很多东西需要发现，包括蓝图、资源和数据。在这里我们可以看到发现物资料。</gstr>
         <gstr name="GDPopupTip.poptip_planetmapnotable.name">离线：：缺少升降梯</gstr>
-        <gstr name="GDPopupTip.poptip_planetmapnotable.desc">The planet map interface is where you can manage expeditions, surface structures and vehicles. An elevator needs to be constructed before we have access to the surface.</gstr>
+        <gstr name="GDPopupTip.poptip_planetmapnotable.desc">行星地图界面是管理探险，地表建筑和载具的地方。在我们前往地表之前，需要先建造一部升降梯。</gstr>
         <gstr name="GDPopupTip.poptip_planetmapwithtable.name">星球地图</gstr>
-        <gstr name="GDPopupTip.poptip_planetmapwithtable.desc">The planet map interface is where you can manage expeditions, surface structures and vehicles.</gstr>
+        <gstr name="GDPopupTip.poptip_planetmapwithtable.desc">行星地图界面是管理探险，地表建筑和载具的地方。</gstr>
         
         <!-- Tutorial Tasks-->
         <gstr name="GDTutTask_OpenStartChest.tuttask_opensupplychest.name">补给品！</gstr>
@@ -2833,22 +2829,22 @@ Bunny is excited for the trip and, frankly, so am I. It’s been a long time sin
         <gstr name="GDTutTask_Mining.tuttask_mine.name">采集资源</gstr>
         <gstr name="GDTutTask_Mining.tuttask_mine.desc">我们需要一些结构树脂来开始工作。我们目前没有加工材料的手段，所以我们必须拆除一些残垣断壁来获得结构树脂。建筑师角色的一项工作就是是负责拆解物体。&#13;&#10;&#13;&#10;点击主按钮栏上的收获按钮，选择拆解。按住 左键+拖拽 的方式选择需要拆解的废墟建筑。从已经选定的格子开始点击并拖动可以取消选择。&#13;&#10;&#13;&#10;殖民者的工作角色可以通过点击相应的角色按钮进行重新分配。</gstr>
         <gstr name="GDTutTask_BuildElevator.tuttask_belevator.name">建造升降梯</gstr>
-        <gstr name="GDTutTask_BuildElevator.tuttask_belevator.desc">We'll need to regain access to the top side facility by constructing an elevator. Scans indicate the solar panels are still functional. We can route power from the elevator. </gstr>
+        <gstr name="GDTutTask_BuildElevator.tuttask_belevator.desc">我们需要修建升降梯才能重新进入地表层的设施。扫描显示太阳能电池板还在工作。我们可以通过升降梯输送电力。 </gstr>
         
         <!--<gstr name="GDTutTask_RefineResin.tuttask_refineresin.name">Refine Structure Resin</gstr>
         <gstr name="GDTutTask_RefineResin.tuttask_refineresin.desc">Find and click on the Bio-Refiner in the facility. Click the Add Item Order button. Select structure resin and how much to craft. An engineer will craft the items if the recipe ingredients are available.</gstr>-->
         <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.name">建造作物种植田</gstr>
-        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.desc">Growing crops is important for food and refining materials. Find and select the crop field from the build menu under production. Must be placed on dirt floor.</gstr>
+        <gstr name="GDTutTask_BuildCropField.tuttask_bcropfield.desc">农作物是重要的食物和精炼材料来源。在生产标签下的建造项目中找到并选择作物种植田，并放置于泥土地面上。</gstr>
         <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.name">精炼室</gstr>
-        <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.desc">In order to refine materials such as structure resin and bioplastic we'll need a Bio-Refiner. &#13;&#10;&#13;&#10;The Bio-Refiner must be constructed on refinery flooring and connected to power. Construct power conduits from the EMG to the Bio-Refiner.</gstr>
-        <gstr name="GDTutTask_BuildObject.tuttask_bpower.name">Power Generation</gstr>
-        <gstr name="GDTutTask_BuildObject.tuttask_bpower.desc">We'll need to get power going before we can start research projects. Construct a room using Utility Floor and place an EMG. The EMG will need to be charged up by a colonist.</gstr>
+        <gstr name="GDTutTask_BuildBiorefiner.tuttask_bbiorefiner.desc">为了提炼材料，如结构树脂和生物塑料，我们需要建造一个生物精炼器。&#13;&#10;&#13;&#10;生物精炼器必须建在精炼地板上并连接电源。在EMG发电机和精炼器之间建立一条电力线路。</gstr>
+        <gstr name="GDTutTask_BuildObject.tuttask_bpower.name">能源设备</gstr>
+        <gstr name="GDTutTask_BuildObject.tuttask_bpower.desc">在开始研究科技项目前，我们需要基本的能源供给。使用多功能地板建造一块区域，安装EMG发电机。EMG发电机需要殖民者定时补充机械势能。</gstr>
         <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.name">实验室</gstr>
-        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">Research points are generated at the Research Station by a colonist with the scientist job role. Research points are used to unlock research projects. &#13;&#10;&#13;&#10;The Research Station must be constructed on 实验室 flooring and requires power. Construct power conduits from the power generator to the Research Station.</gstr>
-        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">First Research Project</gstr>
-        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">Open the Research Projects screen from the bottom button bar and choose an available project from the list. Once you have enough research points a research project can be unlocked.</gstr>
+        <gstr name="GDTutTask_BuildComputer.tuttask_bcomputer.desc">研究点是由具有科学家工作角色的殖民者在研究站产生的。研究点可用于解锁研究项目。 &#13;&#10;&#13;&#10;研究站必须建造在实验室的地板上，并且需要电力支撑工作。建设从发电机到研究站的电力线路。</gstr>
+        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.name">第一个研究项目</gstr>
+        <gstr name="GDTutTask_RecoverData.tuttask_recoverdata.desc">从底部按钮栏打开研究项目界面，从列表中选择一个可用的项目。一旦你获得足够的研究点数，对应点数的项目就进入可解锁状态。</gstr>
         <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.name">分配工作角色</gstr>
-        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.desc">Colonists awoken from stasis will already have one 首要工作 assigned. Colonists can have up to three jobs assigned. &#13;&#10;&#13;&#10;Left Click on a colonist to select them. Then click on a job slot in their info panel to assign or change the job in that slot. &#13;&#10;&#13;&#10;Job priority is based on the primary, secondary and tertiary job slots. 首要工作s will be attempted first and so on.</gstr>
+        <gstr name="GDTutTask_AssignJobRole.tuttask_assignjob.desc">殖民者苏醒过来后会被自动指定一个最佳首要工作。每个殖民者最多可以分配三个工作。&#13;&#10;&#13;&#10;左键点击殖民者选择他们。然后单击信息面板中的角色空位来分配或更改该空位中的工作角色。 &#13;&#10;&#13;&#10;工作优先级是基于首要、次要和第三职位的位置。殖民者总是会尝试先进行首要角色的工作，以此类推。</gstr>
         
     </GDInfo>
 </GDInfos>
