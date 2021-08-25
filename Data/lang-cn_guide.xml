@@ -14,53 +14,53 @@
         
         <gstr name="GDGuideTopic.guidetopic_intro.name">简介</gstr>
         <gstr name="GDGuideTopic.guidetopic_intro.desc">            
-Congratulations on being an Infinity Corp Pioneer! 
+热烈欢迎成为无限集团的先驱者！
 
-As you&#8217;ve just awoken at the Mercury Facility, the first order of operation should be to run a full diagnostic and ensure the facility is running as expected. We here at Infinity Corp have full confidence in the automated facility construction project.
+当你在水银号基地设施中苏醒后，操作的第一步应该是进行全面诊断，并确保设施按预期计划运行。我们无限集团公司对自动化设施建设项目充满信心。
 
-&lt;i&gt;&lt;size=12&gt;In the unlikely event that you should lose this manual we would encourage you refrain from doing anything that is not in the best interest of the company or your fellow employees. Also be aware that if you&#8217;ve lost this manual then it is also likely that the mission has not been successful, rendering this manual and your employment ineffective. 
+&lt;i&gt;&lt;size=12&gt;万一您丢失了本手册，我们建议您不要做任何对公司或其他员工不利的事情。同时要注意，如果你丢失了这本手册，那么也可能是任务没有成功，使这本手册和你的雇佣协议失效。
 &lt;/size&gt;&lt;/i&gt; 
 
-&lt;b&gt;**CRITICAL SYSTEMS ERROR**&lt;/b&gt;
+&lt;b&gt;**致命系统错误**&lt;/b&gt;
 
-Extensive error logs indicate that the crew was not awoken at the appropriate time, resulting in extreme deterioration of the Mercury Facility as it decayed over the decades. 
+大量的错误日志表明，乘员没有在适当的时间被唤醒，导致水银号设施情况在过去几十年里严重恶化。
 
-We here at Infinity Corp wish to extend our sincerest apology for any inconvenience this may have caused. You may file a formal complaint when, and if, you return to Earth.
-
-
-Updated Mission Objectives:
-
-Awake colonists from stasis. Not all colonists are accounted for. Additional capsules may have survived, but will need to be found.
-
-Survive and rebuild the Mercury Facility. Much of the original blueprint data has been corrupted. We’ll need to build a computer station for research new technologies.
+我们无限集团公司希望对由此造成的任何不便致以最诚挚的歉意。当你回到地球时，你可以采用诉讼的方式解决争议。
 
 
-&lt;i&gt;&lt;size=12&gt;Note: While injury and death may be unavoidable, it is strongly discouraged. You are all part of the Infinity Corp family and we would hate to lose you.&lt;/size&gt;&lt;/i&gt;
+更新任务目标：
+
+将殖民者从静滞休眠状态唤醒。注意，并非所有的殖民者都被记录在案。额外的休眠仓仍然可能保存完好，当然前提是要找到这些休眠仓。
+
+生存下来，重建水银号设施。许多原始蓝图数据已被破坏。我们需要建造实验室工作站来研究新技术。
+
+
+&lt;i&gt;&lt;size=12&gt;注意：虽然受伤和死亡不可避免，但我们绝不建议你这样做。你们都是无限集团公司大家庭的一员，我们不愿意失去你们。&lt;/size&gt;&lt;/i&gt;
 
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_mining.name">Mining</gstr>
+        <gstr name="GDGuideTopic.guidetopic_mining.name">开采</gstr>
         <gstr name="GDGuideTopic.guidetopic_mining.desc">
-Mining out the surrounding area is necessary to get various materials and provide space to expand. 
+开采周边区域是获得各种材料和提供扩张空间的必要条件。
 
-&lt;size=20&gt;&lt;b&gt;Basic Mining&lt;/b&gt;&lt;/size&gt;
-Basic mining is for removing dirt/ore blocks that directly restrict movement. This type of mining can be done by human colonists and worker bots.
+&lt;size=20&gt;&lt;b&gt;基础开采&lt;/b&gt;&lt;/size&gt;
+基础开采是为了清除直接限制移动的泥土或者矿石。这种类型的开采作业可以由人类殖民者和机器人完成。
 
-&lt;size=20&gt;&lt;b&gt;Deep Mining&lt;/b&gt;&lt;/size&gt;
-Deep mining is for collecting materials from ore floor tiles and can only be done by a deep driller bot constructed using the robot assembler. Deep mining areas will automatically fill with dirt when mining is completed.
+&lt;size=20&gt;&lt;b&gt;深层采掘&lt;/b&gt;&lt;/size&gt;
+深层采掘是为了从矿石地块中采集矿物资源，只能由机器人组装器构建的深层钻机完成。深层采掘在采集完成后会自动填土覆盖坑洞。
 
-Choose the mining mode from the bottom button bar. Drag select the area that you want to mine. Drag selecting tiles starting from an already selected tile will deselect any selected tiles.
+从底部按钮栏选择采掘模式。拖动标记你想开采的区域。从已经标记的区域开始拖动覆盖已选择的区域，将取消选定状态。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_cropmanagement.name">Crop Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_cropmanagement.name">作物管理</gstr>
         <gstr name="GDGuideTopic.guidetopic_cropmanagement.desc">
-Various crops can be grown for food and industrial use. Some crops will require discoveries and research before they are available to be grown.
+各种各样的作物可以被种植用于产出食物和工业原料。有些作物需要发现物和经过研究才能种植。
 
-&lt;size=20&gt;&lt;b&gt;Seeds&lt;/b&gt;&lt;/size&gt;
-Crops require seeds in order to be planted. Seeds can be acquired from harvesting planted crops, wild plants and from expeditions. When a colonist harvests a crop, a seed will be gathered. There is a chance of receiving additional seeds when harvesting based on the colonists botanist level.
+&lt;size=20&gt;&lt;b&gt;种子&lt;/b&gt;&lt;/size&gt;
+作物需要种子才能种植。种子可以从已种植的作物、野生植物和探险过程中获得。当殖民者收获作物时能够同时采集，一单位种子。根据殖民者植物学技能级别，收获时有机会获得额外的种子。
 
-&lt;size=20&gt;&lt;b&gt;Fertilizer&lt;/b&gt;&lt;/size&gt;
-Fertilizer is crafted at the fertilizer crafting station and will speed up plant growth when applied.
+&lt;size=20&gt;&lt;b&gt;肥料&lt;/b&gt;&lt;/size&gt;
+肥料是在肥料加工站制作的，施用肥料能加快植物生长。
 
 The fertilizer button will appear under the crop growth progress meter after a crop has been selected. Once a fertilizer is selected a botanist will deliver the fertilizer. Fertilizer is consumed during each growth cycle and will be reapplied after each harvest if available.
 
