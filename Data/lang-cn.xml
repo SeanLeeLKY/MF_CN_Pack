@@ -1615,7 +1615,7 @@
         <gstr name="ESolidFuelGenerator.power_generator_solidfuel.name">固体燃料发电机</gstr>
         <gstr name="ESolidFuelGenerator.power_generator_solidfuel.desc">燃烧固体燃料发电。简单、笨重但是好用。</gstr>
         <gstr name="EEMechGenerator.power_generator_emg.name">E.M.G.发电机</gstr>
-        <gstr name="EEMechGenerator.power_generator_emg.desc">E.M.G.发电机（Emergency Mechanical Generator-应急机械发电机）可以将机械能转化为电能。需要技师定时补充势能才能正常工作。 </gstr>
+        <gstr name="EEMechGenerator.power_generator_emg.desc">E.M.G.发电机（Emergency Mechanical Generator-应急机械发电机）可以将机械能转化为电能。需要技师定时补充势能才能正常工作。</gstr>
         <gstr name="EStructure.battery_large.name">大型电池</gstr>
         <gstr name="EStructure.battery_large.desc">储存电能以备后续使用。</gstr>
         <gstr name="EStructure.battery_small.name">小型电池</gstr>

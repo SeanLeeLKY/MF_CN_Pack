@@ -62,170 +62,170 @@
 &lt;size=20&gt;&lt;b&gt;肥料&lt;/b&gt;&lt;/size&gt;
 肥料是在肥料加工站制作的，施用肥料能加快植物生长。
 
-The fertilizer button will appear under the crop growth progress meter after a crop has been selected. Once a fertilizer is selected a botanist will deliver the fertilizer. Fertilizer is consumed during each growth cycle and will be reapplied after each harvest if available.
+选择作物后，肥料选项按钮将出现在作物生长进度条下方。选择使用肥料后，植物学家就会定时施用肥料。植物每个生长周期都会消耗一定的肥料，并且在每次收获后重新施用。
 
-&lt;size=20&gt;&lt;b&gt;Aeroponics Farm&lt;/b&gt;&lt;/size&gt;
-The Aeroponics Farm is required for certain crops to be grown. Crops grown in the aeroponics farm will grow more quickly and are resistant to disease.
+&lt;size=20&gt;&lt;b&gt;气培农场&lt;/b&gt;&lt;/size&gt;
+某些作物需要在气培农场种植。在这种设施中种植的作物生长得更快，抗病能力更强。
 
-&lt;size=20&gt;&lt;b&gt;Withering&lt;/b&gt;&lt;/size&gt;
-Crops will wither if left fully grown for too long before being harvested. Harvesting withered crops will only produce a seed.
+&lt;size=20&gt;&lt;b&gt;枯萎&lt;/b&gt;&lt;/size&gt;
+如果作物成熟后长时间不收获就就会进入枯萎状态。收割枯萎的作物只会产出种子。
 
-&lt;size=20&gt;&lt;b&gt;Disease&lt;/b&gt;&lt;/size&gt;
-Crop disease has a chance to occur randomly. A diseased crop should be cleared quickly to avoid it spreading to adjacent crops.
+&lt;size=20&gt;&lt;b&gt;疾病&lt;/b&gt;&lt;/size&gt;
+作物病害会随机发生。生病的作物应迅速清除，以避免蔓延到邻近的作物。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_crafting.name">Crafting</gstr>
+        <gstr name="GDGuideTopic.guidetopic_crafting.name">制造</gstr>
         <gstr name="GDGuideTopic.guidetopic_crafting.desc">
-Crafting stations, such as the bio-refiner, can be used to craft items/materials. 
+制造站台，类似于生物精炼器等，可以用来制造物品或者深加工各种材料。 
 
-To add items to the craft queue select the crafting station and click the Add Item Order button. 
+想要添加物品到制造队列中，可以选择相应的工作设施并点击“添加物品订单”按钮。 
 
-   1. Select the recipe of the item you wish to craft from the recipe list on the left
-   2. Set how many you wish to craft
-   3. Click Apply
+   1. 从左边的配方列表中选择你想要制作的物品的配方
+   2. 设定你希望制作的数量
+   3. 点击应用
 
-The item will be added to the craft queue. Colonists with the respective job role will gather the recipe ingredients, if available, and craft the item(s). You can click the items icon button on the craft queue list to make any changes.
+物品将会被添加到制造队列中。具有相应工作角色的殖民者将会尝试收集配方材料（如果可用的话），并在工作设施上制造物品。你可以点击制造队列中相应的物品图标来对制造信息进行修改。
 
-&lt;b&gt;Deliver To Storage&lt;/b&gt;
-If this option is checked the colonist will attempt to deliver the crafted item(s) to storage once they finish crafting. Otherwise they will drop the crafted item(s) on the ground and continue crafting at the machine, if there is more to be crafted.
+&lt;b&gt;递送到存储区&lt;/b&gt;
+如果选中此选项，殖民者将尝试在完成制作后将制作的物品运送到仓库。否则，如果还有其他需要制作的物品，他们会把制作好的物品就地放下，然后继续在机器上制作。
 
-&lt;b&gt;Craft If Below X&lt;/b&gt;
-If this option is set then colonists will ignore crafting this item if there is already as much or more of the set amount available in storage.
+&lt;b&gt;低于X时制造&lt;/b&gt;
+采用此种制造方式，如果存储区的物品大于或者等于设置数量时，殖民者将会“忽略”这个制造订单。
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_objectplacement.name">Building Objects</gstr>
+        <gstr name="GDGuideTopic.guidetopic_objectplacement.name">建造物件</gstr>
         <gstr name="GDGuideTopic.guidetopic_objectplacement.desc">                
-Machines and structures will need to be constructed in order to generate materials, grow crops or keep colonists happy and healthy. The button bar at the bottom has several categories of objects that can be placed. When hovering over an object in the build menu the required materials, resources, floor type and placement size is shown to the right of the object list. Some objects require data recovery/research before the object can be built.
+为了加工材料、种植作物或保持殖民者情绪和健康，需要建造不同的机器和建筑。底部的按钮栏有几个可以选择放置的物体类别。当鼠标悬停在建造菜单中的一个项目上时，所需的材料、资源、地板类型和位置大小会显示在列表的右侧。有些物件在构建之前需要数据恢复或者进一步研究。
 
-Clicking an object from the build list will close the build list window and attach that object to your cursor. Drag the mouse to a suitable location where the object shows green and left click to place. 
+从建造列表中单击一个物件将关闭建造列表窗口并将该物件附加到鼠标指针上。将鼠标拖动到目标显示为绿色的合适位置，单击左键放置物件。
 
-You can press the ‘R’ key to rotate the object before it is placed.
+在放置物件之前，可以通过按“R”键来旋转物件方向。
 
-The object footprint is visible during object placement. The footprint tiles have different colors to denote walkable (green), unwalkable (red) and avoided tiles (yellow). 
+在物体放置期间，物体占用空间保持可见状态。占用地块用不同的颜色来表示不同的状态，例如可通行（绿色），不可通行（红色）和避让方格（黄色）。
 
-&lt;size=20&gt;&lt;b&gt;Red Tiles&lt;/b&gt;&lt;/size&gt;
-Red tiles will become unwalkable when this object is placed. Colonists will not be able to walk through these tiles at all. These are generally the tiles directly under the machine/object being placed.
+&lt;size=20&gt;&lt;b&gt;红色方格&lt;/b&gt;&lt;/size&gt;
+当放置该物件时，红色方格将变得无法通行。殖民者将无法通过这些方格。这些通常是被放置的机器或者建筑正下方的地块。
 
-&lt;size=20&gt;&lt;b&gt;Green Tiles&lt;/b&gt;&lt;/size&gt;
-Green tiles are enforced walkable tiles for this object. Green tiles can overlap green tile areas from other objects, but can not overlap red or yellow tiles. 
+&lt;size=20&gt;&lt;b&gt;绿色方格&lt;/b&gt;&lt;/size&gt;
+对于这个物件，绿色方格是可通行的方格。绿色方格可以与其他物体的绿色方格区域重叠，但不能与红色或黄色方格重叠。
 
-&lt;size=20&gt;&lt;b&gt;Yellow Tiles&lt;/b&gt;&lt;/size&gt;
-Yellow tiles are avoided by colonists. Colonists can still walk through these tiles if there is no other path, but will prefer to walk around.
+&lt;size=20&gt;&lt;b&gt;黄色方格&lt;/b&gt;&lt;/size&gt;
+殖民者会避开黄色方格。如果没有其他路径，殖民者仍然可以穿过这些方格，但他们更愿意选择另一条路线。
 
-The object footprint is also visible when the object is selected. Once the object is placed a builder will bring the required items from storage to the build location and construct the object. Colonists will remove any item containers from the construction area before a builder is able to construct the object. 
+选择物件时，物件占用空间一直可见。一旦放置了物件，建造者将把所需的材料从存储区搬运到目标位置并建造物件。其他殖民者将在建造物体之前从建筑区域移走多余的物品。
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_decor.name">Decor</gstr>
+        <gstr name="GDGuideTopic.guidetopic_decor.name">装饰</gstr>
         <gstr name="GDGuideTopic.guidetopic_decor.desc">            
-Decor represents the attractiveness of your facility and has a direct impact on colonist stress. Objects such as industrial machines, wall debris and dirt walls generate negative decor. Colonists stress will either increase or decrease as they walk through areas of positive/negative decor.
+装饰度代表了设施地块的吸引力，并对殖民者的压力数据有直接影响。工业机器、墙壁碎片和脏污物品等会产生负面效果。殖民者的压力会随着他们走过不同装饰度的区域而增加或减少。
 
-You can view the decor overlay by pressing the decor overlay button at the bottom right of the game HUD. Areas in red are negative decor, areas in green are positive decor and areas that are white have no effect on decor.
+你可以通过点击游戏界面右下角的装饰覆盖层按钮来查看装饰信息。红色区域为负相关，绿色区域为正相关，白色区表示没有影响。
 
-Decor can be improved by building objects with a positive decor rating such as walls, standing lamps, benches and more.
+装饰可以通过建造具有提高装饰度数据的物体，如墙壁，站立灯，长凳等来改善。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_rooms.name">Rooms</gstr>
+        <gstr name="GDGuideTopic.guidetopic_rooms.name">房间</gstr>
         <gstr name="GDGuideTopic.guidetopic_rooms.desc">            
-Rooms are defined by creating an enclosed area with walls and a door that contains less than 500 tiles. The type of the room depends on the majority of flooring placed within it. If the majority of the tiles are bedroom tiles then it’s a bedroom.
+房间的定义是由墙和门组成的少于500方格面积的封闭区域。房间的类型取决于放置在里面的大部分地板类型。如果大部分地板都是卧室地板，那这个房间就定义为卧室。
 
-You can toggle room visibility using the Room Areas display mode button above the mini-map.  
+你可以使用小地图上方的房间区域显示模式按钮来切换房间能见度。
 
-&lt;size=20&gt;&lt;b&gt;Decor&lt;/b&gt;&lt;/size&gt;
-The decor of a room reflects its attractiveness to colonists. This can be affected negatively by machinery and positively by decorations. Colonists can become stressed if in lower decor areas. The amount of decorations needed depends on room size and other objects in the room that may lower decor.
+&lt;size=20&gt;&lt;b&gt;装饰&lt;/b&gt;&lt;/size&gt;
+房间的装饰度反映了它对殖民者的吸引力。这个数值可能会受到生产机械等物品的减值，以及受到良好装饰物品的增益。如果在装饰度较低的区域，殖民者可能会感到压力上升。要装饰的需求数量取决于房间的大小和房间里其他可能降低装饰度的物品。
 
-&lt;size=20&gt;&lt;b&gt;Lighting&lt;/b&gt;&lt;/size&gt;
-Lighting is important to help colonists work efficiently. This can be increased by adding light objects in a room. The amount of lighting needed depends on room size.
+&lt;size=20&gt;&lt;b&gt;光照&lt;/b&gt;&lt;/size&gt;
+光照对于提高殖民者的工作效率来说非常重要。可以通过在房间中添加光源物体来增加。所需的光照量取决于房间的大小。
 
-&lt;size=20&gt;&lt;b&gt;Efficiency&lt;/b&gt;&lt;/size&gt;
-The efficiency of a room is determined by the Decor and Lighting attributes and has an affect on colonists work speed and success chance.  Efficiency also affects other colonists actions such as sleeping and recreation activities.
+&lt;size=20&gt;&lt;b&gt;效率&lt;/b&gt;&lt;/size&gt;
+房间的效率是由装饰度和照明量决定，影响殖民者的工作速度和工作成功几率。效率也会影响殖民者其他的行为，如睡眠和娱乐活动。
 
-&lt;size=20&gt;&lt;b&gt;Room Effects&lt;/b&gt;&lt;/size&gt;
-Work Success Chance increased by up to 20% based on room efficiency. -10% is added to the work success chance if not performed in a valid room. This only affects actions that can be done in a room. Mining, for example, is not affected.
+&lt;size=20&gt;&lt;b&gt;房间影响&lt;/b&gt;&lt;/size&gt;
+根据房间效率，工作成功几率最多增加20%。如果不是在合适的房间内进行工作，工作成功几率会降低10%。这只影响到可以在房间内进行的行动。某些活动例如，采矿就不受影响。
 
-Crafting speed, for craft stations, is increased when in a room. Craft stations a base work speed of 25% when not in a room. When in a room, their work speed is increased up to 100% based on room efficiency.
+在房间内的工作设施能提高工作速度。当不在房间内时，工作设施的基本工作速度为25%。在房间时，基于房间效率，设施的工作速度可以提高到100%。
 
-Research Stations have up to a 50% chance of generating double research points based on room efficiency.
+基于房间效率，研究站有最高可达50%的几率产生双倍研究点数。
 
-Colonist sleep time decreased up to 25% based on room efficiency.
+根据房间效率，殖民者睡眠时间最多可以缩减25%。
 
-Colonists can receive various positive and negative stress effects from sleeping or eating in rooms based on decor.
+根据房间的装饰，殖民者可以在睡觉或吃饭等活动中持续受到各种积极和消极的压力影响。
 
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_research.name">Research Projects</gstr>
+        <gstr name="GDGuideTopic.guidetopic_research.name">研究项目</gstr>
         <gstr name="GDGuideTopic.guidetopic_research.desc">            
-Completing research projects will unlock various new structures, recipes and more. Research projects are unlocked by spending Research Points, Tech Fragments and/or Bio Samples.
+完成研究项目将解锁各种新的建筑，食谱和更多其它有意思的事物。研究项目可以通过花费研究点数、技术片段或生物样本解锁。
 
-Research points are generated at the research station by a colonist with the scientist job role. Research points can be generated faster with additional research stations and scientists.
+研究点数是由一个作为科学家角色的殖民者在研究站生成的。通过增加研究站和科学家数量，可以更快地生成研究点。
 
-Tech Fragments and Bio Samples can be found from expeditions to surface.
+技术碎片和生物样本可以从地表探险活动中找到。
 
-The tech tree, accessed under facility management, is where you can see all the research projects that can be unlocked. 
+在设施管理选项下方可以找到科研树选项，里面包含所有可以通过一定条件解锁的科研项目。 
 
-Research projects in red cannot be researched until the prerequisite research project is completed. Some research projects also require that certain discoveries be made before it can be unlocked.
+红色部分的研究项目在完成先决研究项目后才能进行研究。一些研究项目还要求拥有某些发现物才能解锁。
 
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_power.name">Power Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_power.name">电力管理</gstr>
         <gstr name="GDGuideTopic.guidetopic_power.desc">            
-Electrical Power is required by various machines. Machines can be connected to power by constructing power conduits from under a machine to a power generator.
+各种机器都需要电力。机器可以通过在自身和发电机之间建立电力线路来接收电力。
 
-&lt;size=20&gt;&lt;b&gt;Fuel Powered Generators&lt;/b&gt;&lt;/size&gt;
-The Coal Generator is a type of generator requiring fuel. You can see what fuel is required by clicking on the generator and viewing it’s information. Fuel is consumed at a constant rate while the generator is enabled.
+&lt;size=20&gt;&lt;b&gt;燃料发电机&lt;/b&gt;&lt;/size&gt;
+燃煤发电机是一种需要燃料的发电机。你可以通过点击发电机并查看它的信息来了解所需何种燃料。在发电机启用时，燃料的消耗速率是恒定的。
 
-Fuel will be delivered by colonists with the Hauler job role and is automatically prioritized over other hauling jobs.
+燃料将由担任搬运工角色的殖民者运送，并自动优先于其他运输工作。
 
-&lt;size=20&gt;&lt;b&gt;Mechanical Power&lt;/b&gt;&lt;/size&gt;
-The EMG or Emergency Mechanical Generator converts mechanical power to electricity. The generator will need to be wound up by a colonist. The generator will need to be wound up again periodically.
+&lt;size=20&gt;&lt;b&gt;机械能&lt;/b&gt;&lt;/size&gt;
+E.M.G.发电机（Emergency Mechanical Generator-应急机械发电机）可以将机械能转化为电能。需要技师定时补充势能才能正常工作。
 
-&lt;size=20&gt;&lt;b&gt;Surface Power&lt;/b&gt;&lt;/size&gt;
-Power conduits placed under the elevator will allow you to access any power generated from the surface within the facility.
+&lt;size=20&gt;&lt;b&gt;地表电力&lt;/b&gt;&lt;/size&gt;
+安装在升降梯内部的电力线路可以让你访问从地面设施产生的电力。
 
-&lt;size=20&gt;&lt;b&gt;Geothermal Power Generator&lt;/b&gt;&lt;/size&gt;
-Geothermal generators can be placed over steam vents to generate power.
+&lt;size=20&gt;&lt;b&gt;地热发电机&lt;/b&gt;&lt;/size&gt;
+固定覆盖在地热出口，可以使用地热产出持续电力。
 
-&lt;size=20&gt;&lt;b&gt;Power Storage&lt;/b&gt;&lt;/size&gt;
-Constructed batteries connected to a power network will store any excess power on the network. If you aren’t generating enough power for your machines then power will be taken from a battery, if available.
+&lt;size=20&gt;&lt;b&gt;电力存储&lt;/b&gt;&lt;/size&gt;
+连接到电力网络的电池组可以储存电网中多余的电力。在你无法为机器产生够量电力时，剩余的电力缺口将由电池中存储的电力补齐，当然，前提是你要有储存有电力的电池连接在电网中。
 
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_water.name">Water Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_water.name">水资源管理</gstr>
         <gstr name="GDGuideTopic.guidetopic_water.desc">            
-Water is required by various machines and is generated using a water pump placed over water. It is a good idea to place water pumps adjacent to a walkable floor so colonists have access to build it. 
+很多机器都需要水，水是通过安装在水面的水泵提取的。将水泵放置在可行走的地面附近，方便殖民者建造。
 
-Machines that require water must have water conduits built from the water pump to the machine.            
+耗水机器必须有从水泵到机器的水管连接。         
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_watertrap.name">Water Trap</gstr>
+        <gstr name="GDGuideTopic.guidetopic_watertrap.name">水阱笼</gstr>
         <gstr name="GDGuideTopic.guidetopic_watertrap.desc">            
-The  Water Trap will passively gather materials and food items from underground water sources. Gathering speed is affected by the number of adjacent water tiles. The water trap does not require bait to function, but it’s gathering speed can be further increased by using it. If available, a biologist will bring and apply bait to the trap.
+水阱笼会被动地从地下水源中收集材料和食物。采集速度受相邻水域格数影响。水阱笼不需要诱饵，但它的收集速度可以通过使用诱饵进一步提高。生物学家会把诱饵带到水阱笼里，并将其应用到水阱笼中。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_equipment.name">Equipment</gstr>
+        <gstr name="GDGuideTopic.guidetopic_equipment.name">装备</gstr>
         <gstr name="GDGuideTopic.guidetopic_equipment.desc">
-Equipment items can be equipped by colonists or installed into vehicles and machines to add various effects. Equipment items can be crafted or found inside tech chests. Colonists, machines and vehicles have a fixed amount of equipment slots. 
+装备物品可以由殖民者装备或安装到车辆和机器，以添加各种效果。装备物品可以制作或在科技箱中找到。殖民者、机器和车辆都有固定数量的装备槽。
 
-&lt;size=20&gt;&lt;b&gt;Colonist Equipment&lt;/b&gt;&lt;/size&gt;
-Colonist equipment is equipped by selecting a colonist and clicking on an available equipment slot. After selecting an available equipment item the colonist will go get, and then equip the item.
+&lt;size=20&gt;&lt;b&gt;殖民者装备&lt;/b&gt;&lt;/size&gt;
+殖民者装备可以通过选择一个殖民者并点击一个可用的装备槽来装备。在选择一个可用的装备项目后，殖民者将尝试去获得相应的物品，然后装备物品。
 
-&lt;size=20&gt;&lt;b&gt;Machine Equipment&lt;/b&gt;&lt;/size&gt;
-Machine equipment is installed by selecting the machine and clicking an available equipment slot. After selecting an available equipment item a builder will go get and then install the equipment item on the machine.
+&lt;size=20&gt;&lt;b&gt;机器装备&lt;/b&gt;&lt;/size&gt;
+机器装备是通过选择机器和点击一个可用的设备槽来安装。在选择一个可用的装备项目后，建设者将尝试获取物品并安装在机器上。
 
-&lt;size=20&gt;&lt;b&gt;Vehicle Equipment&lt;/b&gt;&lt;/size&gt;
-Vehicle equipment is installed by clicking an available equipment slot in the vehicle info on the left side of the planet map interface. After selecting an available equipment item a technician will bring the equipment item to an available shipping container for installation in the vehicle bay. Vehicles must be docked in order to install equipment and can not be embarked again until the equipment is installed.
+&lt;size=20&gt;&lt;b&gt;载具装备&lt;/b&gt;&lt;/size&gt;
+载具装备可以通过点击行星地图界面左侧车辆信息中的可用装备槽来安装。在选择一个可用的装备项目后，技工将把物品带到一个可用的容器中放置到载具仓。车辆必须停靠于载具仓安放装备，在安装好之前不能登车。
 
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_caveins.name">Cave-in Event</gstr>
+        <gstr name="GDGuideTopic.guidetopic_caveins.name">塌方事件</gstr>
         <gstr name="GDGuideTopic.guidetopic_caveins.desc">
-A cave-in may occur on any tile that is not within 5 tiles of a structural support object. Structure supports include natural dirt/ore walls, metal walls, doors and the elevator. A cave in may also happen on tiles with constructed flooring so constructed rooms should be not bigger than 10x10. 
+塌方可能发生在距结构支撑物体5格以外的任何格子上。结构支撑包括天然土墙、矿堆、金属墙、门和电梯。在铺设了地板的地块上也可能发生塌方，所以建造的房间应该尽量不大于10x10的面积。
 
-When a cave-in does occur the affected tile will collapse and refill with dirt or ore. There is a chance the adjacent tiles will also collapse.
+当塌方发生时，受影响的方格会坍塌，并堆满泥土或矿石。相邻的方格也有可能坍塌。
         </gstr>
         
-        <gstr name="GDGuideGroup.guidegroup_colonists.name">Colonists</gstr>
+        <gstr name="GDGuideGroup.guidegroup_colonists.name">殖民者</gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_attributes.name">Attributes</gstr>
+        <gstr name="GDGuideTopic.guidetopic_attributes.name">特性</gstr>
         <gstr name="GDGuideTopic.guidetopic_attributes.desc">            
 Each colonist has three core attributes. Attributes determine possible job roles and job role success chance in addition to the effects below. Attributes can be modified by equipment items.
                         
