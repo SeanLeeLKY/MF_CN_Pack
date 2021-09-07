@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <GDInfos>
-    <GDInfo name="lng_en" class="GDGameLanguage">
+    <GDInfo name="lng_cn" class="GDGameLanguage">
         <components>
             <comp class="CProperties">
-                <display_name>English</display_name>
-                <language_code>en-US</language_code>  
+                <display_name>简体中文</display_name>
+                <language_code>zh-CN</language_code>
             </comp>
         </components>
-        
-        <gstr name="GDMission.msn_opensupplychest.name">Supplies!</gstr>
+
+        <gstr name="GDMission.msn_opensupplychest.name">补给品！</gstr>
         <gstr name="GDMission.msn_opensupplychest.desc">
-A starting supply chest has been left near the stasis capsules by an unknown benefactor. 
+静滞休眠仓附近发现了一个启动补给箱，可能是某个不知名的好心人留下的吧。
 
-&lt;i&gt;Select the chest and press the Open button.&lt;/i&gt;
+&lt;i&gt;选择箱子然后点击打开按钮&lt;/i&gt;
         </gstr>
-        
-        
-        <gstr name="GDMission.msn_opensupplychest.open_crate.name">Open Supply Chest</gstr>
-        
-        <gstr name="GDMission.msn_openstasiscapsule.name">Overslept</gstr>
+
+
+        <gstr name="GDMission.msn_opensupplychest.open_crate.name">打开补给箱</gstr>
+
+        <gstr name="GDMission.msn_openstasiscapsule.name">睡过头了</gstr>
         <gstr name="GDMission.msn_openstasiscapsule.desc">
-The stasis capsules have once again activated and the colonists are ready to be awoken from their long slumber. 
-Click on a stasis capsule and click open to get them out.
+静滞休眠仓再次被激活，殖民者已经准备好从漫长的沉睡中被唤醒。
+点击静滞休眠仓，打开并唤醒殖民者。
 
-&lt;i&gt;Colonists can have 3 job roles assigned at a time. These can be changed by clicking the job role button in their info panel.&lt;/i&gt;
+&lt;i&gt;殖民者可以同时执行3个工作角色。可以通过点击殖民者信息面板上的工作角色按钮来进行切换操作。&lt;/i&gt;
         </gstr>
-        
-        <gstr name="GDMission.msn_openstasiscapsule.open_crate.name">Open Supply Chest</gstr>
-        
-    
-        <gstr name="GDMission.msn_deconstructwalls.name">Further Destruction</gstr>
+
+        <gstr name="GDMission.msn_openstasiscapsule.open_crate.name">打开补给箱</gstr>
+
+
+        <gstr name="GDMission.msn_deconstructwalls.name">毁坏的未来</gstr>
         <gstr name="GDMission.msn_deconstructwalls.desc">
-As the colonists step from their stasis capsules it becomes immediately clear that something has gone horribly wrong. The readouts on the stasis capsules indicate that the capsules did not initiate the revival protocol at the expected time. The facility has fallen to ruin as they slept through the years.
+当殖民者从他们的静滞休眠仓中走出来时，马上就会发现有些事情出了恐怖的问题。静滞休眠仓上的读数显示，休眠仓没有在预计的时间点启动唤醒协议。在他们沉睡的岁月里，该设施已沦为废墟。
 
-We'll need some structure resin to get started. We don't currently have the means to process materials so we'll have to deconstruct the remaining walls for structure resin. The Builder job role is responsible for deconstructing objects.
+我们需要一些结构树脂来开始工作。我们目前没有加工材料的手段，所以我们必须拆除一些残垣断壁来获得结构树脂。建筑师角色的一项工作就是是负责拆解物体。
 
-&lt;i&gt;Click the harvest button on the main button bar and select deconstruction. Hold LMB + Drag to select wall debris to be mined. Click and drag starting from already selected tiles to deselect.
+&lt;i&gt;点击主按钮栏上的收获按钮，选择拆解。按住 左键+拖拽 的方式选择需要拆解的废墟建筑。从已经选定的格子开始点击并拖动可以取消选择。
 
-Colonists can have 3 job roles assigned at a time. These can be changed by clicking the job role button in their info panel.&lt;/i&gt;
+殖民者可以同时执行3个工作角色。可以通过点击殖民者信息面板上的工作角色按钮来进行切换操作。&lt;/i&gt;
         </gstr>
-        
-        <gstr name="GDMission.msn_deconstructwalls.destroy_wall.name">Deconstruct Walls</gstr>
-        
+
+        <gstr name="GDMission.msn_deconstructwalls.destroy_wall.name">拆解墙壁</gstr>
+
     </GDInfo>
 </GDInfos>
