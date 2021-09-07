@@ -225,202 +225,202 @@ E.M.G.发电机（Emergency Mechanical Generator-应急机械发电机）可以�
         
         <gstr name="GDGuideGroup.guidegroup_colonists.name">殖民者</gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_attributes.name">特性</gstr>
+        <gstr name="GDGuideTopic.guidetopic_attributes.name">属性</gstr>
         <gstr name="GDGuideTopic.guidetopic_attributes.desc">            
-Each colonist has three core attributes. Attributes determine possible job roles and job role success chance in addition to the effects below. Attributes can be modified by equipment items.
+每个殖民者都有三个核心属性。核心属性除了有以下影响之外，还决定了殖民者可能擅长的工作角色和工作成功几率。属性可以使用装备物品进行一定修改。
                         
-&lt;size=20&gt;&lt;b&gt;Smarts&lt;/b&gt;&lt;/size&gt;
-Increases earned experience in Job Roles by 10% per point.
+&lt;size=20&gt;&lt;b&gt;才智&lt;/b&gt;&lt;/size&gt;
+每点增加10%的工作经验。
             
-&lt;size=20&gt;&lt;b&gt;Muscles&lt;/b&gt;&lt;/size&gt;
-Determine inventory space by 10 per level. Colonists with 8 or above in muscles will no longer have a movement penalty applied when carrying items.
+&lt;size=20&gt;&lt;b&gt;力量&lt;/b&gt;&lt;/size&gt;
+每点提供10单位携带空间。力量属性大于等于8点的殖民者在携带物品时不再有移动惩罚。
 
-&lt;size=20&gt;&lt;b&gt;Athletics&lt;/b&gt;&lt;/size&gt;
-Determines movement speed. Each colonist has a different base movement speed which is increased with each point in Athletics.
+&lt;size=20&gt;&lt;b&gt;运动&lt;/b&gt;&lt;/size&gt;
+决定移动速度。每个殖民地都有不同的基础移动速度，运动属性每点都会增加一定的基础速度。
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_needs.name">Needs</gstr>
+        <gstr name="GDGuideTopic.guidetopic_needs.name">需求</gstr>
         <gstr name="GDGuideTopic.guidetopic_needs.desc">            
-&lt;size=20&gt;&lt;b&gt;Health&lt;/b&gt;&lt;/size&gt;
-Colonist health is important to the survival of your colony. Colonists can lose health from various injuries while doing their job. Colonists are far less likely to be injured on the job if they are more skilled in that job. The Medi-Bed is used to treat patients which will restore their health and remove any ailments.
+&lt;size=20&gt;&lt;b&gt;健康&lt;/b&gt;&lt;/size&gt;
+殖民者的健康对殖民地的存续非常重要。殖民者在工作时可能会因为各种伤害而失去健康值。如果殖民者更熟练于手中工作技能的话，他们在工作中受伤的可能性就会小得多。医疗床用来治疗病人伤员，可以恢复健康、消除疾病。
 
 
-&lt;size=20&gt;&lt;b&gt;Fatigue&lt;/b&gt;&lt;/size&gt;
-Colonists will get tired over time. While they can sleep on the floor, they will get greater benefit by sleeping in a bed.
+&lt;size=20&gt;&lt;b&gt;疲劳&lt;/b&gt;&lt;/size&gt;
+随着时间的推移，殖民者会感到疲惫。虽然他们可以直接睡在地板上，但谁会不想在一张床上好好休息呢？
 
 
-&lt;size=20&gt;&lt;b&gt;Hunger&lt;/b&gt;&lt;/size&gt;
-Like most biological lifeforms, colonists will need to consume food. Food is prepared at the cook station from grown crops.
+&lt;size=20&gt;&lt;b&gt;饥饿&lt;/b&gt;&lt;/size&gt;
+和大多数生物生命形式一样，殖民者需要进食。食物是在烹饪台用各种食物原材料制作出来的。
 
-Food items have two important attributes:
+食物有两个重要的属性：
 
-Satiation: This is the amount, in percent, of hunger that will be reduced when consuming this item. Better quality meals are more satiating than low quality or raw food item.
+饱腹感：这是吃了这种食物后饥饿感会减少的百分比。高质量的食物比低质量或生食更让人有饱腹感。
 
-Nutrition: This affects the rate of change for the hunger meter. A higher nutrition percent will slow the change rate so that a colonist doesn’t become hungry again so soon. The applied nutrition value decays naturally over time.
+营养度：这将影响饥饿度数据的变化率。较高营养含量的食物会减缓变化速率，这样殖民者就不会经常感到饥饿。已经开始计算的营养度会随着时间的推移而自然衰减。
 
 
-&lt;size=20&gt;&lt;b&gt;Stress&lt;/b&gt;&lt;/size&gt;
-Colonists work best in a calm and stress free environment. Negative facility decor, sleeping on the ground and other factors can cause colonists to become stressed. 
+&lt;size=20&gt;&lt;b&gt;压力&lt;/b&gt;&lt;/size&gt;
+殖民者在平静和无压力的环境中工作得最好。恶劣的设施装饰，睡在地上的行为和其他很多因素会导致殖民者变得紧张。
 
-High stress will decrease the success chance of job actions which can result in various undesired results.
+高压力状态会降低工作行动成功的几率，从而导致各种糟糕的结果。
 
-Each colonist also has a stress reaction Quirk. When a colonist reaches 100% stress they will act out depending on this quirk. You can view quirks in the colonist management screen or by selecting a colonist.
+每个殖民者都有各种应激反应怪癖。当殖民者达到100%压力时，他们会根据这个怪癖来行动。您可以在殖民者管理界面或通过选择一个殖民者查看相应信息。
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_jobroles.name">Job Roles</gstr>
+        <gstr name="GDGuideTopic.guidetopic_jobroles.name">工作角色</gstr>
         <gstr name="GDGuideTopic.guidetopic_jobroles.desc">
-Job roles determine what a colonist will and won’t do and can be changed at any time by clicking a job slot. Colonists can be assigned a primary, secondary and tertiary job role. The job slot also determines job priority. A job in the primary slot will have a higher priority than a job in the secondary slot.
+工作角色决定了殖民者会做和禁止的工作，并且可以通过点击工作槽位随时更改。殖民者可以被分配到主要、次要和第三级工作角色。工作槽位还决定了工作优先级。主要槽位上的工作优先级高于次要槽位上的工作。
 
-Colonists gain experience as they perform tasks associated with a given job role. Once a colonist has generated enough experience they will gain a level in that job role. Higher level colonists will work faster and make fewer mistakes.
+殖民者在执行与给定工作角色相关的任务时会获得经验。一旦殖民者积累了足够的经验，他们将获得一次相应工作角色的等级提升。更高级别的殖民者会工作得更快，犯的错误更少。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_schedules.name">Schedules</gstr>
+        <gstr name="GDGuideTopic.guidetopic_schedules.name">日程表</gstr>
         <gstr name="GDGuideTopic.guidetopic_schedules.desc">
-The schedules interface allows you to assign activities to your colonists per hour over a 24 hour period. Every colonist is assigned to at least one schedule. Additional schedules can be created and the activity hours can be changed by selecting the activity type and clicking the desired hour.
+日程表界面允许你在24小时内为你的殖民者分配每小时的活动。每个殖民者默认状态下都会被分配到至少一个日程表。你可以创建更多的日程表，并且可以选择活动类型和点击所需的小时数来改变相应的活动时间。
 
-&lt;size=20&gt;&lt;b&gt;Work&lt;/b&gt;&lt;/size&gt;
-During work hours, colonists will perform work duties. Needs such as sleeping and eating will only occur if they become critical.
+&lt;size=20&gt;&lt;b&gt;工作&lt;/b&gt;&lt;/size&gt;
+在工作时间内，殖民者将履行工作职责。睡眠和饮食等需求只有在变得非常需要时才会激活相应的状态。
 
-&lt;size=20&gt;&lt;b&gt;Sleep&lt;/b&gt;&lt;/size&gt;
-The desire for sleep is increased during sleep hours. Colonists will head to bed during sleep hours if their sleep need is above 30%. Once a colonist is sleeping they will continue to sleep until fully rested, ignoring any other scheduled activities during this time.
+&lt;size=20&gt;&lt;b&gt;睡眠&lt;/b&gt;&lt;/size&gt;
+在睡眠时间里，睡觉的行动倾向会增加。如果殖民者的睡眠需求超过30%，他们就会在睡眠时间上床睡觉。一旦殖民者进入睡眠状态，他们就会持续睡觉，直到完全休息好，在此期间忽略任何其他安排好的活动。
 
-&lt;size=20&gt;&lt;b&gt;Recreation&lt;/b&gt;&lt;/size&gt;
-During recreation hours a colonist will handle their stress and hunger needs. The desire to eat is increased during this time and colonists will eat if their hunger is greater than 30%.
+&lt;size=20&gt;&lt;b&gt;娱乐&lt;/b&gt;&lt;/size&gt;
+在娱乐时间殖民者将尝试解决他们的压力和饥饿需求。在这段时间里，人们的进食倾向会增加，如果饥饿感超过30%，殖民者就会尝试进食。
 
-&lt;size=20&gt;&lt;b&gt;Training&lt;/b&gt;&lt;/size&gt;
-During training hours a colonist will perform attribute training activities such as working out in the gym or using the reading station.
+&lt;size=20&gt;&lt;b&gt;训练&lt;/b&gt;&lt;/size&gt;
+在训练期间，殖民者将进行属性训练活动，如在健身房锻炼或使用阅读站。
 
-&lt;size=20&gt;&lt;b&gt;Free Time&lt;/b&gt;&lt;/size&gt;
-Free time hours do not represent any specific activity. During this time colonists are able to perform any actions depending on their needs.
+&lt;size=20&gt;&lt;b&gt;空闲&lt;/b&gt;&lt;/size&gt;
+空闲时间并不代表任何特定的活动。在此期间，殖民者可以根据自己的需要执行任何操作。
 
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_training.name">Training</gstr>
+        <gstr name="GDGuideTopic.guidetopic_training.name">训练</gstr>
         <gstr name="GDGuideTopic.guidetopic_training.desc">
-Colonists attributes and job roles can be trained using specialized equipment.
+殖民者的属性和工作角色可以使用专门的设备进行训练。
 
-&lt;size=20&gt;&lt;b&gt;Attributes&lt;/b&gt;&lt;/size&gt;
-Colonists will train attributes at specific equipment, such as the treadmill, during designated training times. Training times can be configured using colonist schedules.
+&lt;size=20&gt;&lt;b&gt;属性&lt;/b&gt;&lt;/size&gt;
+殖民者将在指定的训练时间在特定的设备上训练属性，比如跑步机。可以使用殖民者日程表配置训练时间。
 
-&lt;size=20&gt;&lt;b&gt;Job Roles&lt;/b&gt;&lt;/size&gt;
-The memory transfer station is used to transfer job experience from one colonist to another. The memory transfer station must be configured with a trainer, a trainee and what job to train.
+&lt;size=20&gt;&lt;b&gt;工作角色&lt;/b&gt;&lt;/size&gt;
+记忆传输站用来将工作经验从一个殖民者转移给另一个殖民者。记忆传输站必须设置一个训练者，一个受训者和要训练的工作。
 
-Once set up, the trainer will begin transferring their job skill to the trainee for the assigned job role. Colonists will only use the memory transfer station during scheduled training hours. The trainee will gain job experience from the trainer until they are at the same level as the trainer.
+一旦设置完毕，训练者开始将他们指定工作角色的的技能转移给受训者色。殖民者只会在预定的训练时间内使用记忆传输站。受训者将从训练者那里不断获得工作经验，直到达到与训练者相同的技能水平。
 
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_rostermanagement.name">Roster Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_rostermanagement.name">名册管理</gstr>
         <gstr name="GDGuideTopic.guidetopic_rostermanagement.desc">
-The colonist roster allows you to assign colonists that can work at the specified machine. Selecting a production machine and clicking the Manage Roster button will show a list of eligible colonists that can be assigned to that machine.
+殖民者名册允许你分配可以在指定机器上工作的殖民者。选择一个生产机器并点击殖民者管理按钮，将显示一个可以分配到该机器的合格殖民者的列表。
 
-The roster will affect colonists in the following way:
+名册管理将用以下方式影响殖民者：
 
-        1. A colonist &lt;i&gt;will&lt;/i&gt; work at a machine with either an empty roster or a machine that has their name on it's roster list.
-        2. A colonist &lt;i&gt;will not&lt;/i&gt; work at a machine that has a roster list and their name isn't on the list.
+        1. 一个殖民者&lt;i&gt;会&lt;/i&gt;在一个空名册机器或一个名册上有他们名字的机器上工作。
+        2. 一个殖民者&lt;i&gt;不会&lt;/i&gt;在一台已经有名册，但是名册上没有他名字的机器上工作。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_robots.name">Robots</gstr>
+        <gstr name="GDGuideTopic.guidetopic_robots.name">机器人</gstr>
         <gstr name="GDGuideTopic.guidetopic_robots.desc">
-Robots are a special type of colonist with limited job abilities. Robots won’t get stressed and don’t eat, but they do need to recharge their batteries at a recharge station. 
+机器人是一种特殊类型的殖民者，工作能力有限。机器人不会有压力，也不吃饭，但需要在充电板充电。
 
-Additional robots, and robot types, can be built using the Robot Assembly machine, once the research for it has been performed. 
+一旦进行了相关的研究，就可以使用机器人组装机建造更多类型的机器人。
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_quirks.name">Quirks</gstr>
+        <gstr name="GDGuideTopic.guidetopic_quirks.name">怪癖</gstr>
         <gstr name="GDGuideTopic.guidetopic_quirks.desc">            
-Colonists may have some personality quirks that can positively or negatively affect both attributes and needs. Quirks can be viewed by selecting a colonist and clicking the Stats button in their info window. Hovering the mouse over a Quirk will show a tool-tip with additional information. 
+殖民者可能会有一些性格上的怪癖，这些怪癖会对属性和需求产生积极或消极的影响。怪癖可以通过选择殖民者的个人信息窗口查看。将鼠标悬停在怪癖词条上，将显示带有附加信息的提示栏。
 
-Quirks are assigned randomly to a colonist upon colonist creation; this is true for cloned colonists as well. Quirks are a permanent element of that colonist.            
+在生成殖民者时，怪癖会被随机分配给殖民者；克隆殖民者也是如此。怪癖是殖民者个人的永久特征。            
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_ailments.name">Ailments</gstr>
+        <gstr name="GDGuideTopic.guidetopic_ailments.name">疾病</gstr>
         <gstr name="GDGuideTopic.guidetopic_ailments.desc">            
-Ailments can be contracted while a colonist is performing a job. A colonist with a higher job level in a certain job is less likely to receive an ailment. Ailments can affect colonist needs or attributes in a variety of ways depending on the nature of the ailment. Ailments may also directly impact that colonists health when they first receive the ailment. Ailments can be treated and removed at the Medi-Bed.            
+殖民者在工作时可能会染上疾病。在某一工作岗位上工作水平越高的殖民者患病的可能性越小。疾病可以以不同的方式影响殖民者的需求或属性，这点取决于疾病的性质。当殖民者第一次得病时，疾病也可能直接影响殖民者的健康。疾病可以在医疗床上治疗和消除。         
         </gstr>
             
-        <gstr name="GDGuideGroup.guidegroup_surfaceexploration.name">Planet Surface</gstr>
+        <gstr name="GDGuideGroup.guidegroup_surfaceexploration.name">星球地表</gstr>
             
-         <gstr name="GDGuideTopic.guidetopic_pois.name">Points Of Interest</gstr>
+         <gstr name="GDGuideTopic.guidetopic_pois.name">兴趣点（POI）</gstr>
         <gstr name="GDGuideTopic.guidetopic_pois.desc">
-Points of Interest are explorable locations on the surface map. These are revealed as the map is explored. 
+兴趣点（Points of Interest）是地表地图上出现的可探索位置。这些会随着地图的探索而显露出来。
 
-In order to explore Points Of Interest an expedition must be created. See the Expeditions section for more details.
+为了探索兴趣点，必须创建探险队。更多细节请参阅探险部分。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_expeditions.name">Expeditions</gstr>
+        <gstr name="GDGuideTopic.guidetopic_expeditions.name">探险</gstr>
         <gstr name="GDGuideTopic.guidetopic_expeditions.desc">
-Expeditions allow colonists to venture out onto the surface of the planet to investigate points of interest. Points of interest can unlock new discoveries, resources and more.
+探险允许殖民者组建探险队到行星地表去调查兴趣点。兴趣点可以解锁新发现物，资源等。
 
-The expedition list, on the planet map interface, is where you can create and monitor active expeditions. To form an expedition click the “+” button in the expedition list which will open the Create Expedition screen. 
+行星地图界面上的探险界面，是创建和监控探险活动的地方。要开启一个探险队，点击探险列表中的“+”按钮，这将打开创建探险队的界面。
 
-&lt;size=20&gt;&lt;b&gt;Vehicle Selection&lt;/b&gt;&lt;/size&gt;
-While an expedition can travel on foot, a vehicle will provide increased speed and storage space on your journey.
+&lt;size=20&gt;&lt;b&gt;载具选择&lt;/b&gt;&lt;/size&gt;
+虽然探险队可以徒步旅行，但载具可以为你的旅程提供更高的行进速度和更大的货运空间。
 
-&lt;size=20&gt;&lt;b&gt;Manage Destinations&lt;/b&gt;&lt;/size&gt;
-Click the Manage Destinations button to select one or more Points Of Interest on the map to explore. Once the expedition party is formed they will automatically travel to each selected POI in turn and then return back to the facility to dock.
+&lt;size=20&gt;&lt;b&gt;管理目标点&lt;/b&gt;&lt;/size&gt;
+单击管理目标点按钮，在地图上选择一个或多个要探索的兴趣点。探险队组建完成后，他们将自动依次前往每个选定的兴趣点，然后返回基地停靠修整。
 
-&lt;size=20&gt;&lt;b&gt;Expedition Items&lt;/b&gt;&lt;/size&gt;
-Human colonists will require food while out exploring points of interest. After selecting your destinations the total distance will appear in the Expedition Details section. Be sure to add enough food so that the estimated food supply is equal to or greater than your estimated travel time.
+&lt;size=20&gt;&lt;b&gt;探险物品&lt;/b&gt;&lt;/size&gt;
+人类殖民者在探索的过程中需要消耗食物。选择目的地后，预估总距离将出现在探险详细信息中。确保携带足够的食物，使预估的食物消耗时间大于你的探险预估时间。
 
-&lt;size=20&gt;&lt;b&gt;Colonist Selection&lt;/b&gt;&lt;/size&gt;
-Click the Manage Passengers button to select who will go on the expedition. Sending colonists with higher level job skills will increase your chance of succeeding at the points of interest. Selecting a point of interest on the map will provide information on any risk and what job roles are recommended.
+&lt;size=20&gt;&lt;b&gt;殖民者选择&lt;/b&gt;&lt;/size&gt;
+点击乘员管理按钮来选择参加探险的殖民者。派遣具有更高水平工作技能的殖民者将增加你在兴趣点成功探索的几率。在地图上选择兴趣点将提供风险信息，以及推荐参与的工作角色。
 
-Once an expedition has been created the colonists will bring supplies to the vehicle via the elevator or shipping container. Colonists will then board the vehicle. 
+一支探险队建立过程中，殖民者就会通过升降梯或运输容器把各种物品带到载具上，之后殖民者再登上载具。
 
-The expedition will automatically travel to each selected destination in turn and then return to the facility. When they arrive at a point of interest a window will appear with choices on completing the point of interest.
+探险队将自动依次前往每个选定的目的地，然后返回基地。当它们到达兴趣点时，界面将弹出一个窗口，包含完成兴趣点内容的一系列选项。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_surfaceconstruction.name">Surface Construction</gstr>
+        <gstr name="GDGuideTopic.guidetopic_surfaceconstruction.name">地表建筑</gstr>
         <gstr name="GDGuideTopic.guidetopic_surfaceconstruction.desc">
-Buildings can be constructed on the planet surface. The build menu for surface buildings can be accessed by clicking the building button at the lower left of the Planet Map interface.
+可以在行星地表建造建筑设施。地表建筑的建造菜单可以通过点击行星地图界面左下方的建造按钮来访问。
 
-Buildings occupy a single tile and some buildings, such as the vehicle bay, must be placed adjacent to the primary facility. A selected structure will highlight green if it can be placed on a given tile.
+建筑物会占用一整个格子，有些建筑物，如载具舱，必须与主要设施相邻才能放置。如果一个被选中的设施可以被放置在一个预设位置上，那么它将高亮显示为绿色。
 
         </gstr>
         
-        <gstr name="GDGuideTopic.guidetopic_vehicleassembly.name">Vehicle Assembly</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehicleassembly.name">载具建造</gstr>
         <gstr name="GDGuideTopic.guidetopic_vehicleassembly.desc">
-Vehicles are constructed at the Vehicle Bay. Materials are delivered to the vehicle bay using an available shipping container. Once a vehicle is constructed it is available in the vehicles section of the planet map interface.
+车辆在载具舱建造。使用运输容器将材料运送到载具舱。车辆被建造出来后就可以在行星地图界面中选择使用了。
 
-Additional vehicle types can be unlocked through research.
+额外的车辆类型可以通过研究解锁。
 
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_vehiclemanagement.name">Vehicle Management</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehiclemanagement.name">载具管理</gstr>
         <gstr name="GDGuideTopic.guidetopic_vehiclemanagement.desc">
-The vehicle management list, on the planet map interface, will show you the vehicles that you have constructed. When vehicles are docked you have the following button options:
+行星地图界面上的车辆管理列表会显示你拥有的各种车辆。当车辆停靠在载具舱时，会有以下选项：
 
-&lt;size=20&gt;&lt;b&gt;Embark&lt;/b&gt;&lt;/size&gt;
-Vehicles need to be embarked before they can explore and harvest on the surface. Clicking the Embark button will spawn the vehicle near your facility. 
+&lt;size=20&gt;&lt;b&gt;启动&lt;/b&gt;&lt;/size&gt;
+车辆需要启动后才能在地表探索和收获。点击“启动载具”按钮将在你的设施附近生成车辆。 
 
-&lt;size=20&gt;&lt;b&gt;Deconstruct&lt;/b&gt;&lt;/size&gt;
-This action will deconstruct the vehicle and half of the construction materials will be returned.
+&lt;size=20&gt;&lt;b&gt;拆解&lt;/b&gt;&lt;/size&gt;
+这个行动将会拆解车辆，并返还一半的建造材料。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_vehicleactionbar.name">Vehicle Actions</gstr>
+        <gstr name="GDGuideTopic.guidetopic_vehicleactionbar.name">载具行动</gstr>
         <gstr name="GDGuideTopic.guidetopic_vehicleactionbar.desc">
-Selecting a vehicle, after it has been embarked, will show the vehicle action bar at the bottom of the planet map interface. The action bar also shows the current power and health of the vehicle. Actions require power to operate and will stop if the vehicle runs out of power. Vehicles will automatically recharge, using solar panels, during the day.
+启动一辆载具后，将在行星地图界面的底部显示载具行动栏。行动栏还显示载具当前的能量和工况。载具行动需要消耗能量，如果车辆的能量耗尽就会停止行动。载具将在白天利用太阳能电池板自动充电。
 
-Most actions take a certain amount of time to perform. The action button, as well as the vehicle list, will show the action progress. Pressing an active action button will stop that action.
+大多数行动需要一定的时间来执行。行动按钮以及车辆列表将显示行动的进度。按下一个正在进行的行动按钮将停止该行动。
         </gstr>
             
-        <gstr name="GDGuideTopic.guidetopic_surfaceresources.name">Surface Resources</gstr>
+        <gstr name="GDGuideTopic.guidetopic_surfaceresources.name">地表资源</gstr>
         <gstr name="GDGuideTopic.guidetopic_surfaceresources.desc">
-Harvestable resources on the surface can be mined for additional materials. A surface resource deposit has a specific mineable resource and three possible depths. Deposit depths determine how much of a resource is available and what is required to mine it.
+地表的可收获物可以使用开采行动获得额外资源。地表资源点具有特定的可开采资源，以及三种开采深度。矿床深度决定资源可用量，以及开采它需要什么设施。
 
-Surface deposits uncovered while exploring the map may also contain resources at subsurface and deep depths. The resource scanner is required to uncover hidden deposits on explored tiles that only contain subsurface and/or deep resources. Selecting a resource on the map will show what resources are available.
+在探索的过程中发现的资源点可能存在几个层次的分布深度，包括地表、浅层和深层。在探索过的地块上，需要用资源扫描仪来探测隐藏的资源，这些需要探测的资源只包含于地下浅层或深层资源。在地图上选择一个资源，将显示可用资源分布情况。
 
-&lt;size=20&gt;&lt;b&gt;Depth: Surface&lt;/b&gt;&lt;/size&gt;
-Can be mined by mining vehicles or mining platform
-Uncovered while exploring the surface
+&lt;size=20&gt;&lt;b&gt;深度：地表&lt;/b&gt;&lt;/size&gt;
+可以通过采矿车或采矿平台开采
+在探索地表时发现
 
-&lt;size=20&gt;&lt;b&gt;Depth: Subsurface&lt;/b&gt;&lt;/size&gt;
-Can be mined by mining vehicles or mining platform
-Found while scanning using the resource scanner
+&lt;size=20&gt;&lt;b&gt;深度：浅层&lt;/b&gt;&lt;/size&gt;
+可以通过采矿车或采矿平台开采
+使用资源扫描器扫描时发现
 
-&lt;size=20&gt;&lt;b&gt;Depth: Deep&lt;/b&gt;&lt;/size&gt;
-Can only be mined by mining platform
-Found while scanning using the resource scanner
+&lt;size=20&gt;&lt;b&gt;深度：深层&lt;/b&gt;&lt;/size&gt;
+只能由采矿平台开采
+使用资源扫描器扫描时发现
         </gstr>
     </GDInfo>
 </GDInfos>
